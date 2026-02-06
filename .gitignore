@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.venv/
+*.egg-info/
+dist/
+build/
+.ruff_cache/
+data/
+reports/output/
+_book/
+.quarto/
+*.pdf
