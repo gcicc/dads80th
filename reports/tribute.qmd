@@ -1,31 +1,268 @@
 ---
-title: "Victor Cicconetti — 80th Birthday Tribute"
-author: "Greg Cicconetti"
+title: "Victor R. Cicconetti — A Life at Eighty"
+subtitle: "A Tribute to Dad on His 80th Birthday"
+author: "The Cicconetti Family"
 date: today
 format:
   html:
     toc: true
+    toc-depth: 2
     theme: cosmo
+    css: []
+    embed-resources: true
   pdf:
     toc: true
+    toc-depth: 2
+    documentclass: article
+    geometry:
+      - margin=1in
+    fontsize: 11pt
+  docx:
+    toc: true
+    reference-doc: default
 ---
 
-## Happy 80th Birthday, Dad
+\newpage
 
-*This document will contain the birthday tribute narrative, family tree visualization, and celebration content.*
+# Happy 80th Birthday, Dad
+
+*March 2026*
+
+Eighty years. A life that stretches from the streets of Bayonne to the skies over Vietnam, from the hallways of New Jersey's public schools to the warmth of a family dinner table. This is the story of Victor R. Cicconetti — veteran, educator, entrepreneur, community leader, husband, father, and grandfather. A man whose life truly is, as one newspaper described it, "an American story."
+
+---
+
+# Section 1: Bayonne Roots {#bayonne}
+
+## An Italian-American Family in Hudson County
+
+Victor R. Cicconetti was born in approximately March 1946 in Bayonne, New Jersey — a city along the Hudson County waterfront where Italian-American families built their lives in the decades after the World Wars. He was the son of **Victor Cicconetti Sr.** (1925--1980) and **Eleanor Cicconetti** (d. 1997), and one of six children who grew up together in that tight-knit community.
+
+### The Cicconetti Siblings
+
+Victor grew up alongside five brothers and sisters:
+
+- **Dennis Cicconetti** — brother
+- **Rev. Leanora Cicconetti** — sister (now a reverend at Hope For America Ministries in Bayonne; an active genealogy researcher keeping the family history alive)
+- **Bob (Robert) Cicconetti** — brother
+- **Loretta Keating** (nee Cicconetti) — sister (d. ~2025)
+- **Michael C. Cicconetti** — brother (d. 2009)
+
+The family's Bayonne roots run deep — Italian heritage, Catholic faith (the family's church connections include Assumption Catholic Church), and the values of hard work, family loyalty, and community service that Victor would carry throughout his life.
+
+[OWNER INPUT NEEDED: What was Victor's childhood like? Favorite childhood memories? What was Bayonne like in the 1950s for the Cicconetti family? Stories about Victor Sr. and Eleanor as parents? Family traditions, holidays, neighborhood characters?]
+
+---
+
+# Section 2: Service to Country {#military}
+
+## U.S. Air Force Medic, 1965--1969
+
+In 1965, at the age of nineteen, Victor R. Cicconetti joined the **United States Air Force** as a medic. For four years, he served during one of the most consequential and challenging periods in American military history — the Vietnam War.
+
+### Medical Air Evacuations in Southeast Asia
+
+Victor's service took him into the skies over Southeast Asia, where he participated in **medical air evacuations** — the critical missions that transported wounded and injured servicemembers from combat zones to medical facilities. As a medic on these flights, Victor was responsible for keeping patients alive during transport, often under difficult and dangerous conditions.
+
+These missions required:
+
+- Medical skill under extreme pressure
+- Courage in combat and near-combat conditions
+- Compassion for fellow servicemembers at their most vulnerable
+
+### A Lifetime of Veteran Advocacy
+
+Victor's military service ended in 1969, but his commitment to his fellow veterans never did. He went on to become:
+
+- **Founding member and president** of Vietnam Veterans of America (VVA) **Chapter 12** in Ocean Township, NJ
+- **Life member** of the Veterans Affairs (VA)
+- **Life member** of the Disabled American Veterans (DAV)
+
+Through VVA Chapter 12, Victor worked to ensure that Vietnam veterans received the recognition, support, and community they had earned — a mission that reflected the same spirit of service that had first led him into the Air Force at nineteen.
+
+[OWNER INPUT NEEDED: Where exactly did Victor serve in Southeast Asia? Specific bases, missions, or experiences he has shared? What was it like coming home from Vietnam? When was VVA Chapter 12 founded? Stories from his veteran advocacy work? Fellow veterans who could share memories?]
+
+---
+
+# Section 3: A Life in Education {#education}
+
+## From Classroom to Administration
+
+After his military service, Victor built a career in **New Jersey's public school system** that would span decades and touch the lives of countless students.
+
+### Long Branch High School (1980s)
+
+Victor served as an **administrator at Long Branch High School** during the 1980s. In 1987, the **Red Bank Register** published a profile of Victor titled **"Man with Many Missions"** — a piece that captured the breadth of his life experience and his dedication to education. The article included a photograph of Victor working at a computer at the school and described him as embodying "an American story," noting his journey from military service through education.
+
+### Asbury Park School District
+
+Victor also worked as a **public school administrator in the Asbury Park school district**, continuing his commitment to students and communities across Monmouth County.
+
+### Retirement (2000)
+
+After decades of service to New Jersey's young people, Victor **retired in 2000**. His career had taken him through some of the state's most dynamic school communities, and he left behind a legacy of dedication to public education.
+
+### Saint Peter's University Connection
+
+A possible alumni or donor connection to **Saint Peter's University** appears in a 2021 commencement donor/honoree list, suggesting continued involvement with higher education and community even in retirement.
+
+[OWNER INPUT NEEDED: What subjects or areas did Victor focus on as an administrator? Favorite stories from school? Students or colleagues who made an impact? What drove him to education after Vietnam? How did the 1987 Red Bank Register profile come about? Does the family have a copy of the article?]
+
+---
+
+# Section 4: Partnership and Family {#family}
+
+## Yvonne and Victor: Nearly Sixty Years Together
+
+On **August 20, 1967**, Victor R. Cicconetti married **Yvonne C. Elia** at **Assumption Catholic Church in Bayonne, NJ**. It was a union that would prove to be one of the great constants of both their lives — enduring through military service, career changes, entrepreneurial ventures, the joys of parenthood, and the blessings of grandchildren.
+
+### Yvonne's Story
+
+Yvonne (nee Elia) brought her own remarkable life to the partnership. Born approximately April 1948, she grew up in Bayonne as the daughter of **Frank Elia** (who died when Yvonne was about fourteen) and **Mary Elia**. Her sister, **Mary Ann** (later Mary Ann Hurley), would remain a close part of the extended family circle.
+
+Yvonne built a distinguished career as a **health teacher and coordinator in Jersey City public schools**, retiring in 2005. She went on to serve as an **Allied Health Vocational advisor for the Hudson County Vocational School District**, earning multiple awards for helping students find jobs and educational placements.
+
+### Three Children, Six Grandchildren
+
+Victor and Yvonne raised **two sons and one daughter**. Their family grew to include six grandchildren — four by the time of their 40th anniversary in 2007, and two more since.
+
+### The 40th Anniversary (2007)
+
+In 2007, the family gathered at the home of **Mary Ann and Michael Hurley** in Stafford, NJ, to celebrate Victor and Yvonne's **40th wedding anniversary** — a milestone that was marked with a family party and a feature in the **Asbury Park Press** anniversaries section.
+
+Now, as 2026 brings Victor's 80th birthday, the family celebrates not just a man but a partnership — one that has been the foundation of everything.
+
+[OWNER INPUT NEEDED: How did Victor and Yvonne meet? Their courtship story? What was the wedding like? What are their children's and grandchildren's names? Family traditions? What makes their partnership work across nearly 60 years? What does Yvonne say about Victor?]
 
 ## Family Tree
 
+The Cicconetti family spans four generations — from Victor Sr. and Eleanor in Bayonne to six grandchildren in southern New Jersey today.
+
 ```{python}
 #| echo: false
-#| eval: false
-# TODO: Family tree visualization (graphviz or similar)
+#| eval: true
+#| fig-cap: "The Cicconetti Family Tree — Four Generations"
+#| label: fig-family-tree
+
+import sys
+from pathlib import Path
+
+# Add project src to path so we can import family_tree module
+project_root = Path(".").resolve()
+if str(project_root / "src") not in sys.path:
+    sys.path.insert(0, str(project_root / "src"))
+
+try:
+    from family_tree import load_family_data, build_graph
+    data = load_family_data(project_root / "data" / "family.json")
+    dot = build_graph(data)
+    dot.format = "png"
+    outpath = dot.render(filename="family_tree_inline", directory=str(project_root / "reports"), cleanup=True)
+    from IPython.display import Image, display
+    display(Image(filename=outpath))
+except Exception as e:
+    print(f"[Family tree visualization not rendered — run `python src/family_tree.py` to generate separately]")
+    print(f"Details: {e}")
 ```
 
-## Timeline
+*A printable family tree is also available as `reports/family_tree.pdf` — generate it by running `python src/family_tree.py` from the project root.*
 
-*Key life events and milestones — to be populated from dossier data.*
+**Legend:** Blue = male, Pink = female, Gray = unknown (gaps to fill). Dashed borders indicate placeholder entries where names are not yet confirmed.
 
-## Tribute
+---
 
-*Narrative tribute — to be drafted from family dossiers and interview data.*
+# Section 5: The Entrepreneur {#restaurant}
+
+## An Italian Restaurant — A Family Venture
+
+At some point in their journey, Victor and Yvonne took their Italian heritage from the family kitchen to the business world. Together with **one of their sons**, they **co-owned and operated an Italian restaurant** — a venture that combined family, food, and the entrepreneurial spirit.
+
+The restaurant represented something deeply personal: the Cicconetti family's Italian-American roots brought to life through cuisine, hospitality, and the shared effort of multiple generations working together.
+
+[OWNER INPUT NEEDED: What was the restaurant called? Where was it located? When did it operate? What were the signature dishes? What was it like working together as a family? Which son was involved? Favorite stories from the restaurant years?]
+
+### The Elia Side: Mary Ann's Pizza Bistro
+
+The entrepreneurial food spirit was not limited to the Cicconetti side. Yvonne's sister **Mary Ann Hurley** (nee Elia) also ran a **pizza bistro in Bayonne** — making Italian food a family affair on both sides.
+
+[OWNER INPUT NEEDED: What was Mary Ann's restaurant called? Are there connections between the two family restaurants?]
+
+---
+
+# Section 6: Serving Those Who Served {#veterans}
+
+## Vietnam Veterans of America Chapter 12
+
+Victor's deepest community commitment has been to his fellow veterans. As a **founding member and president of Vietnam Veterans of America Chapter 12** in Ocean Township, NJ, he helped build an organization dedicated to the men and women who served in Vietnam.
+
+VVA Chapter 12 was — and remains — part of a national movement to ensure that Vietnam-era veterans are:
+
+- Recognized for their service and sacrifice
+- Supported with resources and advocacy
+- Connected to a community that understands their experience
+
+Victor's leadership in founding this chapter was a natural extension of his character: the same man who flew medical evacuations to save lives in Southeast Asia continued serving his fellow veterans at home.
+
+### Life Memberships
+
+Victor holds **life memberships** in:
+
+- **Veterans Affairs (VA)**
+- **Disabled American Veterans (DAV)**
+
+These memberships are not honorary titles — they reflect decades of active participation in the veteran community.
+
+[OWNER INPUT NEEDED: What year was VVA Chapter 12 founded? What were the chapter's major accomplishments? Who were Victor's fellow founders? How did veteran advocacy change over the decades? Is the chapter still active? What does this work mean to Victor?]
+
+---
+
+# Section 7: Happy 80th {#tribute}
+
+## A Life Well Lived
+
+As Victor R. Cicconetti turns eighty, the measure of his life is not found in any single achievement — but in the remarkable breadth of what he has given.
+
+**To his country:** Four years of service as an Air Force medic, flying into danger to bring wounded servicemembers home.
+
+**To his students:** Decades of dedication in New Jersey's public schools, shaping young lives from Long Branch to Asbury Park.
+
+**To his fellow veterans:** A founding voice for Vietnam Veterans of America Chapter 12, ensuring that those who served were never forgotten.
+
+**To his family:** Nearly sixty years of partnership with Yvonne, three children, six grandchildren, and a home built on love, food, and Italian-American tradition.
+
+**To his community:** Entrepreneurship, education, advocacy, and the quiet daily work of being a good neighbor.
+
+Victor's story is — as a New Jersey newspaper once wrote — "an American story." It is the story of a young man from Bayonne who answered his country's call, came home, built a career and a family, and never stopped serving.
+
+Happy 80th birthday, Dad. Your story is far from over.
+
+---
+
+[OWNER INPUT NEEDED: Personal messages from family members — what Victor means to each person. Favorite memories. Things Victor always says. What he has taught the family. Inside jokes and family traditions. What you want him to know at 80.]
+
+---
+
+# Appendix: Life Timeline
+
+| Year | Event |
+|------|-------|
+| ~1946 | Born in Bayonne, NJ |
+| 1965 | Joins U.S. Air Force as medic |
+| 1965--1969 | Serves in Vietnam — medical air evacuations |
+| 1967 | Marries Yvonne C. Elia, August 20, Assumption Catholic Church, Bayonne |
+| 1969 | Completes Air Force service |
+| 1977 | Son Richard "Rich" born (~August) |
+| 1980 | Father Victor Sr. passes away |
+| 1980s | Administrator at Long Branch High School |
+| 1987 | Featured in Red Bank Register — "Man with Many Missions" |
+| 1997 | Mother Eleanor passes away |
+| 2000 | Retires from public school administration |
+| 2007 | Celebrates 40th wedding anniversary with family |
+| 2026 | Turns 80 — this celebration |
+
+*[OWNER INPUT NEEDED: Add dates for restaurant years, VVA Chapter 12 founding, moves, other children's birth years, grandchildren arrivals]*
+
+---
+
+*Prepared with love by the Cicconetti family, February 2026.*
+*Family tree data and visualization generated from `data/family.json` and `src/family_tree.py`.*
