@@ -1,0 +1,31 @@
+---
+title: "Victor Cicconetti — 80th Birthday Tribute"
+author: "Greg Cicconetti"
+date: today
+format:
+  html:
+    toc: true
+    theme: cosmo
+  pdf:
+    toc: true
+---
+
+## Happy 80th Birthday, Dad
+
+*This document will contain the birthday tribute narrative, family tree visualization, and celebration content.*
+
+## Family Tree
+
+```{python}
+#| echo: false
+#| eval: false
+# TODO: Family tree visualization (graphviz or similar)
+```
+
+## Timeline
+
+*Key life events and milestones — to be populated from dossier data.*
+
+## Tribute
+
+*Narrative tribute — to be drafted from family dossiers and interview data.*
