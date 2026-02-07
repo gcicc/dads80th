@@ -41,7 +41,7 @@ Sharon is an active presence in the South Jersey community — engaged in local 
 **Residence:** Stafford Township, NJ (as of 2007); earlier Bayonne, NJ
 **Spouse:** Michael Hurley (former Bayonne police officer)
 
-Mary Ann is Yvonne's sister — another daughter of the Elia family of Bayonne. The bond between the Elia sisters has been a constant in the extended family's life. It was at Mary Ann and Michael's home in Stafford, NJ, that the family gathered to celebrate Victor and Yvonne's 40th wedding anniversary in 2007 — a gesture that speaks to the closeness between the two families.
+Mary Ann is Yvonne's sister — another daughter of the Elia family of Bayonne. The bond between the Elia sisters has been a constant in the extended family's life.
 
 Mary Ann has her own entrepreneurial story: she ran a pizza bistro in Bayonne, keeping the Italian-American food tradition alive in the neighborhood where she and Yvonne grew up. Whether hosting family celebrations or serving customers in Bayonne, Mary Ann has been a pillar of warmth and hospitality in the extended family.
 
@@ -51,11 +51,10 @@ Mary Ann has her own entrepreneurial story: she ran a pizza bistro in Bayonne, k
 
 ## Michael Hurley — Brother-in-law (Yvonne's Side)
 
-**Residence:** Stafford Township, NJ (as of 2007); earlier Bayonne, NJ
 **Career:** Former police officer, Bayonne Police Department
 **Spouse:** Mary Ann Hurley (nee Elia)
 
-Michael Hurley served as a police officer with the Bayonne Police Department, bringing a law-enforcement perspective to a family already rich with service — Victor's military career, Yvonne's and Victor's education careers, Mary Ann's small business. Michael and Mary Ann's Stafford home became the gathering place for the Cicconetti-Elia clan, most notably for the 2007 anniversary celebration.
+Michael Hurley served as a police officer with the Bayonne Police Department, bringing a law-enforcement perspective to a family already rich with service — Victor's military career, Yvonne's and Victor's education careers, Mary Ann's small business. 
 
 Michael is Victor's brother-in-law through the Elia sisters' marriages, and the Hurley-Cicconetti connection represents the kind of extended family bond that holds Italian-American families together across generations and geographies.
 

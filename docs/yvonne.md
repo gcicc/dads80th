@@ -28,8 +28,6 @@ Yvonne and Victor were married on August 20, 1967, at Assumption Catholic Church
 
 Together, they co-owned an Italian restaurant with one of their sons — a family enterprise that brought the Cicconetti warmth and Italian heritage to the table in a very literal way. Whether in the classroom, the kitchen, or the living room, Yvonne has been the kind of partner who makes everything around her stronger.
 
-Their 40th anniversary in 2007 was celebrated with a family party at the Hurley residence in Stafford, NJ — Mary Ann and Michael's home — a gathering that reflected the extended family bonds that Yvonne has always nurtured.
-
 [OWNER INPUT NEEDED: Stories about the partnership, how Yvonne and Victor complement each other, favorite memories together]
 
 ## Mother and Grandmother

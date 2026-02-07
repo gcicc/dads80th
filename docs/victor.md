@@ -44,8 +44,6 @@ For Vic, the brotherhood of service was never something you walked away from. It
 
 At the center of Victor's life is family. He married Yvonne C. Elia on August 20, 1967, at Assumption Catholic Church in Bayonne — a partnership that has endured and flourished for nearly six decades. Together they raised three children — two sons and a daughter — and have been blessed with six grandchildren.
 
-Their 40th anniversary in 2007 brought the family together at the Hurley residence in Stafford, NJ, for a celebration that reflected the warmth and closeness of the family Victor and Yvonne built.
-
 Now, as Victor approaches his 80th birthday in March 2026, the family gathers once again — this time to honor the man who has been father, grandfather, veteran, educator, entrepreneur, and community leader. A man whose life truly is, as the Red Bank Register wrote in 1987, "an American story."
 
 [OWNER INPUT NEEDED: Family memories, what Victor means to his children and grandchildren, favorite family traditions, what the grandkids call him]
