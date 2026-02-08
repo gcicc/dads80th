@@ -10,3 +10,6 @@ reports/output/
 _book/
 .quarto/
 *.pdf
+
+# IDE workspace settings (Positron/VS Code)
+.vscode/
