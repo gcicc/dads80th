@@ -4,25 +4,27 @@
 *One answered the call at nineteen and flew into combat. The other lost her father at fourteen and found her own kind of courage. Both were being forged into the people who would find each other.*
 :::
 
-::: {.callout-note title="Soundtrack: Armed Forces Radio (1965–1969)" collapse="true" appearance="simple"}
+:::: {.callout-note title="Soundtrack: Armed Forces Radio (1965–1969)" collapse="true" appearance="simple"}
 Vic was 19 when he shipped out. These are the songs that came through Armed Forces Radio and base jukeboxes while he was flying medevac in Southeast Asia:
 
-**The Vietnam Playlist**
+**The Vietnam Playlist** — *click any song to play*
 
-- The Animals — "We Gotta Get Out of This Place" *(the unofficial anthem of every soldier in Vietnam)*
-- Creedence Clearwater Revival — "Fortunate Son" / "Bad Moon Rising" / "Run Through the Jungle"
-- The Doors — "Light My Fire" / "Riders on the Storm"
-- Jimi Hendrix — "All Along the Watchtower" / "Purple Haze"
-- Buffalo Springfield — "For What It's Worth"
-- Rolling Stones — "Paint It Black" / "Gimme Shelter"
-- Steppenwolf — "Born to Be Wild"
-- Otis Redding — "(Sittin' On) The Dock of the Bay"
-- Sam Cooke — "A Change Is Gonna Come"
-- Smokey Robinson — "The Tracks of My Tears"
-- Marvin Gaye — "I Heard It Through the Grapevine"
+{{< video https://www.youtube.com/embed/wJVpihgwE18 >}}
+
+- [The Animals — "We Gotta Get Out of This Place"](https://www.youtube.com/results?search_query=The+Animals+We+Gotta+Get+Out+of+This+Place) *(the unofficial anthem of every soldier in Vietnam)*
+- [Creedence Clearwater Revival — "Fortunate Son"](https://www.youtube.com/results?search_query=Creedence+Clearwater+Revival+Fortunate+Son) / [Creedence Clearwater Revival — "Bad Moon Rising"](https://www.youtube.com/results?search_query=Creedence+Clearwater+Revival+Bad+Moon+Rising) / [Creedence Clearwater Revival — "Run Through the Jungle"](https://www.youtube.com/results?search_query=Creedence+Clearwater+Revival+Run+Through+the+Jungle)
+- [The Doors — "Light My Fire"](https://www.youtube.com/results?search_query=The+Doors+Light+My+Fire) / [The Doors — "Riders on the Storm"](https://www.youtube.com/results?search_query=The+Doors+Riders+on+the+Storm)
+- [Jimi Hendrix — "All Along the Watchtower"](https://www.youtube.com/results?search_query=Jimi+Hendrix+All+Along+the+Watchtower) / [Jimi Hendrix — "Purple Haze"](https://www.youtube.com/results?search_query=Jimi+Hendrix+Purple+Haze)
+- [Buffalo Springfield — "For What It's Worth"](https://www.youtube.com/results?search_query=Buffalo+Springfield+For+What+It%27s+Worth)
+- [Rolling Stones — "Paint It Black"](https://www.youtube.com/results?search_query=Rolling+Stones+Paint+It+Black) / [Rolling Stones — "Gimme Shelter"](https://www.youtube.com/results?search_query=Rolling+Stones+Gimme+Shelter)
+- [Steppenwolf — "Born to Be Wild"](https://www.youtube.com/results?search_query=Steppenwolf+Born+to+Be+Wild)
+- [Otis Redding — "(Sittin' On) The Dock of the Bay"](https://www.youtube.com/results?search_query=Otis+Redding+Sittin+On+The+Dock+of+the+Bay)
+- [Sam Cooke — "A Change Is Gonna Come"](https://www.youtube.com/results?search_query=Sam+Cooke+A+Change+Is+Gonna+Come)
+- [Smokey Robinson — "The Tracks of My Tears"](https://www.youtube.com/results?search_query=Smokey+Robinson+The+Tracks+of+My+Tears)
+- [Marvin Gaye — "I Heard It Through the Grapevine"](https://www.youtube.com/results?search_query=Marvin+Gaye+I+Heard+It+Through+the+Grapevine)
 
 *Dad — what do you actually remember hearing over there? Did you have a song that got you through? [Suggest a song.](https://docs.google.com/forms/d/e/YOUR_FORM_ID/viewform)*
-:::
+::::
 
 :::: {.columns}
 

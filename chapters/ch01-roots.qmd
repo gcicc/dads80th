@@ -4,33 +4,56 @@
 *In the early 1900s, two families left southern Italy — one from the mountains of Abruzzo, one from the hills of Campania. They crossed the Atlantic, passed through Ellis Island, and landed in the same small city on the New Jersey waterfront. They didn't know each other yet. But their grandchildren would marry, and this story would begin.*
 :::
 
-::: {.callout-note title="Soundtrack: Bayonne Doo-Wop & The Crooners (1950s–early '60s)" collapse="true" appearance="simple"}
+:::: {.callout-note title="Soundtrack: Bayonne Doo-Wop & The Crooners (1950s–early '60s)" collapse="true" appearance="simple"}
 Vic grew up in Bayonne in the 1950s — fifteen minutes from Newark, the doo-wop capital of the world. This is what was coming out of every transistor radio, corner candy store, and church dance in his neighborhood:
 
-**Doo-Wop (the sound of Bayonne)**
+{{< video https://www.youtube.com/embed/j6LCyt3j8kU >}}
 
-- Dion & The Belmonts — "A Teenager in Love" / "Runaround Sue"
-- The Four Seasons — "Sherry" / "Big Girls Don't Cry" *(Frankie Valli = Jersey royalty)*
-- The Drifters — "Under the Boardwalk" *(the Jersey Shore anthem)*
-- The Flamingos — "I Only Have Eyes for You"
-- The Platters — "The Great Pretender" / "Smoke Gets in Your Eyes"
-- Frankie Lymon & The Teenagers — "Why Do Fools Fall in Love"
-- Danny & The Juniors — "At the Hop"
-- The Del-Vikings — "Come Go with Me"
+**Doo-Wop (the sound of Bayonne)** — *click any song to play*
+
+- [Dion & The Belmonts — "A Teenager in Love"](https://www.youtube.com/results?search_query=Dion+Belmonts+A+Teenager+in+Love) / ["Runaround Sue"](https://www.youtube.com/results?search_query=Dion+Runaround+Sue)
+- [The Four Seasons — "Sherry"](https://www.youtube.com/results?search_query=Four+Seasons+Sherry) / ["Big Girls Don't Cry"](https://www.youtube.com/results?search_query=Four+Seasons+Big+Girls+Dont+Cry) *(Frankie Valli = Jersey royalty)*
+- [The Drifters — "Under the Boardwalk"](https://www.youtube.com/results?search_query=Drifters+Under+the+Boardwalk) *(the Jersey Shore anthem)*
+- [The Flamingos — "I Only Have Eyes for You"](https://www.youtube.com/results?search_query=Flamingos+I+Only+Have+Eyes+for+You)
+- [The Platters — "The Great Pretender"](https://www.youtube.com/results?search_query=Platters+Great+Pretender) / ["Smoke Gets in Your Eyes"](https://www.youtube.com/results?search_query=Platters+Smoke+Gets+in+Your+Eyes)
+- [Frankie Lymon & The Teenagers — "Why Do Fools Fall in Love"](https://www.youtube.com/results?search_query=Frankie+Lymon+Why+Do+Fools+Fall+in+Love)
+- [Danny & The Juniors — "At the Hop"](https://www.youtube.com/results?search_query=Danny+Juniors+At+the+Hop)
+- [The Del-Vikings — "Come Go with Me"](https://www.youtube.com/results?search_query=Del+Vikings+Come+Go+with+Me)
 
 **The Italian-American Crooners (what the parents played)**
 
-- Dean Martin — "That's Amore" / "Volare"
-- Frank Sinatra — "Fly Me to the Moon" / "I've Got You Under My Skin"
-- Perry Como — "Magic Moments" / "Catch a Falling Star"
-- Connie Francis — "Who's Sorry Now" *(she's from Newark!)*
-- Louis Prima — "Just a Gigolo" / "Buona Sera"
-- Bobby Darin — "Beyond the Sea" / "Mack the Knife"
+- [Dean Martin — "That's Amore"](https://www.youtube.com/results?search_query=Dean+Martin+Thats+Amore) / ["Volare"](https://www.youtube.com/results?search_query=Dean+Martin+Volare)
+- [Frank Sinatra — "Fly Me to the Moon"](https://www.youtube.com/results?search_query=Frank+Sinatra+Fly+Me+to+the+Moon) / ["I've Got You Under My Skin"](https://www.youtube.com/results?search_query=Frank+Sinatra+Ive+Got+You+Under+My+Skin)
+- [Perry Como — "Magic Moments"](https://www.youtube.com/results?search_query=Perry+Como+Magic+Moments) / ["Catch a Falling Star"](https://www.youtube.com/results?search_query=Perry+Como+Catch+a+Falling+Star)
+- [Connie Francis — "Who's Sorry Now"](https://www.youtube.com/results?search_query=Connie+Francis+Whos+Sorry+Now) *(she's from Newark!)*
+- [Louis Prima — "Just a Gigolo"](https://www.youtube.com/results?search_query=Louis+Prima+Just+a+Gigolo) / ["Buona Sera"](https://www.youtube.com/results?search_query=Louis+Prima+Buona+Sera)
+- [Bobby Darin — "Beyond the Sea"](https://www.youtube.com/results?search_query=Bobby+Darin+Beyond+the+Sea) / ["Mack the Knife"](https://www.youtube.com/results?search_query=Bobby+Darin+Mack+the+Knife)
 
 *What did Grandma Eleanor play in the kitchen? What songs does Dad hum when he smells Sunday sauce? [Suggest a song.](https://docs.google.com/forms/d/e/YOUR_FORM_ID/viewform)*
-:::
+::::
 
 ![A Cicconetti baby at two hours old, circa 1974–75.](../images/heritage/cicconettis_1974-1975_001.jpg){width=50% fig-align="center"}
+
+::: {.callout-note title="The World Vic Was Born Into (1946)" collapse="true"}
+**Consider what a Bayonne household looked like the year Victor Cicconetti was born:**
+
+The family had a **rotary telephone** — one, on the wall, shared by the whole house. Long distance cost real money, so you kept it short. The **radio** was the center of entertainment: Jack Benny, The Shadow, the evening news. If the family had a **television** at all, it arrived around 1948–50 — a small screen, black and white, three channels if you were lucky, and you adjusted the rabbit ears by hand. The **icebox** was transitioning to an electric refrigerator. Clothes went through a **wringer washer** — no dryer, they hung on the line. Dad drove a car with a manual choke, no seatbelts, no power steering. Mom cooked on a gas stove and preserved food by canning.
+
+There was no air conditioning. No microwave. No answering machine. No calculator — you did math by hand or with a slide rule. A "computer" was a room-sized machine at a university. The ballpoint pen had just been invented. Frozen dinners didn't exist yet. Neither did the interstate highway system, the polio vaccine, or rock and roll.
+
+**This is the world Victor was born into.** By the time he turns 80, he will have lived through:
+
+- **Rotary phone → smartphone** (1946 → now)
+- **Three TV channels → 500 channels → streaming** (1950 → 1990 → 2015)
+- **Slide rule → pocket calculator → laptop → AI** (1946 → 1972 → 1990 → 2023)
+- **Vinyl records → 8-track → cassette → CD → MP3 → Spotify** (every format, in order)
+- **Handwritten letters → email → text → FaceTime** (the entire arc of communication)
+- **No commercial flights → moon landing → Space Shuttle → Mars rovers** (1946 → 1969 → 1981 → 2021)
+
+No generation in human history witnessed more technological change in a single lifetime than the one born in the mid-1940s. Vic didn't just watch it happen — he embraced it. He was the teacher who wrote grants for Commodore computers when other educators thought it was a fad. He was the dad who had a VIC-20 in the house in 1982. He was the man who, at 79, forwards emails from his desktop and uses his phone to stay in touch with grandchildren spread across the country.
+
+The distance from a Bayonne icebox to a smartphone in your pocket — that's one lifetime. That's *his* lifetime.
+:::
 
 ## The Great Departure
 

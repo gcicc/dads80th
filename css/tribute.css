@@ -3,121 +3,131 @@
    Era-driven design system
    ============================================================ */
 
-/* --- Google Fonts loaded via _quarto.yml include-in-header --- */
-
 /* ============================================================
    1. CSS CUSTOM PROPERTIES — Era Color Palettes
    ============================================================ */
 
 :root {
-  /* Base palette */
   --body-font: 'Lora', Georgia, serif;
   --heading-font: 'Lora', Georgia, serif;
   --handwriting-font: 'Caveat', cursive;
   --base-text: #2c2c2c;
-  --base-bg: #fefefe;
   --accent: #8B0000;
-  --accent-light: #f5e6e6;
-  --muted: #777;
-}
-
-/* Home / Index */
-.era-home {
   --era-primary: #8B0000;
   --era-secondary: #DAA520;
   --era-accent: #2F4F4F;
+  --era-bg: #FEFEFE;
+  --era-bg-tint: #f5e6e6;
+  --era-banner-from: #8B0000;
+  --era-banner-to: #DAA520;
+}
+
+body.era-home {
+  --era-primary: #8B0000;
+  --era-secondary: #DAA520;
   --era-bg: #FFF8F0;
-  --era-banner: linear-gradient(135deg, #8B0000 0%, #DAA520 100%);
+  --era-bg-tint: #fdf0e0;
+  --era-banner-from: #8B0000;
+  --era-banner-to: #DAA520;
   --heading-font: 'Playfair Display', Georgia, serif;
 }
 
-/* Ch1: Doo-Wop (1950s Bayonne) */
-.era-doowop {
-  --era-primary: #008B8B;      /* turquoise */
-  --era-secondary: #DB7093;    /* dusty pink */
-  --era-accent: #F0E68C;       /* pale gold / chrome */
-  --era-bg: #FFF8F0;           /* warm cream */
-  --era-banner: linear-gradient(135deg, #008B8B 0%, #DB7093 60%, #F0E68C 100%);
+body.era-doowop {
+  --era-primary: #008B8B;
+  --era-secondary: #DB7093;
+  --era-accent: #F0E68C;
+  --era-bg: #FFF8F0;
+  --era-bg-tint: #e0f5f5;
+  --era-banner-from: #008B8B;
+  --era-banner-to: #DB7093;
   --heading-font: 'Lobster Two', cursive;
 }
 
-/* Ch2: Military (Vietnam, 1965-69) */
-.era-military {
-  --era-primary: #556B2F;      /* olive drab */
-  --era-secondary: #C3B091;    /* khaki */
-  --era-accent: #DAA520;       /* gold */
-  --era-bg: #F5F0E8;           /* aged paper */
-  --era-banner: linear-gradient(135deg, #556B2F 0%, #C3B091 50%, #DAA520 100%);
+body.era-military {
+  --era-primary: #556B2F;
+  --era-secondary: #C3B091;
+  --era-accent: #DAA520;
+  --era-bg: #F5F0E8;
+  --era-bg-tint: #eae5d8;
+  --era-banner-from: #556B2F;
+  --era-banner-to: #DAA520;
   --heading-font: 'Black Ops One', sans-serif;
 }
 
-/* Ch3: Summer of Love (1967 Wedding) */
-.era-summer-of-love {
-  --era-primary: #800020;      /* burgundy */
-  --era-secondary: #FFD700;    /* gold */
-  --era-accent: #FFC0CB;       /* soft pink */
-  --era-bg: #FFF5F5;           /* blush */
-  --era-banner: linear-gradient(135deg, #800020 0%, #FFD700 50%, #FFC0CB 100%);
+body.era-summer-of-love {
+  --era-primary: #800020;
+  --era-secondary: #FFD700;
+  --era-accent: #FFC0CB;
+  --era-bg: #FFF5F5;
+  --era-bg-tint: #fce8e8;
+  --era-banner-from: #800020;
+  --era-banner-to: #FFD700;
   --heading-font: 'Playfair Display', Georgia, serif;
 }
 
-/* Ch4: The Eighties (Education, 1970s-2000) */
-.era-eighties {
-  --era-primary: #0056A0;      /* electric blue */
-  --era-secondary: #CC0000;    /* bold red */
-  --era-accent: #FFD700;       /* yellow */
-  --era-bg: #F0F4F8;           /* cool light */
-  --era-banner: linear-gradient(135deg, #0056A0 0%, #CC0000 50%, #FFD700 100%);
+body.era-eighties {
+  --era-primary: #0056A0;
+  --era-secondary: #CC0000;
+  --era-accent: #FFD700;
+  --era-bg: #F0F4F8;
+  --era-bg-tint: #dce8f5;
+  --era-banner-from: #0056A0;
+  --era-banner-to: #FFD700;
   --heading-font: 'Oswald', sans-serif;
 }
 
-/* Ch5: Italian (Restaurant) */
-.era-italian {
-  --era-primary: #8B0000;      /* deep red */
-  --era-secondary: #556B2F;    /* olive */
-  --era-accent: #DAA520;       /* gold */
-  --era-bg: #FDF5E6;           /* old lace */
-  --era-banner: linear-gradient(135deg, #8B0000 0%, #556B2F 50%, #DAA520 100%);
+body.era-italian {
+  --era-primary: #8B0000;
+  --era-secondary: #556B2F;
+  --era-accent: #DAA520;
+  --era-bg: #FDF5E6;
+  --era-bg-tint: #f5e6d0;
+  --era-banner-from: #8B0000;
+  --era-banner-to: #DAA520;
   --heading-font: 'Playfair Display', Georgia, serif;
 }
 
-/* Ch6: Brotherhood (Veterans) */
-.era-brotherhood {
-  --era-primary: #1B3A5C;      /* navy */
-  --era-secondary: #228B22;    /* forest green */
-  --era-accent: #CD7F32;       /* bronze */
-  --era-bg: #F0F2F5;           /* cool grey */
-  --era-banner: linear-gradient(135deg, #1B3A5C 0%, #228B22 50%, #CD7F32 100%);
+body.era-brotherhood {
+  --era-primary: #1B3A5C;
+  --era-secondary: #228B22;
+  --era-accent: #CD7F32;
+  --era-bg: #F0F2F5;
+  --era-bg-tint: #dde3ec;
+  --era-banner-from: #1B3A5C;
+  --era-banner-to: #CD7F32;
   --heading-font: 'Black Ops One', sans-serif;
 }
 
-/* Ch7: Family */
-.era-family {
-  --era-primary: #B8860B;      /* warm amber */
-  --era-secondary: #6495ED;    /* cornflower blue */
-  --era-accent: #F4A460;       /* sandy brown */
-  --era-bg: #FFFAF0;           /* floral white */
-  --era-banner: linear-gradient(135deg, #B8860B 0%, #6495ED 50%, #F4A460 100%);
+body.era-family {
+  --era-primary: #B8860B;
+  --era-secondary: #6495ED;
+  --era-accent: #F4A460;
+  --era-bg: #FFFAF0;
+  --era-bg-tint: #f5ecd8;
+  --era-banner-from: #B8860B;
+  --era-banner-to: #6495ED;
   --heading-font: 'Quicksand', sans-serif;
 }
 
-/* Ch8: Golden Years */
-.era-golden {
-  --era-primary: #B8860B;      /* dark goldenrod */
-  --era-secondary: #722F37;    /* wine */
-  --era-accent: #708090;       /* slate */
-  --era-bg: #FFF8E7;           /* warm cream */
-  --era-banner: linear-gradient(135deg, #B8860B 0%, #722F37 100%);
+body.era-golden {
+  --era-primary: #B8860B;
+  --era-secondary: #722F37;
+  --era-accent: #708090;
+  --era-bg: #FFF8E7;
+  --era-bg-tint: #f5ecd0;
+  --era-banner-from: #B8860B;
+  --era-banner-to: #722F37;
   --heading-font: 'Quicksand', sans-serif;
 }
 
-/* Ch9-10: Celebration */
-.era-celebration {
+body.era-celebration {
   --era-primary: #8B0000;
   --era-secondary: #FFD700;
   --era-accent: #FF6347;
   --era-bg: #FFF8F0;
-  --era-banner: linear-gradient(135deg, #8B0000 0%, #FFD700 50%, #FF6347 100%);
+  --era-bg-tint: #fde8d8;
+  --era-banner-from: #8B0000;
+  --era-banner-to: #FFD700;
   --heading-font: 'Playfair Display', Georgia, serif;
 }
 
@@ -131,10 +141,10 @@
   left: 0;
   height: 4px;
   width: 0%;
-  background: var(--era-primary, #8B0000);
-  z-index: 9999;
+  background: var(--era-primary) !important;
+  z-index: 99999;
   transition: width 0.1s ease-out;
-  box-shadow: 0 1px 4px rgba(0,0,0,0.2);
+  box-shadow: 0 1px 4px rgba(0,0,0,0.3);
 }
 
 /* ============================================================
@@ -142,98 +152,96 @@
    ============================================================ */
 
 body {
-  font-family: var(--body-font);
-  color: var(--base-text);
-  line-height: 1.75;
-  background-color: var(--era-bg, var(--base-bg));
-  transition: background-color 0.3s ease;
+  font-family: var(--body-font) !important;
+  color: var(--base-text) !important;
+  line-height: 1.75 !important;
+  background-color: var(--era-bg) !important;
 }
 
-/* Better content width and spacing */
-.page-columns .content {
+#quarto-document-content {
   font-size: 1.05rem;
 }
 
-p {
+#quarto-document-content p {
   margin-bottom: 1.1em;
 }
 
-/* Chapter titles — era-matched fonts */
-.content h1 {
-  font-family: var(--heading-font);
-  color: var(--era-primary, var(--accent));
-  font-size: 2.4em;
-  line-height: 1.2;
-  margin-top: 0.5em;
-  margin-bottom: 0.3em;
-  padding-bottom: 0.3em;
-  border-bottom: 3px solid var(--era-primary, var(--accent));
+/* Chapter titles */
+#quarto-document-content h1,
+main.content h1 {
+  font-family: var(--heading-font) !important;
+  color: var(--era-primary) !important;
+  font-size: 2.4em !important;
+  line-height: 1.2 !important;
+  margin-top: 0.5em !important;
+  margin-bottom: 0.3em !important;
+  padding-bottom: 0.3em !important;
+  border-bottom: 3px solid var(--era-primary) !important;
 }
 
 /* Section headers */
-.content h2 {
-  font-family: var(--heading-font);
-  color: var(--era-primary, var(--accent));
-  font-size: 1.7em;
-  margin-top: 1.8em;
-  margin-bottom: 0.5em;
-  padding-bottom: 0.2em;
-  border-bottom: 1px solid var(--era-secondary, #ddd);
+#quarto-document-content h2,
+main.content h2 {
+  font-family: var(--heading-font) !important;
+  color: var(--era-primary) !important;
+  font-size: 1.7em !important;
+  margin-top: 1.8em !important;
+  margin-bottom: 0.5em !important;
+  padding-bottom: 0.2em !important;
+  border-bottom: 1px solid var(--era-secondary) !important;
 }
 
-.content h3 {
-  font-family: var(--heading-font);
-  color: var(--era-primary, #333);
-  font-size: 1.35em;
-  margin-top: 1.5em;
+#quarto-document-content h3,
+main.content h3 {
+  font-family: var(--heading-font) !important;
+  color: var(--era-primary) !important;
+  font-size: 1.35em !important;
+  margin-top: 1.5em !important;
 }
 
-.content h4 {
-  font-family: var(--heading-font);
-  color: var(--era-secondary, #555);
-  font-size: 1.15em;
-  margin-top: 1.3em;
+#quarto-document-content h4,
+main.content h4 {
+  font-family: var(--heading-font) !important;
+  color: var(--era-secondary) !important;
+  font-size: 1.15em !important;
+  margin-top: 1.3em !important;
 }
 
 /* Block quotes — Vic's emails */
-blockquote {
-  border-left: 4px solid var(--era-primary, var(--accent));
-  background: var(--era-bg, #f9f9f9);
-  padding: 1em 1.5em;
-  margin: 1.5em 0;
+#quarto-document-content blockquote,
+main.content blockquote {
+  border-left: 4px solid var(--era-primary) !important;
+  background: var(--era-bg-tint) !important;
+  padding: 1em 1.5em !important;
+  margin: 1.5em 0 !important;
   font-style: italic;
   border-radius: 0 6px 6px 0;
 }
 
-blockquote p:last-child {
+#quarto-document-content blockquote p:last-child {
   margin-bottom: 0;
 }
 
 /* ============================================================
-   4. CHAPTER COVER BANNERS
+   4. CHAPTER COVER BANNERS (epigraph)
    ============================================================ */
 
-/* The chapter epigraph becomes the cover banner */
 .chapter-epigraph {
-  background: var(--era-banner, linear-gradient(135deg, #8B0000, #DAA520));
-  color: white;
-  padding: 2em 2.5em;
-  margin: -1em -1em 2em -1em;
-  border-left: none;
-  border-radius: 0 0 12px 12px;
-  font-size: 1.15em;
+  background: linear-gradient(135deg, var(--era-banner-from), var(--era-banner-to)) !important;
+  color: white !important;
+  padding: 2em 2.5em !important;
+  margin: -1em -1em 2em -1em !important;
+  border-left: none !important;
+  border-radius: 0 0 12px 12px !important;
+  font-size: 1.15em !important;
   font-style: italic;
-  line-height: 1.6;
+  line-height: 1.6 !important;
   box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-  position: relative;
 }
 
+.chapter-epigraph p,
 .chapter-epigraph em {
-  color: white;
-}
-
-.chapter-epigraph p {
-  margin: 0;
+  color: white !important;
 }
 
 /* ============================================================
@@ -241,76 +249,74 @@ blockquote p:last-child {
    ============================================================ */
 
 /* Default photo styling */
-.content img:not(.sidebar-logo):not([src*="family_tree"]) {
+#quarto-document-content img:not(.sidebar-logo):not([src*="family_tree"]) {
   border-radius: 6px;
   box-shadow: 0 3px 10px rgba(0,0,0,0.15);
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
-.content img:not(.sidebar-logo):not([src*="family_tree"]):hover {
+#quarto-document-content img:not(.sidebar-logo):not([src*="family_tree"]):hover {
   transform: scale(1.02);
   box-shadow: 0 6px 20px rgba(0,0,0,0.2);
 }
 
-/* Heritage / 1950s photos — sepia, rounded, slight tilt */
-.era-doowop .content img:not(.sidebar-logo) {
-  border: 6px solid white;
-  border-radius: 4px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+/* Heritage / 1950s — sepia, rounded, slight tilt */
+body.era-doowop #quarto-document-content img:not(.sidebar-logo) {
+  border: 6px solid white !important;
+  border-radius: 4px !important;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.25) !important;
   filter: sepia(20%) contrast(1.05);
   transform: rotate(-1deg);
 }
 
-.era-doowop .content img:not(.sidebar-logo):hover {
+body.era-doowop #quarto-document-content img:not(.sidebar-logo):hover {
   filter: sepia(0%);
   transform: rotate(0deg) scale(1.02);
 }
 
-/* Military / Vietnam — matte, squared, olive border */
-.era-military .content img:not(.sidebar-logo),
-.era-brotherhood .content img:not(.sidebar-logo) {
-  border: 4px solid var(--era-secondary, #C3B091);
-  border-radius: 2px;
-  box-shadow: 0 3px 8px rgba(0,0,0,0.3);
+/* Military / Vietnam */
+body.era-military #quarto-document-content img:not(.sidebar-logo),
+body.era-brotherhood #quarto-document-content img:not(.sidebar-logo) {
+  border: 4px solid var(--era-secondary) !important;
+  border-radius: 2px !important;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.3) !important;
   filter: contrast(1.05) saturate(0.9);
 }
 
 /* Wedding — soft, romantic */
-.era-summer-of-love .content img:not(.sidebar-logo) {
-  border: 6px solid white;
-  border-radius: 8px;
-  box-shadow: 0 4px 16px rgba(128,0,32,0.2);
+body.era-summer-of-love #quarto-document-content img:not(.sidebar-logo) {
+  border: 6px solid white !important;
+  border-radius: 8px !important;
+  box-shadow: 0 4px 16px rgba(128,0,32,0.2) !important;
 }
 
 /* 80s — bold colored border */
-.era-eighties .content img:not(.sidebar-logo) {
-  border: 4px solid var(--era-primary, #0056A0);
-  border-radius: 3px;
-  box-shadow: 0 4px 12px rgba(0,86,160,0.2);
+body.era-eighties #quarto-document-content img:not(.sidebar-logo) {
+  border: 4px solid var(--era-primary) !important;
+  border-radius: 3px !important;
 }
 
-/* Italian — warm gilded frame feel */
-.era-italian .content img:not(.sidebar-logo) {
-  border: 5px solid var(--era-accent, #DAA520);
-  border-radius: 3px;
-  box-shadow: 0 4px 12px rgba(139,0,0,0.2);
+/* Italian — warm gilded frame */
+body.era-italian #quarto-document-content img:not(.sidebar-logo) {
+  border: 5px solid var(--era-accent) !important;
+  border-radius: 3px !important;
 }
 
 /* Family — warm, soft */
-.era-family .content img:not(.sidebar-logo) {
-  border: 5px solid white;
-  border-radius: 8px;
-  box-shadow: 0 4px 16px rgba(184,134,11,0.15);
+body.era-family #quarto-document-content img:not(.sidebar-logo) {
+  border: 5px solid white !important;
+  border-radius: 8px !important;
+  box-shadow: 0 4px 16px rgba(184,134,11,0.15) !important;
 }
 
-/* Golden years / Recent — clean, modern */
-.era-golden .content img:not(.sidebar-logo) {
-  border: 3px solid white;
-  border-radius: 6px;
-  box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+/* Golden years — clean */
+body.era-golden #quarto-document-content img:not(.sidebar-logo) {
+  border: 3px solid white !important;
+  border-radius: 6px !important;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.12) !important;
 }
 
-/* Photo grid — improved */
+/* Photo grid */
 .photo-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -324,39 +330,34 @@ blockquote p:last-child {
    ============================================================ */
 
 .love-dad {
-  font-family: var(--handwriting-font);
-  color: var(--era-primary, #8B0000);
-  font-size: 2em;
+  font-family: var(--handwriting-font) !important;
+  color: var(--era-primary) !important;
+  font-size: 2.2em !important;
   display: block;
   text-align: right;
   margin: 1.5em 2em 1em 0;
-  opacity: 0.9;
 }
 
 /* ============================================================
    7. CALLOUT STYLING — Era-Aware
    ============================================================ */
 
-/* Historical context callouts */
 div.callout-note {
-  border-left-color: var(--era-primary, #0d6efd) !important;
+  border-left-color: var(--era-primary) !important;
 }
 
 div.callout-note .callout-header {
-  background-color: color-mix(in srgb, var(--era-primary, #0d6efd) 10%, white) !important;
+  background-color: var(--era-bg-tint) !important;
 }
 
-/* Story prompts */
 div.callout-tip {
-  border-left-color: var(--era-secondary, #198754) !important;
+  border-left-color: var(--era-secondary) !important;
 }
 
-/* Warnings / needs info */
 div.callout-warning {
-  border-left-color: var(--era-accent, #ffc107) !important;
+  border-left-color: var(--era-accent) !important;
 }
 
-/* Check our work tables */
 div.callout-note table {
   font-size: 0.95em;
 }
@@ -367,24 +368,15 @@ div.callout-note table td {
 }
 
 /* ============================================================
-   8. SOUNDTRACK SECTION STYLING
+   8. SOUNDTRACK / MUSIC STYLING
    ============================================================ */
 
-/* Soundtrack callouts get special treatment */
 div.callout-note[title*="Soundtrack"] {
-  background: linear-gradient(180deg,
-    color-mix(in srgb, var(--era-primary) 8%, white) 0%,
-    white 100%
-  );
-  border-left-width: 5px;
+  background: var(--era-bg-tint) !important;
+  border-left-width: 5px !important;
   border-radius: 0 8px 8px 0;
 }
 
-div.callout-note[title*="Soundtrack"] ul {
-  columns: 1;
-}
-
-/* Spotify / YouTube embed container */
 .music-embed {
   margin: 1.5em 0;
   border-radius: 12px;
@@ -398,29 +390,38 @@ div.callout-note[title*="Soundtrack"] ul {
   border-radius: 12px;
 }
 
+/* Song links in playlists */
+div.callout-note[title*="Soundtrack"] a {
+  color: var(--era-primary) !important;
+  text-decoration: none !important;
+  border-bottom: 1px dotted var(--era-primary);
+  transition: border-bottom-color 0.2s;
+}
+
+div.callout-note[title*="Soundtrack"] a:hover {
+  border-bottom: 2px solid var(--era-primary);
+}
+
 /* ============================================================
    9. NAVIGATION & SIDEBAR
    ============================================================ */
 
-/* Sidebar / TOC styling */
 .sidebar-title {
-  font-family: var(--heading-font);
-  color: var(--era-primary, var(--accent));
+  font-family: var(--heading-font) !important;
 }
 
-nav.sidebar .sidebar-item a {
-  transition: color 0.2s, padding-left 0.2s;
+.sidebar-item-text {
+  transition: color 0.2s;
 }
 
-nav.sidebar .sidebar-item a:hover {
-  color: var(--era-primary, var(--accent));
-  padding-left: 0.3em;
+.sidebar-item-text:hover {
+  color: var(--era-primary) !important;
 }
 
-nav.sidebar .sidebar-item a.active {
-  color: var(--era-primary, var(--accent));
-  font-weight: 700;
-  border-left: 3px solid var(--era-primary, var(--accent));
+/* Active sidebar item */
+.sidebar-navigation .sidebar-item .sidebar-item-text.active {
+  color: var(--era-primary) !important;
+  font-weight: 700 !important;
 }
 
 /* ============================================================
@@ -430,9 +431,9 @@ nav.sidebar .sidebar-item a.active {
 .form-embed {
   margin: 2em 0;
   padding: 1.5em;
-  background: color-mix(in srgb, var(--era-bg, #f8f9fa) 90%, var(--era-primary, #8B0000));
+  background: var(--era-bg-tint) !important;
   border-radius: 12px;
-  border: 1px solid var(--era-secondary, #dee2e6);
+  border: 1px solid var(--era-secondary);
 }
 
 .form-embed iframe {
@@ -442,21 +443,21 @@ nav.sidebar .sidebar-item a.active {
 
 .btn-primary {
   display: inline-block;
-  background-color: var(--era-primary, #8B0000);
+  background-color: var(--era-primary) !important;
   color: white !important;
   padding: 0.75em 1.5em;
   border-radius: 8px;
   text-decoration: none !important;
   font-weight: bold;
   font-size: 1.05em;
-  transition: background-color 0.2s, transform 0.1s;
+  transition: transform 0.1s;
   box-shadow: 0 2px 6px rgba(0,0,0,0.15);
 }
 
 .btn-primary:hover {
-  background-color: color-mix(in srgb, var(--era-primary, #8B0000) 80%, black);
   transform: translateY(-1px);
   box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  opacity: 0.9;
 }
 
 /* ============================================================
@@ -464,7 +465,7 @@ nav.sidebar .sidebar-item a.active {
    ============================================================ */
 
 .timeline-entry {
-  border-left: 3px solid var(--era-primary, #2F4F4F);
+  border-left: 3px solid var(--era-primary);
   padding-left: 1.5em;
   margin-bottom: 1.5em;
   position: relative;
@@ -478,20 +479,47 @@ nav.sidebar .sidebar-item a.active {
   width: 14px;
   height: 14px;
   border-radius: 50%;
-  background: var(--era-primary, #8B0000);
+  background: var(--era-primary);
   border: 3px solid white;
   box-shadow: 0 1px 3px rgba(0,0,0,0.2);
 }
 
 .timeline-year {
   font-weight: bold;
-  color: var(--era-primary, #2F4F4F);
+  color: var(--era-primary);
   font-size: 1.15em;
   font-family: var(--heading-font);
 }
 
 /* ============================================================
-   12. PART DIVIDER PAGES
+   12. PULL QUOTES
+   ============================================================ */
+
+blockquote.pull-quote {
+  font-size: 1.3em !important;
+  color: var(--era-primary) !important;
+  border: none !important;
+  text-align: center;
+  padding: 1.5em 2.5em !important;
+  font-style: italic;
+  position: relative;
+  background: transparent !important;
+}
+
+blockquote.pull-quote::before {
+  content: '\201C';
+  font-size: 4em;
+  color: var(--era-secondary);
+  position: absolute;
+  top: -0.2em;
+  left: 0.1em;
+  font-family: Georgia, serif;
+  line-height: 1;
+  opacity: 0.4;
+}
+
+/* ============================================================
+   13. PART DIVIDER PAGES
    ============================================================ */
 
 .part-title {
@@ -501,47 +529,24 @@ nav.sidebar .sidebar-item a.active {
 }
 
 /* ============================================================
-   13. PULL QUOTES
-   ============================================================ */
-
-blockquote.pull-quote {
-  font-size: 1.3em;
-  color: var(--era-primary, #333);
-  border: none;
-  text-align: center;
-  padding: 1.5em 2.5em;
-  font-style: italic;
-  position: relative;
-}
-
-blockquote.pull-quote::before {
-  content: '\201C';
-  font-size: 4em;
-  color: var(--era-secondary, #ddd);
-  position: absolute;
-  top: -0.2em;
-  left: 0.1em;
-  font-family: Georgia, serif;
-  line-height: 1;
-}
-
-/* ============================================================
    14. RESPONSIVE / MOBILE
    ============================================================ */
 
 @media (max-width: 768px) {
   .chapter-epigraph {
-    padding: 1.5em;
-    margin: -0.5em -0.5em 1.5em -0.5em;
-    font-size: 1em;
+    padding: 1.5em !important;
+    margin: -0.5em -0.5em 1.5em -0.5em !important;
+    font-size: 1em !important;
   }
 
-  .content h1 {
-    font-size: 1.8em;
+  #quarto-document-content h1,
+  main.content h1 {
+    font-size: 1.8em !important;
   }
 
-  .content h2 {
-    font-size: 1.4em;
+  #quarto-document-content h2,
+  main.content h2 {
+    font-size: 1.4em !important;
   }
 
   .photo-grid {
@@ -550,24 +555,20 @@ blockquote.pull-quote::before {
   }
 
   .love-dad {
-    font-size: 1.6em;
+    font-size: 1.6em !important;
     margin-right: 1em;
-  }
-
-  blockquote {
-    padding: 0.8em 1em;
-    margin: 1em 0;
   }
 }
 
 @media (max-width: 480px) {
-  .content h1 {
-    font-size: 1.5em;
+  #quarto-document-content h1,
+  main.content h1 {
+    font-size: 1.5em !important;
   }
 
   .chapter-epigraph {
-    padding: 1em;
-    font-size: 0.95em;
+    padding: 1em !important;
+    font-size: 0.95em !important;
   }
 }
 
@@ -584,10 +585,9 @@ blockquote.pull-quote::before {
     background: #f5f5f5 !important;
     color: #333 !important;
     border-left: 4px solid #8B0000;
-    print-color-adjust: exact;
   }
 
-  .content img {
+  #quarto-document-content img {
     max-width: 80% !important;
     page-break-inside: avoid;
   }

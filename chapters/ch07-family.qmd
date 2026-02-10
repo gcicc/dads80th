@@ -5,24 +5,26 @@
 — Vic, sending a family photo to his children, September 2017. Four exclamation marks. No body text needed.
 :::
 
-::: {.callout-note title="Soundtrack: The Cicconetti House" collapse="true" appearance="simple"}
+:::: {.callout-note title="Soundtrack: The Cicconetti House" collapse="true" appearance="simple"}
 Every family has songs that ARE the family — the ones that trigger memories the moment you hear the first three notes:
 
-**Songs for a Family Man**
+{{< video https://www.youtube.com/embed/fye1XtXQn9s >}}
 
-- Cat Stevens — "Father and Son"
-- Jim Croce — "Time in a Bottle"
-- Stevie Wonder — "Isn't She Lovely"
-- Louis Armstrong — "What a Wonderful World"
-- Van Morrison — "Brown Eyed Girl"
-- The Temptations — "My Girl"
-- Billy Joel — "Lullabye (Goodnight, My Angel)"
-- Harry Chapin — "Cat's in the Cradle" *(every dad's gut-punch)*
-- Springsteen — "Waitin' on a Sunny Day"
-- Nat King Cole — "Unforgettable"
+**Songs for a Family Man** — *click any song to play*
+
+- [Cat Stevens — "Father and Son"](https://www.youtube.com/results?search_query=Cat+Stevens+Father+and+Son)
+- [Jim Croce — "Time in a Bottle"](https://www.youtube.com/results?search_query=Jim+Croce+Time+in+a+Bottle)
+- [Stevie Wonder — "Isn't She Lovely"](https://www.youtube.com/results?search_query=Stevie+Wonder+Isn%27t+She+Lovely)
+- [Louis Armstrong — "What a Wonderful World"](https://www.youtube.com/results?search_query=Louis+Armstrong+What+a+Wonderful+World)
+- [Van Morrison — "Brown Eyed Girl"](https://www.youtube.com/results?search_query=Van+Morrison+Brown+Eyed+Girl)
+- [The Temptations — "My Girl"](https://www.youtube.com/results?search_query=The+Temptations+My+Girl)
+- [Billy Joel — "Lullabye (Goodnight, My Angel)"](https://www.youtube.com/results?search_query=Billy+Joel+Lullabye+Goodnight+My+Angel)
+- [Harry Chapin — "Cat's in the Cradle"](https://www.youtube.com/results?search_query=Harry+Chapin+Cat%27s+in+the+Cradle) *(every dad's gut-punch)*
+- [Bruce Springsteen — "Waitin' on a Sunny Day"](https://www.youtube.com/results?search_query=Bruce+Springsteen+Waitin%27+on+a+Sunny+Day)
+- [Nat King Cole — "Unforgettable"](https://www.youtube.com/results?search_query=Nat+King+Cole+Unforgettable)
 
 *What's the song that IS the Cicconetti family? The one Dad plays every holiday? The one that makes Mom roll her eyes? The one the grandkids associate with Grandpa's house? [Suggest a song.](https://docs.google.com/forms/d/e/YOUR_FORM_ID/viewform)*
-:::
+::::
 
 ::: {.photo-grid}
 ![Circa 1990 — cadets and birthday candles.](../images/family/cicconettis_Nov%201990_001.jpg)
@@ -166,6 +168,22 @@ The health kick was real. It was part of the Shore years, part of the fitness cu
 
 \
 
+:::
+
+::: {.callout-note title="The Fads, the Trends, and the Things That Stuck (1960s–2000s)" collapse="true"}
+**Every decade brought its fashions, its obsessions, and its cultural moments. The Cicconettis lived through all of them:**
+
+**The 1960s** — Bell-bottoms, tie-dye, the British Invasion, muscle cars, and the space race. *The Flintstones* was primetime television. The family watched the moon landing on a black-and-white TV — every American did. JFK's assassination. The Beatles on Ed Sullivan. Woodstock (though Bayonne Italians were not exactly the Woodstock demographic).
+
+**The 1970s** — Disco, leisure suits, the pet rock, mood rings, and the energy crisis. Gas lines. Watergate on television every night. *Star Wars* changed everything in 1977. The Bee Gees were inescapable. Every neighborhood had a kid with a skateboard and a kid with a CB radio. Earth shoes. Macramé plant hangers. The Brady Bunch as aspirational family life.
+
+**The 1980s** — Aerobics, leg warmers, Members Only jackets, Pac-Man, the Walkman, and MTV. Reagan was president and the Berlin Wall came down. *E.T.* made every kid want a bike with a basket. Cabbage Patch Kids caused actual fistfights in stores. The Rubik's Cube. Atari, then Nintendo. Hair got bigger. Shoulder pads got bigger. The fitness craze hit hard — Jane Fonda tapes, Jazzercise, running became a lifestyle, not just exercise. The Cicconettis and Hurleys caught this wave fully.
+
+**The 1990s** — Grunge killed hair metal. Beanie Babies became investment vehicles (they weren't). The Macarena. Fanny packs. Rollerblades. *Seinfeld* and *Friends* defined the decade. The internet arrived — slowly, then all at once. AOL dial-up. "You've got mail." The Y2K panic. Everyone bought a cell phone the size of a brick and felt like James Bond.
+
+**The 2000s** — Reality TV took over (Survivor, American Idol, Jersey Shore — *yes, Jersey Shore*). Facebook launched. The iPhone arrived in 2007 and nothing was ever the same. Crocs. Low-rise jeans. The housing boom, then the crash. Everyone got a GPS and stopped asking for directions. DVDs replaced VHS, then streaming replaced DVDs.
+
+**What stuck:** Through every fad that came and went — pet rocks, Beanie Babies, fidget spinners — the things that lasted in the Cicconetti household were the things that mattered: family dinners, Shore trips, faith, and the belief that you show up for the people you love. The leisure suits went to Goodwill. The family stayed.
 :::
 
 ## The Family Circle

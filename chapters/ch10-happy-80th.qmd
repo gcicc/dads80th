@@ -30,6 +30,55 @@ From Collepietro to Bayonne. From the Air Force to the classroom. From the class
 And one more: What's the thing about Victor Cicconetti that you want his great-grandchildren to know someday?
 :::
 
+## How This Book Was Made
+
+Dad, you might be wondering: *how did they put all this together?*
+
+Here's the short version: **Greg sat at his computer and told stories about you.** That's really it. He talked about growing up in Shark River Hills, about your career at Long Branch, about the restaurant, the parades, the Baptist church, the Shore trips, the emails you send at 6 AM. Everything he remembered. Everything the family remembers.
+
+But he didn't type the book himself. He had help from a new kind of tool — an **artificial intelligence assistant** called **Claude**. Think of it like this: if Greg hired a really good writer to help him organize his thoughts, that's basically what happened. Except the writer lives inside the computer.
+
+Here's how the process worked:
+
+```{mermaid}
+%%| fig-cap: "How This Book Came Together"
+%%| fig-width: 8
+flowchart TD
+    A["Greg tells family stories\n(your son, at his computer)"] --> B["Claude listens and organizes\n(the AI writing assistant)"]
+    B --> C["Draft chapters written\n(10 chapters + appendices)"]
+    C --> D["Greg reviews every word\n(nothing goes in without his OK)"]
+    D --> E{"Accurate?"}
+    E -->|"Yes"| F["Keep it"]
+    E -->|"Not quite"| G["Greg corrects it"]
+    G --> B
+    F --> H["Family reviews & adds stories\n(that's where YOU come in)"]
+    H --> I["Published as a website\n(the book you're reading now)"]
+
+    style A fill:#4a90d9,color:#fff
+    style B fill:#7b68ee,color:#fff
+    style D fill:#4a90d9,color:#fff
+    style H fill:#e8963e,color:#fff
+    style I fill:#2ecc71,color:#fff
+```
+
+**In plain English:**
+
+1. **Greg talked.** He sat down over several sessions and told the story of your life — the parts he knows, the parts the family knows, the parts that come from your emails and photos and the stories you've told a hundred times at the dinner table.
+
+2. **The computer organized it.** Claude took those stories and arranged them into chapters, added historical context (what was happening in the country during each era of your life), found the right music for each era, and made it look nice on the screen.
+
+3. **Greg checked everything.** Every single fact, every story, every detail — Greg read it and either approved it, corrected it, or said "that's not right, here's what really happened." The AI doesn't know your life — *Greg does*. Claude is the pen. Greg is the author.
+
+4. **The family fills in the gaps.** That's what those "Check Our Work" boxes are for — so you, Mom, Rich, and the grandkids can tell us what we got right, what we got wrong, and what stories we're missing.
+
+5. **It became this website.** The book you're reading is a website that works on your computer, your phone, or a tablet. It's not printed (yet — we might make a printed version too). The music links play real songs. The photos are from the family collection.
+
+**What Greg actually did:** He's the architect of this whole thing. He decided what the book should be. He chose the structure. He told the stories. He picked the music. He reviewed every word. He's the one who knows that "Glue Fingers" was your football nickname and that you shook O.J.'s hand in AC and that you read the Bible cover to cover. The AI doesn't know any of that — it only knows what Greg tells it.
+
+**What the AI did:** It's a tool, like a very sophisticated typewriter. It helped organize, it helped write, it helped research the historical context (what year the Berlin Wall fell, when the first microwave came out, how many Italians came through Ellis Island). It's fast, it's thorough, and it doesn't get tired. But it can't tell a single Cicconetti story without Greg putting it in.
+
+**Think of it this way:** You wrote grants to get computers into the classroom in 1982 because you believed technology could help students learn better. Forty-four years later, your son is using the grandchild of those computers to write a book about your life. The apple doesn't fall far from the tree, Dad. You started this.
+
 ## Still Going
 
 At eighty, Vic is still shopping for air pistols. Still going to AC. Still forwarding life wisdom to his sons. Still walking around the house and suddenly breaking into laughter at the memory of his family's antics.

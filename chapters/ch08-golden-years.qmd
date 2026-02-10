@@ -5,24 +5,26 @@
 — Vic, age 75, shopping for an air pistol via email
 :::
 
-::: {.callout-note title="Soundtrack: Still Rocking at 80 (2000s–Today)" collapse="true" appearance="simple"}
+:::: {.callout-note title="Soundtrack: Still Rocking at 80 (2000s–Today)" collapse="true" appearance="simple"}
 At 80, Vic's still going. Still shopping for air pistols, still hitting AC, still signing every email "Love DAD." Here's the soundtrack for a man who earned every note:
 
-**The Victory Lap**
+{{< video https://www.youtube.com/embed/qQzdAsjWGPg >}}
 
-- Frank Sinatra — "My Way" *(the only possible closer)*
-- Dean Martin — "Ain't That a Kick in the Head"
-- Springsteen — "Land of Hope and Dreams" / "No Surrender"
-- Tom Petty — "I Won't Back Down"
-- Billy Joel — "Piano Man" / "Scenes from an Italian Restaurant"
-- Elvis — "Can't Help Falling in Love"
-- Bob Seger — "Like a Rock"
-- The Four Seasons — "December, 1963 (Oh, What a Night)"
-- Sinatra — "The Best Is Yet to Come"
+**The Victory Lap** — *click any song to play*
+
+- [Frank Sinatra — "My Way"](https://www.youtube.com/results?search_query=Frank+Sinatra+My+Way) *(the only possible closer)*
+- [Dean Martin — "Ain't That a Kick in the Head"](https://www.youtube.com/results?search_query=Dean+Martin+Ain%27t+That+a+Kick+in+the+Head)
+- [Bruce Springsteen — "Land of Hope and Dreams"](https://www.youtube.com/results?search_query=Bruce+Springsteen+Land+of+Hope+and+Dreams) / [Bruce Springsteen — "No Surrender"](https://www.youtube.com/results?search_query=Bruce+Springsteen+No+Surrender)
+- [Tom Petty — "I Won't Back Down"](https://www.youtube.com/results?search_query=Tom+Petty+I+Won%27t+Back+Down)
+- [Billy Joel — "Piano Man"](https://www.youtube.com/results?search_query=Billy+Joel+Piano+Man) / [Billy Joel — "Scenes from an Italian Restaurant"](https://www.youtube.com/results?search_query=Billy+Joel+Scenes+from+an+Italian+Restaurant)
+- [Elvis Presley — "Can't Help Falling in Love"](https://www.youtube.com/results?search_query=Elvis+Presley+Can%27t+Help+Falling+in+Love)
+- [Bob Seger — "Like a Rock"](https://www.youtube.com/results?search_query=Bob+Seger+Like+a+Rock)
+- [The Four Seasons — "December, 1963 (Oh, What a Night)"](https://www.youtube.com/results?search_query=The+Four+Seasons+December+1963+Oh+What+a+Night)
+- [Frank Sinatra — "The Best Is Yet to Come"](https://www.youtube.com/results?search_query=Frank+Sinatra+The+Best+Is+Yet+to+Come)
 - Whatever's playing at the Borgata right now
 
 *What does Dad actually listen to these days? What station is the car radio stuck on? What song does he sing in the shower? [Suggest a song.](https://docs.google.com/forms/d/e/YOUR_FORM_ID/viewform)*
-:::
+::::
 
 ::: {.photo-grid}
 ![Outdoors, circa 2017.](../images/recent/IMG_0435.JPG)
@@ -53,6 +55,29 @@ Retirement for Vic has meant:
 - **The daily briefing** — Vic stays engaged with the world. **Fox News** is the soundtrack of the house. **Mark Levin** is the voice on the radio. He and Yvonne watch, listen, debate, and form opinions — together, always together. They are not passive consumers. They are citizens who care deeply about the direction of their country, informed by a lifetime of experience that runs from Vietnam to the present.
 
 - **Wisdom curator** — Vic forwards emails to his sons and brother-in-law Mike Hurley about life philosophy, faith, humor, and politics. He doesn't just consume this content — he *curates* it, selecting messages he believes carry real meaning and sharing them with the people he loves. The "Gift of Time" parable about Alexander the Great. Patriotic stories. Inspirational messages. Political commentary. Life lessons. Vic sees himself as passing wisdom — and conviction — to the next generation. The forward list is his broadcast network, and the signal is always the same: *this matters, and I want you to see it*.
+
+## The World That Changed Around Him
+
+::: {.callout-note title="80 Years of Everyday Things" collapse="true"}
+**Technology didn't just change in Vic's lifetime — it changed *everything*, over and over, and he lived through every transition:**
+
+**In the kitchen:**
+The icebox became a refrigerator. The wringer washer became an automatic. The dish-drying rack became a dishwasher. The percolator became a Mr. Coffee became a Keurig. Frozen TV dinners arrived in 1954 and blew people's minds. The microwave oven — military technology repurposed for leftovers — showed up in homes in the late 1970s and changed what "cooking" even meant.
+
+**In the living room:**
+Three channels became cable (1980s) became satellite (1990s) became streaming (2010s) became *too many choices to count*. The family gathered around *one* television; now everyone has a screen in their pocket. The VCR arrived and you could record a show — revolutionary. Then the DVD. Then the DVR. Then Netflix made all of it obsolete. Vic has lived through every format of recorded entertainment: vinyl records, 8-tracks, cassette tapes, CDs, MP3s, and whatever his grandkids are using now.
+
+**In communication:**
+The rotary phone (shared, on the wall, don't tie up the line) became the push-button phone became the cordless phone became the cell phone became the smartphone. The answering machine was a miracle — someone could leave a message when you weren't home! Then voicemail. Then text messages. Then FaceTime. Vic's generation went from *waiting for the mail* to *instant video calls with grandchildren 200 miles away*. His email forwards — the ones he curates and sends to his sons every morning — are his version of the letters his grandparents sent from Italy. Same instinct. Different wire.
+
+**In the car:**
+No seatbelts → seatbelts → airbags → backup cameras → cars that park themselves. Manual everything → power steering → cruise control → GPS navigation. Vic learned to drive on a car you had to *crank*. His grandchildren will learn to drive on cars that drive themselves.
+
+**In school (where Vic spent his career):**
+Chalkboards → overhead projectors → VCRs in the classroom → computer labs → laptops for every student → AI tutors. Vic was *ahead* of this curve — writing grants for Commodore computers in 1982 when most schools didn't even have a computer room. He saw the future before the district budget caught up.
+
+The man who was born into a world of rotary phones and iceboxes now lives in a world of smartphones and AI. And he adapted to every single transition — not because he's a technologist, but because he's a man who refuses to be left behind.
+:::
 
 ## "Glue Fingers" and the Old Crew
 
@@ -133,11 +158,25 @@ The man who grew up before email, before texting, before social media — he ada
 
 ## Faith
 
-Vic's faith threads through his communication naturally, without preaching:
+Vic's faith threads through everything he does. Not the quiet, private kind that stays in the pew. The *Vic* kind — persistent, vocal, and coming at you whether you asked for it or not.
 
 > "The Lord has blessed you once more."
 
-That's how he frames milestones — as blessings, not just achievements. The Catholic boy from Bayonne, who married at Assumption Church and raised his family in faith, still sees the hand of God in his children's successes.
+That's how he frames milestones — as blessings, not just achievements. Every email, every phone call, every milestone: *pray about it*. A grandchild's graduation? *The Lord has blessed you*. A new job? *God is good*. A rough patch? *Have you prayed on it?*
+
+Here's the thing: the Cicconetti family stopped going to church decades ago. After Rich finished grammar school, they were done with the monotony of Catholic Mass. The whole family moved on. And then Vic found his Baptist church, did his deep dive into scripture, and came out the other side as the family's **permanent, unsolicited spiritual advisor**.
+
+The joke in the family — and it *is* a joke, told with love — goes like this:
+
+*"Did Dad have a few drinks and corner you to talk about the Bible again?"*
+
+Because that's what happens. A family gathering. A barbecue. A holiday. Vic has a couple of drinks, and suddenly you're getting a one-on-one about prayer, about gratitude, about what the scriptures say about perseverance. He doesn't do it from a pulpit. He does it from a lawn chair, or the kitchen counter, or the driver's seat on the way to Point Pleasant. He persists through resistance. He *always* persists through resistance.
+
+Nobody in the family goes to church anymore. But Vic never stopped being the voice that says: **pray**. Pray when things are good. Pray when things are bad. Pray when you don't feel like it. *Especially* when you don't feel like it.
+
+It's not performative. It's not preachy — well, it's a *little* preachy. But it's real. The man who read the Bible cover to cover, who led youth groups, who joined a Baptist church to challenge himself — that man didn't stop when the formal churchgoing stopped. He just moved the ministry to the dinner table, the phone call, the email forward. His congregation is his family, and his sermons never end.
+
+The Catholic boy from Bayonne, who married at Assumption Church, who left the monotony of Mass, who walked into a Baptist church, who read the whole book, who now signs his emails with "God bless" and calls his sons to tell them to pray — that man's faith isn't a Sunday habit. It's a Tuesday habit. A Wednesday habit. An every-damn-day habit. And if you're within earshot after he's had a glass of wine? You're going to hear about it.
 
 ## The Walk-Around-the-House Laugh
 
