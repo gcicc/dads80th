@@ -12,6 +12,10 @@ Things only Greg can do. Check off as completed.
 - [ ] **Send contribution templates to family** — email `contributions/*.md` files to: Yvonne, Rich, [other son], [daughter], Kathy Pacifico, Mike Hurley Jr., Mary Ann & Michael Hurley, AJ, Ellie, Frank & Valerie Elia. (Unblocks WS2, WS5)
 - [ ] **Get children's and grandchildren's names** — blocks Ch7, family tree, Correct the Record. Ask Yvonne or Rich directly.
 - [ ] **Choose Blurb book size** — 8×10" portrait or 10×8" landscape? Browse blurb.com. (Blocks WS4)
+- [ ] **Scan Vic's actual signature** — for the "Love DAD" signature treatment in the book. Photo/scan of his handwriting. Save as PNG with transparent background if possible. (Blocks UI polish)
+- [ ] **Create Spotify playlists** — one per chapter, matching the song lists. Share URLs so they can be embedded. (Blocks soundtrack feature)
+- [ ] **Locate the Asbury Park Press walkout photo** — the blown-up photo in the garage of Vic leading students in prayer after Rodney King verdict (1992). Scan/photograph it. This is a centerpiece image. (Blocks Ch4 illustration)
+- [ ] **Locate "Glue Fingers Cicconetti" newspaper clipping** — high school football. Scan/photograph for Ch8. (Blocks Ch8 illustration)
 
 ---
 
