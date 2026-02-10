@@ -11,6 +11,9 @@
 - [ ] Coordinate with Kathy Pacifico re: tribute book (from gmail-organizer, 2026-02-06)
 - [ ] Check for tribute responses in "sshhh its a surprise" thread (from gmail-organizer, 2026-02-06)
 - [ ] Retrieve 75th birthday video from Vimeo (from gmail-organizer, 2026-02-06)
+- [ ] Augment family tree: Add Mary Galella's siblings, their children, and build dossiers for Yvonne's extended maternal family (from dads80th, 2026-02-09)
+- [ ] Replace all YOUR_FORM_ID placeholders with actual Google Form IDs (8 places across .qmd files) (from dads80th, 2026-02-09)
+- [ ] Re-run v2 Apps Scripts for forms with file upload capability (from dads80th, 2026-02-09)
 
 ## Done
 - [x] Mine Gmail for Vic-centric content → docs/gmail-intel.md (completed 2026-02-06)

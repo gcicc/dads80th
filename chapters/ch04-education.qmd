@@ -28,13 +28,49 @@ Vic was a school administrator in Monmouth County during the golden age of Jerse
 
 ## From Battlefield to Classroom
 
+::: {.callout-note title="America Through Vic's Education Career (1970–2000)" collapse="true"}
+**The broadest wavelet:** Vic entered education during a period of extraordinary upheaval in American schools and society. The thirty years he spent as an administrator spanned:
+
+- **1970s:** Post-Vietnam malaise, Watergate, oil crisis, stagflation. Schools navigated desegregation, busing conflicts, and the first wave of federal education mandates. New Jersey's **Robinson v. Cahill** ruling (1973) established that the state must equalize school funding — a battle that would define NJ education for decades.
+- **1980s:** The Reagan revolution. In **1983**, the federal report ***A Nation at Risk*** declared that "the educational foundations of our society are presently being eroded by a rising tide of mediocrity." The Challenger explosion (**January 28, 1986**) — with teacher Christa McAuliffe aboard — was watched live in classrooms across America. Black Monday (**October 19, 1987**) crashed stock markets. That same year, the *Red Bank Register* was profiling Vic as "Man with Many Missions."
+- **1990s:** The **LA riots** erupted in **April 1992** after the Rodney King verdict — six days of fires, 63 dead, $1 billion in damage. Schools across America grappled with race, justice, and how to talk to students about a world that seemed to be unraveling on live television. Then **Columbine** in **April 1999** — 13 dead in a suburban high school — changed school security forever.
+
+**The New Jersey wavelet:** In **1990**, the NJ Supreme Court's **Abbott v. Burke** decision identified **31 "Abbott districts"** — the state's poorest urban school systems — and mandated that the state fund them at the same level as the wealthiest suburbs. Both **Asbury Park** and **Long Branch** were Abbott districts. Vic wasn't administering schools in quiet suburbs — he was in the districts where the fight over equity, funding, and opportunity was most intense.
+
+**The personal wavelet:** Through all of this, Vic showed up. Every day, every year, for three decades. A Vietnam veteran running schools in communities that needed steady leadership. A man who had seen combat choosing to spend his career in service to young people — many of them from the same working-class backgrounds he came from.
+:::
+
 After his military service ended in 1969, Victor built a second career dedicated to a different kind of service: **the education of New Jersey's young people**. He would spend decades as a public school administrator — a career that touched the lives of countless students across some of the state's most dynamic communities.
 
 The transition from Air Force medic to educator was not as unlikely as it might seem. Both roles demanded the same core qualities: patience, discipline, compassion, and the ability to lead under pressure. The young man who had kept wounded soldiers alive during medical evacuations now channeled that same dedication into building futures for students.
 
-## Long Branch High School (1980s)
+## Long Branch High School
 
-Victor served as an **administrator at Long Branch High School** during the 1980s — a period when New Jersey's public schools were navigating significant social and demographic changes. Long Branch, a city on the Jersey Shore in Monmouth County, had a diverse student body and a community that valued its schools.
+Victor's career at **Long Branch High School** wasn't a single role — it was a climb. He started in the **business department as a teacher**, rose to **department head**, and eventually became **assistant principal**. Each step reflected the same pattern: Vic didn't just show up and do the job — he built, he led, he pushed for more.
+
+### The Computer Pioneer
+
+::: {.callout-note title="1982: When Computers Were Still Science Fiction" collapse="true"}
+**The broader wavelet:** In 1982, the personal computer was barely a consumer product. IBM had released the PC in August 1981. Apple's Lisa was still a year away. The Macintosh wouldn't arrive until 1984. Most American schools had *zero* computers. The ones that did had a single machine in a closet somewhere, gathering dust.
+
+**The school wavelet:** Getting computers into a New Jersey public high school in the early 1980s required more than a purchase order. It required **grant money** — and the hustle to find it, write the proposals, and convince administrators and school boards that these strange beige boxes were the future.
+
+**The personal wavelet:** Vic became famous at Long Branch for exactly this: **bringing in grant money to put computers in classrooms**. While other schools were debating whether to invest, Vic was already writing grants, acquiring machines, and getting students' hands on keyboards.
+:::
+
+Victor was ahead of his time on technology. He became known at Long Branch for his ability to **bring in grant funding** to get computers into the school — at a time when most educators were still skeptical. He founded the school's **Stock Market Club**, teaching students about investing, finance, and the real-world applications of the business curriculum he'd built.
+
+The Cicconetti home was a reflection of his conviction. From **around 1982 onward**, there was always a computer of some kind in the house:
+
+- **Commodore 64** and **VIC-20** — the machines that brought computing to middle-class American homes
+- The full parade of **floppy disk formats** — from the massive 8-inch floppies to the 5¼-inch disks to the 3½-inch "hard" floppies
+- Each generation replaced by the next, because Vic stayed current
+
+The kids grew up with computers not because they were wealthy, but because their father was a public school teacher who understood where the world was going — and made sure his students AND his children were ready for it.
+
+It paid off. Vic's desire to stay on the cutting edge of computing planted a seed. His son Greg would take that inheritance to the next level — building a career in biostatistics, computational drug development, and data science. The through line from a business teacher writing grants for Commodore 64s to a Research Fellow building statistical models at AbbVie is straighter than it looks. The father's instinct became the son's profession.
+
+### "Man with Many Missions"
 
 In **1987**, the *Red Bank Register* published a profile of Victor titled **"Man with Many Missions"** — a piece that captured the remarkable breadth of his life experience. The article included a photograph of Victor working at a computer at the school and described him as embodying "an American story," noting his journey from military service through education.
 
@@ -43,11 +79,15 @@ That headline — "Man with Many Missions" — became something of an unofficial
 ::: {.callout-note title="Check Our Work — Education Career" collapse="true"}
 | # | We wrote... | TRUE | FALSE | I DON'T KNOW |
 |---|-----------|:----:|:-----:|:------------:|
-| 1 | You were an administrator at Long Branch High School in the 1980s | | | |
-| 2 | The Red Bank Register profiled you in 1987 | | | |
-| 3 | You retired from education in 2000 | | | |
-| 4 | Yvonne taught health in Jersey City public schools | | | |
-| 5 | Yvonne retired in 2005 | | | |
+| 1 | Vic started as a teacher in the business department at Long Branch | | | |
+| 2 | He rose to department head, then assistant principal | | | |
+| 3 | He founded the Stock Market Club | | | |
+| 4 | He brought in grant money to get computers into classrooms | | | |
+| 5 | The Red Bank Register profiled him in 1987 | | | |
+| 6 | The family had computers from ~1982 onward (Commodore, VIC-20, etc.) | | | |
+| 7 | He retired from education in 2000 | | | |
+| 8 | Yvonne taught health in Jersey City public schools | | | |
+| 9 | Yvonne retired in 2005 | | | |
 
 **Anything wrong? Fill in what we missed:**
 
@@ -63,7 +103,41 @@ That headline — "Man with Many Missions" — became something of an unofficial
 
 ## Asbury Park School District
 
+::: {.callout-note title="Asbury Park: The City Behind the Music" collapse="true"}
+**The broader wavelet:** Most people know Asbury Park from Springsteen's debut album. The reality was more complicated. By the time Vic arrived as a school administrator, Asbury Park had been through the **1970 Asbury Park riots** — four days of unrest that devastated the city's commercial district along Springwood Avenue. The boardwalk that Springsteen romanticized was surrounded by blocks of urban decay. The Stone Pony was playing to half-empty rooms. The population dropped from 17,000 in 1970 to under 16,000 by 1990.
+
+**The school wavelet:** As an Abbott district, Asbury Park's schools were chronically underfunded relative to need. The student body was diverse, the challenges were real, and the stakes were high. Being an administrator here meant more than managing a building — it meant being a stabilizing presence in a community that was fighting to hold itself together.
+
+**The personal wavelet:** Vic chose to work here. A man from Bayonne's Italian-American neighborhoods, a Vietnam veteran, working in Asbury Park's public schools — it was service in the truest sense. The same commitment to healing that put him on medevac helicopters in Southeast Asia drove him to serve students in one of New Jersey's most challenged communities.
+:::
+
 Victor also worked as a **public school administrator in the Asbury Park school district**, continuing his commitment to students across Monmouth County. Asbury Park — famous for its boardwalk, its music scene, and its complicated history of urban renewal — presented its own challenges and rewards for an educator committed to making a difference.
+
+## Shark River Hills and the Jersey Shore
+
+While Vic was building schools, the family was building a life. Victor and Yvonne settled in **Shark River Hills** — an unincorporated community within **Neptune Township** — and later in **Wall Township**, both in the heart of Monmouth County's Jersey Shore corridor.
+
+This wasn't just geography. This was *identity*. The Shore defined the Cicconetti family's daily life for decades:
+
+- **Shark River Hills** — tucked along the Shark River inlet, a neighborhood of modest homes where you could smell the salt air and hear the gulls. The kind of place where kids rode bikes to the river and families knew their neighbors by name.
+- **Wall Township** — a larger suburban community just inland from the beach towns, where the family put down deeper roots. Good schools (Vic knew this better than anyone), safe streets, and easy access to the Shore.
+
+The surrounding towns became the family's stomping grounds: **Avon-by-the-Sea**, **Point Pleasant Beach**, and the boardwalk joints and seafood houses that define Shore life. These weren't vacation destinations — they were the backdrop to daily life. Little League games, Sunday drives, summer evenings on the boardwalk.
+
+And the restaurants — the places that became family institutions:
+
+- **Pete & Elda's** in Neptune City — the bar/restaurant where the thin-crust pizza has been a Shore institution since 1956. Every Shore family has their Pete & Elda's stories.
+- **Kelly's Tavern** — cold drinks, good food, the kind of place where you run into everyone you know.
+
+These were *the family's places*. The spots where the Cicconettis gathered, celebrated, and lived the life that Vic had built from nothing — from a Bayonne row house to a Shore family raising kids in the salt air.
+
+::: {.callout-note title="Your Turn — The Shore Years" collapse="true"}
+**Dad & Mom:** What was the house in Shark River Hills like? How did you end up there? And Wall — what made you move?
+
+**Rich, Greg, and [sister]:** What are your Shore memories? Beach days? Boardwalk nights? The first time you were allowed to go to Point Pleasant on your own? Pete & Elda's — what's your order?
+
+**Everyone:** What's the restaurant, the beach, the spot that IS the Cicconetti Jersey Shore? The place you'd take someone to show them what your family is about?
+:::
 
 ## Retirement (2000)
 
