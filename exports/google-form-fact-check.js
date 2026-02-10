@@ -1,11 +1,14 @@
 // ============================================================
+// FACT-CHECK FORM v2 — with file upload + audio
+// ============================================================
 // INSTRUCTIONS:
 // 1. Go to https://script.google.com
-// 2. Click "New project"
-// 3. Delete the placeholder code and paste this entire file
-// 4. Click Run (play button) — it will ask for permissions, allow them
-// 5. Check your Google Drive — the form will appear there
-// 6. Open the form, click Send, copy the link
+// 2. Open your EXISTING fact-check project (or create new)
+// 3. Replace ALL code with this file
+// 4. Click Run — authorize if prompted
+// 5. A NEW form appears in Drive (old one still exists)
+// 6. Open new form → Send → copy link
+// 7. Delete the old form from Drive when ready
 // ============================================================
 
 function createFactCheckForm() {
@@ -15,7 +18,9 @@ function createFactCheckForm() {
     'what we got wrong, and what we missed.\n\n' +
     'For each claim, pick: TRUE / FALSE / I DON\'T KNOW.\n' +
     'Then add corrections or stories at the end of each section.\n\n' +
-    'This takes about 10 minutes. Thank you!'
+    'This takes about 10 minutes. Thank you!\n\n' +
+    'TIP: You can upload photos and documents at the end. ' +
+    'You can also record a voice memo on your phone and upload it.'
   );
   form.setIsQuiz(false);
   form.setAllowResponseEdits(true);
@@ -30,7 +35,7 @@ function createFactCheckForm() {
     .setRequired(true);
 
   // --- Section: The Cicconetti Side ---
-  form.addPageBreakItem().setTitle('The Cicconetti Side (Claims 1–13)');
+  form.addPageBreakItem().setTitle('The Cicconetti Side (Claims 1\u201313)');
 
   var cicconettiClaims = [
     '1. The Cicconetti name traces to Collepietro, Abruzzo, Italy',
@@ -60,7 +65,7 @@ function createFactCheckForm() {
     .setHelpText('What did we get wrong? What did we miss? Tell us anything.');
 
   // --- Section: Elia / Chiarolanza Side ---
-  form.addPageBreakItem().setTitle('The Elia / Chiarolanza Side (Claims 14–21)');
+  form.addPageBreakItem().setTitle('The Elia / Chiarolanza Side (Claims 14\u201321)');
 
   var eliaClaims = [
     '14. Yvonne\'s mother Mary\'s maiden name was Chiarolanza (family spelling: Chirolanza)',
@@ -85,7 +90,7 @@ function createFactCheckForm() {
     .setHelpText('What did we get wrong? What did we miss? Tell us anything about Mom\'s family.');
 
   // --- Section: Military Service ---
-  form.addPageBreakItem().setTitle('Victor\'s Military Service (Claims 22–26)');
+  form.addPageBreakItem().setTitle('Victor\'s Military Service (Claims 22\u201326)');
 
   var militaryClaims = [
     '22. Victor joined the Air Force in 1965 at age 19',
@@ -104,10 +109,10 @@ function createFactCheckForm() {
 
   form.addParagraphTextItem()
     .setTitle('Corrections or stories about Dad\'s military service')
-    .setHelpText('Bases, units, buddies, stories — anything about those years.');
+    .setHelpText('Bases, units, buddies, stories \u2014 anything about those years.');
 
   // --- Section: Yvonne & Wedding ---
-  form.addPageBreakItem().setTitle('Yvonne & The Wedding (Claims 27–34)');
+  form.addPageBreakItem().setTitle('Yvonne & The Wedding (Claims 27\u201334)');
 
   var weddingClaims = [
     '27. Yvonne was born approximately April 1948',
@@ -132,7 +137,7 @@ function createFactCheckForm() {
     .setHelpText('How did you two meet? What do you remember about the wedding day?');
 
   // --- Section: Careers ---
-  form.addPageBreakItem().setTitle('Careers (Claims 35–41)');
+  form.addPageBreakItem().setTitle('Careers (Claims 35\u201341)');
 
   var careerClaims = [
     '35. Victor was an administrator at Long Branch High School in the 1980s',
@@ -156,7 +161,7 @@ function createFactCheckForm() {
     .setHelpText('Favorite students? Best stories from the classroom?');
 
   // --- Section: Restaurant & Veterans ---
-  form.addPageBreakItem().setTitle('Restaurant & Veterans (Claims 42–47)');
+  form.addPageBreakItem().setTitle('Restaurant & Veterans (Claims 42\u201347)');
 
   var restVetClaims = [
     '42. Victor and Yvonne co-owned an Italian restaurant with one of their sons',
@@ -179,7 +184,7 @@ function createFactCheckForm() {
     .setHelpText('What was the restaurant called? Where was it? What years? Which son?');
 
   // --- Section: Family & Recent Years ---
-  form.addPageBreakItem().setTitle('Family & Recent Years (Claims 48–59)');
+  form.addPageBreakItem().setTitle('Family & Recent Years (Claims 48\u201359)');
 
   var familyClaims = [
     '48. Victor and Yvonne have two sons and one daughter',
@@ -208,11 +213,11 @@ function createFactCheckForm() {
     .setHelpText('We need names! All three children, all six grandchildren.');
 
   // --- Section: Timeline ---
-  form.addPageBreakItem().setTitle('Timeline (Claims 60–67)');
+  form.addPageBreakItem().setTitle('Timeline (Claims 60\u201367)');
 
   var timelineClaims = [
     '60. Born ~March 1946, Bayonne',
-    '61. Air Force 1965–1969',
+    '61. Air Force 1965\u20131969',
     '62. Married August 20, 1967',
     '63. Long Branch HS, 1980s',
     '64. Red Bank Register, 1987',
@@ -232,7 +237,7 @@ function createFactCheckForm() {
     .setTitle('Any dates wrong or milestones we missed?');
 
   // --- Section: The Big Gaps ---
-  form.addPageBreakItem().setTitle('The Big Gaps — What We Know We\'re Missing');
+  form.addPageBreakItem().setTitle('The Big Gaps \u2014 What We Know We\'re Missing');
 
   form.addTextItem().setTitle('Victor\'s exact birthday (month/day/year)');
   form.addParagraphTextItem().setTitle('Names of all three children (full names + birth years)');
@@ -244,7 +249,43 @@ function createFactCheckForm() {
   form.addTextItem().setTitle('What do the grandkids call him?');
   form.addParagraphTextItem().setTitle('Anything else we should know');
 
+  // --- Section: Upload Photos & Documents ---
+  form.addPageBreakItem()
+    .setTitle('Upload Photos, Documents & Voice Memos')
+    .setHelpText(
+      'Share photos of Dad, old documents, or even a voice memo.\n\n' +
+      'VOICE MEMO TIP: On your phone, open the Voice Memos app (iPhone) or Recorder app (Android), ' +
+      'record yourself talking, save it, then upload the file here.\n\n' +
+      'NOTE: File upload requires you to be signed into a Google account. ' +
+      'If that\'s a hassle, just text or email files to Greg at gcicconetti@gmail.com.'
+    );
+
+  form.addFileUploadItem()
+    .setTitle('Upload photos of Dad')
+    .setHelpText('Old photos, family photos, military photos \u2014 anything. Multiple files OK.')
+    .setRequired(false)
+    .setMaxFiles(10)
+    .setMaxFileSize(10485760);  // 10 MB per file
+
+  form.addFileUploadItem()
+    .setTitle('Upload documents')
+    .setHelpText('Newspaper clippings, letters, certificates, military records \u2014 anything you have.')
+    .setRequired(false)
+    .setMaxFiles(5)
+    .setMaxFileSize(10485760);
+
+  form.addFileUploadItem()
+    .setTitle('Upload a voice memo')
+    .setHelpText(
+      'Record yourself on your phone telling a story about Dad, then upload the audio file here. ' +
+      'We\'ll transcribe it and weave it into the book. Even 30 seconds is gold.'
+    )
+    .setRequired(false)
+    .setMaxFiles(3)
+    .setMaxFileSize(26214400);  // 25 MB per file for audio
+
   // --- Done ---
   Logger.log('Form created: ' + form.getEditUrl());
   Logger.log('Share URL: ' + form.getPublishedUrl());
+  Logger.log('NOTE: Because this form has file upload, respondents must be signed into Google.');
 }
