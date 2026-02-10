@@ -19,8 +19,7 @@ After each section, there's a space to set the record straight — correct what 
 ::: {.callout-important title="Respond Online"}
 **Prefer to fill this out on your phone or computer?** Use the online form — it takes about 10 minutes and your answers go straight to Greg.
 
-<!-- GREG: Replace YOUR_FORM_ID with the Google Form ID (the long string from the form URL) -->
-[Open the Fact-Check Form](https://docs.google.com/forms/d/e/YOUR_FORM_ID/viewform){.btn .btn-primary target="_blank"}
+[Open the Fact-Check Form](https://docs.google.com/forms/d/e/1FAIpQLSewx8qzirtlXs1__lK0o1AXk9k54Ib-6nhrPtm3Ul5sFrY2Vw/viewform){.btn .btn-primary target="_blank"}
 :::
 
 ---
@@ -290,8 +289,5 @@ These are the biggest gaps. If you know the answers, this is where you'll make t
 ## Submit Your Corrections Online {.unnumbered}
 
 ::: {.form-embed}
-<!-- GREG: Uncomment the iframe below and replace YOUR_FORM_ID with your Google Form ID -->
-<!-- <iframe src="https://docs.google.com/forms/d/e/YOUR_FORM_ID/viewform?embedded=true" width="100%" height="800" frameborder="0" marginheight="0" marginwidth="0">Loading form…</iframe> -->
-
-**The online form is coming soon.** In the meantime, email your corrections to Greg or fill out the printed version.
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSewx8qzirtlXs1__lK0o1AXk9k54Ib-6nhrPtm3Ul5sFrY2Vw/viewform?embedded=true" width="100%" height="800" frameborder="0" marginheight="0" marginwidth="0">Loading form…</iframe>
 :::

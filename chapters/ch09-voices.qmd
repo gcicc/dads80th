@@ -13,8 +13,7 @@ This chapter belongs to the family. Each person who knows and loves Victor has t
 ::: {.callout-important title="Add Your Message"}
 **Want to contribute online?** Use the tribute form — type as much or as little as you want. You can even upload a photo.
 
-<!-- GREG: Replace YOUR_FORM_ID with the Google Form ID for the tribute/voices form -->
-[Write Your Message for Dad](https://docs.google.com/forms/d/e/YOUR_FORM_ID/viewform){.btn .btn-primary target="_blank"}
+[Write Your Message for Dad](https://docs.google.com/forms/d/e/1FAIpQLSdpYXns7Zwutq6tDNp3BYU2HCPTHTgkdok6r9xWPpdXVPbvCQ/viewform){.btn .btn-primary target="_blank"}
 :::
 
 ---
@@ -106,8 +105,5 @@ The brotherhood of VVA Chapter 12 — Leon, David Connelly, Larry Messina, and o
 ## Submit Your Tribute Online {.unnumbered}
 
 ::: {.form-embed}
-<!-- GREG: Uncomment the iframe below and replace YOUR_FORM_ID with your Google Form ID -->
-<!-- <iframe src="https://docs.google.com/forms/d/e/YOUR_FORM_ID/viewform?embedded=true" width="100%" height="900" frameborder="0" marginheight="0" marginwidth="0">Loading form…</iframe> -->
-
-**The online form is coming soon.** In the meantime, email your tribute to Greg or use the templates in the `contributions/` folder.
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdpYXns7Zwutq6tDNp3BYU2HCPTHTgkdok6r9xWPpdXVPbvCQ/viewform?embedded=true" width="100%" height="900" frameborder="0" marginheight="0" marginwidth="0">Loading form…</iframe>
 :::

@@ -2,7 +2,7 @@
 
 Things only Greg can do. Check off as completed.
 
-**Last updated:** 2026-02-09
+**Last updated:** 2026-02-10
 **DEADLINE: March 2026 (~4 weeks)**
 
 ---
@@ -59,9 +59,22 @@ Replace `YOURUSERNAME` with your actual GitHub username.
 
 ---
 
-## CREATE GOOGLE FORMS (do with ChatGPT)
+## ~~CREATE GOOGLE FORMS~~ — DONE (2026-02-10)
 
-You need two forms. Open ChatGPT and paste the prompts below.
+Both forms already exist, are published, and form IDs are now embedded in the Quarto book.
+
+| Form | Editor URL | Responder URL |
+|------|-----------|---------------|
+| **Correct the Record** (fact-check) | [Edit](https://docs.google.com/forms/d/1NKV4taRPySfDcAv11gsJDUfWwzajRFvHCwwyUEC5DkM/edit) | [Fill out](https://docs.google.com/forms/d/e/1FAIpQLSewx8qzirtlXs1__lK0o1AXk9k54Ib-6nhrPtm3Ul5sFrY2Vw/viewform) |
+| **Your Message for Dad** (tribute) | [Edit](https://docs.google.com/forms/d/1l-LDg4fPXSC36WbTbafszfMVu5goMB18b8HXIWvXyg0/edit) | [Fill out](https://docs.google.com/forms/d/e/1FAIpQLSdpYXns7Zwutq6tDNp3BYU2HCPTHTgkdok6r9xWPpdXVPbvCQ/viewform) |
+
+**Quarto integration:** Form IDs replaced in `appendices/correct-the-record.qmd` and `chapters/ch09-voices.qmd`. Iframes uncommented. Button links updated.
+
+**Remaining:** The "Suggest a song" links in ch01-ch08 still have `YOUR_FORM_ID` placeholders — these need a separate song suggestion form (or remove the feature).
+
+**Still TODO:** Connect responses to Google Sheets (in each form: Responses tab > green Sheets icon > create new spreadsheet).
+
+<details><summary>Original ChatGPT form creation prompts (for reference)</summary>
 
 ### Form 1: Fact-Check Form
 
@@ -202,16 +215,15 @@ You need two forms. Open ChatGPT and paste the prompts below.
 >
 > Give me step-by-step instructions or a Google Apps Script to auto-create this form.
 
-### After Creating the Forms
+### ~~After Creating the Forms~~ — DONE (automated 2026-02-10)
 
-1. **Get each form's share link:** In Google Forms → Send → Link icon → Copy
-2. The URL will look like: `https://docs.google.com/forms/d/e/1FAIpQLSe.../viewform`
-3. The `YOUR_FORM_ID` part is the long string: `1FAIpQLSe...`
-4. **Replace placeholders in the book:**
-   - In `appendices/correct-the-record.qmd`: replace both `YOUR_FORM_ID` instances with the fact-check form ID
-   - In `chapters/ch09-voices.qmd`: replace both `YOUR_FORM_ID` instances with the tribute form ID
-   - Also **uncomment the iframe lines** (remove the `<!-- ` and ` -->` around them) to embed the forms directly in the book pages
-5. **Connect responses to Google Sheets:** In each form → Responses tab → green Sheets icon → create new spreadsheet. This gives you a live spreadsheet of all responses.
+- [x] Get share links — captured via Playwright MCP
+- [x] Replace placeholders in `correct-the-record.qmd` — DONE
+- [x] Replace placeholders in `ch09-voices.qmd` — DONE
+- [x] Uncomment iframe embeds — DONE
+- [x] **Connect responses to Google Sheets** — DONE (2026-02-10). Spreadsheets: [Correct the Record](https://docs.google.com/spreadsheets/d/1wXd26FEPrwSkBlgCyk1dp-JyZLYLyP8czr9Mufm3RIs/edit) | [Your Message for Dad](https://docs.google.com/spreadsheets/d/1MSjkMd-cpsReHn4-lVTyzJZ6FWBdEZMolDnOdzxb1Ow/edit)
+
+</details>
 
 ---
 
@@ -251,7 +263,7 @@ Draft email (adapt as needed):
 ## Photo Work (drives WS1)
 
 - [ ] **Survey `../Lit-Project/images/`** — flag 30–50 photos for the book by theme (heritage, military, family, career, recent)
-- [ ] **Download P1020477.JPG** from Sept 2017 "Look at yourselves!!!!" email via Gmail MCP
+- [x] **Download P1020477.JPG** from Sept 2017 "Look at yourselves!!!!" email via Gmail MCP — DONE (saved to `images/P1020477.JPG`, 5.4 MB, 2026-02-10)
 - [ ] **Scan the 1987 Red Bank Register article** if anyone has a copy — "Man with Many Missions"
 - [ ] **Retrieve Vic's 75th birthday video** from Vimeo for reference
 
