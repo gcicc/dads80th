@@ -39,47 +39,58 @@ Sharon is an active presence in the South Jersey community — engaged in local 
 
 **Maiden name:** Elia
 **Residence:** Stafford Township, NJ (as of 2007); earlier Bayonne, NJ
-**Spouse:** Michael Hurley (former Bayonne police officer)
+**Spouse:** Michael Hurley Sr. (retired Captain, Bayonne Police Department)
+**Children:** Kathy (Kathleen) Pacifico; Mike Hurley Jr.
 
-Mary Ann is Yvonne's sister — another daughter of the Elia family of Bayonne. The bond between the Elia sisters has been a constant in the extended family's life.
+Mary Ann is Yvonne's sister — another daughter of Frank and Mary Elia of Bayonne. The bond between the Elia sisters has been a constant in the extended family's life.
 
 Mary Ann has her own entrepreneurial story: she ran a pizza bistro in Bayonne, keeping the Italian-American food tradition alive in the neighborhood where she and Yvonne grew up. Whether hosting family celebrations or serving customers in Bayonne, Mary Ann has been a pillar of warmth and hospitality in the extended family.
 
-[OWNER INPUT NEEDED: Mary Ann's pizza bistro name, years of operation, relationship with Victor, family gatherings and traditions, her children if any]
+Her daughter Kathy Pacifico has carried on that community spirit as the owner/operator of Forum Fitness Club (21 W 25th St, Bayonne) since 1982. Kathy coordinated Victor's 75th birthday tribute video in 2021 and remains deeply involved in the extended family. Her son Mike Hurley Jr. is a nationally certified personal trainer and owner of Hurley Development LLC, who also worked at Forum Fitness from 1991-2002. In 2023, the City of Bayonne honored Mike for donating World Trade Center steel for the city's 9/11 memorial — a testament to the Hurley family's deep roots in and commitment to the Bayonne community.
+
+[OWNER INPUT NEEDED: Mary Ann's pizza bistro name, years of operation, relationship with Victor, family gatherings and traditions]
 
 ---
 
-## Michael Hurley — Brother-in-law (Yvonne's Side)
+## Michael Hurley Sr. — Brother-in-law (Yvonne's Side)
 
-**Career:** Former police officer, Bayonne Police Department
+**Career:** Retired Captain, Bayonne Police Department
 **Spouse:** Mary Ann Hurley (nee Elia)
+**Children:** Kathy (Kathleen) Pacifico; Mike Hurley Jr.
 
-Michael Hurley served as a police officer with the Bayonne Police Department, bringing a law-enforcement perspective to a family already rich with service — Victor's military career, Yvonne's and Victor's education careers, Mary Ann's small business. 
+Michael Hurley Sr. rose to the rank of **Captain** in the Bayonne Police Department — a distinguished career in the same city where the Elia sisters grew up. His service brought a law-enforcement perspective to a family already rich with service: Victor's military career, Yvonne's and Victor's education careers, Mary Ann's small business.
 
-Michael is Victor's brother-in-law through the Elia sisters' marriages, and the Hurley-Cicconetti connection represents the kind of extended family bond that holds Italian-American families together across generations and geographies.
+Michael is Victor's brother-in-law through the Elia sisters' marriages, and the Hurley-Cicconetti connection represents the kind of extended family bond that holds Italian-American families together across generations and geographies. Vic's forward network included "mbubbles44" (Mike Hurley's email) — they shared chain emails about life, time, and values, the kind of bond between brothers-in-law that goes beyond obligation.
 
-[OWNER INPUT NEEDED: Michael's years of service in Bayonne PD, rank, relationship with Victor, shared interests or activities, family stories]
+[OWNER INPUT NEEDED: Michael's years of service in Bayonne PD, retirement year, relationship with Victor, shared interests or activities, family stories]
 
 ---
 
 ## Victor's Siblings — The Cicconetti Six
 
-Victor was one of six children born to Victor Cicconetti Sr. (1925-1980) and Eleanor Cicconetti (d. 1997) in Bayonne, NJ:
+Victor was one of six children born to Victor Cicconetti Sr. (1925-1980) and Eleanor (Salone) Cicconetti (d. 1997) in Bayonne, NJ:
 
-| Name | Status | Notes |
-|------|--------|-------|
-| **Victor R. Cicconetti** | Alive (~80) | The birthday honoree |
-| **Dennis Cicconetti** | [OWNER INPUT NEEDED] | Brother. Details sparse. |
-| **Rev. Leanora Cicconetti** | Alive | Sister. Reverend at Hope For America Ministries, Bayonne, NJ. Active in NJ genealogy groups. |
-| **Bob (Robert) Cicconetti** | [OWNER INPUT NEEDED] | Brother. Details sparse. |
-| **Loretta Keating** (nee Cicconetti) | Deceased (~2025) | Sister. Married name Keating. |
-| **Michael C. Cicconetti** | Deceased (2009) | Brother. Obituary from Jersey City area. |
+| Name | Birth Year | Status | Spouse | Notes |
+|------|-----------|--------|--------|-------|
+| **Victor R. Cicconetti** | ~1946 | Alive (~80) | Yvonne (nee Elia) | The birthday honoree |
+| **Dennis Cicconetti** | ? | Deceased (pre-2009) | ? | Brother. Predeceased Michael per 2009 obituary. |
+| **Rev. Leanora Cicconetti** | ~1958-1959 | Alive (~67) | Clavelli (married name) | Sister. Reverend. Active in NJ genealogy groups. Also known as Leanora Clavelli. |
+| **Robert (Bob) Cicconetti** | ? | Alive | **Retired Lt. Col. Elizabeth Cicconetti** | Brother. Wife is a retired military officer (Lieutenant Colonel). |
+| **Loretta Keating** (nee Cicconetti) | ? | Deceased (~2025) | **Louis Keating** | Sister. Husband's first name: Louis. |
+| **Michael C. Cicconetti** | 1961 | Deceased (Mar 10, 2009) | Karen Haraksin | Age 47 at death. One son: Christopher. Lived in Carteret, NJ. |
 
-The Cicconetti siblings grew up together in Bayonne — children of Italian-American New Jersey, shaped by the post-war era. Victor lost his father in 1980 and his mother Eleanor in 1997. More recently, the family said goodbye to Loretta in approximately 2025 and Michael in 2009.
+### Parents' Heritage
+- **Father:** Victor Cicconetti Sr. (1925-1980) — born in Bayonne, NJ, of Italian descent from Collepietro, L'Aquila, Abruzzo, Italy
+- **Mother:** Eleanor (Salone) Cicconetti (d. 1997) — born Eleanor Salone, one of three Salone sisters (Marge, Eleanor, Josie) raised on the Lower East Side of Manhattan
+- **Maternal grandparents:** Joseph (Giuseppe) Salone and Anna (Nunziana Castro / Algamise) Salone
 
-Leanora, a reverend and family genealogy enthusiast, keeps the family history flame burning. Dennis and Bob remain figures the family can help fill in.
+The Cicconetti siblings grew up together in Bayonne — children of Italian-American New Jersey, shaped by the post-war era. Victor lost his father in 1980 and his mother Eleanor in 1997. The family also said goodbye to Dennis (before 2009), Michael in 2009, and Loretta in approximately 2025.
 
-[OWNER INPUT NEEDED: Birth order of the siblings, family stories from growing up in Bayonne, relationships between siblings, Dennis and Bob's current status and families, Loretta's family (husband's first name, children)]
+Leanora, a reverend and family genealogy enthusiast, keeps the family history flame burning. She may have already researched the full Cicconetti family tree through her genealogy work.
+
+See `docs/immigration-research.md` for the full Cicconetti immigration story from Collepietro, Abruzzo, Italy.
+
+[OWNER INPUT NEEDED: Birth order of the siblings, family stories from growing up in Bayonne, relationships between siblings, Dennis's death date and circumstances, Robert and Elizabeth's details, Loretta's family details]
 
 ---
 

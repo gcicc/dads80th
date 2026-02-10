@@ -1,0 +1,126 @@
+/* Tribute book custom styles */
+
+/* Chapter opener styling */
+.chapter-epigraph {
+  font-style: italic;
+  color: #555;
+  border-left: 3px solid #8B0000;
+  padding-left: 1em;
+  margin: 1.5em 0;
+}
+
+.chapter-epigraph .attribution {
+  font-style: normal;
+  font-size: 0.9em;
+  color: #777;
+  margin-top: 0.5em;
+}
+
+/* Photo grid styling */
+.photo-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1em;
+  margin: 1.5em 0;
+}
+
+.photo-grid img {
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.15);
+}
+
+/* Owner input callouts */
+.callout-owner {
+  background-color: #FFF3CD;
+  border-left: 4px solid #FFC107;
+  padding: 1em;
+  margin: 1em 0;
+  border-radius: 4px;
+}
+
+/* "Love DAD" motif */
+.love-dad {
+  font-family: 'Georgia', serif;
+  font-style: italic;
+  color: #8B0000;
+  font-size: 1.1em;
+}
+
+/* Timeline styling for HTML */
+.timeline-entry {
+  border-left: 3px solid #2F4F4F;
+  padding-left: 1.5em;
+  margin-bottom: 1.5em;
+  position: relative;
+}
+
+.timeline-entry::before {
+  content: '';
+  position: absolute;
+  left: -7px;
+  top: 4px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: #8B0000;
+  border: 2px solid white;
+}
+
+.timeline-year {
+  font-weight: bold;
+  color: #2F4F4F;
+  font-size: 1.1em;
+}
+
+/* Part divider pages */
+.part-title {
+  text-align: center;
+  padding: 2em 0;
+}
+
+/* Pull quote styling */
+blockquote.pull-quote {
+  font-size: 1.2em;
+  color: #333;
+  border: none;
+  text-align: center;
+  padding: 1em 2em;
+  font-style: italic;
+}
+
+blockquote.pull-quote .attribution {
+  font-style: normal;
+  font-size: 0.8em;
+  color: #666;
+}
+
+/* Embedded form container */
+.form-embed {
+  margin: 2em 0;
+  padding: 1em;
+  background: #f8f9fa;
+  border-radius: 8px;
+  border: 1px solid #dee2e6;
+}
+
+.form-embed iframe {
+  border-radius: 4px;
+  min-height: 600px;
+}
+
+/* Call-to-action button styling */
+.btn-primary {
+  display: inline-block;
+  background-color: #8B0000;
+  color: white !important;
+  padding: 0.75em 1.5em;
+  border-radius: 6px;
+  text-decoration: none !important;
+  font-weight: bold;
+  font-size: 1.05em;
+  transition: background-color 0.2s;
+}
+
+.btn-primary:hover {
+  background-color: #a00000;
+}

@@ -6,13 +6,21 @@
 
 ---
 
-## Bayonne Roots
+## Bayonne Roots — An Immigration Story
 
-Yvonne grew up in Bayonne, New Jersey, as Yvonne C. Elia — daughter of Frank Elia and Mary Elia. Her childhood was shaped by the Italian-American community of Hudson County and by the early loss of her father, Frank, who died when Yvonne was only about fourteen years old. That loss, and the strength it required, became part of the fabric of who Yvonne would become: resilient, caring, and fiercely devoted to family.
+Yvonne grew up in Bayonne, New Jersey, as Yvonne C. Elia — daughter of Frank Elia and Mary Elia. The Elia family was part of the wave of Italian immigrants who came through Ellis Island and settled in Bayonne's tight-knit Italian-American community in Hudson County. Mary herself came through Ellis Island with her sister(s), carrying the courage and hope of a new life in America.
+
+The Elia surname traces to southern Italy — most concentrated in Puglia, with strong presence in Calabria, Campania, and Sicily. The family settled near Our Lady of Mount Carmel Church, the heart of Bayonne's Italian community, in the Bergen Point neighborhood. By the early 1920s, the Elia family was established in Bayonne (Salvatore Elia, born December 22, 1921, in New Jersey, is the earliest documented member of the Bayonne Elia family).
+
+Yvonne's childhood was shaped by that Italian-American community and by the early loss of her father, Frank, who died when Yvonne was only about fourteen years old (~1962). That loss, and the strength it required, became part of the fabric of who Yvonne would become: resilient, caring, and fiercely devoted to family. After Frank's death, Mary remarried Anthony Galella — a man who became a beloved stepfather. Greg named his own son Anthony in his honor.
 
 Her sister Mary Ann (later Mary Ann Hurley) shared those Bayonne roots, and the bond between the Elia sisters has remained a constant across the decades.
 
-[OWNER INPUT NEEDED: Childhood memories, school, Bayonne neighborhood stories, relationship with her mother Mary and sister Mary Ann growing up]
+See `docs/elia-immigration-research.md` for the full Elia family immigration research.
+
+[RESOLVED: Mary's maiden name is **CHIAROLANZA** (family spelling: Chirolanza). The Chiarolanza family originated in Campania, southern Italy -- most likely Montecorvino Rovella, Province of Salerno. Mary's father was Alfonso Chiarolanza, mother Angelina. Mary had 4 sisters. See `docs/chirolanza-research.md` for full research.]
+
+[OWNER INPUT NEEDED: Childhood memories, school, Bayonne neighborhood stories, relationship with her mother Mary, sister Mary Ann, and stepfather Anthony Galella growing up, names of Mary's sisters (the 4 Chiarolanza sisters)]
 
 ## A Life in Education
 
@@ -48,8 +56,13 @@ As Victor turns 80, it is impossible to celebrate his story without celebrating 
 |-----------|--------|
 | Born | ~April 1948, Bayonne, NJ (Elia family) |
 | Father | Frank Elia (deceased ~1962) |
-| Mother | Mary Elia |
+| Mother | Mary Elia (nee **Chiarolanza**; later Mary Galella after remarriage) |
+| Stepfather | Anthony Galella (Greg's son Anthony named after him) |
 | Sister | Mary Ann Hurley (nee Elia) |
+| Immigration | Mary Chiarolanza came through Ellis Island with father Alfonso, mother Angelina, and 4 sisters from Campania, Italy |
+| Maternal maiden name | Chiarolanza (from Montecorvino Rovella, Province of Salerno, Campania) |
+| Elia surname origin | Southern Italy (Puglia, Calabria, Campania, Sicily) |
+| Parish | Our Lady of Mount Carmel / Assumption Church, Bayonne |
 | Married | Victor R. Cicconetti, August 20, 1967 |
 | Children | Two sons, one daughter |
 | Grandchildren | Six |

@@ -1,0 +1,65 @@
+project:
+  type: book
+  output-dir: _book
+
+book:
+  title: "Vic Cicconetti — This Is Your Life"
+  subtitle: "A Tribute on His 80th Birthday"
+  author: "The Cicconetti Family"
+  date: "March 2026"
+  chapters:
+    - index.qmd
+    - part: "Part I: Two Families"
+      chapters:
+        - chapters/ch01-roots.qmd
+        - chapters/ch02-service.qmd
+        - chapters/ch03-yvonne.qmd
+    - part: "Part II: The Life They Built"
+      chapters:
+        - chapters/ch04-education.qmd
+        - chapters/ch05-entrepreneur.qmd
+    - part: "Part III: The Man He Became"
+      chapters:
+        - chapters/ch06-veterans.qmd
+        - chapters/ch07-family.qmd
+        - chapters/ch08-golden-years.qmd
+    - part: "Part IV: Celebration"
+      chapters:
+        - chapters/ch09-voices.qmd
+        - chapters/ch10-happy-80th.qmd
+  appendices:
+    - appendices/timeline.qmd
+    - appendices/family-tree.qmd
+    - appendices/correct-the-record.qmd
+
+format:
+  html:
+    theme: cosmo
+    css: css/tribute.css
+    toc: true
+    toc-depth: 2
+    lightbox: true
+    number-sections: false
+    include-in-header:
+      text: |
+        <meta name="robots" content="noindex, nofollow">
+    repo-url: https://github.com/gcicc/dads80th
+    repo-actions: [issue]
+  pdf:
+    documentclass: scrreprt
+    papersize: letter
+    geometry:
+      - top=0.75in
+      - bottom=0.75in
+      - left=0.75in
+      - right=0.75in
+    fontsize: 11pt
+    toc: true
+    toc-depth: 2
+    fig-pos: "H"
+    keep-tex: true
+    number-sections: false
+    include-in-header:
+      text: |
+        \usepackage{float}
+        \usepackage{booktabs}

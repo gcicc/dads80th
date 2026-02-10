@@ -8,7 +8,9 @@
 
 ## The Bayonne Kid
 
-Victor grew up in Bayonne, New Jersey, the son of Victor Cicconetti Sr. and Eleanor Cicconetti — part of a big, close-knit Italian-American family. He was one of six children: Dennis, Leanora, Bob, Loretta, and Michael all called Bayonne home alongside Vic. The neighborhood, the church, the family table — these were the foundations that shaped everything that came after.
+Victor grew up in Bayonne, New Jersey, the son of Victor Cicconetti Sr. (1925-1980) and Eleanor (Salone) Cicconetti (d. 1997) — part of a big, close-knit Italian-American family. The Cicconetti name traces back to **Collepietro**, a tiny stone village perched nearly 3,000 feet up in Italy's Apennine Mountains in the Abruzzo region. Victor's mother Eleanor brought the Salone family's Lower East Side Manhattan toughness — her mother Anna had worked as a sweatshop seamstress during the Depression to keep her three daughters out of an orphanage.
+
+Victor was one of six children: Dennis, Leanora, Bob, Loretta, and Michael all called Bayonne home alongside Vic. The neighborhood, the church, the family table — these were the foundations that shaped everything that came after. Bayonne in the 1940s and 50s was a city where 20% of the population was Italian-American, where paesani from the same villages in Abruzzo and beyond lived side by side, and where the immigrant generation's sacrifices were repaid by the next generation's opportunities.
 
 [OWNER INPUT NEEDED: Childhood anecdotes, neighborhood stories, school memories, favorite Bayonne spots]
 

@@ -13,3 +13,12 @@ _book/
 
 # IDE workspace settings (Positron/VS Code)
 .vscode/
+
+/.quarto/
+**/*.quarto_ipynb
+
+# Windows reserved device names
+nul
+
+# Claude Code local settings
+.claude/settings.local.json
