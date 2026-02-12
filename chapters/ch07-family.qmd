@@ -8,22 +8,22 @@
 :::: {.callout-note title="Soundtrack: The Cicconetti House" collapse="true" appearance="simple"}
 Every family has songs that ARE the family — the ones that trigger memories the moment you hear the first three notes:
 
-{{< video https://www.youtube.com/embed/fye1XtXQn9s >}}
+<div class="jukebox-player"></div>
 
 **Songs for a Family Man** — *click any song to play*
 
-- [Cat Stevens — "Father and Son"](https://www.youtube.com/results?search_query=Cat+Stevens+Father+and+Son)
-- [Jim Croce — "Time in a Bottle"](https://www.youtube.com/results?search_query=Jim+Croce+Time+in+a+Bottle)
-- [Stevie Wonder — "Isn't She Lovely"](https://www.youtube.com/results?search_query=Stevie+Wonder+Isn%27t+She+Lovely)
-- [Louis Armstrong — "What a Wonderful World"](https://www.youtube.com/results?search_query=Louis+Armstrong+What+a+Wonderful+World)
-- [Van Morrison — "Brown Eyed Girl"](https://www.youtube.com/results?search_query=Van+Morrison+Brown+Eyed+Girl)
-- [The Temptations — "My Girl"](https://www.youtube.com/results?search_query=The+Temptations+My+Girl)
-- [Billy Joel — "Lullabye (Goodnight, My Angel)"](https://www.youtube.com/results?search_query=Billy+Joel+Lullabye+Goodnight+My+Angel)
-- [Harry Chapin — "Cat's in the Cradle"](https://www.youtube.com/results?search_query=Harry+Chapin+Cat%27s+in+the+Cradle) *(every dad's gut-punch)*
-- [Bruce Springsteen — "Waitin' on a Sunny Day"](https://www.youtube.com/results?search_query=Bruce+Springsteen+Waitin%27+on+a+Sunny+Day)
-- [Nat King Cole — "Unforgettable"](https://www.youtube.com/results?search_query=Nat+King+Cole+Unforgettable)
+- [Cat Stevens — "Father and Son"](https://www.youtube.com/watch?v=P6zaCV4niKk)
+- [Jim Croce — "Time in a Bottle"](https://www.youtube.com/watch?v=Q29sOLG8xGE)
+- [Stevie Wonder — "Isn't She Lovely"](https://www.youtube.com/watch?v=oE56g61mW44)
+- [Louis Armstrong — "What a Wonderful World"](https://www.youtube.com/watch?v=rBrd_3VMC3c)
+- [Van Morrison — "Brown Eyed Girl"](https://www.youtube.com/watch?v=UfmkgQRmmeE)
+- [The Temptations — "My Girl"](https://www.youtube.com/watch?v=y3KJ7d2qBoA)
+- [Billy Joel — "Lullabye (Goodnight, My Angel)"](https://www.youtube.com/watch?v=dcnd55tLCv8)
+- [Harry Chapin — "Cat's in the Cradle"](https://www.youtube.com/watch?v=5u-KWa3tL-0) *(every dad's gut-punch)*
+- [Bruce Springsteen — "Waitin' on a Sunny Day"](https://www.youtube.com/watch?v=TiCxqhu9cio)
+- [Nat King Cole — "Unforgettable"](https://www.youtube.com/watch?v=JFyuOEovTOE)
 
-*What's the song that IS the Cicconetti family? The one Dad plays every holiday? The one that makes Mom roll her eyes? The one the grandkids associate with Grandpa's house? [Suggest a song.](https://docs.google.com/forms/d/e/YOUR_FORM_ID/viewform)*
+*What's the song that IS the Cicconetti family? The one Dad plays every holiday? The one that makes Mom roll her eyes? The one the grandkids associate with Grandpa's house? [Suggest a song →](https://docs.google.com/forms/d/e/YOUR_FORM_ID/viewform) — we'll add the best suggestions to the final playlist.*
 ::::
 
 ::: {.photo-grid}

@@ -7,22 +7,22 @@
 :::: {.callout-note title="Soundtrack: Brotherhood" collapse="true" appearance="simple"}
 The songs that veterans carry with them — some from the war, some from the homecoming, some from the long road of making sense of it all:
 
-{{< video https://www.youtube.com/embed/Qjzjhl-QztE >}}
+<div class="jukebox-player"></div>
 
 **Service & Homecoming** — *click any song to play*
 
-- [Bruce Springsteen — "Born in the U.S.A."](https://www.youtube.com/results?search_query=Bruce+Springsteen+Born+in+the+U.S.A.) *(the most misunderstood song in America — it's not a celebration, it's a reckoning)*
-- [Creedence Clearwater Revival — "Fortunate Son"](https://www.youtube.com/results?search_query=Creedence+Clearwater+Revival+Fortunate+Son)
-- [Dire Straits — "Brothers in Arms"](https://www.youtube.com/results?search_query=Dire+Straits+Brothers+in+Arms)
-- [The Animals — "We Gotta Get Out of This Place"](https://www.youtube.com/results?search_query=The+Animals+We+Gotta+Get+Out+of+This+Place)
-- [Johnny Cash — "Ragged Old Flag"](https://www.youtube.com/results?search_query=Johnny+Cash+Ragged+Old+Flag)
-- [Lee Greenwood — "God Bless the U.S.A."](https://www.youtube.com/results?search_query=Lee+Greenwood+God+Bless+the+U.S.A.)
-- [Simon & Garfunkel — "The Sound of Silence"](https://www.youtube.com/results?search_query=Simon+Garfunkel+The+Sound+of+Silence) / [Simon & Garfunkel — "Bridge Over Troubled Water"](https://www.youtube.com/results?search_query=Simon+Garfunkel+Bridge+Over+Troubled+Water)
-- [Bob Dylan — "Blowin' in the Wind"](https://www.youtube.com/results?search_query=Bob+Dylan+Blowin%27+in+the+Wind)
-- [Bruce Springsteen — "Born to Run"](https://www.youtube.com/results?search_query=Bruce+Springsteen+Born+to+Run) *(every Jersey vet's anthem)*
-- [Billy Joel — "Goodnight Saigon"](https://www.youtube.com/results?search_query=Billy+Joel+Goodnight+Saigon) *(and we would all go down together)*
+- [Bruce Springsteen — "Born in the U.S.A."](https://www.youtube.com/watch?v=EPhWR4d3FJQ) *(the most misunderstood song in America — it's not a celebration, it's a reckoning)*
+- [Dire Straits — "Brothers in Arms"](https://www.youtube.com/watch?v=jhdFe3evXpk)
+- [Johnny Cash — "Ragged Old Flag"](https://www.youtube.com/watch?v=XfzJ8UBr-c0)
+- [Lee Greenwood — "God Bless the U.S.A."](https://www.youtube.com/watch?v=-KoXt9pZLGM)
+- [Simon & Garfunkel — "The Sound of Silence"](https://www.youtube.com/watch?v=4fWyzwo1xg0) / [Simon & Garfunkel — "Bridge Over Troubled Water"](https://www.youtube.com/watch?v=4G-YQA_bsOU)
+- [Bob Dylan — "Blowin' in the Wind"](https://www.youtube.com/watch?v=MMFj8uDubsE)
+- [Edwin Starr — "War"](https://www.youtube.com/watch?v=hZJRJpbGkG4) *(what is it good for?)*
+- [Marvin Gaye — "What's Going On"](https://www.youtube.com/watch?v=H-kA3UtBj4M)
+- [Bruce Springsteen — "The Rising"](https://www.youtube.com/watch?v=BDbJhvRrJak)
+- [Billy Joel — "Goodnight Saigon"](https://www.youtube.com/watch?v=Qjzjhl-QztE) *(and we would all go down together)*
 
-*Veterans of Chapter 12 — what song hits different when you're with the guys? Dad — is there a song that takes you back? [Suggest a song.](https://docs.google.com/forms/d/e/YOUR_FORM_ID/viewform)*
+*Veterans of Chapter 12 — what song hits different when you're with the guys? Dad — is there a song that takes you back? [Suggest a song →](https://docs.google.com/forms/d/e/YOUR_FORM_ID/viewform) — we'll add the best suggestions to the final playlist.*
 ::::
 
 ::: {.callout-note title="The Long Road to Recognition: Vietnam Veterans in America" collapse="true"}

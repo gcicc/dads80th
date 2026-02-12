@@ -7,21 +7,20 @@
 :::: {.callout-note title="Soundtrack: The Jersey Years (1970s–1990s)" collapse="true" appearance="simple"}
 Vic was a school administrator in Monmouth County during the golden age of Jersey rock. These artists weren't just on the radio — they were playing down the road at the Stone Pony in Asbury Park, Vic's own school district:
 
-{{< video https://www.youtube.com/embed/6vQpW9XRiyM >}}
+<div class="jukebox-player"></div>
 
 **Bruce, Billy, and the Boys** — *click any song to play*
 
-- Bruce Springsteen — [Bruce Springsteen — "Born to Run"](https://www.youtube.com/results?search_query=Bruce+Springsteen+Born+to+Run) / [Bruce Springsteen — "Thunder Road"](https://www.youtube.com/results?search_query=Bruce+Springsteen+Thunder+Road) / [Bruce Springsteen — "Glory Days"](https://www.youtube.com/results?search_query=Bruce+Springsteen+Glory+Days) / [Bruce Springsteen — "My Hometown"](https://www.youtube.com/results?search_query=Bruce+Springsteen+My+Hometown)
-- Tom Petty — [Tom Petty — "American Girl"](https://www.youtube.com/results?search_query=Tom+Petty+American+Girl) / [Tom Petty — "Free Fallin'"](https://www.youtube.com/results?search_query=Tom+Petty+Free+Fallin) / [Tom Petty — "Running Down a Dream"](https://www.youtube.com/results?search_query=Tom+Petty+Running+Down+a+Dream) / [Tom Petty — "I Won't Back Down"](https://www.youtube.com/results?search_query=Tom+Petty+I+Won%27t+Back+Down)
-- Billy Joel — [Billy Joel — "Piano Man"](https://www.youtube.com/results?search_query=Billy+Joel+Piano+Man) / [Billy Joel — "Scenes from an Italian Restaurant"](https://www.youtube.com/results?search_query=Billy+Joel+Scenes+from+an+Italian+Restaurant) *(come on, it's perfect)* / [Billy Joel — "My Life"](https://www.youtube.com/results?search_query=Billy+Joel+My+Life)
-- Bon Jovi — [Bon Jovi — "Livin' on a Prayer"](https://www.youtube.com/results?search_query=Bon+Jovi+Livin+on+a+Prayer) / [Bon Jovi — "Wanted Dead or Alive"](https://www.youtube.com/results?search_query=Bon+Jovi+Wanted+Dead+or+Alive) *(Jersey boys)*
-- Bob Seger — [Bob Seger — "Old Time Rock and Roll"](https://www.youtube.com/results?search_query=Bob+Seger+Old+Time+Rock+and+Roll) / [Bob Seger — "Night Moves"](https://www.youtube.com/results?search_query=Bob+Seger+Night+Moves)
-- Eagles — [Eagles — "Hotel California"](https://www.youtube.com/results?search_query=Eagles+Hotel+California) / [Eagles — "Take It Easy"](https://www.youtube.com/results?search_query=Eagles+Take+It+Easy)
-- Fleetwood Mac — [Fleetwood Mac — "Dreams"](https://www.youtube.com/results?search_query=Fleetwood+Mac+Dreams) / [Fleetwood Mac — "Go Your Own Way"](https://www.youtube.com/results?search_query=Fleetwood+Mac+Go+Your+Own+Way)
-- Steely Dan — [Steely Dan — "Reelin' in the Years"](https://www.youtube.com/results?search_query=Steely+Dan+Reelin+in+the+Years) / [Steely Dan — "Do It Again"](https://www.youtube.com/results?search_query=Steely+Dan+Do+It+Again)
-- The E Street Band — anything and everything
+- [Bruce Springsteen — "Born to Run"](https://www.youtube.com/watch?v=IxuThNgl3YA) / [Bruce Springsteen — "Thunder Road"](https://www.youtube.com/watch?v=UDIDawmeeI0) / [Bruce Springsteen — "Glory Days"](https://www.youtube.com/watch?v=6vQpW9XRiyM) / [Bruce Springsteen — "My Hometown"](https://www.youtube.com/watch?v=77gKSp8WoRg)
+- [Tom Petty — "American Girl"](https://www.youtube.com/watch?v=8v8-RSyuUeE) / [Tom Petty — "Free Fallin'"](https://www.youtube.com/watch?v=1lWJXDG2i0A) / [Tom Petty — "Running Down a Dream"](https://www.youtube.com/watch?v=Y1D3a5eDJIs) / [Tom Petty — "I Won't Back Down"](https://www.youtube.com/watch?v=nvlTJrNJ5lA)
+- [Billy Joel — "Piano Man"](https://www.youtube.com/watch?v=gxEPV4kolz0) / [Billy Joel — "Scenes from an Italian Restaurant"](https://www.youtube.com/watch?v=izzM9LXqP-U) *(come on, it's perfect)* / [Billy Joel — "My Life"](https://www.youtube.com/watch?v=HVX80UpMPDI)
+- [Bon Jovi — "Livin' on a Prayer"](https://www.youtube.com/watch?v=lDK9QqIzhwk) / [Bon Jovi — "Wanted Dead or Alive"](https://www.youtube.com/watch?v=SRvCvsRp5ho) *(Jersey boys)*
+- [Bob Seger — "Old Time Rock and Roll"](https://www.youtube.com/watch?v=W1LsRShUPtY) / [Bob Seger — "Night Moves"](https://www.youtube.com/watch?v=xH7cSSKnkL4)
+- [Eagles — "Hotel California"](https://www.youtube.com/watch?v=dLl4PZtxia8) / [Eagles — "Take It Easy"](https://www.youtube.com/watch?v=AaBw37-nWaY)
+- [Fleetwood Mac — "Dreams"](https://www.youtube.com/watch?v=Y3ywicffOj4) / [Fleetwood Mac — "Go Your Own Way"](https://www.youtube.com/watch?v=oiosqtFLBBA)
+- [Steely Dan — "Reelin' in the Years"](https://www.youtube.com/watch?v=91XTZ92zs2w) / [Steely Dan — "Do It Again"](https://www.youtube.com/watch?v=aQnW-MxAU6U)
 
-*What blasted out of the family station wagon? What song did Dad crank up when he thought nobody was listening? [Suggest a song.](https://docs.google.com/forms/d/e/YOUR_FORM_ID/viewform)*
+*What blasted out of the family station wagon? What song did Dad crank up when he thought nobody was listening? [Suggest a song →](https://docs.google.com/forms/d/e/YOUR_FORM_ID/viewform) — we'll add the best suggestions to the final playlist.*
 ::::
 
 ![Thanksgiving 1986, Bayonne — #62 after the game.](../images/family/Thanksgiving%201986%20Bayonne%2036%20Marist%200001.jpg){width=60% fig-align="center"}

@@ -18,8 +18,7 @@
   --era-accent: #2F4F4F;
   --era-bg: #FEFEFE;
   --era-bg-tint: #f5e6e6;
-  --era-banner-from: #8B0000;
-  --era-banner-to: #DAA520;
+  --era-banner: linear-gradient(135deg, #8B0000 0%, #DAA520 100%);
 }
 
 body.era-home {
@@ -27,8 +26,7 @@ body.era-home {
   --era-secondary: #DAA520;
   --era-bg: #FFF8F0;
   --era-bg-tint: #fdf0e0;
-  --era-banner-from: #8B0000;
-  --era-banner-to: #DAA520;
+  --era-banner: linear-gradient(135deg, #8B0000 0%, #DAA520 100%);
   --heading-font: 'Playfair Display', Georgia, serif;
 }
 
@@ -38,8 +36,7 @@ body.era-doowop {
   --era-accent: #F0E68C;
   --era-bg: #FFF8F0;
   --era-bg-tint: #e0f5f5;
-  --era-banner-from: #008B8B;
-  --era-banner-to: #DB7093;
+  --era-banner: linear-gradient(135deg, #008B8B 0%, #DB7093 60%, #F0E68C 100%);
   --heading-font: 'Lobster Two', cursive;
 }
 
@@ -49,8 +46,7 @@ body.era-military {
   --era-accent: #DAA520;
   --era-bg: #F5F0E8;
   --era-bg-tint: #eae5d8;
-  --era-banner-from: #556B2F;
-  --era-banner-to: #DAA520;
+  --era-banner: linear-gradient(135deg, #556B2F 0%, #C3B091 50%, #DAA520 100%);
   --heading-font: 'Black Ops One', sans-serif;
 }
 
@@ -60,8 +56,7 @@ body.era-summer-of-love {
   --era-accent: #FFC0CB;
   --era-bg: #FFF5F5;
   --era-bg-tint: #fce8e8;
-  --era-banner-from: #800020;
-  --era-banner-to: #FFD700;
+  --era-banner: linear-gradient(135deg, #800020 0%, #FFD700 50%, #FFC0CB 100%);
   --heading-font: 'Playfair Display', Georgia, serif;
 }
 
@@ -71,8 +66,7 @@ body.era-eighties {
   --era-accent: #FFD700;
   --era-bg: #F0F4F8;
   --era-bg-tint: #dce8f5;
-  --era-banner-from: #0056A0;
-  --era-banner-to: #FFD700;
+  --era-banner: linear-gradient(135deg, #0056A0 0%, #CC0000 50%, #FFD700 100%);
   --heading-font: 'Oswald', sans-serif;
 }
 
@@ -82,8 +76,7 @@ body.era-italian {
   --era-accent: #DAA520;
   --era-bg: #FDF5E6;
   --era-bg-tint: #f5e6d0;
-  --era-banner-from: #8B0000;
-  --era-banner-to: #DAA520;
+  --era-banner: linear-gradient(135deg, #8B0000 0%, #556B2F 50%, #DAA520 100%);
   --heading-font: 'Playfair Display', Georgia, serif;
 }
 
@@ -93,8 +86,7 @@ body.era-brotherhood {
   --era-accent: #CD7F32;
   --era-bg: #F0F2F5;
   --era-bg-tint: #dde3ec;
-  --era-banner-from: #1B3A5C;
-  --era-banner-to: #CD7F32;
+  --era-banner: linear-gradient(135deg, #1B3A5C 0%, #228B22 50%, #CD7F32 100%);
   --heading-font: 'Black Ops One', sans-serif;
 }
 
@@ -104,8 +96,7 @@ body.era-family {
   --era-accent: #F4A460;
   --era-bg: #FFFAF0;
   --era-bg-tint: #f5ecd8;
-  --era-banner-from: #B8860B;
-  --era-banner-to: #6495ED;
+  --era-banner: linear-gradient(135deg, #B8860B 0%, #6495ED 50%, #F4A460 100%);
   --heading-font: 'Quicksand', sans-serif;
 }
 
@@ -115,8 +106,7 @@ body.era-golden {
   --era-accent: #708090;
   --era-bg: #FFF8E7;
   --era-bg-tint: #f5ecd0;
-  --era-banner-from: #B8860B;
-  --era-banner-to: #722F37;
+  --era-banner: linear-gradient(135deg, #B8860B 0%, #722F37 100%);
   --heading-font: 'Quicksand', sans-serif;
 }
 
@@ -126,8 +116,7 @@ body.era-celebration {
   --era-accent: #FF6347;
   --era-bg: #FFF8F0;
   --era-bg-tint: #fde8d8;
-  --era-banner-from: #8B0000;
-  --era-banner-to: #FFD700;
+  --era-banner: linear-gradient(135deg, #8B0000 0%, #FFD700 50%, #FF6347 100%);
   --heading-font: 'Playfair Display', Georgia, serif;
 }
 
@@ -142,9 +131,9 @@ body.era-celebration {
   height: 4px;
   width: 0%;
   background: var(--era-primary) !important;
-  z-index: 99999;
+  z-index: 9999;
   transition: width 0.1s ease-out;
-  box-shadow: 0 1px 4px rgba(0,0,0,0.3);
+  box-shadow: 0 1px 4px rgba(0,0,0,0.2);
 }
 
 /* ============================================================
@@ -154,8 +143,9 @@ body.era-celebration {
 body {
   font-family: var(--body-font) !important;
   color: var(--base-text) !important;
-  line-height: 1.75 !important;
+  line-height: 1.75;
   background-color: var(--era-bg) !important;
+  transition: background-color 0.3s ease;
 }
 
 #quarto-document-content {
@@ -171,12 +161,12 @@ body {
 main.content h1 {
   font-family: var(--heading-font) !important;
   color: var(--era-primary) !important;
-  font-size: 2.4em !important;
-  line-height: 1.2 !important;
-  margin-top: 0.5em !important;
-  margin-bottom: 0.3em !important;
-  padding-bottom: 0.3em !important;
-  border-bottom: 3px solid var(--era-primary) !important;
+  font-size: 2.4em;
+  line-height: 1.2;
+  margin-top: 0.5em;
+  margin-bottom: 0.3em;
+  padding-bottom: 0.3em;
+  border-bottom: 3px solid var(--era-primary);
 }
 
 /* Section headers */
@@ -184,27 +174,27 @@ main.content h1 {
 main.content h2 {
   font-family: var(--heading-font) !important;
   color: var(--era-primary) !important;
-  font-size: 1.7em !important;
-  margin-top: 1.8em !important;
-  margin-bottom: 0.5em !important;
-  padding-bottom: 0.2em !important;
-  border-bottom: 1px solid var(--era-secondary) !important;
+  font-size: 1.7em;
+  margin-top: 1.8em;
+  margin-bottom: 0.5em;
+  padding-bottom: 0.2em;
+  border-bottom: 1px solid var(--era-secondary);
 }
 
 #quarto-document-content h3,
 main.content h3 {
   font-family: var(--heading-font) !important;
   color: var(--era-primary) !important;
-  font-size: 1.35em !important;
-  margin-top: 1.5em !important;
+  font-size: 1.35em;
+  margin-top: 1.5em;
 }
 
 #quarto-document-content h4,
 main.content h4 {
   font-family: var(--heading-font) !important;
   color: var(--era-secondary) !important;
-  font-size: 1.15em !important;
-  margin-top: 1.3em !important;
+  font-size: 1.15em;
+  margin-top: 1.3em;
 }
 
 /* Block quotes — Vic's emails */
@@ -212,8 +202,8 @@ main.content h4 {
 main.content blockquote {
   border-left: 4px solid var(--era-primary) !important;
   background: var(--era-bg-tint) !important;
-  padding: 1em 1.5em !important;
-  margin: 1.5em 0 !important;
+  padding: 1em 1.5em;
+  margin: 1.5em 0;
   font-style: italic;
   border-radius: 0 6px 6px 0;
 }
@@ -227,15 +217,15 @@ main.content blockquote {
    ============================================================ */
 
 .chapter-epigraph {
-  background: linear-gradient(135deg, var(--era-banner-from), var(--era-banner-to)) !important;
+  background: var(--era-banner);
   color: white !important;
-  padding: 2em 2.5em !important;
-  margin: -1em -1em 2em -1em !important;
+  padding: 2em 2.5em;
+  margin: -1em -1em 2em -1em;
   border-left: none !important;
-  border-radius: 0 0 12px 12px !important;
-  font-size: 1.15em !important;
+  border-radius: 0 0 12px 12px;
+  font-size: 1.15em;
   font-style: italic;
-  line-height: 1.6 !important;
+  line-height: 1.6;
   box-shadow: 0 4px 12px rgba(0,0,0,0.15);
 }
 
@@ -332,10 +322,11 @@ body.era-golden #quarto-document-content img:not(.sidebar-logo) {
 .love-dad {
   font-family: var(--handwriting-font) !important;
   color: var(--era-primary) !important;
-  font-size: 2.2em !important;
+  font-size: 2em;
   display: block;
   text-align: right;
   margin: 1.5em 2em 1em 0;
+  opacity: 0.9;
 }
 
 /* ============================================================
@@ -347,7 +338,7 @@ div.callout-note {
 }
 
 div.callout-note .callout-header {
-  background-color: var(--era-bg-tint) !important;
+  background-color: color-mix(in srgb, var(--era-primary) 10%, white) !important;
 }
 
 div.callout-tip {
@@ -372,7 +363,7 @@ div.callout-note table td {
    ============================================================ */
 
 div.callout-note[title*="Soundtrack"] {
-  background: var(--era-bg-tint) !important;
+  background: linear-gradient(180deg, color-mix(in srgb, var(--era-primary) 8%, white) 0%, white 100%) !important;
   border-left-width: 5px !important;
   border-radius: 0 8px 8px 0;
 }
@@ -390,16 +381,91 @@ div.callout-note[title*="Soundtrack"] {
   border-radius: 12px;
 }
 
+/* Jukebox player — responsive YouTube embed container */
+.jukebox-wrapper {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; /* 16:9 aspect ratio */
+  height: 0;
+  overflow: hidden;
+  border-radius: 8px;
+  margin: 1em 0 0.5em 0;
+  background: #000;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
+
+.jukebox-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: 8px;
+}
+
+/* Jukebox controls — prev / play-all / next */
+.jukebox-controls {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+  margin: 0.5em 0 1em 0;
+  flex-wrap: wrap;
+}
+
+.jukebox-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3em;
+  padding: 0.4em 0.9em;
+  border: 2px solid var(--era-primary);
+  border-radius: 6px;
+  background: transparent;
+  color: var(--era-primary);
+  font-family: var(--body-font);
+  font-size: 0.85em;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s, transform 0.1s;
+}
+
+.jukebox-btn:hover {
+  background: var(--era-primary);
+  color: white;
+  transform: translateY(-1px);
+}
+
+.jukebox-btn.active {
+  background: var(--era-primary);
+  color: white;
+}
+
+.jukebox-track-info {
+  font-size: 0.85em;
+  color: #666;
+  margin-left: 0.5em;
+  font-family: var(--body-font);
+}
+
 /* Song links in playlists */
 div.callout-note[title*="Soundtrack"] a {
   color: var(--era-primary) !important;
   text-decoration: none !important;
   border-bottom: 1px dotted var(--era-primary);
-  transition: border-bottom-color 0.2s;
+  transition: all 0.2s;
 }
 
 div.callout-note[title*="Soundtrack"] a:hover {
   border-bottom: 2px solid var(--era-primary);
+}
+
+/* Now-playing highlight for current track */
+div.callout-note[title*="Soundtrack"] a.now-playing {
+  background: var(--era-bg-tint);
+  border-bottom: 2px solid var(--era-primary);
+  padding: 0.1em 0.3em;
+  border-radius: 3px;
+  font-weight: 700;
 }
 
 /* ============================================================
@@ -411,17 +477,19 @@ div.callout-note[title*="Soundtrack"] a:hover {
 }
 
 .sidebar-item-text {
-  transition: color 0.2s;
+  transition: color 0.2s, padding-left 0.2s;
 }
 
 .sidebar-item-text:hover {
   color: var(--era-primary) !important;
+  padding-left: 0.3em;
 }
 
 /* Active sidebar item */
 .sidebar-navigation .sidebar-item .sidebar-item-text.active {
   color: var(--era-primary) !important;
   font-weight: 700 !important;
+  border-left: 3px solid var(--era-primary);
 }
 
 /* ============================================================
@@ -431,7 +499,7 @@ div.callout-note[title*="Soundtrack"] a:hover {
 .form-embed {
   margin: 2em 0;
   padding: 1.5em;
-  background: var(--era-bg-tint) !important;
+  background: color-mix(in srgb, var(--era-bg) 90%, var(--era-primary));
   border-radius: 12px;
   border: 1px solid var(--era-secondary);
 }
@@ -450,14 +518,14 @@ div.callout-note[title*="Soundtrack"] a:hover {
   text-decoration: none !important;
   font-weight: bold;
   font-size: 1.05em;
-  transition: transform 0.1s;
+  transition: transform 0.1s, background-color 0.2s;
   box-shadow: 0 2px 6px rgba(0,0,0,0.15);
 }
 
 .btn-primary:hover {
   transform: translateY(-1px);
   box-shadow: 0 4px 12px rgba(0,0,0,0.2);
-  opacity: 0.9;
+  background-color: color-mix(in srgb, var(--era-primary) 80%, black) !important;
 }
 
 /* ============================================================
@@ -515,7 +583,6 @@ blockquote.pull-quote::before {
   left: 0.1em;
   font-family: Georgia, serif;
   line-height: 1;
-  opacity: 0.4;
 }
 
 /* ============================================================
@@ -533,6 +600,15 @@ blockquote.pull-quote::before {
    ============================================================ */
 
 @media (max-width: 768px) {
+  .jukebox-controls {
+    justify-content: center;
+  }
+
+  .jukebox-btn {
+    padding: 0.35em 0.7em;
+    font-size: 0.8em;
+  }
+
   .chapter-epigraph {
     padding: 1.5em !important;
     margin: -0.5em -0.5em 1.5em -0.5em !important;
@@ -547,6 +623,12 @@ blockquote.pull-quote::before {
   #quarto-document-content h2,
   main.content h2 {
     font-size: 1.4em !important;
+  }
+
+  #quarto-document-content blockquote,
+  main.content blockquote {
+    padding: 0.8em 1em;
+    margin: 1em 0;
   }
 
   .photo-grid {
@@ -577,7 +659,9 @@ blockquote.pull-quote::before {
    ============================================================ */
 
 @media print {
-  #reading-progress {
+  #reading-progress,
+  .jukebox-wrapper,
+  .jukebox-controls {
     display: none !important;
   }
 

@@ -7,20 +7,22 @@
 :::: {.callout-note title="Soundtrack: The Restaurant" collapse="true" appearance="simple"}
 Every Italian restaurant has a soundtrack. The kitchen runs on rhythm. The dining room runs on mood. This is what probably filled the Cicconetti restaurant:
 
-{{< video https://www.youtube.com/embed/OnFlx2Lnr9Q >}}
+<div class="jukebox-player"></div>
 
 **Kitchen & Dining Room** — *click any song to play*
 
-- [Dean Martin — "That's Amore"](https://www.youtube.com/results?search_query=Dean+Martin+That%27s+Amore) / [Dean Martin — "Ain't That a Kick in the Head"](https://www.youtube.com/results?search_query=Dean+Martin+Ain%27t+That+a+Kick+in+the+Head)
-- [Louis Prima — "Just a Gigolo"](https://www.youtube.com/results?search_query=Louis+Prima+Just+a+Gigolo) / [Louis Prima — "Buona Sera"](https://www.youtube.com/results?search_query=Louis+Prima+Buona+Sera) / [Louis Prima — "Jump, Jive an' Wail"](https://www.youtube.com/results?search_query=Louis+Prima+Jump+Jive+an%27+Wail)
-- [Frank Sinatra — "New York, New York"](https://www.youtube.com/results?search_query=Frank+Sinatra+New+York+New+York) / [Frank Sinatra — "The Way You Look Tonight"](https://www.youtube.com/results?search_query=Frank+Sinatra+The+Way+You+Look+Tonight)
-- [Tony Bennett — "I Left My Heart in San Francisco"](https://www.youtube.com/results?search_query=Tony+Bennett+I+Left+My+Heart+in+San+Francisco) / [Tony Bennett — "The Good Life"](https://www.youtube.com/results?search_query=Tony+Bennett+The+Good+Life)
-- [Bobby Darin — "Beyond the Sea"](https://www.youtube.com/results?search_query=Bobby+Darin+Beyond+the+Sea) / [Bobby Darin — "Mack the Knife"](https://www.youtube.com/results?search_query=Bobby+Darin+Mack+the+Knife)
-- [Rosemary Clooney — "Mambo Italiano"](https://www.youtube.com/results?search_query=Rosemary+Clooney+Mambo+Italiano)
-- [Harry Connick Jr. — "It Had to Be You"](https://www.youtube.com/results?search_query=Harry+Connick+Jr+It+Had+to+Be+You)
-- [Michael Bublé — "Sway"](https://www.youtube.com/results?search_query=Michael+Bubl%C3%A9+Sway) / [Michael Bublé — "Feeling Good"](https://www.youtube.com/results?search_query=Michael+Bubl%C3%A9+Feeling+Good)
+- [Dean Martin — "Ain't That a Kick in the Head"](https://www.youtube.com/watch?v=1ERI1GoZ4NA)
+- [Louis Prima — "Just a Gigolo"](https://www.youtube.com/watch?v=QSGVD2DgWy8) / [Louis Prima — "Buona Sera"](https://www.youtube.com/watch?v=5CXZB-dIF0g) / [Louis Prima — "Jump, Jive an' Wail"](https://www.youtube.com/watch?v=5GlOE1YTPfY)
+- [Frank Sinatra — "New York, New York"](https://www.youtube.com/watch?v=TK0Vdb1RUCk) / [Frank Sinatra — "The Way You Look Tonight"](https://www.youtube.com/watch?v=gfW398PdTGM)
+- [Tony Bennett — "I Left My Heart in San Francisco"](https://www.youtube.com/watch?v=r6DUwMnDxEs) / [Tony Bennett — "The Good Life"](https://www.youtube.com/watch?v=cuP8Nmj-Yjg)
+- [Al Martino — "Speak Softly Love"](https://www.youtube.com/watch?v=ITF9ciOmsnE) *(The Godfather theme — every Italian restaurant had it)*
+- [Jerry Vale — "Al Di La"](https://www.youtube.com/watch?v=YBRDVaKGOi4)
+- [Connie Francis — "Mama"](https://www.youtube.com/watch?v=inlJyrvq4Rc)
+- [Rosemary Clooney — "Mambo Italiano"](https://www.youtube.com/watch?v=9prJXEhNhPA)
+- [Harry Connick Jr. — "It Had to Be You"](https://www.youtube.com/watch?v=_UnQOfPwZfs)
+- [Michael Buble — "Sway"](https://www.youtube.com/watch?v=xeMOO5EudYs) / [Michael Buble — "Feeling Good"](https://www.youtube.com/watch?v=Edwsf-8F3sI)
 
-*What actually played in the restaurant? Did Dad have a favorite he'd put on repeat? Did the kitchen staff have a different playlist than the dining room? [Suggest a song.](https://docs.google.com/forms/d/e/YOUR_FORM_ID/viewform)*
+*What actually played in the restaurant? Did Dad have a favorite he'd put on repeat? Did the kitchen staff have a different playlist than the dining room? [Suggest a song →](https://docs.google.com/forms/d/e/YOUR_FORM_ID/viewform) — we'll add the best suggestions to the final playlist.*
 ::::
 
 ::: {.callout-note title="Italian-American Food: From Survival to Identity" collapse="true"}

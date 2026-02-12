@@ -8,22 +8,22 @@
 :::: {.callout-note title="Soundtrack: Still Rocking at 80 (2000s–Today)" collapse="true" appearance="simple"}
 At 80, Vic's still going. Still shopping for air pistols, still hitting AC, still signing every email "Love DAD." Here's the soundtrack for a man who earned every note:
 
-{{< video https://www.youtube.com/embed/qQzdAsjWGPg >}}
+<div class="jukebox-player"></div>
 
 **The Victory Lap** — *click any song to play*
 
-- [Frank Sinatra — "My Way"](https://www.youtube.com/results?search_query=Frank+Sinatra+My+Way) *(the only possible closer)*
-- [Dean Martin — "Ain't That a Kick in the Head"](https://www.youtube.com/results?search_query=Dean+Martin+Ain%27t+That+a+Kick+in+the+Head)
-- [Bruce Springsteen — "Land of Hope and Dreams"](https://www.youtube.com/results?search_query=Bruce+Springsteen+Land+of+Hope+and+Dreams) / [Bruce Springsteen — "No Surrender"](https://www.youtube.com/results?search_query=Bruce+Springsteen+No+Surrender)
-- [Tom Petty — "I Won't Back Down"](https://www.youtube.com/results?search_query=Tom+Petty+I+Won%27t+Back+Down)
-- [Billy Joel — "Piano Man"](https://www.youtube.com/results?search_query=Billy+Joel+Piano+Man) / [Billy Joel — "Scenes from an Italian Restaurant"](https://www.youtube.com/results?search_query=Billy+Joel+Scenes+from+an+Italian+Restaurant)
-- [Elvis Presley — "Can't Help Falling in Love"](https://www.youtube.com/results?search_query=Elvis+Presley+Can%27t+Help+Falling+in+Love)
-- [Bob Seger — "Like a Rock"](https://www.youtube.com/results?search_query=Bob+Seger+Like+a+Rock)
-- [The Four Seasons — "December, 1963 (Oh, What a Night)"](https://www.youtube.com/results?search_query=The+Four+Seasons+December+1963+Oh+What+a+Night)
-- [Frank Sinatra — "The Best Is Yet to Come"](https://www.youtube.com/results?search_query=Frank+Sinatra+The+Best+Is+Yet+to+Come)
-- Whatever's playing at the Borgata right now
+- [Frank Sinatra — "My Way"](https://www.youtube.com/watch?v=w019MzRosmk) *(the only possible closer)*
+- [Dean Martin — "Ain't That a Kick in the Head"](https://www.youtube.com/watch?v=1ERI1GoZ4NA)
+- [Bruce Springsteen — "Land of Hope and Dreams"](https://www.youtube.com/watch?v=M2-y-3a9RPg) / [Bruce Springsteen — "No Surrender"](https://www.youtube.com/watch?v=tLeZ7EolBDE)
+- [Journey — "Don't Stop Believin'"](https://www.youtube.com/watch?v=1k8craCGpgs)
+- [Queen — "We Are the Champions"](https://www.youtube.com/watch?v=04854XqcfCY)
+- [Neil Diamond — "Sweet Caroline"](https://www.youtube.com/watch?v=ty1dwBCR6D0)
+- [Frank Sinatra — "Young at Heart"](https://www.youtube.com/watch?v=aZRn4auk4PQ)
+- [Bob Seger — "Like a Rock"](https://www.youtube.com/watch?v=fMIJuuk1SFs)
+- [The Four Seasons — "December, 1963 (Oh, What a Night)"](https://www.youtube.com/watch?v=mTUhnIY3oRM)
+- [Frank Sinatra — "The Best Is Yet to Come"](https://www.youtube.com/watch?v=mQIZ-Esbg_c)
 
-*What does Dad actually listen to these days? What station is the car radio stuck on? What song does he sing in the shower? [Suggest a song.](https://docs.google.com/forms/d/e/YOUR_FORM_ID/viewform)*
+*What does Dad actually listen to these days? What station is the car radio stuck on? What song does he sing in the shower? [Suggest a song →](https://docs.google.com/forms/d/e/YOUR_FORM_ID/viewform) — we'll add the best suggestions to the final playlist.*
 ::::
 
 ::: {.photo-grid}

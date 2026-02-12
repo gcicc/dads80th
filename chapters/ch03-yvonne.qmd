@@ -8,21 +8,21 @@
 :::: {.callout-note title="Soundtrack: August 20, 1967" collapse="true" appearance="simple"}
 Vic and Yvonne married during the Summer of Love. These songs were on the radio the week they said "I do" at Assumption Church:
 
-{{< video https://www.youtube.com/embed/_7xMfIp-irg >}}
+<div class="jukebox-player"></div>
 
 **The Wedding Year** — *click any song to play*
 
-- [Aretha Franklin — "Respect"](https://www.youtube.com/results?search_query=Aretha+Franklin+Respect) *(#1 that summer)*
-- [The Beatles — "All You Need Is Love"](https://www.youtube.com/results?search_query=The+Beatles+All+You+Need+Is+Love) *(released July '67)*
-- [The Righteous Brothers — "Unchained Melody"](https://www.youtube.com/results?search_query=The+Righteous+Brothers+Unchained+Melody)
-- [Percy Sledge — "When a Man Loves a Woman"](https://www.youtube.com/results?search_query=Percy+Sledge+When+a+Man+Loves+a+Woman)
-- [Ben E. King — "Stand By Me"](https://www.youtube.com/results?search_query=Ben+E.+King+Stand+By+Me)
-- [Etta James — "At Last"](https://www.youtube.com/results?search_query=Etta+James+At+Last)
-- [The Temptations — "My Girl"](https://www.youtube.com/results?search_query=The+Temptations+My+Girl)
-- [Sam Cooke — "You Send Me"](https://www.youtube.com/results?search_query=Sam+Cooke+You+Send+Me)
-- [Elvis Presley — "Can't Help Falling in Love"](https://www.youtube.com/results?search_query=Elvis+Presley+Can't+Help+Falling+in+Love)
+- [Aretha Franklin — "Respect"](https://www.youtube.com/watch?v=A134hShx_gw) *(#1 that summer)*
+- [The Beatles — "All You Need Is Love"](https://www.youtube.com/watch?v=_paPrw0gAUo) *(released July '67)*
+- [The Righteous Brothers — "Unchained Melody"](https://www.youtube.com/watch?v=Zv8czIoAw5w)
+- [Percy Sledge — "When a Man Loves a Woman"](https://www.youtube.com/watch?v=EYb84BDMbi0)
+- [Ben E. King — "Stand By Me"](https://www.youtube.com/watch?v=hwZNL7QVJjE)
+- [Etta James — "At Last"](https://www.youtube.com/watch?v=1qJU8G7gR_g)
+- [The Temptations — "My Girl"](https://www.youtube.com/watch?v=y3KJ7d2qBoA)
+- [Sam Cooke — "You Send Me"](https://www.youtube.com/watch?v=_y3VnMm53pc)
+- [Elvis Presley — "Can't Help Falling in Love"](https://www.youtube.com/watch?v=vGJTaP6anOU)
 
-*Mom & Dad — what was your first dance? What song was "yours"? Do you remember the music at the reception? [Suggest a song.](https://docs.google.com/forms/d/e/YOUR_FORM_ID/viewform)*
+*Mom & Dad — what was your first dance? What song was "yours"? Do you remember the music at the reception? [Suggest a song →](https://docs.google.com/forms/d/e/YOUR_FORM_ID/viewform) — we'll add the best suggestions to the final playlist.*
 ::::
 
 ## The Columns Merge

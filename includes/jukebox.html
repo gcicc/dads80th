@@ -1,0 +1,268 @@
+<!-- Jukebox — YouTube IFrame Player API integration for Soundtrack callouts -->
+<script>
+// Load YouTube IFrame API
+(function() {
+  if (window.YT && window.YT.Player) return;
+  var tag = document.createElement('script');
+  tag.src = 'https://www.youtube.com/iframe_api';
+  var first = document.getElementsByTagName('script')[0];
+  first.parentNode.insertBefore(tag, first);
+})();
+
+// Jukebox controller
+(function() {
+  'use strict';
+
+  var jukeboxes = [];
+
+  function extractVideoId(url) {
+    if (!url) return null;
+    var m = url.match(/[?&]v=([A-Za-z0-9_-]{11})/);
+    if (m) return m[1];
+    m = url.match(/youtu\.be\/([A-Za-z0-9_-]{11})/);
+    if (m) return m[1];
+    m = url.match(/embed\/([A-Za-z0-9_-]{11})/);
+    if (m) return m[1];
+    return null;
+  }
+
+  function Jukebox(callout) {
+    this.callout = callout;
+    this.playerDiv = callout.querySelector('.jukebox-player');
+    if (!this.playerDiv) return;
+
+    // Find all YouTube watch links inside this callout
+    this.links = [];
+    var allLinks = callout.querySelectorAll('a[href*="youtube.com/watch"]');
+    for (var i = 0; i < allLinks.length; i++) {
+      var vid = extractVideoId(allLinks[i].href);
+      if (vid) {
+        this.links.push({ el: allLinks[i], videoId: vid, title: allLinks[i].textContent.trim() });
+      }
+    }
+
+    if (this.links.length === 0) return;
+
+    this.currentIndex = 0;
+    this.playAllMode = false;
+    this.player = null;
+    this.ready = false;
+
+    this.buildControls();
+    this.wireLinks();
+
+    // Wrap the player div in a responsive container
+    // (YT API replaces the target div with an iframe, so the wrapper preserves the aspect-ratio CSS)
+    var wrapper = document.createElement('div');
+    wrapper.className = 'jukebox-wrapper';
+    this.playerDiv.parentNode.insertBefore(wrapper, this.playerDiv);
+    wrapper.appendChild(this.playerDiv);
+
+    // Unique ID for the player div (will be replaced by iframe)
+    this.playerId = 'jukebox-player-' + Math.random().toString(36).substr(2, 9);
+    this.playerDiv.id = this.playerId;
+
+    // Initialize player when API ready, or defer to callout expand
+    var self = this;
+    this.initAttempted = false;
+
+    // If the callout is already open, init immediately
+    var body = callout.querySelector('.callout-body-container');
+    if (body && body.style.display !== 'none' && body.offsetHeight > 0) {
+      this.initWhenReady();
+    } else {
+      // Watch for callout expand via MutationObserver
+      var observer = new MutationObserver(function(mutations) {
+        if (!self.initAttempted && self.playerDiv.offsetHeight > 0) {
+          self.initWhenReady();
+          observer.disconnect();
+        }
+      });
+      observer.observe(callout, { attributes: true, childList: true, subtree: true });
+      // Also listen for click on the callout header
+      var header = callout.querySelector('.callout-header');
+      if (header) {
+        header.addEventListener('click', function() {
+          setTimeout(function() {
+            if (!self.initAttempted && self.playerDiv.offsetHeight > 0) {
+              self.initWhenReady();
+            }
+          }, 300);
+        });
+      }
+    }
+  }
+
+  Jukebox.prototype.initWhenReady = function() {
+    if (this.initAttempted) return;
+    this.initAttempted = true;
+    var self = this;
+    if (window.YT && window.YT.Player) {
+      self.createPlayer();
+    } else {
+      // Wait for API
+      var oldReady = window.onYouTubeIframeAPIReady;
+      window.onYouTubeIframeAPIReady = function() {
+        if (oldReady) oldReady();
+        self.createPlayer();
+      };
+    }
+  };
+
+  Jukebox.prototype.createPlayer = function() {
+    var self = this;
+    this.player = new YT.Player(this.playerId, {
+      width: '100%',
+      height: '100%',
+      videoId: this.links[0].videoId,
+      playerVars: {
+        rel: 0,
+        modestbranding: 1,
+        playsinline: 1
+      },
+      events: {
+        onReady: function() {
+          self.ready = true;
+          self.highlightTrack(0);
+        },
+        onStateChange: function(event) {
+          if (event.data === YT.PlayerState.ENDED && self.playAllMode) {
+            self.next(true);
+          }
+        }
+      }
+    });
+  };
+
+  Jukebox.prototype.buildControls = function() {
+    var controls = document.createElement('div');
+    controls.className = 'jukebox-controls';
+
+    var prevBtn = document.createElement('button');
+    prevBtn.className = 'jukebox-btn jukebox-prev';
+    prevBtn.innerHTML = '&#9664; Prev';
+    prevBtn.setAttribute('aria-label', 'Previous track');
+
+    var playAllBtn = document.createElement('button');
+    playAllBtn.className = 'jukebox-btn jukebox-play-all';
+    playAllBtn.innerHTML = '&#9654; Play All';
+    playAllBtn.setAttribute('aria-label', 'Play all tracks');
+
+    var nextBtn = document.createElement('button');
+    nextBtn.className = 'jukebox-btn jukebox-next';
+    nextBtn.innerHTML = 'Next &#9654;';
+    nextBtn.setAttribute('aria-label', 'Next track');
+
+    var trackInfo = document.createElement('span');
+    trackInfo.className = 'jukebox-track-info';
+    trackInfo.textContent = '1 / ' + this.links.length;
+
+    controls.appendChild(prevBtn);
+    controls.appendChild(playAllBtn);
+    controls.appendChild(nextBtn);
+    controls.appendChild(trackInfo);
+
+    // Insert controls after the player div
+    this.playerDiv.parentNode.insertBefore(controls, this.playerDiv.nextSibling);
+    this.controlsEl = controls;
+    this.trackInfoEl = trackInfo;
+    this.playAllBtn = playAllBtn;
+
+    var self = this;
+    prevBtn.addEventListener('click', function(e) { e.preventDefault(); self.prev(); });
+    nextBtn.addEventListener('click', function(e) { e.preventDefault(); self.next(false); });
+    playAllBtn.addEventListener('click', function(e) {
+      e.preventDefault();
+      self.playAllMode = !self.playAllMode;
+      if (self.playAllMode) {
+        playAllBtn.innerHTML = '&#9632; Stop All';
+        playAllBtn.classList.add('active');
+        if (self.ready) self.player.playVideo();
+      } else {
+        playAllBtn.innerHTML = '&#9654; Play All';
+        playAllBtn.classList.remove('active');
+      }
+    });
+  };
+
+  Jukebox.prototype.wireLinks = function() {
+    var self = this;
+    for (var i = 0; i < this.links.length; i++) {
+      (function(index) {
+        self.links[index].el.addEventListener('click', function(e) {
+          e.preventDefault();
+          self.loadTrack(index, true);
+        });
+      })(i);
+    }
+  };
+
+  Jukebox.prototype.loadTrack = function(index, autoplay) {
+    if (index < 0 || index >= this.links.length) return;
+    this.currentIndex = index;
+    this.highlightTrack(index);
+    if (this.ready && this.player) {
+      if (autoplay) {
+        this.player.loadVideoById(this.links[index].videoId);
+      } else {
+        this.player.cueVideoById(this.links[index].videoId);
+      }
+    }
+  };
+
+  Jukebox.prototype.highlightTrack = function(index) {
+    for (var i = 0; i < this.links.length; i++) {
+      this.links[i].el.classList.remove('now-playing');
+    }
+    if (this.links[index]) {
+      this.links[index].el.classList.add('now-playing');
+    }
+    if (this.trackInfoEl) {
+      this.trackInfoEl.textContent = (index + 1) + ' / ' + this.links.length;
+    }
+  };
+
+  Jukebox.prototype.next = function(autoplay) {
+    var nextIndex = this.currentIndex + 1;
+    if (nextIndex >= this.links.length) {
+      // End of list
+      this.playAllMode = false;
+      if (this.playAllBtn) {
+        this.playAllBtn.innerHTML = '&#9654; Play All';
+        this.playAllBtn.classList.remove('active');
+      }
+      return;
+    }
+    this.loadTrack(nextIndex, autoplay || this.playAllMode);
+  };
+
+  Jukebox.prototype.prev = function() {
+    var prevIndex = this.currentIndex - 1;
+    if (prevIndex < 0) prevIndex = 0;
+    this.loadTrack(prevIndex, true);
+  };
+
+  // Initialize all jukeboxes on page load
+  function initJukeboxes() {
+    var callouts = document.querySelectorAll('.callout-note');
+    for (var i = 0; i < callouts.length; i++) {
+      var title = callouts[i].querySelector('.callout-title-inner');
+      if (!title) title = callouts[i].querySelector('.callout-header');
+      var titleText = '';
+      if (title) titleText = title.textContent || title.innerText || '';
+      if (titleText.indexOf('Soundtrack') !== -1) {
+        var jb = new Jukebox(callouts[i]);
+        if (jb.links && jb.links.length > 0) {
+          jukeboxes.push(jb);
+        }
+      }
+    }
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initJukeboxes);
+  } else {
+    initJukeboxes();
+  }
+})();
+</script>

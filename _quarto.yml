@@ -41,61 +41,62 @@ format:
     lightbox: true
     number-sections: false
     include-in-header:
-      text: |
-        <meta name="robots" content="noindex, nofollow">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Caveat:wght@400;700&family=Lobster+Two:ital,wght@0,400;0,700;1,400&family=Lora:ital,wght@0,400;0,700;1,400&family=Oswald:wght@400;600;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Quicksand:wght@400;600;700&display=swap" rel="stylesheet">
+      - text: |
+          <meta name="robots" content="noindex, nofollow">
+          <link rel="preconnect" href="https://fonts.googleapis.com">
+          <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+          <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Caveat:wght@400;700&family=Lobster+Two:ital,wght@0,400;0,700;1,400&family=Lora:ital,wght@0,400;0,700;1,400&family=Oswald:wght@400;600;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Quicksand:wght@400;600;700&display=swap" rel="stylesheet">
     include-after-body:
-      text: |
-        <script>
-        // Era theme detection — applies chapter-specific CSS classes to body
-        (function() {
-          var eraMap = {
-            'ch01-roots':        'era-doowop',
-            'ch02-service':      'era-military',
-            'ch03-yvonne':       'era-summer-of-love',
-            'ch04-education':    'era-eighties',
-            'ch05-entrepreneur': 'era-italian',
-            'ch06-veterans':     'era-brotherhood',
-            'ch07-family':       'era-family',
-            'ch08-golden-years': 'era-golden',
-            'ch09-voices':       'era-celebration',
-            'ch10-happy-80th':   'era-celebration',
-            'timeline':          'era-golden',
-            'family-tree':       'era-family',
-            'correct-the-record':'era-celebration'
-          };
-          var path = window.location.pathname;
-          for (var slug in eraMap) {
-            if (path.indexOf(slug) !== -1) {
-              document.body.classList.add(eraMap[slug]);
-              break;
+      - text: |
+          <script>
+          // Era theme detection — applies chapter-specific CSS classes to body
+          (function() {
+            var eraMap = {
+              'ch01-roots':        'era-doowop',
+              'ch02-service':      'era-military',
+              'ch03-yvonne':       'era-summer-of-love',
+              'ch04-education':    'era-eighties',
+              'ch05-entrepreneur': 'era-italian',
+              'ch06-veterans':     'era-brotherhood',
+              'ch07-family':       'era-family',
+              'ch08-golden-years': 'era-golden',
+              'ch09-voices':       'era-celebration',
+              'ch10-happy-80th':   'era-celebration',
+              'timeline':          'era-golden',
+              'family-tree':       'era-family',
+              'correct-the-record':'era-celebration'
+            };
+            var path = window.location.pathname;
+            for (var slug in eraMap) {
+              if (path.indexOf(slug) !== -1) {
+                document.body.classList.add(eraMap[slug]);
+                break;
+              }
             }
-          }
-          if (path.endsWith('/') || path.endsWith('index.html')) {
-            document.body.classList.add('era-home');
-          }
-        })();
-        </script>
-        <script>
-        // Reading progress bar
-        (function() {
-          var bar = document.createElement('div');
-          bar.id = 'reading-progress';
-          bar.setAttribute('aria-hidden', 'true');
-          document.body.prepend(bar);
-          function updateProgress() {
-            var scrollTop = window.scrollY;
-            var docHeight = document.documentElement.scrollHeight - window.innerHeight;
-            var progress = docHeight > 0 ? (scrollTop / docHeight) * 100 : 0;
-            bar.style.width = progress + '%';
-          }
-          window.addEventListener('scroll', updateProgress, { passive: true });
-          window.addEventListener('resize', updateProgress, { passive: true });
-          updateProgress();
-        })();
-        </script>
+            if (path.endsWith('/') || path.endsWith('index.html')) {
+              document.body.classList.add('era-home');
+            }
+          })();
+          </script>
+          <script>
+          // Reading progress bar
+          (function() {
+            var bar = document.createElement('div');
+            bar.id = 'reading-progress';
+            bar.setAttribute('aria-hidden', 'true');
+            document.body.prepend(bar);
+            function updateProgress() {
+              var scrollTop = window.scrollY;
+              var docHeight = document.documentElement.scrollHeight - window.innerHeight;
+              var progress = docHeight > 0 ? (scrollTop / docHeight) * 100 : 0;
+              bar.style.width = progress + '%';
+            }
+            window.addEventListener('scroll', updateProgress, { passive: true });
+            window.addEventListener('resize', updateProgress, { passive: true });
+            updateProgress();
+          })();
+          </script>
+      - file: includes/jukebox.html
     repo-url: https://github.com/gcicc/dads80th
     repo-actions: [issue]
   pdf:

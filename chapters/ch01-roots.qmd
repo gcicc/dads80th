@@ -7,29 +7,29 @@
 :::: {.callout-note title="Soundtrack: Bayonne Doo-Wop & The Crooners (1950s–early '60s)" collapse="true" appearance="simple"}
 Vic grew up in Bayonne in the 1950s — fifteen minutes from Newark, the doo-wop capital of the world. This is what was coming out of every transistor radio, corner candy store, and church dance in his neighborhood:
 
-{{< video https://www.youtube.com/embed/j6LCyt3j8kU >}}
+<div class="jukebox-player"></div>
 
 **Doo-Wop (the sound of Bayonne)** — *click any song to play*
 
-- [Dion & The Belmonts — "A Teenager in Love"](https://www.youtube.com/results?search_query=Dion+Belmonts+A+Teenager+in+Love) / ["Runaround Sue"](https://www.youtube.com/results?search_query=Dion+Runaround+Sue)
-- [The Four Seasons — "Sherry"](https://www.youtube.com/results?search_query=Four+Seasons+Sherry) / ["Big Girls Don't Cry"](https://www.youtube.com/results?search_query=Four+Seasons+Big+Girls+Dont+Cry) *(Frankie Valli = Jersey royalty)*
-- [The Drifters — "Under the Boardwalk"](https://www.youtube.com/results?search_query=Drifters+Under+the+Boardwalk) *(the Jersey Shore anthem)*
-- [The Flamingos — "I Only Have Eyes for You"](https://www.youtube.com/results?search_query=Flamingos+I+Only+Have+Eyes+for+You)
-- [The Platters — "The Great Pretender"](https://www.youtube.com/results?search_query=Platters+Great+Pretender) / ["Smoke Gets in Your Eyes"](https://www.youtube.com/results?search_query=Platters+Smoke+Gets+in+Your+Eyes)
-- [Frankie Lymon & The Teenagers — "Why Do Fools Fall in Love"](https://www.youtube.com/results?search_query=Frankie+Lymon+Why+Do+Fools+Fall+in+Love)
-- [Danny & The Juniors — "At the Hop"](https://www.youtube.com/results?search_query=Danny+Juniors+At+the+Hop)
-- [The Del-Vikings — "Come Go with Me"](https://www.youtube.com/results?search_query=Del+Vikings+Come+Go+with+Me)
+- [Dion & The Belmonts — "A Teenager in Love"](https://www.youtube.com/watch?v=Bs037jwD3_A) / [Dion — "Runaround Sue"](https://www.youtube.com/watch?v=ik57HLn0Nm0)
+- [The Four Seasons — "Sherry"](https://www.youtube.com/watch?v=jMcWldfg28s) / [The Four Seasons — "Big Girls Don't Cry"](https://www.youtube.com/watch?v=zRZpaxBMJRU) *(Frankie Valli = Jersey royalty)*
+- [The Drifters — "Under the Boardwalk"](https://www.youtube.com/watch?v=PSddD6w5SKc) *(the Jersey Shore anthem)*
+- [The Flamingos — "I Only Have Eyes for You"](https://www.youtube.com/watch?v=FvzNeh4Mq1o)
+- [The Platters — "The Great Pretender"](https://www.youtube.com/watch?v=RBj2HN2uuNA) / [The Platters — "Smoke Gets in Your Eyes"](https://www.youtube.com/watch?v=vfBboBz3yoc)
+- [Frankie Lymon & The Teenagers — "Why Do Fools Fall in Love"](https://www.youtube.com/watch?v=2sAHiR0rkJg)
+- [Danny & The Juniors — "At the Hop"](https://www.youtube.com/watch?v=lPV5FrydqDE)
+- [The Del-Vikings — "Come Go with Me"](https://www.youtube.com/watch?v=hEolAR08m9s)
 
 **The Italian-American Crooners (what the parents played)**
 
-- [Dean Martin — "That's Amore"](https://www.youtube.com/results?search_query=Dean+Martin+Thats+Amore) / ["Volare"](https://www.youtube.com/results?search_query=Dean+Martin+Volare)
-- [Frank Sinatra — "Fly Me to the Moon"](https://www.youtube.com/results?search_query=Frank+Sinatra+Fly+Me+to+the+Moon) / ["I've Got You Under My Skin"](https://www.youtube.com/results?search_query=Frank+Sinatra+Ive+Got+You+Under+My+Skin)
-- [Perry Como — "Magic Moments"](https://www.youtube.com/results?search_query=Perry+Como+Magic+Moments) / ["Catch a Falling Star"](https://www.youtube.com/results?search_query=Perry+Como+Catch+a+Falling+Star)
-- [Connie Francis — "Who's Sorry Now"](https://www.youtube.com/results?search_query=Connie+Francis+Whos+Sorry+Now) *(she's from Newark!)*
-- [Louis Prima — "Just a Gigolo"](https://www.youtube.com/results?search_query=Louis+Prima+Just+a+Gigolo) / ["Buona Sera"](https://www.youtube.com/results?search_query=Louis+Prima+Buona+Sera)
-- [Bobby Darin — "Beyond the Sea"](https://www.youtube.com/results?search_query=Bobby+Darin+Beyond+the+Sea) / ["Mack the Knife"](https://www.youtube.com/results?search_query=Bobby+Darin+Mack+the+Knife)
+- [Dean Martin — "That's Amore"](https://www.youtube.com/watch?v=RUz1pZ_LujU) / [Dean Martin — "Volare"](https://www.youtube.com/watch?v=ah637P0_cts)
+- [Frank Sinatra — "Fly Me to the Moon"](https://www.youtube.com/watch?v=Y2rDb4Ur2dw) / [Frank Sinatra — "I've Got You Under My Skin"](https://www.youtube.com/watch?v=C1AHec7sfZ8)
+- [Perry Como — "Magic Moments"](https://www.youtube.com/watch?v=ZZ_hWTuSYSk) / [Perry Como — "Catch a Falling Star"](https://www.youtube.com/watch?v=_VJlHWESyLI)
+- [Connie Francis — "Who's Sorry Now"](https://www.youtube.com/watch?v=5Ws60MDF7OY) *(she's from Newark!)*
+- [Louis Prima — "Just a Gigolo"](https://www.youtube.com/watch?v=QSGVD2DgWy8) / [Louis Prima — "Buona Sera"](https://www.youtube.com/watch?v=5CXZB-dIF0g)
+- [Bobby Darin — "Beyond the Sea"](https://www.youtube.com/watch?v=m8OlDPqYBLw) / [Bobby Darin — "Mack the Knife"](https://www.youtube.com/watch?v=557lFG-qq5g)
 
-*What did Grandma Eleanor play in the kitchen? What songs does Dad hum when he smells Sunday sauce? [Suggest a song.](https://docs.google.com/forms/d/e/YOUR_FORM_ID/viewform)*
+*What did Grandma Eleanor play in the kitchen? What songs does Dad hum when he smells Sunday sauce? [Suggest a song →](https://docs.google.com/forms/d/e/YOUR_FORM_ID/viewform) — we'll add the best suggestions to the final playlist.*
 ::::
 
 ![A Cicconetti baby at two hours old, circa 1974–75.](../images/heritage/cicconettis_1974-1975_001.jpg){width=50% fig-align="center"}
