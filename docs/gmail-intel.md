@@ -12,6 +12,8 @@ These excerpts capture Vic's personality in his own words.
 ### After his 75th birthday party (Apr 6, 2021)
 > "Dearest Greg, Valerie, Anthony, Noah and Hunter, thank you all so much for coming to my party. I am still laughing at your antics on the video. I can be walking around the house and suddenly I think of Greg and Val and man I start smiling then laughing. You guys did a great job, thank you ALL for coming to my party and I will be visiting you soon. Love DAD"
 
+**Context:** Valerie was Greg's second wife (divorced 2025). Hunter and Noah are Valerie's twin sons from her first marriage — step-grandchildren whom Vic embraced as his own. Anthony is Greg's biological son.
+
 **Tribute note:** Vic is still laughing days later. The image of him walking around the house, suddenly smiling at a memory, is the kind of detail that belongs in the tribute book.
 
 ### Reacting to Greg's AbbVie offer (May 11, 2015)
@@ -34,9 +36,9 @@ Vic forwarded to Greg, Rich, and Mike Hurley (mbubbles44) a parable about Alexan
 **Tribute note:** Vic's philosophical side. He curates chain emails about life, time, and values — and sends them to his sons and nephew. The forward chain reveals his social network: a circle of older veterans and Bayonne-era friends sharing life wisdom.
 
 ### "Look at yourselves!!!!" (Sep 3, 2017)
-Vic sent a family photo (P1020477.JPG, 5.5MB) to Rich, Natalie, and Greg. Four exclamation marks. No body text needed.
+Vic sent a family photo (P1020477.JPG, 5.5MB) to Rich, Ellie (listed as Natalie in the email — Ellie Wexler, Greg's daughter, formerly Natalie Cicconetti), and Greg. Four exclamation marks. No body text needed.
 
-**Tribute note:** Proud dad/grandpa moment. The photo attachment is a potential asset for the tribute book.
+**Tribute note:** Proud dad/grandpa moment. The photo attachment is a potential asset for the tribute book. Note: "Natalie" in the email is Ellie Wexler (Vic's granddaughter), not a third child.
 
 ---
 

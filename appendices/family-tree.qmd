@@ -1,6 +1,6 @@
 # Family Tree {#family-tree .unnumbered}
 
-The Cicconetti family spans four generations — from Victor Sr. and Eleanor in Bayonne to six grandchildren in southern New Jersey today.
+The Cicconetti family spans four generations — from Victor Sr. and Eleanor in Bayonne to three grandchildren carrying the legacy forward today.
 
 ## Generation 1: The Parents
 
@@ -14,7 +14,7 @@ Frank Elia (d. ~1962)  ─── m. ───  Mary Chiarolanza (b. ~1920, Italy
 
 | Name | Status | Spouse | Notes |
 |------|--------|--------|-------|
-| **Victor R. Cicconetti** | Living (~80) | Yvonne (nee Elia) | The birthday honoree |
+| **Victor R. Cicconetti** | Living (b. March 29, 1946) | Yvonne (nee Elia) | The birthday honoree — "Grandpa" |
 | Dennis Cicconetti | Deceased (pre-2009) | — | Brother |
 | Rev. Leanora Cicconetti | Living (~67) | Clavelli | Sister; reverend; genealogist |
 | Robert "Bob" Cicconetti | Living | Ret. Lt. Col. Elizabeth | Brother |
@@ -28,19 +28,24 @@ Frank Elia (d. ~1962)  ─── m. ───  Mary Chiarolanza (b. ~1920, Italy
 
 | Name | Born | Spouse | Notes |
 |------|------|--------|-------|
-| Richard "Rich" M. Cicconetti | ~1977 | Sharon K. Doughty | Rutgers; Cicco Devel |
-| *[Son — name needed]* | — | — | [OWNER INPUT NEEDED] |
-| *[Daughter — name needed]* | — | — | [OWNER INPUT NEEDED] |
+| **Greg Cicconetti** | — | 1st: Jennifer Feulmer (b. May 23, 1976); 2nd: Valerie (div. 2025) | Ph.D., Research Fellow (AbbVie); father of Ellie and Anthony (with Jennifer) |
+| **Richard Victor Cicconetti** | ~1977 | Sharon K. Doughty | Rutgers; Cicco Devel; co-founded Bistro-by-the-Sea; father of Richy |
 
-: Generation 3 — Victor and Yvonne's Three Children {.striped .hover}
+: Generation 3 — Victor and Yvonne's Two Sons {.striped .hover}
 
 ## Generation 4: The Grandchildren
 
-Victor and Yvonne have **six grandchildren** — four by the time of their 40th anniversary in 2007, and two more since.
+Victor and Yvonne have **three biological grandchildren**:
 
-::: {.callout-owner}
-**[OWNER INPUT NEEDED]** Names, ages, and parents of all six grandchildren are needed to complete the family tree.
-:::
+| Name | Parent | Notes |
+|------|--------|-------|
+| **Ellie Wexler** | Greg & Jennifer | b. October 22, 2003; also known as Natalie Cicconetti / Ellie Cicconetti |
+| **Anthony John Cicconetti** | Greg & Jennifer | b. July 25, 2008 |
+| **Richard Victor Cicconetti Jr. ("Richy")** | Rich & Sharon | |
+
+: Generation 4 — The Grandchildren {.striped .hover}
+
+Vic also embraced **Hunter** and **Noah** — twin sons of Greg's second wife Valerie from her first marriage — as his own grandchildren. At the 75th birthday in 2021, all five were part of the celebration.
 
 ## Legend
 
@@ -55,5 +60,5 @@ Victor and Yvonne have **six grandchildren** — four by the time of their 40th 
 ![The Cicconetti Family Tree — dashed borders indicate names we still need.](../images/family/family_tree.png){width=100%}
 
 ::: {.callout-owner}
-**[OWNER INPUT NEEDED]** Children's and grandchildren's names are needed to complete the family tree. See `data/family.json` for the current data structure.
+**Family tree updated with corrections from Anthony Cicconetti, February 2026.** See `data/family.json` for the current data structure.
 :::

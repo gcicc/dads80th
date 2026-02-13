@@ -165,7 +165,7 @@ After each section, there's a space to set the record straight — correct what 
 
 | # | We wrote... | TRUE | FALSE | I DON'T KNOW |
 |---|-----------|:----:|:-----:|:------------:|
-| 42 | Victor and Yvonne co-owned an Italian restaurant with one of their sons | | | |
+| 42 | Victor, Yvonne, and Richard co-founded Bistro-by-the-Sea in Avon-by-the-Sea, NJ | | | |
 | 43 | Mary Ann Hurley ran a pizza bistro in Bayonne | | | |
 
 ::: {.callout-warning appearance="simple"}
@@ -203,20 +203,15 @@ After each section, there's a space to set the record straight — correct what 
 
 | # | We wrote... | TRUE | FALSE | I DON'T KNOW |
 |---|-----------|:----:|:-----:|:------------:|
-| 48 | Victor and Yvonne have two sons and one daughter | | | |
+| 48 | Victor and Yvonne have two sons: Greg and Richard Victor | | | |
 | 49 | Rich was born approximately August 1977 | | | |
 | 50 | Rich attended Rutgers University | | | |
 | 51 | Rich married Sharon K. Doughty | | | |
-| 52 | They have six grandchildren total | | | |
-| 53 | Four grandchildren by 2007 (40th anniversary), two more since | | | |
+| 52 | They have three biological grandchildren: Ellie Wexler, Anthony John Cicconetti, Richy Cicconetti Jr. | | | |
+| 53 | Ellie and Anthony are Greg's children; Richy is Rich's son | | | |
 
-::: {.callout-warning appearance="simple"}
-**We need names!**
-
-*(All three children — full names and birth years. All six grandchildren — names, ages, and which child each belongs to. What do the grandkids call Vic and Yvonne?)*
-
-\
-
+::: {.callout-note appearance="simple"}
+**Corrected February 2026** by Anthony Cicconetti. Previously listed as "three children, six grandchildren" — corrected to two sons and three biological grandchildren.
 :::
 
 ---
@@ -247,7 +242,7 @@ After each section, there's a space to set the record straight — correct what 
 
 | # | We wrote... | TRUE | FALSE | I DON'T KNOW |
 |---|-----------|:----:|:-----:|:------------:|
-| 60 | Born ~March 1946, Bayonne | | | |
+| 60 | Born March 29, 1946, Bayonne | | | |
 | 61 | Air Force 1965–1969 | | | |
 | 62 | Married August 20, 1967 | | | |
 | 63 | Long Branch HS, 1980s | | | |
@@ -271,9 +266,9 @@ After each section, there's a space to set the record straight — correct what 
 
 These are the biggest gaps. If you know the answers, this is where you'll make the biggest difference:
 
-1. **Victor's exact birthday** — we only have "approximately March 1946"
-2. **Names of all three children** — we only have Rich confirmed
-3. **Names of all six grandchildren** — and which child each belongs to
+1. ~~Victor's exact birthday~~ — **RESOLVED:** March 29, 1946
+2. ~~Names of all children~~ — **RESOLVED:** Two sons: Greg and Richard Victor Cicconetti
+3. ~~Names of all grandchildren~~ — **RESOLVED:** Three: Ellie Wexler, Anthony John Cicconetti, Richard Victor Cicconetti Jr.
 4. **The restaurant** — name, location, years, which son
 5. **VVA Chapter 12** — founding year
 6. **Where Victor served in Vietnam** — specific bases or locations

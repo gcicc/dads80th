@@ -14,9 +14,9 @@ This folder contains templates for each family member to contribute their storie
 | File | For Who |
 |------|---------|
 | `vic-and-yvonne.md` | Dad & Mom — the stars of the show |
-| `children.md` | Rich, Greg, and [sister] — the kids |
-| `grandchildren.md` | All six grandkids |
-| `extended-family.md` | Kathy, Mike Jr., Mary Ann, Michael Sr., AJ, Ellie, Frank & Valerie Elia |
+| `children.md` | Rich and Greg — the sons |
+| `grandchildren.md` | Ellie, Anthony, and Richy — the grandkids |
+| `extended-family.md` | Kathy, Mike Jr., Mary Ann, Michael Sr., Frank & Valerie Elia |
 | `veterans-and-friends.md` | Fellow veterans, Bayonne friends, colleagues |
 
 ## Tips

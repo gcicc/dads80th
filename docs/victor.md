@@ -1,6 +1,6 @@
 # Victor R. Cicconetti — A Life at Eighty
 
-**Born:** ~March 1946, Bayonne, New Jersey
+**Born:** March 29, 1946, Bayonne, New Jersey
 **Hometown:** Bayonne, NJ (raised); Galloway Township / Egg Harbor City, NJ (current)
 **Family:** Married to Yvonne C. Elia since August 20, 1967 — nearly 59 years
 
@@ -30,9 +30,9 @@ He also worked in the Asbury Park school district, dedicating himself to the edu
 
 ## The Entrepreneur
 
-Victor's energy never stayed in one lane. Together with Yvonne and one of their sons, he co-owned and operated an Italian restaurant — a family venture that brought together the Cicconetti love of food, family, and community. The details of that chapter are a family story waiting to be told more fully.
+Victor's energy never stayed in one lane. Together with Yvonne and their son Richard, he co-founded **Bistro-by-the-Sea** in **Avon-by-the-Sea, NJ** — an Italian restaurant that brought together the Cicconetti love of food, family, and community.
 
-[OWNER INPUT NEEDED: Restaurant name, location, years of operation, favorite memories from the restaurant]
+[RESOLVED: Restaurant was **Bistro-by-the-Sea** in Avon-by-the-Sea, NJ — co-founded by Victor, Yvonne, and son Richard. Per Anthony Cicconetti, Feb 2026.]
 
 ## Serving Those Who Served
 
@@ -44,21 +44,31 @@ For Vic, the brotherhood of service was never something you walked away from. It
 
 ## Family Man
 
-At the center of Victor's life is family. He married Yvonne C. Elia on August 20, 1967, at Assumption Catholic Church in Bayonne — a partnership that has endured and flourished for nearly six decades. Together they raised three children — two sons and a daughter — and have been blessed with six grandchildren.
+At the center of Victor's life is family. He married Yvonne C. Elia on August 20, 1967, at Assumption Catholic Church in Bayonne — a partnership that has endured and flourished for nearly six decades. Together they raised two sons — Greg and Richard Victor — and have been blessed with three grandchildren: Ellie Wexler, Anthony John Cicconetti, and Richard Victor Cicconetti Jr.
 
 Now, as Victor approaches his 80th birthday in March 2026, the family gathers once again — this time to honor the man who has been father, grandfather, veteran, educator, entrepreneur, and community leader. A man whose life truly is, as the Red Bank Register wrote in 1987, "an American story."
 
 [OWNER INPUT NEEDED: Family memories, what Victor means to his children and grandchildren, favorite family traditions, what the grandkids call him]
 
+---
+
+### Author's Notes — Not for Publication
+
+**Vic's daughter (Air Force era):** Vic's Twitter bio (@CicconettiR) listed "one daughter." This refers to a daughter from an encounter during his Air Force years (1965–1969). Vic and Yvonne have met her, but she has not been formally introduced to the rest of the family — reasons unknown to the family. Per Anthony Cicconetti (Feb 2026): this is real but sensitive; tread lightly and do not include in the tribute book. The published book refers to "two sons" — the family Vic and Yvonne raised together. This note exists so Greg has the full picture as author.
+
+**Step-grandchildren (via Valerie):** Greg's second wife Valerie had twin sons, Hunter and Noah, from her first marriage. Vic embraced them as grandchildren. Greg and Valerie divorced in 2025. Combined with the three biological grandchildren (Ellie, Anthony, Richy) and possibly the daughter's children (unknown), this explains Vic's Twitter count of "six grandchildren."
+
+---
+
 ## By the Numbers
 
 | Milestone | Detail |
 |-----------|--------|
-| Born | ~March 1946, Bayonne, NJ |
+| Born | March 29, 1946, Bayonne, NJ |
 | Military service | USAF medic, 1965-1969, Vietnam |
 | Married | Yvonne C. Elia, August 20, 1967 |
-| Children | Two sons, one daughter |
-| Grandchildren | Six |
+| Children | Two sons: Greg and Richard Victor |
+| Grandchildren | Three: Ellie Wexler, Anthony John Cicconetti, Richard Victor Cicconetti Jr. |
 | Career | Long Branch HS, Asbury Park schools — administrator |
 | Retired | 2000 |
 | Community | VVA Chapter 12 founder/president; DAV life member |

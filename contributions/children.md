@@ -1,4 +1,4 @@
-# For the Kids — Rich, Greg, and [Sister]
+# For the Kids — Rich and Greg
 
 *Dad doesn't know about this book. Your job: tell us the stories, the memories, the things that make him DAD. Write as much or as little as you want. Even one story is gold.*
 

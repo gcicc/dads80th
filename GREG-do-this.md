@@ -156,12 +156,12 @@ Both forms already exist, are published, and form IDs are now embedded in the Qu
 > Then add: "Corrections or stories about the restaurant or veterans work:" (long text, optional)
 >
 > **Page 8 — Family & Recent Years (Claims 48–59)**
-> 48. Victor and Yvonne have two sons and one daughter
+> 48. Victor and Yvonne have two sons: Greg and Richard Victor
 > 49. Rich was born approximately August 1977
 > 50. Rich attended Rutgers University
 > 51. Rich married Sharon K. Doughty
-> 52. They have six grandchildren total
-> 53. Four grandchildren by 2007 (40th anniversary), two more since
+> 52. They have three biological grandchildren: Ellie Wexler, Anthony John Cicconetti, Richy Cicconetti Jr.
+> 53. Ellie and Anthony are Greg's children; Richy is Rich's son
 > 54. Victor and Yvonne live in Egg Harbor City / Galloway Township area
 > 55. They are regulars at Atlantic City
 > 56. At 75, Vic asked Greg to order him an air pistol for target practice
@@ -171,7 +171,7 @@ Both forms already exist, are published, and form IDs are now embedded in the Qu
 > Then add: "Corrections, missing names, stories about family life:" (long text, optional)
 >
 > **Page 9 — Timeline (Claims 60–67)**
-> 60. Born ~March 1946, Bayonne
+> 60. Born March 29, 1946, Bayonne
 > 61. Air Force 1965–1969
 > 62. Married August 20, 1967
 > 63. Long Branch HS, 1980s
@@ -184,8 +184,8 @@ Both forms already exist, are published, and form IDs are now embedded in the Qu
 > **Page 10 — The Big Gaps**
 > Add one long-text field for each:
 > - "Victor's exact birthday (month/day/year):"
-> - "Names of all three children (full names + birth years):"
-> - "Names of all six grandchildren (names + ages + which child they belong to):"
+> - ~~"Names of all three children"~~ — RESOLVED: Greg and Richard Victor Cicconetti
+> - ~~"Names of all six grandchildren"~~ — RESOLVED: Ellie Wexler, Anthony John Cicconetti, Richard Victor Cicconetti Jr.
 > - "The restaurant (name, location, years, which son):"
 > - "VVA Chapter 12 founding year:"
 > - "Where Victor served in Vietnam (bases, locations):"

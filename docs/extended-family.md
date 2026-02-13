@@ -4,20 +4,22 @@
 
 ---
 
-## Richard "Rich" M. Cicconetti — Son
+## Richard Victor Cicconetti — Son
 
 **Born:** ~August 1977
 **Residence:** Galloway, NJ (Atlantic County)
 **Education:** Rutgers University
 **Spouse:** Sharon K. Cicconetti (nee Doughty)
+**Son:** Richard Victor Cicconetti Jr. ("Richy")
 
-Rich is one of Victor and Yvonne's sons, carrying the Cicconetti name forward in southern New Jersey. He studied at Rutgers University and has built a career in technology, specializing in form-building solutions. Through his business, Cicco Devel, he designs and optimizes advanced Jotform solutions for clients — a far cry from the classroom and the Air Force, but carrying the same Cicconetti work ethic into the digital age.
+Rich is one of Victor and Yvonne's two sons, carrying the Cicconetti name forward in southern New Jersey. He studied at Rutgers University and has built a career in technology, specializing in form-building solutions. Through his business, Cicco Devel, he designs and optimizes advanced Jotform solutions for clients — a far cry from the classroom and the Air Force, but carrying the same Cicconetti work ethic into the digital age.
 
-Rich and his wife Sharon have made their home in the Galloway area, close to Victor and Yvonne. He is active in the local South Jersey community — the kind of neighbor who posts about found pets and keeps an eye on the neighborhood.
+Rich and his wife Sharon have made their home in the Galloway area, close to Victor and Yvonne. He is active in the local South Jersey community — the kind of neighbor who posts about found pets and keeps an eye on the neighborhood. Their son Richy carries the family name into the fourth generation.
 
 Rich represents the next generation of the Cicconetti family: rooted in New Jersey, connected to family, and building something of his own.
 
-[OWNER INPUT NEEDED: Rich's role in the family restaurant (was he the restaurant son or the drug research son?), favorite memories with Victor, what Rich would say about his dad at 80, his children's names if applicable]
+[RESOLVED: Rich co-founded Bistro-by-the-Sea in Avon-by-the-Sea, NJ with Victor and Yvonne. Per Anthony Cicconetti, Feb 2026.]
+[OWNER INPUT NEEDED: Favorite memories with Victor, what Rich would say about his dad at 80, Bistro-by-the-Sea stories]
 
 ---
 
@@ -31,7 +33,7 @@ Sharon joined the Cicconetti family through her marriage to Rich. Born Sharon Ka
 
 Sharon is an active presence in the South Jersey community — engaged in local groups, animal welfare, and the everyday life of the Galloway/Egg Harbor area. She and Rich share their home in Galloway, near Victor and Yvonne, keeping the family close in geography as well as in spirit.
 
-[OWNER INPUT NEEDED: How Sharon came into the family, wedding date and story, her relationship with Victor and Yvonne, her children's names]
+[OWNER INPUT NEEDED: How Sharon came into the family, wedding date and story, her relationship with Victor and Yvonne]
 
 ---
 
@@ -41,12 +43,13 @@ Sharon is an active presence in the South Jersey community — engaged in local 
 **Residence:** Stafford Township, NJ (as of 2007); earlier Bayonne, NJ
 **Spouse:** Michael Hurley Sr. (retired Captain, Bayonne Police Department)
 **Children:** Kathy (Kathleen) Pacifico; Mike Hurley Jr.
+**Grandchildren (via Kathy):** Christian Pacifico (working in California); Jett Pacifico (last year of college)
 
 Mary Ann is Yvonne's sister — another daughter of Frank and Mary Elia of Bayonne. The bond between the Elia sisters has been a constant in the extended family's life.
 
 Mary Ann has her own entrepreneurial story: she ran a pizza bistro in Bayonne, keeping the Italian-American food tradition alive in the neighborhood where she and Yvonne grew up. Whether hosting family celebrations or serving customers in Bayonne, Mary Ann has been a pillar of warmth and hospitality in the extended family.
 
-Her daughter Kathy Pacifico has carried on that community spirit as the owner/operator of Forum Fitness Club (21 W 25th St, Bayonne) since 1982. Kathy coordinated Victor's 75th birthday tribute video in 2021 and remains deeply involved in the extended family. Her son Mike Hurley Jr. is a nationally certified personal trainer and owner of Hurley Development LLC, who also worked at Forum Fitness from 1991-2002. In 2023, the City of Bayonne honored Mike for donating World Trade Center steel for the city's 9/11 memorial — a testament to the Hurley family's deep roots in and commitment to the Bayonne community.
+Her daughter **Kathy Pacifico** has carried on that community spirit as the owner/operator of **Forum Fitness Club** (21 W 25th St, Bayonne) since 1982. Kathy coordinated Victor's 75th birthday tribute video in 2021 and remains deeply involved in the extended family. Kathy's husband is **Pete Pacifico**, and they have two sons: **Christian Pacifico** (currently working in California) and **Jett Pacifico** (finishing his last year of college). Her brother **Mike Hurley Jr.** (~4 years older than Greg) followed his father into law enforcement before switching to a career as a personal trainer with an active social media presence.
 
 [OWNER INPUT NEEDED: Mary Ann's pizza bistro name, years of operation, relationship with Victor, family gatherings and traditions]
 
@@ -62,7 +65,13 @@ Michael Hurley Sr. rose to the rank of **Captain** in the Bayonne Police Departm
 
 Michael is Victor's brother-in-law through the Elia sisters' marriages, and the Hurley-Cicconetti connection represents the kind of extended family bond that holds Italian-American families together across generations and geographies. Vic's forward network included "mbubbles44" (Mike Hurley's email) — they shared chain emails about life, time, and values, the kind of bond between brothers-in-law that goes beyond obligation.
 
-[OWNER INPUT NEEDED: Michael's years of service in Bayonne PD, retirement year, relationship with Victor, shared interests or activities, family stories]
+**Mike Hurley Jr.** is approximately four years older than Greg. He followed his father into law enforcement before switching careers to become a **personal trainer**. He has an active social media presence. Per Anthony Cicconetti, Feb 2026.
+
+Michael Sr. is now in his 80s.
+
+[NOTE: A different Mike Hurley from Bayonne — a Port Authority Director of Fire/WTC 9/11 hero — was honored by the City of Bayonne in 2023. This is NOT the same person. Do not conflate.]
+
+[OWNER INPUT NEEDED: Michael Sr.'s years of service in Bayonne PD, retirement year, relationship with Victor, family stories]
 
 ---
 
@@ -72,7 +81,7 @@ Victor was one of six children born to Victor Cicconetti Sr. (1925-1980) and Ele
 
 | Name | Birth Year | Status | Spouse | Notes |
 |------|-----------|--------|--------|-------|
-| **Victor R. Cicconetti** | ~1946 | Alive (~80) | Yvonne (nee Elia) | The birthday honoree |
+| **Victor R. Cicconetti** | 1946 (Mar 29) | Alive (80) | Yvonne (nee Elia) | The birthday honoree |
 | **Dennis Cicconetti** | ? | Deceased (pre-2009) | ? | Brother. Predeceased Michael per 2009 obituary. |
 | **Rev. Leanora Cicconetti** | ~1958-1959 | Alive (~67) | Clavelli (married name) | Sister. Reverend. Active in NJ genealogy groups. Also known as Leanora Clavelli. |
 | **Robert (Bob) Cicconetti** | ? | Alive | **Retired Lt. Col. Elizabeth Cicconetti** | Brother. Wife is a retired military officer (Lieutenant Colonel). |

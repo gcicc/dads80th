@@ -32,15 +32,15 @@ Her impact did not stop at retirement. Yvonne went on to serve as an Allied Heal
 
 ## The Partnership
 
-Yvonne and Victor were married on August 20, 1967, at Assumption Catholic Church in Bayonne. It was a union that would endure through Vietnam-era separations, career changes, entrepreneurial ventures, raising three children, and the joys of six grandchildren.
+Yvonne and Victor were married on August 20, 1967, at Assumption Catholic Church in Bayonne. It was a union that would endure through Vietnam-era separations, career changes, entrepreneurial ventures, raising two sons, and the joys of three grandchildren.
 
-Together, they co-owned an Italian restaurant with one of their sons — a family enterprise that brought the Cicconetti warmth and Italian heritage to the table in a very literal way. Whether in the classroom, the kitchen, or the living room, Yvonne has been the kind of partner who makes everything around her stronger.
+Together with their son Richard, they co-founded **Bistro-by-the-Sea** in Avon-by-the-Sea, NJ — a family enterprise that brought the Cicconetti warmth and Italian heritage to the table in a very literal way. Whether in the classroom, the kitchen, or the living room, Yvonne has been the kind of partner who makes everything around her stronger.
 
 [OWNER INPUT NEEDED: Stories about the partnership, how Yvonne and Victor complement each other, favorite memories together]
 
 ## Mother and Grandmother
 
-Yvonne and Victor raised two sons and a daughter. She has been grandmother to six — a role that, for anyone who knows her, likely comes as naturally as breathing. The family she and Victor built stretches across southern New Jersey and carries forward the values of education, service, and togetherness that have defined both their lives.
+Yvonne and Victor raised two sons — Greg and Richard Victor. She has been grandmother to three — Ellie, Anthony, and Richy — a role that, for anyone who knows her, likely comes as naturally as breathing. The family she and Victor built stretches across southern New Jersey and carries forward the values of education, service, and togetherness that have defined both their lives.
 
 [OWNER INPUT NEEDED: What Yvonne is like as a mother and grandmother, family traditions she's created, what the grandkids love about her]
 
@@ -64,8 +64,8 @@ As Victor turns 80, it is impossible to celebrate his story without celebrating 
 | Elia surname origin | Southern Italy (Puglia, Calabria, Campania, Sicily) |
 | Parish | Our Lady of Mount Carmel / Assumption Church, Bayonne |
 | Married | Victor R. Cicconetti, August 20, 1967 |
-| Children | Two sons, one daughter |
-| Grandchildren | Six |
+| Children | Two sons: Greg and Richard Victor |
+| Grandchildren | Three: Ellie Wexler, Anthony John Cicconetti, Richard Victor Cicconetti Jr. |
 | Career | Health teacher/coordinator, Jersey City public schools |
 | Retired | 2005 |
 | Post-retirement | Allied Health Vocational advisor, Hudson County Vocational School District |

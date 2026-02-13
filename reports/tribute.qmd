@@ -36,7 +36,7 @@ Eighty years. A life that stretches from the streets of Bayonne to the skies ove
 
 ## An Italian-American Family in Hudson County
 
-Victor R. Cicconetti was born in approximately March 1946 in Bayonne, New Jersey — a city along the Hudson County waterfront where Italian-American families built their lives in the decades after the World Wars. He was the son of **Victor Cicconetti Sr.** (1925--1980) and **Eleanor Cicconetti** (d. 1997), and one of six children who grew up together in that tight-knit community.
+Victor R. Cicconetti was born on March 29, 1946, in Bayonne, New Jersey — a city along the Hudson County waterfront where Italian-American families built their lives in the decades after the World Wars. He was the son of **Victor Cicconetti Sr.** (1925--1980) and **Eleanor Cicconetti** (d. 1997), and one of six children who grew up together in that tight-knit community.
 
 ### The Cicconetti Siblings
 
@@ -122,9 +122,9 @@ Yvonne (nee Elia) brought her own remarkable life to the partnership. Born appro
 
 Yvonne built a distinguished career as a **health teacher and coordinator in Jersey City public schools**, retiring in 2005. She went on to serve as an **Allied Health Vocational advisor for the Hudson County Vocational School District**, earning multiple awards for helping students find jobs and educational placements.
 
-### Three Children, Six Grandchildren
+### Two Sons, Three Grandchildren
 
-Victor and Yvonne raised **two sons and one daughter**. Their family grew to include six grandchildren — four by the time of their 40th anniversary in 2007, and two more since.
+Victor and Yvonne raised **two sons** — Greg and Richard Victor. Their family grew to include three grandchildren: Ellie Wexler, Anthony John Cicconetti, and Richard Victor Cicconetti Jr.
 
 ### The 40th Anniversary (2007)
 
@@ -136,7 +136,7 @@ Now, as 2026 brings Victor's 80th birthday, the family celebrates not just a man
 
 ## Family Tree
 
-The Cicconetti family spans four generations — from Victor Sr. and Eleanor in Bayonne to six grandchildren in southern New Jersey today.
+The Cicconetti family spans four generations — from Victor Sr. and Eleanor in Bayonne to three grandchildren carrying the legacy forward today.
 
 ```{python}
 #| echo: false
@@ -175,7 +175,7 @@ except Exception as e:
 
 ## An Italian Restaurant — A Family Venture
 
-At some point in their journey, Victor and Yvonne took their Italian heritage from the family kitchen to the business world. Together with **one of their sons**, they **co-owned and operated an Italian restaurant** — a venture that combined family, food, and the entrepreneurial spirit.
+Victor and Yvonne took their Italian heritage from the family kitchen to the business world, co-founding **Bistro-by-the-Sea** in **Avon-by-the-Sea, NJ** with their son **Richard** — a venture that combined family, food, and the entrepreneurial spirit.
 
 The restaurant represented something deeply personal: the Cicconetti family's Italian-American roots brought to life through cuisine, hospitality, and the shared effort of multiple generations working together.
 
@@ -228,7 +228,7 @@ As Victor R. Cicconetti turns eighty, the measure of his life is not found in an
 
 **To his fellow veterans:** A founding voice for Vietnam Veterans of America Chapter 12, ensuring that those who served were never forgotten.
 
-**To his family:** Nearly sixty years of partnership with Yvonne, three children, six grandchildren, and a home built on love, food, and Italian-American tradition.
+**To his family:** Nearly sixty years of partnership with Yvonne, two sons, three grandchildren, and a home built on love, food, and Italian-American tradition.
 
 **To his community:** Entrepreneurship, education, advocacy, and the quiet daily work of being a good neighbor.
 

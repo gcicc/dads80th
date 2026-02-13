@@ -7,7 +7,7 @@ Inherits from `../CLAUDE.md` (global).
 
 **Owner:** Greg Cicconetti
 **Purpose:** Create meaningful 80th birthday celebration content (tribute document, family history, event materials). Secondary: feed family dossier data to Lit-Project autobiography.
-**Timeline:** TIME-SENSITIVE — Victor born ~March 1946 → 80th birthday ~March 2026.
+**Timeline:** TIME-SENSITIVE — Victor born March 29, 1946 → 80th birthday March 29, 2026.
 
 ## Tech Stack
 
