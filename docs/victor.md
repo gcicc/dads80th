@@ -58,6 +58,8 @@ Now, as Victor approaches his 80th birthday in March 2026, the family gathers on
 
 **Step-grandchildren (via Valerie):** Greg's second wife Valerie had twin sons, Hunter and Noah, from her first marriage. Vic embraced them as grandchildren. Greg and Valerie divorced in 2025. Combined with the three biological grandchildren (Ellie, Anthony, Richy) and possibly the daughter's children (unknown), this explains Vic's Twitter count of "six grandchildren."
 
+**Health — closet smoking and emphysema (removed from Ch8 per Anthony, Feb 2026):** Victor was a closet smoker for most of his adult life. Cigarettes, quietly, for decades. The man who ran triathlons, went on health kicks, coached soccer, and led youth groups — he also smoked, and kept it to himself as best he could. At eighty, Vic has emphysema — the slow narrowing of the lungs, the shortening of breath. It shapes his days. Anthony flagged this as reading morbidly in the tribute book. The published version of Ch8 ("He Won't Back Down") keeps the defiant spirit without naming the diagnosis. This note exists so Greg has the full picture as author.
+
 ---
 
 ## By the Numbers
