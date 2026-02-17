@@ -1,60 +1,34 @@
 # Session Closeout — dads80th
 
-**Date:** 2026-02-08
-**Duration context:** ~2 hour session — major structural build + product vision
+**Date:** 2026-02-14
+**Duration context:** Focused session — sensitivity edits per Anthony's feedback
 
 ## Accomplished
 
-### Permissions Setup
-- Created `~/.claude/settings.json` (user-wide) — Read, Glob, Grep, safe git/python/quarto commands auto-allowed
-- Cleaned up `.claude/settings.local.json` — removed baked-in commit messages, kept domain allowlists, added Edit
-
-### Quarto Book — Full Build
-- Created `_quarto.yml` as a Quarto Book project with dual HTML + PDF output
-- Built 10 chapters, 3 appendices, `index.qmd`, `css/tribute.css`
-- Migrated all content from `reports/tribute.qmd` + 6 research docs into chapter files
-- All 14 files render cleanly to HTML (`_book/index.html`)
-
-### Structural Innovation: Parallel Columns → Convergence
-- Restructured Ch1–3 to tell the Cicconetti and Elia family stories in side-by-side columns
-- Ch1: "Two Families, One City" — immigration origins in parallel
-- Ch2: "Two Paths" — Victor's military / Yvonne's coming-of-age in parallel
-- Ch3: "August 20, 1967" — columns merge at the wedding
-- Ch4+ becomes their joint story, Vic-focused (with Yvonne's birthday version planned)
-
-### Interactive Contribution System
-- Created "Correct the Record" appendix — every factual claim as a checkable item
-- Transformed all `[OWNER INPUT NEEDED]` markers into warm, person-addressed "Your Turn" prompts
-- Created 5 per-person contribution templates in `contributions/`:
-  - `vic-and-yvonne.md`, `children.md`, `grandchildren.md`, `extended-family.md`, `veterans-and-friends.md`
-
-### Workstream Architecture
-- Defined 6 independent parallel workstreams in `WORKSTREAMS.md` with file ownership, dependencies, and execution order
-- Each workstream can run in a separate Positron/Claude Code instance without conflicts
-
-### Product Vision
-- Captured the "living biography platform" concept in `docs/product-vision.md`
-- Two-mode design: Reminiscence (for the person) + Preservation (for the family)
-- Alzheimer's / memory preservation angle documented
-- "Eidetic Engine" pattern identified across portfolio (dads80th, gfinance2, Lit-Project)
-- Commercialization deferred — personal first, validate with Vic's book
+### Ch8 Sensitivity Rewrite (commit fb28e68)
+- Removed emphysema diagnosis and closet smoking details from Ch8 — read morbidly in a tribute context per Anthony
+- Moved health details to author's notes only (`docs/victor.md`)
+- Reframed "The Whole Man" section as "He Won't Back Down" — keeps the defiant spirit without naming the diagnosis
+- Ch8 closer: "He did it his way. And the best is yet to come."
+- Ch10 closer: "The best is yet to come." — Sinatra's closer
+- Song sentiment anchored to Won't Back Down / End of the Line / My Way
 
 ## Outstanding
-- **WS1:** Photo curation not started (needs Greg to review Lit-Project images)
-- **WS2:** Contribution templates created but not yet sent to family
-- **WS3:** R-based family tree and interactive timeline not yet built
-- **WS4:** PDF/Blurb production not started (blocked on content stabilization + Blurb size choice)
-- **WS5:** Chapter polish waiting on family contributions
-- **WS6:** GitHub Pages not deployed (repo not yet pushed to GitHub)
-- **Graphviz not installed** on Windows — family tree Python script can't render; R approach (DiagrammeR) recommended instead
-- **Children's and grandchildren's names** still missing — blocks Ch7, family tree, Correct the Record
-- **Uncommitted files** — significant new file set not yet committed
+- **Gmail MCP auth expired** — `invalid_grant` error, can't read form response emails
+- **Google Drive MCP not configured** — missing OAuth credentials file
+- **Form triage pipeline** — no automated way to pull form responses yet
+- **Book link not sent to family** — deployed at https://gcicc.github.io/dads80th/ but family hasn't been notified
+- **Google Forms claim text outdated** — forms still have old text (e.g., "3 children"); only the book was corrected
+- **Ch5 restaurant chapter** — still thin, needs family stories about Bistro-by-the-Sea
+- **Ch9 voices** — still awaiting tribute messages from family
+- **Unstaged changes:** `index.qmd` has a typo/corruption (`claud` prepended to first line), `GREG-do-this.md`, `backlog.md`, `SESSION_CLOSEOUT.md` modified
+- **Untracked files:** `.mcp.json`, `.playwright-mcp/`, LaTeX file, `ch02-service.html`, `ch10-happy-80th_files/`, `images/P1020477.JPG`
 
 ## Next Action
-Send contribution templates to family (WS2) and push repo to GitHub (WS6). These two human actions unblock everything else.
+**PROJECT PAUSED** — Greg is setting up PA spare laptop as R Shiny server to test data capture features. When resuming: fix `index.qmd` corruption (stray "claud" at line 1), commit outstanding changes, send book link to family.
 
 ## Blockers
-- **TIME-SENSITIVE:** March 2026 birthday (~4 weeks)
-- **Children's/grandchildren's names** — blocks multiple deliverables
-- **Restaurant details** — Ch5 is nearly empty without them
-- **Blurb book size** — blocks WS4 print production
+- **TIME-SENSITIVE** — March 29, 2026 birthday (~6 weeks)
+- **MCP auth broken** — Gmail and Google Drive tokens expired/missing. Blocks form triage.
+- **Family engagement** — book is live but no one knows about it yet
+- **Paused** — pivoting to PA laptop Shiny server setup for data capture testing

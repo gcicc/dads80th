@@ -1,18 +1,19 @@
 # Backlog — dads80th
 
 ## To Do
+- [ ] Fix Gmail MCP auth (invalid_grant) — re-run OAuth flow (from dads80th, 2026-02-13)
+- [ ] Fix Google Drive MCP OAuth — create credentials, set env var (from dads80th, 2026-02-13)
+- [ ] Build form triage pipeline — pull Google Sheet responses into submissions/ folder (from dads80th, 2026-02-13)
+- [ ] Update Google Forms claim text to match corrected book (e.g., "2 sons" not "3 children") (from dads80th, 2026-02-13)
+- [ ] Send book link + forms to family (from dads80th, 2026-02-13)
 - [ ] WS1: Photo curation — select 30-50 photos from Lit-Project/images/, place in chapters (from dads80th, 2026-02-08)
-- [ ] WS2: Send contribution templates to family — email contributions/*.md to inner circle (from dads80th, 2026-02-08)
 - [ ] WS3: Build R-based family tree (DiagrammeR + visNetwork) and interactive timeline (from dads80th, 2026-02-08)
 - [ ] WS4: Print production — Blurb geometry, PDF tuning, proof order (from dads80th, 2026-02-08)
 - [ ] WS5: Chapter polish — weave contributions into narrative, biography → autobiography transformation (from dads80th, 2026-02-08)
-- [ ] WS6: Deploy to GitHub Pages — push repo, set up Actions, share URL with family (from dads80th, 2026-02-08)
-- [ ] Download family photo P1020477.JPG from "Look at yourselves!!!!" email (Sep 2017) (from gmail-organizer, 2026-02-06)
 - [ ] Coordinate with Kathy Pacifico re: tribute book (from gmail-organizer, 2026-02-06)
 - [ ] Check for tribute responses in "sshhh its a surprise" thread (from gmail-organizer, 2026-02-06)
 - [ ] Retrieve 75th birthday video from Vimeo (from gmail-organizer, 2026-02-06)
 - [ ] Augment family tree: Add Mary Galella's siblings, their children, and build dossiers for Yvonne's extended maternal family (from dads80th, 2026-02-09)
-- [ ] Replace all YOUR_FORM_ID placeholders with actual Google Form IDs (8 places across .qmd files) (from dads80th, 2026-02-09)
 - [ ] Re-run v2 Apps Scripts for forms with file upload capability (from dads80th, 2026-02-09)
 
 ## Done
@@ -30,3 +31,8 @@
 - [x] Define 6 parallel workstreams in WORKSTREAMS.md (completed 2026-02-08)
 - [x] Write product vision doc (docs/product-vision.md) — living biography platform concept (completed 2026-02-08)
 - [x] Verify Quarto render — 14 files, clean HTML output (completed 2026-02-08)
+- [x] Download family photo P1020477.JPG from "Look at yourselves!!!!" email (completed 2026-02-10)
+- [x] WS6: Deploy to GitHub Pages — repo public, Actions workflow live (completed 2026-02-13)
+- [x] Replace all YOUR_FORM_ID placeholders with actual Google Form IDs (completed 2026-02-13)
+- [x] Major family corrections from Anthony Cicconetti — 22 files, children/grandchildren/birthday/restaurant/Hurley (completed 2026-02-13)
+- [x] WS2: Family data collection — Anthony provided corrections directly in session (completed 2026-02-13)

@@ -2,15 +2,24 @@
 
 Things only Greg can do. Check off as completed.
 
-**Last updated:** 2026-02-10
-**DEADLINE: March 2026 (~4 weeks)**
+**Last updated:** 2026-02-14
+**DEADLINE: March 29, 2026 (~6 weeks)**
+**STATUS: PAUSED — Greg setting up PA spare laptop as R Shiny server for data capture testing**
+
+---
+
+## CURRENT FOCUS
+
+- [ ] **Set up PA spare laptop as R Shiny server** — will use this to prototype/test data capture features for the form triage pipeline (replaces dependency on broken MCP auth)
 
 ---
 
 ## BLOCKERS (do these first — they unblock everything else)
 
-- [ ] **Send contribution templates to family** — email `contributions/*.md` files to: Yvonne, Rich, [other son], [daughter], Kathy Pacifico, Mike Hurley Jr., Mary Ann & Michael Hurley, AJ, Ellie, Frank & Valerie Elia. (Unblocks WS2, WS5)
-- [ ] **Get children's and grandchildren's names** — blocks Ch7, family tree, Correct the Record. Ask Yvonne or Rich directly.
+- [ ] **Fix Gmail MCP auth** — token expired (`invalid_grant`). Re-run OAuth flow for gmail-organizer MCP server. Without this, can't search for form notification emails or pull responses. (Unblocks form triage pipeline)
+- [ ] **Fix Google Drive MCP OAuth** — credentials file missing (`gcp-oauth.keys.json`). Go to Google Cloud Console → create OAuth 2.0 credentials (Desktop app) → download as `gcp-oauth.keys.json` → set `GOOGLE_DRIVE_OAUTH_CREDENTIALS` env var. Without this, can't read the response spreadsheets. (Unblocks form triage pipeline)
+- [ ] **Send the book link + forms to family** — email https://gcicc.github.io/dads80th/ to: Yvonne, Rich, Sharon, Kathy Pacifico, Mike Hurley Jr., Mary Ann & Michael Hurley, Ellie, Anthony, Richy. Draft email template is below. (Unblocks WS2, WS5)
+- [x] ~~**Get children's and grandchildren's names**~~ — RESOLVED Feb 2026 by Anthony Cicconetti. Two sons: Greg and Rich. Three grandchildren: Ellie Wexler, Anthony John Cicconetti, Richy Cicconetti Jr.
 - [ ] **Choose Blurb book size** — 8×10" portrait or 10×8" landscape? Browse blurb.com. (Blocks WS4)
 - [ ] **Scan Vic's actual signature** — for the "Love DAD" signature treatment in the book. Photo/scan of his handwriting. Save as PNG with transparent background if possible. (Blocks UI polish)
 - [ ] **Create Spotify playlists** — one per chapter, matching the song lists. Share URLs so they can be embedded. (Blocks soundtrack feature)
@@ -70,7 +79,7 @@ Both forms already exist, are published, and form IDs are now embedded in the Qu
 
 **Quarto integration:** Form IDs replaced in `appendices/correct-the-record.qmd` and `chapters/ch09-voices.qmd`. Iframes uncommented. Button links updated.
 
-**Remaining:** The "Suggest a song" links in ch01-ch08 still have `YOUR_FORM_ID` placeholders — these need a separate song suggestion form (or remove the feature).
+**Update (2026-02-13):** The "Suggest a song" links in ch01-ch08 now point to the "Your Message for Dad" form (repurposed as the song suggestion form).
 
 **Still TODO:** Connect responses to Google Sheets (in each form: Responses tab > green Sheets icon > create new spreadsheet).
 
@@ -252,10 +261,30 @@ Draft email (adapt as needed):
 
 ---
 
+## FORM TRIAGE PIPELINE (new — unblocked once MCP auth is fixed)
+
+The forms are live and linked to Google Sheets. Responses are collecting. But we can't read them until the MCP auth is fixed.
+
+| Form | Google Sheet ID | Status |
+|------|----------------|--------|
+| Correct the Record | `1wXd26FEPrwSkBlgCyk1dp-JyZLYLyP8czr9Mufm3RIs` | Linked, can't read (MCP broken) |
+| Your Message for Dad | `1MSjkMd-cpsReHn4-lVTyzJZ6FWBdEZMolDnOdzxb1Ow` | Linked, can't read (MCP broken) |
+
+**Pipeline once MCP works:**
+1. Pull responses from Google Sheets via Drive MCP
+2. Triage into `submissions/` folder as markdown files (one per respondent)
+3. Greg/Claude reviews and incorporates into chapters
+4. Push → auto-deploy to https://gcicc.github.io/dads80th/
+
+**Workaround if MCP stays broken:** Open the sheets manually in browser, export as CSV, drop into `submissions/`.
+
+---
+
 ## Other This-Week Items
 
-- [ ] **Push repo to GitHub** — see Step 1 above
-- [ ] **Review the rendered book** — open `_book/index.html`, read all chapters, note issues.
+- [x] ~~**Push repo to GitHub**~~ — DONE. Repo public at https://github.com/gcicc/dads80th
+- [x] ~~**Deploy to GitHub Pages**~~ — DONE. Live at https://gcicc.github.io/dads80th/
+- [ ] **Review the rendered book** — open https://gcicc.github.io/dads80th/, read all chapters, note issues.
 - [ ] **Review "Correct the Record" appendix** — is the tone right? Fun enough for Dad to engage?
 - [ ] **Chase "sshhh its a surprise" thread** — follow up on Feb 6 email for tribute messages.
 - [ ] **Coordinate with Kathy Pacifico** — she produced the 75th video. Touch base re: 80th.
@@ -269,7 +298,7 @@ Draft email (adapt as needed):
 
 ## Information to Gather
 
-- [ ] **Restaurant details** — name, location, years, which son. Ch5 is nearly empty without this.
+- [x] ~~**Restaurant details**~~ — RESOLVED Feb 2026 by Anthony. Bistro-by-the-Sea, 140 S Riverside Dr, Neptune/Avon-by-the-Sea, NJ. Co-founded by Vic, Yvonne, and Rich. Riff off Mary Ann Hurley's Pizza Bistro in Bayonne. Still need: years of operation, signature dishes, stories.
 - [ ] **VVA Chapter 12 founding year** — ask Dad or look through VVA materials.
 - [ ] **Ask Dad about Vietnam specifics** — bases, unit, memories. Only if willing. Ch2.
 - [ ] **Ask Dad/Mom how they met** — courtship story. Ch3.
