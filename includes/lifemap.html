@@ -184,9 +184,17 @@
       }).addTo(this.map);
     }
 
-    // Fit bounds
-    if (coords.length > 0) {
-      this.map.fitBounds(coords, { padding: [40, 40], maxZoom: 14 });
+    // Set initial view
+    if (this.filterPhase) {
+      // Mini-maps: fit to their filtered markers
+      if (coords.length > 0) {
+        this.map.fitBounds(coords, { padding: [40, 40], maxZoom: 15 });
+      }
+    } else {
+      // Full journey map: start on Bayonne at street level so you can
+      // see the neighborhood grid and how close all the addresses are.
+      // Play Journey handles the globe-trotting.
+      this.map.setView([40.665, -74.112], 14);
     }
 
     // Add controls
@@ -230,11 +238,23 @@
       this.counterEl = counter;
     }
 
-    // Reset view button
-    var resetBtn = document.createElement('button');
-    resetBtn.className = 'life-map-btn';
-    resetBtn.innerHTML = '\u{1F5FA} Reset View';
-    resetBtn.addEventListener('click', function(e) {
+    // Bayonne Home button — snap back to street-level Bayonne
+    var homeBtn = document.createElement('button');
+    homeBtn.className = 'life-map-btn';
+    homeBtn.innerHTML = '\u{1F3E0} Bayonne';
+    homeBtn.setAttribute('aria-label', 'Zoom to Bayonne street level');
+    homeBtn.addEventListener('click', function(e) {
+      e.preventDefault();
+      self.map.flyTo([40.665, -74.112], 14, { duration: 1.5 });
+    });
+    controlDiv.appendChild(homeBtn);
+
+    // Show All Pins button — zoom to fit everything (world view)
+    var allBtn = document.createElement('button');
+    allBtn.className = 'life-map-btn';
+    allBtn.innerHTML = '\u{1F30E} All Pins';
+    allBtn.setAttribute('aria-label', 'Zoom out to show all addresses');
+    allBtn.addEventListener('click', function(e) {
       e.preventDefault();
       var allCoords = self.addressMarkers.map(function(m) {
         return [m.data.lat, m.data.lng];
@@ -243,10 +263,10 @@
         allCoords.push([m.getLatLng().lat, m.getLatLng().lng]);
       });
       if (allCoords.length > 0) {
-        self.map.fitBounds(allCoords, { padding: [40, 40], maxZoom: 14 });
+        self.map.flyToBounds(allCoords, { padding: [40, 40], maxZoom: 14, duration: 2 });
       }
     });
-    controlDiv.appendChild(resetBtn);
+    controlDiv.appendChild(allBtn);
 
     // Insert controls before the map container
     this.container.parentNode.insertBefore(controlDiv, this.container.nextSibling);
@@ -268,17 +288,23 @@
     var marker = item.marker;
     var data = item.data;
 
-    // Fly to this location
-    var zoomLevel = data.phase === 'military' ? 5 : 12;
-    // If jumping continents, zoom out first
+    // Fly to this location — zoom level depends on how far we're jumping
+    var zoomLevel = 15; // street-level default for NJ addresses
     if (this.playIndex > 0) {
       var prev = this.addressMarkers[this.playIndex - 1].data;
       var dist = Math.abs(data.lat - prev.lat) + Math.abs(data.lng - prev.lng);
-      if (dist > 10) zoomLevel = 4;
-      else if (dist > 2) zoomLevel = 8;
+      if (dist > 10) zoomLevel = 4;       // continent hop (e.g. NJ → Thailand)
+      else if (dist > 5) zoomLevel = 6;   // cross-country (e.g. NJ → San Diego)
+      else if (dist > 1) zoomLevel = 9;   // regional (e.g. NJ → TX)
+      else if (dist > 0.3) zoomLevel = 12; // state-level (e.g. Bayonne → Shore)
+      // else keep 15 for within-city moves
+    } else {
+      // First stop: if it's far from NJ (like Thailand), zoom out
+      if (data.phase === 'military') zoomLevel = 6;
     }
 
-    this.map.flyTo([data.lat, data.lng], zoomLevel, { duration: 2 });
+    var flyDuration = zoomLevel < 8 ? 3 : 2;
+    this.map.flyTo([data.lat, data.lng], zoomLevel, { duration: flyDuration });
 
     // Open popup after fly animation
     var self = this;
