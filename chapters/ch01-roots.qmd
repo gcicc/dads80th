@@ -165,6 +165,18 @@ To this day, the family is split. Some Cicconettis use the Italian pronunciation
 **Mom:** What's the dish your mother made that nobody since has gotten right? Close your eyes — what does the old kitchen smell like?
 :::
 
+::: {.callout-note title="Map: Bayonne — Where Two Families Lived" collapse="true"}
+The Cicconettis and the Elias lived within blocks of each other. This map shows Victor's childhood addresses, both family churches, the Maidenform factory, and Ellis Island — where it all began.
+
+::: {.content-visible when-format="html"}
+<div class="life-map life-map-filter-childhood" style="height: 400px; border-radius: 8px;"></div>
+:::
+
+::: {.content-visible when-format="pdf"}
+*Interactive map available in the online version.*
+:::
+:::
+
 ::: {.callout-note title="Bayonne: Why Here?" collapse="true"}
 **The local wavelet — why two Italian families ended up on this specific peninsula:**
 
@@ -233,9 +245,11 @@ By the time Vic was a teenager in the late 1950s, Bayonne was changing. The chil
 
 During the Depression, all three Salone sisters spent time in an **orphanage** until their mother Anna found work as a sweatshop seamstress and brought them home. Eleanor eventually followed her sister Marge to Bayonne — the classic pattern of one sibling establishing a foothold and others following.
 
-Victor Sr. and Eleanor raised **six children** in Bayonne:
+Victor Sr. and Eleanor started their family in **New York City** — on **10th Street and Avenue C** — before moving to **Bayonne** when young Vic was about ten years old. The family moved several times within Bayonne: 19th St & Broadway, West 21st St, 525 Boulevard, 27th St & Broadway, and finally 700 Boulevard.
 
-- **Victor R.** (~1946)
+They raised **six children**:
+
+- **Victor R.** (~1946, born in NYC)
 - **Dennis** (deceased)
 - **Rev. Leanora** (~1958)
 - **Robert "Bob"**

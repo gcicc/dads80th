@@ -15,6 +15,8 @@
 - [ ] Retrieve 75th birthday video from Vimeo (from gmail-organizer, 2026-02-06)
 - [ ] Augment family tree: Add Mary Galella's siblings, their children, and build dossiers for Yvonne's extended maternal family (from dads80th, 2026-02-09)
 - [ ] Re-run v2 Apps Scripts for forms with file upload capability (from dads80th, 2026-02-09)
+- [ ] Verify San Diego 1971 detail — why did Vic & Yvonne move briefly to San Diego? Navy/military connection? (from gmail-organizer, 2026-02-19)
+- [ ] Cross-reference Yvonne's address dates with ch04 (education career) — match Shark River Hills move (1980) with Long Branch HS admin role (from gmail-organizer, 2026-02-19)
 
 ## Done
 - [x] Mine Gmail for Vic-centric content → docs/gmail-intel.md (completed 2026-02-06)
@@ -36,3 +38,4 @@
 - [x] Replace all YOUR_FORM_ID placeholders with actual Google Form IDs (completed 2026-02-13)
 - [x] Major family corrections from Anthony Cicconetti — 22 files, children/grandchildren/birthday/restaurant/Hurley (completed 2026-02-13)
 - [x] WS2: Family data collection — Anthony provided corrections directly in session (completed 2026-02-13)
+- [x] Integrate Yvonne's historic addresses into book — corrected birthplace (NYC not Bayonne), USAF dates (1964 not 1965, Lackland/Shreveport/Thailand), full married-life address trajectory (17 addresses 1969–present), updated timeline + ch01 + ch02 + ch08; source saved to sources/yvonne-historic-addresses.md (completed 2026-02-19)

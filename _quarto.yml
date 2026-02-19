@@ -1,6 +1,8 @@
 project:
   type: book
   output-dir: _book
+  resources:
+    - data/addresses.json
 
 book:
   title: "Vic Cicconetti — This Is Your Life"
@@ -29,6 +31,7 @@ book:
         - chapters/ch10-happy-80th.qmd
   appendices:
     - appendices/timeline.qmd
+    - appendices/lifemap.qmd
     - appendices/family-tree.qmd
     - appendices/correct-the-record.qmd
 
@@ -64,7 +67,8 @@ format:
               'ch10-happy-80th':   'era-celebration',
               'timeline':          'era-golden',
               'family-tree':       'era-family',
-              'correct-the-record':'era-celebration'
+              'correct-the-record':'era-celebration',
+              'lifemap':           'era-golden'
             };
             var path = window.location.pathname;
             for (var slug in eraMap) {
@@ -97,6 +101,7 @@ format:
           })();
           </script>
       - file: includes/jukebox.html
+      - file: includes/lifemap.html
     repo-url: https://github.com/gcicc/dads80th
     repo-actions: [issue]
   pdf:

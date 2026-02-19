@@ -6,6 +6,8 @@ dist/
 build/
 .ruff_cache/
 data/
+!data/addresses.json
+!data/family.json
 reports/output/
 _book/
 .quarto/

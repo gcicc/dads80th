@@ -658,10 +658,261 @@ blockquote.pull-quote::before {
    15. PRINT STYLES
    ============================================================ */
 
+/* ============================================================
+   16. LIFE JOURNEY MAP
+   ============================================================ */
+
+.life-map {
+  width: 100%;
+  min-height: 400px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  z-index: 1;
+}
+
+/* Custom Leaflet marker pins */
+.life-map-marker {
+  background: transparent !important;
+  border: none !important;
+}
+
+.life-map-pin {
+  width: 36px;
+  height: 36px;
+  border-radius: 50% 50% 50% 0;
+  transform: rotate(-45deg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.35);
+  border: 2px solid #fff;
+}
+
+.life-map-emoji {
+  transform: rotate(45deg);
+  font-size: 16px;
+  line-height: 1;
+}
+
+/* Popup styling */
+.life-map-popup {
+  font-family: var(--body-font, 'Lora', Georgia, serif);
+  font-size: 0.9rem;
+  max-width: 280px;
+}
+
+.life-map-popup-phase {
+  display: inline-block;
+  color: #fff;
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 2px 8px;
+  border-radius: 3px;
+  margin-bottom: 4px;
+}
+
+.life-map-popup-years {
+  color: #666;
+  font-size: 0.85rem;
+}
+
+/* Map controls */
+.life-map-controls {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 0;
+  flex-wrap: wrap;
+}
+
+.life-map-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 6px 14px;
+  border: 2px solid var(--era-primary, #8B0000);
+  border-radius: 20px;
+  background: transparent;
+  color: var(--era-primary, #8B0000);
+  font-family: var(--body-font, 'Lora', Georgia, serif);
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.life-map-btn:hover {
+  background: var(--era-primary, #8B0000);
+  color: #fff;
+}
+
+.life-map-btn.active {
+  background: var(--era-primary, #8B0000);
+  color: #fff;
+}
+
+.life-map-counter {
+  font-family: var(--body-font, 'Lora', Georgia, serif);
+  font-size: 0.85rem;
+  color: #666;
+  font-style: italic;
+}
+
+/* ============================================================
+   17. VISUAL TIMELINE
+   ============================================================ */
+
+.hidden {
+  display: none !important;
+}
+
+.timeline-toggle-bar {
+  margin-bottom: 1rem;
+  text-align: right;
+}
+
+.timeline-toggle-btn {
+  font-size: 0.85rem;
+}
+
+.timeline-visual {
+  position: relative;
+  padding-left: 40px;
+}
+
+.timeline-visual::before {
+  content: '';
+  position: absolute;
+  left: 18px;
+  top: 0;
+  bottom: 0;
+  width: 3px;
+  background: linear-gradient(
+    to bottom,
+    #008B8B 0%,
+    #008B8B 15%,
+    #556B2F 15%,
+    #556B2F 30%,
+    #800020 30%,
+    #800020 45%,
+    #B8860B 45%,
+    #B8860B 65%,
+    #8B0000 65%,
+    #8B0000 85%,
+    #DAA520 85%,
+    #DAA520 100%
+  );
+  border-radius: 2px;
+}
+
+.timeline-decade {
+  font-family: var(--heading-font, 'Lora', Georgia, serif);
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--era-primary, #8B0000);
+  margin: 2rem 0 0.5rem -40px;
+  padding-left: 40px;
+  position: relative;
+}
+
+.timeline-decade::before {
+  content: '';
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 18px;
+  height: 18px;
+  background: var(--era-primary, #8B0000);
+  border-radius: 50%;
+  border: 3px solid #fff;
+  box-shadow: 0 0 0 2px var(--era-primary, #8B0000);
+}
+
+.timeline-card {
+  position: relative;
+  background: var(--era-bg-tint, #f5e6e6);
+  border-radius: 8px;
+  padding: 12px 16px;
+  margin-bottom: 12px;
+  border-left: 4px solid var(--era-secondary, #DAA520);
+  opacity: 0;
+  transform: translateX(20px);
+  animation: timeline-slide-in 0.5s ease forwards;
+}
+
+.timeline-card::before {
+  content: '';
+  position: absolute;
+  left: -32px;
+  top: 18px;
+  width: 10px;
+  height: 10px;
+  background: var(--era-secondary, #DAA520);
+  border-radius: 50%;
+  border: 2px solid #fff;
+}
+
+.timeline-year {
+  font-family: var(--heading-font, 'Lora', Georgia, serif);
+  font-weight: 700;
+  font-size: 0.95rem;
+  color: var(--era-primary, #8B0000);
+  display: inline;
+}
+
+.timeline-icon {
+  display: inline;
+  font-size: 1.1rem;
+  margin: 0 6px;
+}
+
+.timeline-text {
+  font-size: 0.95rem;
+  line-height: 1.5;
+  margin-top: 4px;
+}
+
+@keyframes timeline-slide-in {
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Stagger the animation delays */
+.timeline-card:nth-child(1) { animation-delay: 0.05s; }
+.timeline-card:nth-child(2) { animation-delay: 0.1s; }
+.timeline-card:nth-child(3) { animation-delay: 0.15s; }
+.timeline-card:nth-child(4) { animation-delay: 0.2s; }
+.timeline-card:nth-child(5) { animation-delay: 0.25s; }
+.timeline-card:nth-child(6) { animation-delay: 0.3s; }
+.timeline-card:nth-child(7) { animation-delay: 0.35s; }
+.timeline-card:nth-child(8) { animation-delay: 0.4s; }
+.timeline-card:nth-child(9) { animation-delay: 0.45s; }
+.timeline-card:nth-child(10) { animation-delay: 0.5s; }
+.timeline-card:nth-child(11) { animation-delay: 0.55s; }
+.timeline-card:nth-child(12) { animation-delay: 0.6s; }
+.timeline-card:nth-child(13) { animation-delay: 0.65s; }
+.timeline-card:nth-child(14) { animation-delay: 0.7s; }
+.timeline-card:nth-child(15) { animation-delay: 0.75s; }
+.timeline-card:nth-child(16) { animation-delay: 0.8s; }
+.timeline-card:nth-child(17) { animation-delay: 0.85s; }
+
+/* ============================================================
+   18. PRINT STYLES
+   ============================================================ */
+
 @media print {
   #reading-progress,
   .jukebox-wrapper,
-  .jukebox-controls {
+  .jukebox-controls,
+  .life-map,
+  .life-map-controls,
+  .timeline-toggle-bar,
+  .timeline-visual {
     display: none !important;
   }
 

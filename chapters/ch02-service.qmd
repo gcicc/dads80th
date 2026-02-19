@@ -35,24 +35,36 @@ Vic was 19 when he shipped out. These are the songs that came through Armed Forc
 
 **The neighborhood wavelet:** Working-class cities like Bayonne sent their sons at vastly disproportionate rates. College students got deferments. The sons of lawyers and bankers went to graduate school. The sons of refinery workers and poultry processors went to Southeast Asia. Of the 2.7 million Americans who served in Vietnam, **80% came from working-class or poor families**. Bayonne knew this math intimately.
 
-**The personal wavelet:** Victor was 19. He chose the Air Force — and chose to serve as a medic, not a combat role. It was a decision that said everything about the man he would become: serve, but heal.
+**The personal wavelet:** Victor was 18. He chose the Air Force — and chose to serve as a medic, not a combat role. It was a decision that said everything about the man he would become: serve, but heal.
 :::
 
 ### Victor: Answering the Call
 
-In **1965**, at just nineteen years old, Victor R. Cicconetti joined the **United States Air Force** as a medic. It was an era when young men from neighborhoods like Bayonne answered the call without hesitation. Victor's choice to serve as a medic said something about his character from the start: he went to war not to fight, but to heal.
+In **1964**, at just eighteen years old, Victor R. Cicconetti joined the **United States Air Force** as a medic, reporting to **Lackland Air Force Base** in San Antonio, Texas for basic training. It was an era when young men from neighborhoods like Bayonne answered the call without hesitation. Victor's choice to serve as a medic said something about his character from the start: he went to war not to fight, but to heal.
 
 #### Medical Air Evacuations
 
 Victor's service took him into the skies over Southeast Asia, where he participated in **medical air evacuations** — the critical missions that transported wounded servicemembers from combat zones to medical facilities.
 
-As a medic on these flights, Victor was responsible for keeping patients alive during transport, often under dangerous and chaotic conditions. Medical skill under extreme pressure. Courage in combat zones. Compassion for fellow servicemembers at their most vulnerable.
+After training, Victor was stationed at **Shreveport, Louisiana** from **1966 to 1967** — the same period he married Yvonne back in Bayonne. In **1968**, he deployed to **Thailand**, the hub for U.S. air operations over Southeast Asia. As a medic on evacuation flights, Victor was responsible for keeping patients alive during transport, often under dangerous and chaotic conditions. Medical skill under extreme pressure. Courage in combat zones. Compassion for fellow servicemembers at their most vulnerable.
 
 The nickname **"MedFlyBoy"** — which Vic later used as his Gmail handle — captures both halves of his identity: the **medic** who healed and the **flyboy** who took to the skies. A name born in the Air Force, carried for life.
 
+::: {.callout-note title="Map: The Air Force Journey — Bayonne to Thailand" collapse="true"}
+From a Bayonne neighborhood to basic training in San Antonio, then Shreveport, then halfway around the world to Thailand — and back.
+
+::: {.content-visible when-format="html"}
+<div class="life-map life-map-filter-military" style="height: 400px; border-radius: 8px;"></div>
+:::
+
+::: {.content-visible when-format="pdf"}
+*Interactive map available in the online version.*
+:::
+:::
+
 #### Four Years
 
-From 1965 to 1969, Victor served. He was twenty-three when he came home — no longer the teenager who had left Bayonne, but a man shaped by what he had seen, what he had done, and who he had saved.
+From 1964 to 1969, Victor served — Lackland, Shreveport, Thailand, and back. He was twenty-three when he came home — no longer the teenager who had left Bayonne, but a man shaped by what he had seen, what he had done, and who he had saved.
 
 Coming home from Vietnam in the late 1960s was its own challenge. The welcome was famously inadequate. But what distinguished Victor was what he did next: he didn't retreat, and he didn't forget.
 
@@ -92,7 +104,7 @@ Through it all, Yvonne's sister **Mary Ann** was at her side. The bond between t
 ::: {.callout-note title="Check Our Work — Two Paths" collapse="true"}
 | # | We wrote... | TRUE | FALSE | I DON'T KNOW |
 |---|-----------|:----:|:-----:|:------------:|
-| 1 | Victor joined the Air Force in 1965 at age 19 | | | |
+| 1 | Victor joined the Air Force in 1964 at age 18; basic at Lackland AFB | | | |
 | 2 | He served as a medic and flew medical air evacuations | | | |
 | 3 | "MedFlyBoy" was his nickname from service | | | |
 | 4 | Yvonne was born approximately April 1948 | | | |

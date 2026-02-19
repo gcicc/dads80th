@@ -1,0 +1,365 @@
+{
+  "meta": {
+    "title": "Victor Cicconetti — Life Journey Addresses",
+    "purpose": "Geographic data for interactive life map in 80th birthday book",
+    "source": "Yvonne Cicconetti email (2026-02-16) + book research",
+    "last_updated": "2026-02-19",
+    "notes": "Coordinates are approximate for older Bayonne addresses. Military bases use main gate coordinates."
+  },
+  "phases": {
+    "childhood": { "label": "Childhood (1946–1963)", "color": "#008B8B", "era": "era-doowop" },
+    "military": { "label": "U.S. Air Force (1964–1969)", "color": "#556B2F", "era": "era-military" },
+    "early-marriage": { "label": "Early Marriage (1969–1980)", "color": "#800020", "era": "era-summer-of-love" },
+    "shore-years": { "label": "Shore Years (1980–2000)", "color": "#B8860B", "era": "era-eighties" },
+    "retirement": { "label": "Retirement (2000–2020)", "color": "#8B0000", "era": "era-golden" },
+    "golden": { "label": "Golden Years (2020–Present)", "color": "#DAA520", "era": "era-golden" }
+  },
+  "addresses": [
+    {
+      "id": "nyc-birth",
+      "label": "10th St & Avenue C, NYC",
+      "note": "Born here ~1946; family lived until Vic was ~10",
+      "lat": 40.7265,
+      "lng": -73.9807,
+      "years": "~1946–~1956",
+      "year_start": 1946,
+      "phase": "childhood",
+      "type": "home",
+      "order": 1
+    },
+    {
+      "id": "bayonne-19th",
+      "label": "19th St & Broadway, Bayonne, NJ",
+      "note": "First Bayonne address after moving from NYC",
+      "lat": 40.6714,
+      "lng": -74.1131,
+      "years": "~1956",
+      "year_start": 1956,
+      "phase": "childhood",
+      "type": "home",
+      "order": 2
+    },
+    {
+      "id": "bayonne-w21st",
+      "label": "West 21st St, Bayonne, NJ",
+      "note": "Second Bayonne address",
+      "lat": 40.6697,
+      "lng": -74.1145,
+      "years": "~late 1950s",
+      "year_start": 1957,
+      "phase": "childhood",
+      "type": "home",
+      "order": 3
+    },
+    {
+      "id": "bayonne-525-blvd",
+      "label": "525 Boulevard, Bayonne, NJ",
+      "note": "Third Bayonne address",
+      "lat": 40.6670,
+      "lng": -74.1140,
+      "years": "~late 1950s",
+      "year_start": 1958,
+      "phase": "childhood",
+      "type": "home",
+      "order": 4
+    },
+    {
+      "id": "bayonne-27th-broadway",
+      "label": "27th St & Broadway, Bayonne, NJ",
+      "note": "Fourth Bayonne address",
+      "lat": 40.6660,
+      "lng": -74.1118,
+      "years": "~early 1960s",
+      "year_start": 1960,
+      "phase": "childhood",
+      "type": "home",
+      "order": 5
+    },
+    {
+      "id": "bayonne-700-blvd",
+      "label": "700 Boulevard, Bayonne, NJ",
+      "note": "Last childhood home before Air Force",
+      "lat": 40.6637,
+      "lng": -74.1125,
+      "years": "~early 1960s–1964",
+      "year_start": 1961,
+      "phase": "childhood",
+      "type": "home",
+      "order": 6
+    },
+    {
+      "id": "bayonne-31st-ave-e",
+      "label": "31st St & Avenue E, Bayonne, NJ",
+      "note": "Lived here alone with friends before enlisting",
+      "lat": 40.6640,
+      "lng": -74.1100,
+      "years": "~1963–1964",
+      "year_start": 1963,
+      "phase": "childhood",
+      "type": "home",
+      "order": 7
+    },
+    {
+      "id": "lackland",
+      "label": "Lackland AFB, San Antonio, TX",
+      "note": "Basic training — joined USAF 1964",
+      "lat": 29.3843,
+      "lng": -98.6208,
+      "years": "1964–1965",
+      "year_start": 1964,
+      "phase": "military",
+      "type": "military",
+      "order": 8
+    },
+    {
+      "id": "shreveport",
+      "label": "Barksdale AFB, Shreveport, LA",
+      "note": "Stationed here 1966–1967; married Yvonne Aug 20, 1967 while posted here",
+      "lat": 32.5018,
+      "lng": -93.6649,
+      "years": "1966–1967",
+      "year_start": 1966,
+      "phase": "military",
+      "type": "military",
+      "order": 9
+    },
+    {
+      "id": "thailand",
+      "label": "U-Tapao RTAFB, Thailand",
+      "note": "Deployed 1968 — medical air evacuations in Southeast Asia",
+      "lat": 12.6799,
+      "lng": 101.0050,
+      "years": "1968",
+      "year_start": 1968,
+      "phase": "military",
+      "type": "military",
+      "order": 10
+    },
+    {
+      "id": "bayonne-humphreys",
+      "label": "84 Humphrey's Ave, Bayonne, NJ",
+      "note": "First married home after discharge, 1969",
+      "lat": 40.6590,
+      "lng": -74.1060,
+      "years": "1969–1971",
+      "year_start": 1969,
+      "phase": "early-marriage",
+      "type": "home",
+      "order": 11
+    },
+    {
+      "id": "bayonne-washington-pkwy",
+      "label": "Washington Parkway, Bayonne, NJ",
+      "note": "Brief stay, 1971",
+      "lat": 40.6615,
+      "lng": -74.1080,
+      "years": "1971",
+      "year_start": 1971,
+      "phase": "early-marriage",
+      "type": "home",
+      "order": 12
+    },
+    {
+      "id": "bayonne-493-ave-a",
+      "label": "493 Avenue A, Bayonne, NJ",
+      "note": "Brief stay, 1971",
+      "lat": 40.6620,
+      "lng": -74.1155,
+      "years": "1971",
+      "year_start": 1971,
+      "phase": "early-marriage",
+      "type": "home",
+      "order": 13
+    },
+    {
+      "id": "san-diego",
+      "label": "San Diego, CA",
+      "note": "Brief relocation, 1971 — reason unknown (military-related?)",
+      "lat": 32.7157,
+      "lng": -117.1611,
+      "years": "1971",
+      "year_start": 1971,
+      "phase": "early-marriage",
+      "type": "home",
+      "order": 14
+    },
+    {
+      "id": "bayonne-31st",
+      "label": "31st St, Bayonne, NJ",
+      "note": "Returned from San Diego",
+      "lat": 40.6640,
+      "lng": -74.1095,
+      "years": "1972–1974",
+      "year_start": 1972,
+      "phase": "early-marriage",
+      "type": "home",
+      "order": 15
+    },
+    {
+      "id": "bayonne-158-w21st",
+      "label": "158 W 21st St, Bayonne, NJ",
+      "note": "Greg born during this period (~1974)",
+      "lat": 40.6695,
+      "lng": -74.1148,
+      "years": "1974–1977",
+      "year_start": 1974,
+      "phase": "early-marriage",
+      "type": "home",
+      "order": 16
+    },
+    {
+      "id": "bayonne-ave-e",
+      "label": "Avenue E, Bayonne, NJ",
+      "note": "FIRST OWNED HOME — Rich born ~1977",
+      "lat": 40.6663,
+      "lng": -74.1100,
+      "years": "1977–1980",
+      "year_start": 1977,
+      "phase": "early-marriage",
+      "type": "home",
+      "order": 17
+    },
+    {
+      "id": "shark-river-hills",
+      "label": "104 Highland Ave, Shark River Hills, NJ",
+      "note": "Moved here ~1980 when Victor Sr. passed; Long Branch HS admin era",
+      "lat": 40.1880,
+      "lng": -74.0440,
+      "years": "1980–1995",
+      "year_start": 1980,
+      "phase": "shore-years",
+      "type": "home",
+      "order": 18
+    },
+    {
+      "id": "wall",
+      "label": "4 Rue de la Porte, Wall, NJ",
+      "note": "Moved during Asbury Park admin years",
+      "lat": 40.1700,
+      "lng": -74.0680,
+      "years": "1995–2000",
+      "year_start": 1995,
+      "phase": "shore-years",
+      "type": "home",
+      "order": 19
+    },
+    {
+      "id": "neptune",
+      "label": "18 Waterview Ave, Neptune, NJ",
+      "note": "Retirement home — 20 years of Shore living",
+      "lat": 40.2010,
+      "lng": -74.0350,
+      "years": "2000–2020",
+      "year_start": 2000,
+      "phase": "retirement",
+      "type": "home",
+      "order": 20
+    },
+    {
+      "id": "blue-heron-pines",
+      "label": "671 Cypress Pt Dr, Blue Heron Pines",
+      "note": "Current home — Egg Harbor City golf community",
+      "lat": 39.5390,
+      "lng": -74.6180,
+      "years": "2020–present",
+      "year_start": 2020,
+      "phase": "golden",
+      "type": "home",
+      "order": 21
+    }
+  ],
+  "landmarks": [
+    {
+      "id": "assumption-church",
+      "label": "Assumption Catholic Church, Bayonne",
+      "note": "Wedding location — August 20, 1967; Cicconetti family parish",
+      "lat": 40.6640,
+      "lng": -74.1130,
+      "type": "landmark",
+      "icon": "church"
+    },
+    {
+      "id": "mt-carmel",
+      "label": "Our Lady of Mt. Carmel Church, Bayonne",
+      "note": "Elia family parish — Italian community center",
+      "lat": 40.6685,
+      "lng": -74.1115,
+      "type": "landmark",
+      "icon": "church"
+    },
+    {
+      "id": "maidenform",
+      "label": "Maidenform Factory, 154 Avenue E, Bayonne",
+      "note": "Where Mary Chiarolanza worked as a seamstress",
+      "lat": 40.6662,
+      "lng": -74.1098,
+      "type": "landmark",
+      "icon": "factory"
+    },
+    {
+      "id": "ellis-island",
+      "label": "Ellis Island, NY/NJ",
+      "note": "Where the Cicconetti and Chiarolanza families entered America",
+      "lat": 40.6995,
+      "lng": -74.0395,
+      "type": "landmark",
+      "icon": "historic"
+    },
+    {
+      "id": "long-branch-hs",
+      "label": "Long Branch High School, Long Branch, NJ",
+      "note": "Vic's admin role — 1980s; Man with Many Missions era",
+      "lat": 40.3043,
+      "lng": -73.9920,
+      "years": "1980s",
+      "type": "work",
+      "icon": "school"
+    },
+    {
+      "id": "asbury-park-schools",
+      "label": "Asbury Park School District, NJ",
+      "note": "Vic's admin role — 1990s",
+      "lat": 40.2204,
+      "lng": -74.0120,
+      "years": "1990s",
+      "type": "work",
+      "icon": "school"
+    },
+    {
+      "id": "jersey-city-schools",
+      "label": "Jersey City Public Schools, NJ",
+      "note": "Yvonne's health teaching career — decades of service",
+      "lat": 40.7178,
+      "lng": -74.0431,
+      "type": "work",
+      "icon": "school"
+    },
+    {
+      "id": "pete-eldas",
+      "label": "Pete & Elda's, Neptune City, NJ",
+      "note": "Family pizza institution — open since 1956",
+      "lat": 40.2000,
+      "lng": -74.0280,
+      "type": "landmark",
+      "icon": "restaurant"
+    },
+    {
+      "id": "point-pleasant",
+      "label": "Point Pleasant Beach Boardwalk, NJ",
+      "note": "Jenkinson's, fishing pier — Shore pilgrimage destination",
+      "lat": 40.0873,
+      "lng": -74.0476,
+      "type": "landmark",
+      "icon": "beach"
+    },
+    {
+      "id": "avon-by-the-sea",
+      "label": "Avon-by-the-Sea, NJ",
+      "note": "Bistro-by-the-Sea location; family beach town",
+      "lat": 40.1923,
+      "lng": -74.0157,
+      "type": "landmark",
+      "icon": "beach"
+    }
+  ]
+}
