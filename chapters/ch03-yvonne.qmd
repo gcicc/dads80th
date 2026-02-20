@@ -5,6 +5,8 @@
 — Vic, in an email to Greg, 2015. Even fifty years later, they speak as one.
 :::
 
+::::: {.chapter-media-panel}
+
 :::: {.callout-note title="Soundtrack: August 20, 1967" collapse="true" appearance="simple"}
 Vic and Yvonne married during the Summer of Love. These songs were on the radio the week they said "I do" at Assumption Church:
 
@@ -25,6 +27,27 @@ Vic and Yvonne married during the Summer of Love. These songs were on the radio 
 *Mom & Dad — what was your first dance? What song was "yours"? Do you remember the music at the reception? [Suggest a song →](https://docs.google.com/forms/d/e/1FAIpQLSdpYXns7Zwutq6tDNp3BYU2HCPTHTgkdok6r9xWPpdXVPbvCQ/viewform) — we'll add the best suggestions to the final playlist.*
 ::::
 
+:::: {.callout-note title="Photo Gallery (7 photos)" collapse="true" appearance="simple"}
+::: {.content-visible when-format="html"}
+::: {.photo-slideshow}
+![Mom & Dad's wedding day, August 20, 1967](../images/wedding/Mom%20and%20Dad%20Wedding_001.jpg){group="ch03"}
+
+![The ceremony](../images/wedding/Mom%20and%20Dad%20Wedding_003.jpg){group="ch03"}
+
+![The happy couple](../images/wedding/Mom%20and%20Dad%20Wedding_004.jpg){group="ch03"}
+
+![Wedding party](../images/wedding/Mom%20and%20Dad%20Wedding_005.jpg){group="ch03"}
+
+![Wedding celebration](../images/wedding/Mom%20and%20Dad%20Wedding_006.jpg){group="ch03"}
+
+![At the reception](../images/wedding/Mom%20and%20Dad%20Wedding_007.jpg){group="ch03"}
+
+![Wedding day memories](../images/wedding/Mom%20and%20Dad%20Wedding_008.jpg){group="ch03"}
+:::
+:::
+::::
+:::::
+
 ## The Columns Merge
 
 On **August 20, 1967**, Victor R. Cicconetti married **Yvonne C. Elia** at **Assumption Catholic Church in Bayonne, New Jersey**.
@@ -32,13 +55,13 @@ On **August 20, 1967**, Victor R. Cicconetti married **Yvonne C. Elia** at **Ass
 He was twenty-one. She was nineteen. The Vietnam War was raging — Victor was in the middle of his Air Force service. But they chose each other, and from this day forward, the two family lines that had traveled separately from Italy to Bayonne became one story.
 
 ::: {.callout-note title="August 1967: The Summer the World Was on Fire" collapse="true"}
-**The broadest wavelet:** The summer Vic and Yvonne married was one of the most turbulent in American history. It would later be called the **"Long Hot Summer"** — over 150 race riots erupted across U.S. cities.
+**The wide lens:** The summer Vic and Yvonne married was one of the most turbulent in American history. It would later be called the **"Long Hot Summer"** — over 150 race riots erupted across U.S. cities.
 
-**The neighborhood wavelet:** Five weeks before the wedding — **July 12–17, 1967** — the **Newark riots** tore through a city less than 20 miles from Assumption Church. Twenty-six people died. Over 700 were injured. The National Guard rolled armored vehicles through streets that Bayonne families drove through every day. The smoke was visible from the waterfront.
+**The local lens:** Five weeks before the wedding — **July 12–17, 1967** — the **Newark riots** tore through a city less than 20 miles from Assumption Church. Twenty-six people died. Over 700 were injured. The National Guard rolled armored vehicles through streets that Bayonne families drove through every day. The smoke was visible from the waterfront.
 
 Bayonne itself was tense. The city's Italian-American neighborhoods bordered Black neighborhoods. The police force — where Yvonne's brother-in-law Michael Hurley would later serve — was on high alert. This was the America that Vic and Yvonne were building their life inside.
 
-**The world wavelet:** That same summer — **100,000 American troops** were in Vietnam. The Six-Day War had just reshaped the Middle East in June. Muhammad Ali had been stripped of his title for refusing the draft. The Beatles released *Sgt. Pepper's*. Thurgood Marshall was confirmed as the first Black Supreme Court Justice.
+**The wide lens:** That same summer — **100,000 American troops** were in Vietnam. The Six-Day War had just reshaped the Middle East in June. Muhammad Ali had been stripped of his title for refusing the draft. The Beatles released *Sgt. Pepper's*. Thurgood Marshall was confirmed as the first Black Supreme Court Justice.
 
 And on August 20, in the middle of all of it, a young airman on active duty and a girl from the neighborhood walked into Assumption Church and said yes.
 :::
@@ -55,7 +78,7 @@ The partnership has weathered:
 - **Career building** — Victor in school administration (Long Branch, Asbury Park), Yvonne in health education (Jersey City) — two educators under one roof
 - **Entrepreneurial risk** — co-owning an Italian restaurant as a family venture
 - **Raising two sons** — Greg and Rich
-- **Three grandchildren** — Ellie, Anthony, and Richy
+- **Three grandchildren** — Ellie, Anthony, and Richie
 - **Loss** — Victor's parents, his brothers Dennis and Michael, his sister Loretta, Yvonne's father Frank
 
 Through all of it, the partnership held. More than held — it flourished.
@@ -94,7 +117,7 @@ That's Victor: he speaks with his whole heart, then defers to Yvonne for her own
 
 In **2007**, the family gathered at the home of **Mary Ann and Michael Hurley** in Stafford, NJ, to celebrate Victor and Yvonne's **40th wedding anniversary**. The milestone was marked with a family party and a feature in the *Asbury Park Press* anniversaries section.
 
-Now, nearly twenty years later, three grandchildren — Ellie, Anthony, and Richy — have grown up, the careers have given way to retirement, and the wedding that began at Assumption Church has become one of the longest-running love stories in the family.
+Now, nearly twenty years later, three grandchildren — Ellie, Anthony, and Richie — have grown up, the careers have given way to retirement, and the wedding that began at Assumption Church has become one of the longest-running love stories in the family.
 
 ## This Book Is Their Story
 
@@ -117,35 +140,15 @@ This is the chapter we can't write without you. We know the date (August 20, 196
 *This chapter will only be as good as what you give us. And we want it to be the best chapter in the book.*
 :::
 
-## Photo Gallery: The Wedding {.unnumbered}
-
-::: {.content-visible when-format="html"}
-::: {.photo-slideshow}
-![Mom & Dad's wedding day, August 20, 1967](../images/wedding/Mom%20%26%20Dad%20Wedding_001.jpg){group="ch03"}
-
-![The ceremony](../images/wedding/Mom%20%26%20Dad%20Wedding_003.jpg){group="ch03"}
-
-![The happy couple](../images/wedding/Mom%20%26%20Dad%20Wedding_004.jpg){group="ch03"}
-
-![Wedding party](../images/wedding/Mom%20%26%20Dad%20Wedding_005.jpg){group="ch03"}
-
-![Wedding celebration](../images/wedding/Mom%20%26%20Dad%20Wedding_006.jpg){group="ch03"}
-
-![At the reception](../images/wedding/Mom%20%26%20Dad%20Wedding_007.jpg){group="ch03"}
-
-![Wedding day memories](../images/wedding/Mom%20%26%20Dad%20Wedding_008.jpg){group="ch03"}
-:::
-:::
-
 ::: {.content-visible when-format="pdf"}
 ::: {.photo-grid}
-![Mom & Dad's wedding day, August 20, 1967](../images/wedding/Mom%20%26%20Dad%20Wedding_001.jpg){width=45%}
+![Mom & Dad's wedding day, August 20, 1967](../images/wedding/Mom%20and%20Dad%20Wedding_001.jpg){width=45%}
 
-![The happy couple](../images/wedding/Mom%20%26%20Dad%20Wedding_004.jpg){width=45%}
+![The happy couple](../images/wedding/Mom%20and%20Dad%20Wedding_004.jpg){width=45%}
 
-![Wedding party](../images/wedding/Mom%20%26%20Dad%20Wedding_005.jpg){width=45%}
+![Wedding party](../images/wedding/Mom%20and%20Dad%20Wedding_005.jpg){width=45%}
 
-![At the reception](../images/wedding/Mom%20%26%20Dad%20Wedding_007.jpg){width=45%}
+![At the reception](../images/wedding/Mom%20and%20Dad%20Wedding_007.jpg){width=45%}
 :::
 :::
 

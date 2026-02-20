@@ -4,6 +4,8 @@
 *"Man with Many Missions" — headline from the Red Bank Register, 1987, profiling Victor at Long Branch High School*
 :::
 
+::::: {.chapter-media-panel}
+
 :::: {.callout-note title="Soundtrack: The Jersey Years (1970s–1990s)" collapse="true" appearance="simple"}
 Vic was a school administrator in Monmouth County during the golden age of Jersey rock. These artists weren't just on the radio — they were playing down the road at the Stone Pony in Asbury Park, Vic's own school district:
 
@@ -23,22 +25,59 @@ Vic was a school administrator in Monmouth County during the golden age of Jerse
 *What blasted out of the family station wagon? What song did Dad crank up when he thought nobody was listening? [Suggest a song →](https://docs.google.com/forms/d/e/1FAIpQLSdpYXns7Zwutq6tDNp3BYU2HCPTHTgkdok6r9xWPpdXVPbvCQ/viewform) — we'll add the best suggestions to the final playlist.*
 ::::
 
-![Thanksgiving 1986, Bayonne — #62 after the game.](../images/family/Thanksgiving%201986%20Bayonne%2036%20Marist%200001.jpg){width=60% fig-align="center"}
+:::: {.callout-note title="Photo Gallery (17 photos)" collapse="true" appearance="simple"}
+::: {.content-visible when-format="html"}
+::: {.photo-slideshow}
+![The Cicconetti family, circa 1974–75](../images/family/cicconettis_1974-1975_001.jpg){group="ch04"}
 
-![Dad at his 40th birthday with Grandma Eleanor, 1986.](../images/family/Dads%2040th%20-%20Grandma's%2078016.jpg){width=60% fig-align="center"}
+![Family life, 1974–75](../images/family/cicconettis_1974-1975_009.jpg){group="ch04"}
+
+![Football season, 1974](../images/family/football_74_005.jpg){group="ch04"}
+
+![Game day, 1974](../images/family/football_74_006.jpg){group="ch04"}
+
+![February 1975](../images/family/Large%20Prints%20Feb%2075_002.jpg){group="ch04"}
+
+![July 1976](../images/family/July_76_002.jpg){group="ch04"}
+
+![Family, July 1976](../images/family/Large%20Prints%207-76_006.jpg){group="ch04"}
+
+![March 1978](../images/family/Large%20Prints%203-78_005.jpg){group="ch04"}
+
+![The Cicconetti family, 1976–80](../images/family/cicconettis_1976-1980_014.jpg){group="ch04"}
+
+![Family, 1976–80](../images/family/cicconettis_1976-1980_015.jpg){group="ch04"}
+
+![The 1983–84 years](../images/family/83-84_001.jpg){group="ch04"}
+
+![Family, February 1983](../images/family/cicconettis_Feb_1983_001.jpg){group="ch04"}
+
+![Triathlon, 1986](../images/family/triatholon_86_001.jpg){group="ch04"}
+
+![Triathlon action, 1986](../images/family/triatholon_86_002.jpg){group="ch04"}
+
+![Jesse Jackson — Dad's famous doppelganger](../images/recent/Jesse_Jackson.jpg){group="ch04"}
+
+![Thanksgiving 1986, Bayonne — #62 after the game](../images/family/Thanksgiving%201986%20Bayonne%2036%20Marist%200001.jpg){group="ch04"}
+
+![Dad's 40th birthday with Grandma Eleanor, 1986](../images/family/Dads%2040th%20-%20Grandma's%2078016.jpg){group="ch04"}
+:::
+:::
+::::
+:::::
 
 ## From Battlefield to Classroom
 
 ::: {.callout-note title="America Through Vic's Education Career (1970–2000)" collapse="true"}
-**The broadest wavelet:** Vic entered education during a period of extraordinary upheaval in American schools and society. The thirty years he spent as an administrator spanned:
+**The wide lens:** Vic entered education during a period of extraordinary upheaval in American schools and society. The thirty years he spent as an administrator spanned:
 
 - **1970s:** Post-Vietnam malaise, Watergate, oil crisis, stagflation. Schools navigated desegregation, busing conflicts, and the first wave of federal education mandates. New Jersey's **Robinson v. Cahill** ruling (1973) established that the state must equalize school funding — a battle that would define NJ education for decades.
 - **1980s:** The Reagan revolution. In **1983**, the federal report ***A Nation at Risk*** declared that "the educational foundations of our society are presently being eroded by a rising tide of mediocrity." The Challenger explosion (**January 28, 1986**) — with teacher Christa McAuliffe aboard — was watched live in classrooms across America. Black Monday (**October 19, 1987**) crashed stock markets. That same year, the *Red Bank Register* was profiling Vic as "Man with Many Missions."
 - **1990s:** The **LA riots** erupted in **April 1992** after the Rodney King verdict — six days of fires, 63 dead, $1 billion in damage. Schools across America grappled with race, justice, and how to talk to students about a world that seemed to be unraveling on live television. Then **Columbine** in **April 1999** — 13 dead in a suburban high school — changed school security forever.
 
-**The New Jersey wavelet:** In **1990**, the NJ Supreme Court's **Abbott v. Burke** decision identified **31 "Abbott districts"** — the state's poorest urban school systems — and mandated that the state fund them at the same level as the wealthiest suburbs. Both **Asbury Park** and **Long Branch** were Abbott districts. Vic wasn't administering schools in quiet suburbs — he was in the districts where the fight over equity, funding, and opportunity was most intense.
+**The New Jersey lens:** In **1990**, the NJ Supreme Court's **Abbott v. Burke** decision identified **31 "Abbott districts"** — the state's poorest urban school systems — and mandated that the state fund them at the same level as the wealthiest suburbs. Both **Asbury Park** and **Long Branch** were Abbott districts. Vic wasn't administering schools in quiet suburbs — he was in the districts where the fight over equity, funding, and opportunity was most intense.
 
-**The personal wavelet:** Through all of this, Vic showed up. Every day, every year, for three decades. A Vietnam veteran running schools in communities that needed steady leadership. A man who had seen combat choosing to spend his career in service to young people — many of them from the same working-class backgrounds he came from.
+**The close-up:** Through all of this, Vic showed up. Every day, every year, for three decades. A Vietnam veteran running schools in communities that needed steady leadership. A man who had seen combat choosing to spend his career in service to young people — many of them from the same working-class backgrounds he came from.
 :::
 
 After his military service ended in 1969, Victor built a second career dedicated to a different kind of service: **the education of New Jersey's young people**. He would spend decades as a public school administrator — a career that touched the lives of countless students across some of the state's most dynamic communities.
@@ -54,11 +93,11 @@ Victor's career at **Long Branch High School** wasn't a single role — it was a
 ### The Computer Pioneer
 
 ::: {.callout-note title="1982: When Computers Were Still Science Fiction" collapse="true"}
-**The broader wavelet:** In 1982, the personal computer was barely a consumer product. IBM had released the PC in August 1981. Apple's Lisa was still a year away. The Macintosh wouldn't arrive until 1984. Most American schools had *zero* computers. The ones that did had a single machine in a closet somewhere, gathering dust.
+**The wide lens:** In 1982, the personal computer was barely a consumer product. IBM had released the PC in August 1981. Apple's Lisa was still a year away. The Macintosh wouldn't arrive until 1984. Most American schools had *zero* computers. The ones that did had a single machine in a closet somewhere, gathering dust.
 
-**The school wavelet:** Getting computers into a New Jersey public high school in the early 1980s required more than a purchase order. It required **grant money** — and the hustle to find it, write the proposals, and convince administrators and school boards that these strange beige boxes were the future.
+**The school lens:** Getting computers into a New Jersey public high school in the early 1980s required more than a purchase order. It required **grant money** — and the hustle to find it, write the proposals, and convince administrators and school boards that these strange beige boxes were the future.
 
-**The personal wavelet:** Vic became famous at Long Branch for exactly this: **bringing in grant money to put computers in classrooms**. While other schools were debating whether to invest, Vic was already writing grants, acquiring machines, and getting students' hands on keyboards.
+**The close-up:** Vic became famous at Long Branch for exactly this: **bringing in grant money to put computers in classrooms**. While other schools were debating whether to invest, Vic was already writing grants, acquiring machines, and getting students' hands on keyboards.
 :::
 
 Victor was ahead of his time on technology. He became known at Long Branch for his ability to **bring in grant funding** to get computers into the school — at a time when most educators were still skeptical. He founded the school's **Stock Market Club**, teaching students about investing, finance, and the real-world applications of the business curriculum he'd built.
@@ -147,11 +186,11 @@ The family has long joked that Vic's **black doppelgänger is Jesse Jackson**. T
 ## Asbury Park School District
 
 ::: {.callout-note title="Asbury Park: The City Behind the Music" collapse="true"}
-**The broader wavelet:** Most people know Asbury Park from Springsteen's debut album. The reality was more complicated. By the time Vic arrived as a school administrator, Asbury Park had been through the **1970 Asbury Park riots** — four days of unrest that devastated the city's commercial district along Springwood Avenue. The boardwalk that Springsteen romanticized was surrounded by blocks of urban decay. The Stone Pony was playing to half-empty rooms. The population dropped from 17,000 in 1970 to under 16,000 by 1990.
+**The wide lens:** Most people know Asbury Park from Springsteen's debut album. The reality was more complicated. By the time Vic arrived as a school administrator, Asbury Park had been through the **1970 Asbury Park riots** — four days of unrest that devastated the city's commercial district along Springwood Avenue. The boardwalk that Springsteen romanticized was surrounded by blocks of urban decay. The Stone Pony was playing to half-empty rooms. The population dropped from 17,000 in 1970 to under 16,000 by 1990.
 
-**The school wavelet:** As an Abbott district, Asbury Park's schools were chronically underfunded relative to need. The student body was diverse, the challenges were real, and the stakes were high. Being an administrator here meant more than managing a building — it meant being a stabilizing presence in a community that was fighting to hold itself together.
+**The school lens:** As an Abbott district, Asbury Park's schools were chronically underfunded relative to need. The student body was diverse, the challenges were real, and the stakes were high. Being an administrator here meant more than managing a building — it meant being a stabilizing presence in a community that was fighting to hold itself together.
 
-**The personal wavelet:** Vic chose to work here. A man from Bayonne's Italian-American neighborhoods, a Vietnam veteran, working in Asbury Park's public schools — it was service in the truest sense. The same commitment to healing that put him on medevac helicopters in Southeast Asia drove him to serve students in one of New Jersey's most challenged communities.
+**The close-up:** Vic chose to work here. A man from Bayonne's Italian-American neighborhoods, a Vietnam veteran, working in Asbury Park's public schools — it was service in the truest sense. The same commitment to healing that put him on medevac helicopters in Southeast Asia drove him to serve students in one of New Jersey's most challenged communities.
 :::
 
 Victor also worked as a **public school administrator in the Asbury Park school district**, continuing his commitment to students across Monmouth County. Asbury Park — famous for its boardwalk, its music scene, and its complicated history of urban renewal — presented its own challenges and rewards for an educator committed to making a difference.
@@ -258,45 +297,9 @@ We found the 1987 *Red Bank Register* article that called you "Man with Many Mis
 **Mom:** You were teaching health in Jersey City while Dad was in Long Branch. Two educators under one roof — what was that like? Did you compare notes? Compete? Commiserate?
 :::
 
-## Photo Gallery: The Education Years {.unnumbered}
-
-::: {.content-visible when-format="html"}
-::: {.photo-slideshow}
-![The Cicconetti family, circa 1974–75](../images/family/cicconettis_1974-1975_001.jpg){group="ch04"}
-
-![Family life, mid-1970s](../images/family/cicconettis_1974-1975_009.jpg){group="ch04"}
-
-![Football season, 1974](../images/family/football_74_005.jpg){group="ch04"}
-
-![Game day, 1974](../images/family/football_74_006.jpg){group="ch04"}
-
-![February 1975](../images/family/Large%20Prints%20Feb%2075_002.jpg){group="ch04"}
-
-![July 1976](../images/family/July_76_002.jpg){group="ch04"}
-
-![Family photo, 1976](../images/family/Large%20Prints%207-76_006.jpg){group="ch04"}
-
-![March 1978](../images/family/Large%20Prints%203-78_005.jpg){group="ch04"}
-
-![The Cicconetti family, late 1970s](../images/family/cicconettis_1976-1980_014.jpg){group="ch04"}
-
-![Family time, late 70s](../images/family/cicconettis_1976-1980_015.jpg){group="ch04"}
-
-![The 1983–84 years](../images/family/83-84_001.jpg){group="ch04"}
-
-![Family photo, circa 1983](../images/family/cicconettis_Feb_1983_001.jpg){group="ch04"}
-
-![Triathlon, 1986](../images/family/triatholon_86_001.jpg){group="ch04"}
-
-![Triathlon action, 1986](../images/family/triatholon_86_002.jpg){group="ch04"}
-
-![Jesse Jackson — Dad's famous doppelganger](../images/recent/Jesse_Jackson.jpg){group="ch04"}
-:::
-:::
-
 ::: {.content-visible when-format="pdf"}
 ::: {.photo-grid}
-![The Cicconetti family, circa 1974–75](../images/family/cicconettis_1974-1975_001.jpg){width=45%}
+![The Cicconetti family, 1974–75](../images/family/cicconettis_1974-1975_001.jpg){width=45%}
 
 ![Football season, 1974](../images/family/football_74_005.jpg){width=45%}
 

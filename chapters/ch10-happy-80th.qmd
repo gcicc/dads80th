@@ -4,6 +4,22 @@
 *"An American story." — Red Bank Register, 1987*
 :::
 
+::::: {.chapter-media-panel}
+:::: {.callout-note title="Photo Gallery (4 photos)" collapse="true" appearance="simple"}
+::: {.content-visible when-format="html"}
+::: {.photo-slideshow}
+![The family, September 2017](../images/P1020477.JPG){group="ch10"}
+
+![Vic](../images/recent/cicc.jpg){group="ch10"}
+
+![Family time](../images/recent/IMG_0435.JPG){group="ch10"}
+
+![Together](../images/recent/IMG_1020.JPG){group="ch10"}
+:::
+:::
+::::
+:::::
+
 ## A Life Well Lived
 
 As Victor R. Cicconetti turns eighty, the measure of his life is not found in any single achievement — but in the remarkable breadth of what he has given.
@@ -69,7 +85,7 @@ flowchart TD
 
 3. **Greg checked everything.** Every single fact, every story, every detail — Greg read it and either approved it, corrected it, or said "that's not right, here's what really happened." The AI doesn't know your life — *Greg does*. Claude is the pen. Greg is the author.
 
-4. **The family fills in the gaps.** That's what those "Check Our Work" boxes are for — so you, Mom, Rich, Ellie, Anthony, and Richy can tell us what we got right, what we got wrong, and what stories we're missing.
+4. **The family fills in the gaps.** That's what those "Check Our Work" boxes are for — so you, Mom, Rich, Ellie, Anthony, and Richie can tell us what we got right, what we got wrong, and what stories we're missing.
 
 5. **It became this website.** The book you're reading is a website that works on your computer, your phone, or a tablet. It's not printed (yet — we might make a printed version too). The music links play real songs. The photos are from the family collection.
 
@@ -84,20 +100,6 @@ flowchart TD
 At eighty, Vic is still shopping for air pistols. Still going to AC. Still forwarding life wisdom to his sons. Still walking around the house and suddenly breaking into laughter at the memory of his family's antics.
 
 Still the same man from Bayonne who answered the call. He won't back down. He did it his way. And he's not done.
-
-## A Life in Pictures {.unnumbered}
-
-::: {.content-visible when-format="html"}
-::: {.photo-slideshow}
-![The family, September 2017](../images/P1020477.JPG){group="ch10"}
-
-![Vic](../images/recent/cicc.jpg){group="ch10"}
-
-![Family time](../images/recent/IMG_0435.JPG){group="ch10"}
-
-![Together](../images/recent/IMG_1020.JPG){group="ch10"}
-:::
-:::
 
 ::: {.content-visible when-format="pdf"}
 ::: {.photo-grid}

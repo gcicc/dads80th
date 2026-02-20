@@ -4,6 +4,8 @@
 *One answered the call at nineteen and flew into combat. The other lost her father at fourteen and found her own kind of courage. Both were being forged into the people who would find each other.*
 :::
 
+::::: {.chapter-media-panel}
+
 :::: {.callout-note title="Soundtrack: Armed Forces Radio (1965–1969)" collapse="true" appearance="simple"}
 Vic was 19 when he shipped out. These are the songs that came through Armed Forces Radio and base jukeboxes while he was flying medevac in Southeast Asia:
 
@@ -26,16 +28,69 @@ Vic was 19 when he shipped out. These are the songs that came through Armed Forc
 *Dad — what do you actually remember hearing over there? Did you have a song that got you through? [Suggest a song →](https://docs.google.com/forms/d/e/1FAIpQLSdpYXns7Zwutq6tDNp3BYU2HCPTHTgkdok6r9xWPpdXVPbvCQ/viewform) — we'll add the best suggestions to the final playlist.*
 ::::
 
+:::: {.callout-note title="Photo Gallery (21 photos)" collapse="true" appearance="simple"}
+::: {.content-visible when-format="html"}
+::: {.photo-slideshow}
+![In uniform, summer 1965](../images/military/summer%201965_001.jpg){group="ch02"}
+
+![Air Force, April 1966](../images/military/Air%20Force%20LA%20April%201966_005.jpg){group="ch02"}
+
+![April 1966, Los Angeles](../images/military/April%201966%20LA_001.jpg){group="ch02"}
+
+![Air Force portrait](../images/military/Air%20Force_002.jpg){group="ch02"}
+
+![Family photo](../images/heritage/Sort%20me_015.jpg){group="ch02"}
+
+![Air Force, Alabama and Louisiana](../images/military/Air%20Force%20AL%20and%20LA_004.jpg){group="ch02"}
+
+![Air Force](../images/military/Air%20Force_003.jpg){group="ch02"}
+
+![April 1966](../images/military/April%201966_004.jpg){group="ch02"}
+
+![Stationed in the South, February 1966](../images/military/Large%20Prints%202-66_013.jpg){group="ch02"}
+
+![1966](../images/military/Large%20Prints%2066_014.jpg){group="ch02"}
+
+!["For My Honey — Forever I'll Love You," March 1967](../images/military/For%20My%20Honey%20Forever%20I'll%20love%20you_Mar%2067_001.jpg){group="ch02"}
+
+!["To Eve, My Honey — Love and Kisses," Alabama](../images/military/To%20Eve%20My%20Honey%20Love%20and%20Kisses_AL_007.jpg){group="ch02"}
+
+!["Would you believe it's your wife"](../images/military/Would%20you%20believe%20its%20your%20wife002.jpg){group="ch02"}
+
+![US Air Force DET 11, 600th Photo Squadron, January 1968](../images/military/US%20Air%20Force%20DET%2011%20600th%20Photo%20Sp%20AAVS%20MAC%2026%20Jan%201968%20UNCLASSIFIED001.jpg){group="ch02"}
+
+![Unit photo, January 1968](../images/military/US%20Air%20Force%20DET%2011%20600th%20Photo%20Sp%20AAVS%20MAC%2026%20Jan%201968%20UNCLASSIFIED002.jpg){group="ch02"}
+
+![Bangkok, King's Palace, June 1968](../images/military/Bangkok%20Kings%20Palace%20June%201968_002.jpg){group="ch02"}
+
+![At the King's Palace, Bangkok, June 1968](../images/military/Bangkok%20Kings%20Palace%20June%201968_003.jpg){group="ch02"}
+
+![Pattaya Beach, Gulf of Siam, March 1968](../images/military/Taken%20at%20Pattaya%20on%20the%20Gulf%20of%20Siam%20by%20my%20Thai%20friend%20Pledia%20We%20had%20a%20very%20nice%20time_3%20Mar%2068_005.jpg){group="ch02"}
+
+![Summer 1968, back stateside](../images/military/summer%201968_004.jpg){group="ch02"}
+
+![Summer 1968](../images/military/summer%201968_005.jpg){group="ch02"}
+
+![Summer 1968](../images/military/summer%201968_006.jpg){group="ch02"}
+
+![Summer 1968](../images/military/summer%201968_007.jpg){group="ch02"}
+
+![Summer 1968](../images/military/summer%201968_008.jpg){group="ch02"}
+:::
+:::
+::::
+:::::
+
 :::: {.columns}
 
 ::: {.column width="48%"}
 
 ::: {.callout-note title="The World in 1965: Why Young Men from Bayonne Went to War" collapse="true"}
-**The broadest wavelet:** In August 1964, Congress passed the **Gulf of Tonkin Resolution**, giving President Johnson authority to escalate U.S. involvement in Vietnam without a formal declaration of war. By early 1965, the first combat troops landed at Da Nang. The draft was calling 35,000 men per month.
+**The wide lens:** In August 1964, Congress passed the **Gulf of Tonkin Resolution**, giving President Johnson authority to escalate U.S. involvement in Vietnam without a formal declaration of war. By early 1965, the first combat troops landed at Da Nang. The draft was calling 35,000 men per month.
 
-**The neighborhood wavelet:** Working-class cities like Bayonne sent their sons at vastly disproportionate rates. College students got deferments. The sons of lawyers and bankers went to graduate school. The sons of refinery workers and poultry processors went to Southeast Asia. Of the 2.7 million Americans who served in Vietnam, **80% came from working-class or poor families**. Bayonne knew this math intimately.
+**The local lens:** Working-class cities like Bayonne sent their sons at vastly disproportionate rates. College students got deferments. The sons of lawyers and bankers went to graduate school. The sons of refinery workers and poultry processors went to Southeast Asia. Of the 2.7 million Americans who served in Vietnam, **80% came from working-class or poor families**. Bayonne knew this math intimately.
 
-**The personal wavelet:** Victor was 18. He chose the Air Force — and chose to serve as a medic, not a combat role. It was a decision that said everything about the man he would become: serve, but heal.
+**The close-up:** Victor was 18. He chose the Air Force — and chose to serve as a medic, not a combat role. It was a decision that said everything about the man he would become: serve, but heal.
 :::
 
 ### Victor: Answering the Call
@@ -149,56 +204,6 @@ We wrote about losing your father at fourteen. We know that shaped you — but o
 - What was it like after he died? How did your mother hold things together?
 - When did you know you wanted to go into education?
 - What was it like watching Victor leave for Vietnam?
-:::
-
-## Photo Gallery: The Service Years {.unnumbered}
-
-::: {.content-visible when-format="html"}
-::: {.photo-slideshow}
-![In uniform, summer 1965](../images/military/summer%201965_001.jpg){group="ch02"}
-
-![Air Force, April 1966](../images/military/Air%20Force%20LA%20April%201966_005.jpg){group="ch02"}
-
-![April 1966, Los Angeles](../images/military/April%201966%20LA_001.jpg){group="ch02"}
-
-![Air Force portrait](../images/military/Air%20Force_002.jpg){group="ch02"}
-
-![Air Force, Alabama and Louisiana](../images/military/Air%20Force%20AL%20%26%20LA_004.jpg){group="ch02"}
-
-![Air Force](../images/military/Air%20Force_003.jpg){group="ch02"}
-
-![April 1966](../images/military/April%201966_004.jpg){group="ch02"}
-
-![Stationed in the South, February 1966](../images/military/Large%20Prints%202-66_013.jpg){group="ch02"}
-
-![1966](../images/military/Large%20Prints%2066_014.jpg){group="ch02"}
-
-!["For My Honey — Forever I'll Love You," March 1967](../images/military/For%20My%20Honey%20Forever%20I'll%20love%20you_Mar%2067_001.jpg){group="ch02"}
-
-!["To Eve, My Honey — Love and Kisses," Alabama](../images/military/To%20Eve%20My%20Honey%20Love%20and%20Kisses_AL_007.jpg){group="ch02"}
-
-!["Would you believe it's your wife"](../images/military/Would%20you%20believe%20its%20your%20wife002.jpg){group="ch02"}
-
-![US Air Force DET 11, 600th Photo Squadron, January 1968](../images/military/US%20Air%20Force%20DET%2011%20600th%20Photo%20Sp%20AAVS%20MAC%2026%20Jan%201968%20UNCLASSIFIED001.jpg){group="ch02"}
-
-![Unit photo, January 1968](../images/military/US%20Air%20Force%20DET%2011%20600th%20Photo%20Sp%20AAVS%20MAC%2026%20Jan%201968%20UNCLASSIFIED002.jpg){group="ch02"}
-
-![Bangkok, King's Palace, June 1968](../images/military/Bangkok%20Kings%20Palace%20June%201968_002.jpg){group="ch02"}
-
-![At the King's Palace, Bangkok, June 1968](../images/military/Bangkok%20Kings%20Palace%20June%201968_003.jpg){group="ch02"}
-
-![Pattaya Beach, Gulf of Siam, March 1968](../images/military/Taken%20at%20Pattaya%20on%20the%20Gulf%20of%20Siam%20by%20my%20Thai%20friend%20Pledia%20We%20had%20a%20very%20nice%20time_3%20Mar%2068_005.jpg){group="ch02"}
-
-![Summer 1968, back stateside](../images/military/summer%201968_004.jpg){group="ch02"}
-
-![Summer 1968](../images/military/summer%201968_005.jpg){group="ch02"}
-
-![Summer 1968](../images/military/summer%201968_006.jpg){group="ch02"}
-
-![Summer 1968](../images/military/summer%201968_007.jpg){group="ch02"}
-
-![Summer 1968](../images/military/summer%201968_008.jpg){group="ch02"}
-:::
 :::
 
 ::: {.content-visible when-format="pdf"}

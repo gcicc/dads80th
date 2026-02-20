@@ -1,14 +1,28 @@
 <!-- Life Journey Map — Leaflet.js interactive map for address history -->
-<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+<!-- Leaflet CSS/JS loaded lazily only when a .life-map container exists on the page -->
 <script>
-// Load Leaflet.js from CDN
+// Load Leaflet.js from CDN — only when needed
 (function() {
-  if (window.L) return;
-  var tag = document.createElement('script');
-  tag.src = 'https://unpkg.com/leaflet@1.9.4/dist/leaflet.js';
-  tag.onload = function() { window.dispatchEvent(new Event('leaflet-ready')); };
-  var first = document.getElementsByTagName('script')[0];
-  first.parentNode.insertBefore(tag, first);
+  window._leafletLoading = false;
+  window.loadLeaflet = function(callback) {
+    if (window.L) { callback(); return; }
+    if (window._leafletLoading) {
+      window.addEventListener('leaflet-ready', callback);
+      return;
+    }
+    window._leafletLoading = true;
+    // Load CSS
+    var link = document.createElement('link');
+    link.rel = 'stylesheet';
+    link.href = 'https://unpkg.com/leaflet@1.9.4/dist/leaflet.css';
+    document.head.appendChild(link);
+    // Load JS
+    var tag = document.createElement('script');
+    tag.src = 'https://unpkg.com/leaflet@1.9.4/dist/leaflet.js';
+    tag.onload = function() { window.dispatchEvent(new Event('leaflet-ready')); callback(); };
+    var first = document.getElementsByTagName('script')[0];
+    first.parentNode.insertBefore(tag, first);
+  };
 })();
 
 // Life Map controller
@@ -382,11 +396,11 @@
   }
 
   function onReady() {
-    if (window.L) {
+    var containers = document.querySelectorAll('.life-map');
+    if (containers.length === 0) return; // No maps on this page — skip loading Leaflet entirely
+    window.loadLeaflet(function() {
       initLifeMaps();
-    } else {
-      window.addEventListener('leaflet-ready', initLifeMaps);
-    }
+    });
   }
 
   if (document.readyState === 'loading') {

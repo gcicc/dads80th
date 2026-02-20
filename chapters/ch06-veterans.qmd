@@ -4,6 +4,7 @@
 *Victor forwarded "The Gift of Time" — a parable about Alexander the Great's deathbed wishes — to his sons and his brother-in-law. The lesson: time is the most precious gift. Vic lives that lesson through the time he gives to fellow veterans.*
 :::
 
+::::: {.chapter-media-panel}
 :::: {.callout-note title="Soundtrack: Brotherhood" collapse="true" appearance="simple"}
 The songs that veterans carry with them — some from the war, some from the homecoming, some from the long road of making sense of it all:
 
@@ -24,9 +25,27 @@ The songs that veterans carry with them — some from the war, some from the hom
 
 *Veterans of Chapter 12 — what song hits different when you're with the guys? Dad — is there a song that takes you back? [Suggest a song →](https://docs.google.com/forms/d/e/1FAIpQLSdpYXns7Zwutq6tDNp3BYU2HCPTHTgkdok6r9xWPpdXVPbvCQ/viewform) — we'll add the best suggestions to the final playlist.*
 ::::
+:::: {.callout-note title="Photo Gallery (6 photos)" collapse="true" appearance="simple"}
+::: {.content-visible when-format="html"}
+::: {.photo-slideshow}
+![Veterans gathering](../images/recent/100_1420.JPG){group="ch06"}
+
+![With fellow veterans](../images/recent/100_1423.JPG){group="ch06"}
+
+![Chapter 12 event](../images/recent/100_1428.JPG){group="ch06"}
+
+![Brotherhood](../images/recent/100_1433.JPG){group="ch06"}
+
+![Veterans event](../images/recent/SANY0067.JPG){group="ch06"}
+
+![VVA gathering](../images/recent/SANY0068.JPG){group="ch06"}
+:::
+:::
+::::
+:::::
 
 ::: {.callout-note title="The Long Road to Recognition: Vietnam Veterans in America" collapse="true"}
-**The broadest wavelet:** Vietnam veterans came home to a country that didn't want to look at them. No parades. No ticker tape. Many were spat on, called baby killers, told to take off the uniform. The government that sent them to war treated them as a political embarrassment. Agent Orange exposure was denied for decades. PTSD wasn't even recognized as a diagnosis until **1980** — eleven years after the last troops came home.
+**The wide lens:** Vietnam veterans came home to a country that didn't want to look at them. No parades. No ticker tape. Many were spat on, called baby killers, told to take off the uniform. The government that sent them to war treated them as a political embarrassment. Agent Orange exposure was denied for decades. PTSD wasn't even recognized as a diagnosis until **1980** — eleven years after the last troops came home.
 
 The numbers were staggering: **58,220 Americans killed**. Over **300,000 wounded**. An estimated **700,000** veterans suffering from PTSD. And for years, the country looked away.
 
@@ -34,9 +53,9 @@ The numbers were staggering: **58,220 Americans killed**. Over **300,000 wounded
 
 That same year, the **Vietnam Veterans of America** was officially chartered by Congress. Chapters began forming across the country — grassroots organizations built by the veterans themselves, for themselves. No one was going to advocate for them if they didn't do it themselves.
 
-**The New Jersey wavelet:** New Jersey sent over **170,000 men and women** to Vietnam — one of the highest per-capita rates in the nation. The state's working-class cities — Bayonne, Newark, Jersey City, Paterson, Trenton — bore the heaviest burden. By the 1980s, NJ veterans were organizing, forming VVA chapters, pushing for recognition and services. The **New Jersey Vietnam Veterans' Memorial** in Holmdel was dedicated in **1995** — a 200-foot-long black granite wall overlooking the Garden State Parkway.
+**The New Jersey lens:** New Jersey sent over **170,000 men and women** to Vietnam — one of the highest per-capita rates in the nation. The state's working-class cities — Bayonne, Newark, Jersey City, Paterson, Trenton — bore the heaviest burden. By the 1980s, NJ veterans were organizing, forming VVA chapters, pushing for recognition and services. The **New Jersey Vietnam Veterans' Memorial** in Holmdel was dedicated in **1995** — a 200-foot-long black granite wall overlooking the Garden State Parkway.
 
-**The personal wavelet:** This is where Vic stepped in. He didn't wait for someone else to build it. He helped found **VVA Chapter 12** in Ocean Township — creating, from scratch, the community that the country had failed to provide. The medic who healed in Vietnam was still healing at home.
+**The close-up:** This is where Vic stepped in. He didn't wait for someone else to build it. He helped found **VVA Chapter 12** in Ocean Township — creating, from scratch, the community that the country had failed to provide. The medic who healed in Vietnam was still healing at home.
 :::
 
 ## Vietnam Veterans of America Chapter 12
@@ -127,24 +146,6 @@ You founded VVA Chapter 12. We don't know when, and we don't know the full story
 - What does veteran advocacy mean to you — really? Not the official version. The personal one.
 
 **Fellow veterans — Leon, David Connelly, Larry Messina, and the rest of the forward list:** If you're reading this, Vic doesn't know about this book. What would you want to say about him? What kind of leader was he? Send your stories — they'll go right into this chapter.
-:::
-
-## Photo Gallery: Service & Brotherhood {.unnumbered}
-
-::: {.content-visible when-format="html"}
-::: {.photo-slideshow}
-![Veterans gathering](../images/recent/100_1420.JPG){group="ch06"}
-
-![With fellow veterans](../images/recent/100_1423.JPG){group="ch06"}
-
-![Chapter 12 event](../images/recent/100_1428.JPG){group="ch06"}
-
-![Brotherhood](../images/recent/100_1433.JPG){group="ch06"}
-
-![Veterans event](../images/recent/SANY0067.JPG){group="ch06"}
-
-![VVA gathering](../images/recent/SANY0068.JPG){group="ch06"}
-:::
 :::
 
 ::: {.content-visible when-format="pdf"}

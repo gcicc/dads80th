@@ -207,8 +207,8 @@ After each section, there's a space to set the record straight — correct what 
 | 49 | Rich was born approximately August 1977 | | | |
 | 50 | Rich attended Rutgers University | | | |
 | 51 | Rich married Sharon K. Doughty | | | |
-| 52 | They have three biological grandchildren: Ellie Wexler, Anthony John Cicconetti, Richy Cicconetti Jr. | | | |
-| 53 | Ellie and Anthony are Greg's children; Richy is Rich's son | | | |
+| 52 | They have three biological grandchildren: Ellie Wexler, Anthony John Cicconetti, Richie Cicconetti Jr. | | | |
+| 53 | Ellie and Anthony are Greg's children; Richie is Rich's son | | | |
 
 ::: {.callout-note appearance="simple"}
 **Corrected February 2026** by Anthony Cicconetti. Previously listed as "three children, six grandchildren" — corrected to two sons and three biological grandchildren.

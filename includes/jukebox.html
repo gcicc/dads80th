@@ -1,12 +1,26 @@
 <!-- Jukebox — YouTube IFrame Player API integration for Soundtrack callouts -->
 <script>
-// Load YouTube IFrame API
+// Load YouTube IFrame API lazily — only when first callout is expanded
 (function() {
-  if (window.YT && window.YT.Player) return;
-  var tag = document.createElement('script');
-  tag.src = 'https://www.youtube.com/iframe_api';
-  var first = document.getElementsByTagName('script')[0];
-  first.parentNode.insertBefore(tag, first);
+  window._jukeboxAPILoading = false;
+  window._jukeboxAPICallbacks = [];
+  window.loadYouTubeAPI = function(callback) {
+    if (window.YT && window.YT.Player) { callback(); return; }
+    window._jukeboxAPICallbacks.push(callback);
+    if (window._jukeboxAPILoading) return;
+    window._jukeboxAPILoading = true;
+    var tag = document.createElement('script');
+    tag.src = 'https://www.youtube.com/iframe_api';
+    tag.onerror = function() { window._jukeboxAPILoading = false; };
+    var first = document.getElementsByTagName('script')[0];
+    first.parentNode.insertBefore(tag, first);
+    window.onYouTubeIframeAPIReady = function() {
+      for (var i = 0; i < window._jukeboxAPICallbacks.length; i++) {
+        window._jukeboxAPICallbacks[i]();
+      }
+      window._jukeboxAPICallbacks = [];
+    };
+  };
 })();
 
 // Jukebox controller
@@ -97,16 +111,9 @@
     if (this.initAttempted) return;
     this.initAttempted = true;
     var self = this;
-    if (window.YT && window.YT.Player) {
+    window.loadYouTubeAPI(function() {
       self.createPlayer();
-    } else {
-      // Wait for API
-      var oldReady = window.onYouTubeIframeAPIReady;
-      window.onYouTubeIframeAPIReady = function() {
-        if (oldReady) oldReady();
-        self.createPlayer();
-      };
-    }
+    });
   };
 
   Jukebox.prototype.createPlayer = function() {

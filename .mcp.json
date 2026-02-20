@@ -1,0 +1,19 @@
+{
+  "mcpServers": {
+    "calendar-server": {
+      "type": "stdio",
+      "command": "cmd",
+      "args": ["/c", "npx", "-y", "@gongrzhe/server-calendar-autoauth-mcp"]
+    },
+    "google-drive": {
+      "type": "stdio",
+      "command": "cmd",
+      "args": ["/c", "npx", "-y", "@piotr-agier/google-drive-mcp"]
+    },
+    "github": {
+      "type": "stdio",
+      "command": "cmd",
+      "args": ["/c", "npx", "-y", "@modelcontextprotocol/server-github"]
+    }
+  }
+}

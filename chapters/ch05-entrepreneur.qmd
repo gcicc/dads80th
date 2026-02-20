@@ -4,6 +4,7 @@
 *The Cicconetti love of food goes back to Collepietro. But it took an Italian restaurant in New Jersey to turn family tradition into a family business.*
 :::
 
+::::: {.chapter-media-panel}
 :::: {.callout-note title="Soundtrack: The Restaurant" collapse="true" appearance="simple"}
 Every Italian restaurant has a soundtrack. The kitchen runs on rhythm. The dining room runs on mood. This is what probably filled the Cicconetti restaurant:
 
@@ -24,13 +25,29 @@ Every Italian restaurant has a soundtrack. The kitchen runs on rhythm. The dinin
 
 *What actually played in the restaurant? Did Dad have a favorite he'd put on repeat? Did the kitchen staff have a different playlist than the dining room? [Suggest a song →](https://docs.google.com/forms/d/e/1FAIpQLSdpYXns7Zwutq6tDNp3BYU2HCPTHTgkdok6r9xWPpdXVPbvCQ/viewform) — we'll add the best suggestions to the final playlist.*
 ::::
+:::: {.callout-note title="Photo Gallery (5 photos)" collapse="true" appearance="simple"}
+::: {.content-visible when-format="html"}
+::: {.photo-slideshow}
+![Bistro-by-the-Sea, exterior](../images/restaurant/outside3.jpg){group="ch05"}
+
+![Inside the restaurant](../images/restaurant/Bistro_013.jpg){group="ch05"}
+
+![The Bistro kitchen](../images/restaurant/Bistro_014.jpg){group="ch05"}
+
+![Family at work](../images/restaurant/Bistro_015.jpg){group="ch05"}
+
+![Bistro-by-the-Sea](../images/restaurant/Bistro_016.jpg){group="ch05"}
+:::
+:::
+::::
+:::::
 
 ::: {.callout-note title="Italian-American Food: From Survival to Identity" collapse="true"}
-**The broadest wavelet:** When the first Italian immigrants arrived, they ate to survive — peasant food adapted to what was available in America. Olive oil was hard to find, so they used lard. They couldn't get the specific greens from the old country, so they adapted recipes. Italian-American cooking — meatballs and spaghetti, chicken parmigiana, baked ziti — isn't really "Italian food." It's the food of immigrants making do, then making it their own, then making it *legendary*.
+**The wide lens:** When the first Italian immigrants arrived, they ate to survive — peasant food adapted to what was available in America. Olive oil was hard to find, so they used lard. They couldn't get the specific greens from the old country, so they adapted recipes. Italian-American cooking — meatballs and spaghetti, chicken parmigiana, baked ziti — isn't really "Italian food." It's the food of immigrants making do, then making it their own, then making it *legendary*.
 
 By the 1970s and 80s, the Italian-American restaurant was an American institution. Every Jersey Shore town had at least one. The red-sauce joints, the pizza parlors, the "gravy" vs. "sauce" debates that could split a family. This was the food culture the Cicconettis lived and breathed.
 
-**The Jersey wavelet:** New Jersey's Italian food scene is arguably the best in America outside of New York City. From the tomato pie shops of Trenton to the pork stores of Newark's Ironbound to the Shore restaurants in Long Branch, Belmar, and Point Pleasant — Italian food IS New Jersey food. When the Cicconettis opened their restaurant, they weren't just starting a business. They were joining a tradition as deep as the state itself.
+**The Jersey lens:** New Jersey's Italian food scene is arguably the best in America outside of New York City. From the tomato pie shops of Trenton to the pork stores of Newark's Ironbound to the Shore restaurants in Long Branch, Belmar, and Point Pleasant — Italian food IS New Jersey food. When the Cicconettis opened their restaurant, they weren't just starting a business. They were joining a tradition as deep as the state itself.
 :::
 
 ## An Italian Restaurant — A Family Venture
@@ -86,22 +103,6 @@ We know you founded Bistro-by-the-Sea in Avon-by-the-Sea. Now we need the storie
 **Aunt Mary Ann:** What was your pizza bistro called? Was there a friendly rivalry between the two family restaurants?
 
 *An Italian-American family that runs a restaurant together — this chapter should practically write itself. But only if you talk.*
-:::
-
-## Photo Gallery: Bistro-by-the-Sea {.unnumbered}
-
-::: {.content-visible when-format="html"}
-::: {.photo-slideshow}
-![Bistro-by-the-Sea, exterior](../images/restaurant/outside3.jpg){group="ch05"}
-
-![Inside the restaurant](../images/restaurant/Bistro_013.jpg){group="ch05"}
-
-![The Bistro kitchen](../images/restaurant/Bistro_014.jpg){group="ch05"}
-
-![Family at work](../images/restaurant/Bistro_015.jpg){group="ch05"}
-
-![Bistro-by-the-Sea](../images/restaurant/Bistro_016.jpg){group="ch05"}
-:::
 :::
 
 ::: {.content-visible when-format="pdf"}

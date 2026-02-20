@@ -5,6 +5,7 @@
 — Vic, sending a family photo to his sons and granddaughter, September 2017. Four exclamation marks. No body text needed.
 :::
 
+::::: {.chapter-media-panel}
 :::: {.callout-note title="Soundtrack: The Cicconetti House" collapse="true" appearance="simple"}
 Every family has songs that ARE the family — the ones that trigger memories the moment you hear the first three notes:
 
@@ -26,14 +27,87 @@ Every family has songs that ARE the family — the ones that trigger memories th
 *What's the song that IS the Cicconetti family? The one Dad plays every holiday? The one that makes Mom roll her eyes? The one the grandkids associate with Grandpa's house? [Suggest a song →](https://docs.google.com/forms/d/e/1FAIpQLSdpYXns7Zwutq6tDNp3BYU2HCPTHTgkdok6r9xWPpdXVPbvCQ/viewform) — we'll add the best suggestions to the final playlist.*
 ::::
 
-::: {.photo-grid}
-![Circa 1990 — cadets and birthday candles.](../images/family/cicconettis_Nov%201990_001.jpg)
+:::: {.callout-note title="Photo Gallery (31 photos)" collapse="true" appearance="simple"}
+::: {.content-visible when-format="html"}
+::: {.photo-slideshow}
+![August 1971 — the young family](../images/family/August%201971_001.jpg){group="ch07"}
 
-![A Cicconetti wedding, circa 2000.](../images/family/wedding013.jpg)
+![The family, 1970s](../images/family/70s_009.jpg){group="ch07"}
+
+![School days](../images/heritage/schoolpics001.jpg){group="ch07"}
+
+![Family, 1970s](../images/family/70s_018.jpg){group="ch07"}
+
+![The Cicconetti kids, 1970s](../images/family/70s_027.jpg){group="ch07"}
+
+![Growing up at the Shore, 1970s](../images/family/70s_034.jpg){group="ch07"}
+
+!["Have tent, will camp" — Summer 1979](../images/family/Have%20tent%20will%20Camp%2079_002.jpg){group="ch07"}
+
+![Camping trip, 1979](../images/family/Have%20tent%20will%20Camp%2079_004.jpg){group="ch07"}
+
+![Summer 1979](../images/family/Summer%2079_010.jpg){group="ch07"}
+
+![The Cicconetti family, February 1983](../images/family/cicconettis_Feb_1983_002.jpg){group="ch07"}
+
+![Family photo, 1983–84](../images/family/83-84_003.jpg){group="ch07"}
+
+![Summer-fall 1985](../images/family/summer%20fall%201985_001.jpg){group="ch07"}
+
+![Mother's Day, 1986](../images/family/Mothers%20Day%2086_007.jpg){group="ch07"}
+
+![Mother's Day, 1987](../images/family/Mothers%20Day%2087_002.jpg){group="ch07"}
+
+![Summer of 1987](../images/family/summer%20of%201987_007.jpg){group="ch07"}
+
+![Early years](../images/heritage/Large%20Prints_003.jpg){group="ch07"}
+
+![Family memories](../images/heritage/Large%20Prints_009.jpg){group="ch07"}
+
+![Growing up in Bayonne](../images/heritage/Large%20Prints_010.jpg){group="ch07"}
+
+![The old neighborhood](../images/heritage/Sort%20me_002.jpg){group="ch07"}
+
+![Rich, 1987](../images/family/Rich_1987_001.jpg){group="ch07"}
+
+![Kathy's graduation, 1988](../images/family/kathy%20grad%201988.jpg){group="ch07"}
+
+![Cancun, July 1988](../images/family/cancun%20july%2088_004.jpg){group="ch07"}
+
+![November 1990](../images/family/cicconettis_Nov%201990_013.jpg){group="ch07"}
+
+![November 1991](../images/family/cicconettis_Nov%201991_002.jpg){group="ch07"}
+
+![October 1993](../images/family/oct%2093_003.jpg){group="ch07"}
+
+![Triathlon, 1993](../images/family/triatholon_93_%20005.jpg){group="ch07"}
+
+![Graduation day, 1995](../images/family/graduations_95_003.jpg){group="ch07"}
+
+![Mom & Dad vacation, 1996](../images/family/1996%20MandD%20vacation_004.jpg){group="ch07"}
+
+![Montclair, 1997](../images/family/montclair%2097_001.jpg){group="ch07"}
+
+![Move-in day, UConn, July 1997](../images/family/Move%20in%20UCONN%20July%201997.jpg){group="ch07"}
+
+!["Look at yourselves!!!!" — September 2017](../images/P1020477.JPG){group="ch07"}
+
+![Greg](../images/family/GREG01.jpg){group="ch07"}
+
+![Rich](../images/family/RICH01.jpg){group="ch07"}
+
+![Dad](../images/family/DAD01.jpg){group="ch07"}
+
+![November 1990](../images/family/cicconettis_Nov%201990_001.jpg){group="ch07"}
+
+![A Cicconetti wedding](../images/family/wedding013.jpg){group="ch07"}
 :::
+:::
+::::
+:::::
 
 ::: {.callout-note title="The Italian-American Family: A Different Kind of Institution" collapse="true"}
-**The broadest wavelet:** The Italian-American family was never just a family — it was a *system*. A social safety net, an employment agency, a marriage bureau, a banking institution, and a tribunal of justice rolled into one. In the old country, the *famiglia* was the only institution that mattered — the government was distant, the Church was powerful but abstract, and the *padrone* exploited you. Your family fed you, housed you, and protected you.
+**The wide lens:** The Italian-American family was never just a family — it was a *system*. A social safety net, an employment agency, a marriage bureau, a banking institution, and a tribunal of justice rolled into one. In the old country, the *famiglia* was the only institution that mattered — the government was distant, the Church was powerful but abstract, and the *padrone* exploited you. Your family fed you, housed you, and protected you.
 
 When Italians came to America, they brought this system with them. Sunday dinners weren't optional. Family decisions were collective. You didn't move away without a reason everyone could accept. You married someone the family approved of (or you eloped and dealt with the consequences). You named your children after your parents and grandparents — a chain of names linking the generations.
 
@@ -50,7 +124,7 @@ Greg — the eldest — earned a Ph.D. from the University of Connecticut, held 
 
 ### Richard Victor Cicconetti
 
-Rich studied at **Rutgers University** and has built a career in technology, specializing in form-building solutions through his business, **Cicco Devel**. He and his wife **Sharon** (nee Doughty) live in Galloway, NJ — close to Victor and Yvonne, keeping the family geography tight. Rich represents the next generation: rooted in New Jersey, connected to family, and building something of his own. Rich has one son: **Richard Victor Cicconetti Jr.**, known as **Richy**.
+Rich studied at **Rutgers University** and has built a career in technology, specializing in form-building solutions through his business, **Cicco Devel**. He and his wife **Sharon** (nee Doughty) live in Galloway, NJ — close to Victor and Yvonne, keeping the family geography tight. Rich represents the next generation: rooted in New Jersey, connected to family, and building something of his own. Rich has one son: **Richard Victor Cicconetti Jr.**, known as **Richie**.
 
 Sharon joined the family as Sharon Katherine Doughty. Her father, **Clarence S. "Clancy" Doughty, Jr.**, passed away in July 2024 — a recent loss the family felt deeply.
 
@@ -60,7 +134,7 @@ Victor and Yvonne have three biological grandchildren:
 
 - **Ellie Wexler** (Greg's daughter)
 - **Anthony John Cicconetti** (Greg's son)
-- **Richard Victor Cicconetti Jr. "Richy"** (Rich's son)
+- **Richard Victor Cicconetti Jr. "Richie"** (Rich's son)
 
 ## The Coach, the Ref, and the Thumb on the Scale
 
@@ -123,7 +197,7 @@ That's the proud father and grandfather. The man who looks at his family and can
 | 2 | Rich was born approximately August 1977 | | | |
 | 3 | Rich attended Rutgers University | | | |
 | 4 | Rich married Sharon K. Doughty | | | |
-| 5 | They have three biological grandchildren (Ellie, Anthony, Richy) | | | |
+| 5 | They have three biological grandchildren (Ellie, Anthony, Richie) | | | |
 | 6 | Vic coached soccer | | | |
 | 7 | Greg's only soccer goal was against his own team (kindergarten) | | | |
 | 8 | Greg lasted one session of basketball | | | |
@@ -139,7 +213,7 @@ That's the proud father and grandfather. The man who looks at his family and can
 ::: {.callout-tip title="Tell Us a Story"}
 **Rich and Greg:** What's the most trouble you got into as kids that you DEFINITELY didn't tell Mom and Dad about at the time? And what's the thing Dad did that was SO embarrassing when you were teenagers but now makes you laugh until you cry?
 
-**Ellie, Anthony, and Richy:** What's the funniest thing Grandpa has ever said? The joke he tells every single time? The face he makes? Don't overthink it — just the first thing that pops into your head.
+**Ellie, Anthony, and Richie:** What's the funniest thing Grandpa has ever said? The joke he tells every single time? The face he makes? Don't overthink it — just the first thing that pops into your head.
 :::
 
 ## The Health Kick
@@ -209,70 +283,6 @@ And through it all, the sign-off never changes:
 *We already know he signs every email "Love DAD." What else?*
 :::
 
-## Photo Gallery: Family Through the Years {.unnumbered}
-
-::: {.content-visible when-format="html"}
-::: {.photo-slideshow}
-![August 1971 — the young family](../images/family/August%201971_001.jpg){group="ch07"}
-
-![The 1970s](../images/family/70s_009.jpg){group="ch07"}
-
-![Family time, 1970s](../images/family/70s_018.jpg){group="ch07"}
-
-![The Cicconetti kids, 1970s](../images/family/70s_027.jpg){group="ch07"}
-
-![Growing up at the Shore, 1970s](../images/family/70s_034.jpg){group="ch07"}
-
-!["Have tent, will camp" — Summer 1979](../images/family/Have%20tent%20will%20Camp%2079_002.jpg){group="ch07"}
-
-![Camping trip, 1979](../images/family/Have%20tent%20will%20Camp%2079_004.jpg){group="ch07"}
-
-![Summer 1979](../images/family/Summer%2079_010.jpg){group="ch07"}
-
-![The Cicconetti family, February 1983](../images/family/cicconettis_Feb_1983_002.jpg){group="ch07"}
-
-![Family photo, 1983–84](../images/family/83-84_003.jpg){group="ch07"}
-
-![Summer-fall 1985](../images/family/summer%20fall%201985_001.jpg){group="ch07"}
-
-![Mother's Day, 1986](../images/family/Mothers%20Day%2086_007.jpg){group="ch07"}
-
-![Mother's Day, 1987](../images/family/Mothers%20Day%2087_002.jpg){group="ch07"}
-
-![Summer of 1987](../images/family/summer%20of%201987_007.jpg){group="ch07"}
-
-![Rich, 1987](../images/family/Rich_1987_001.jpg){group="ch07"}
-
-![Kathy's graduation, 1988](../images/family/kathy%20grad%201988.jpg){group="ch07"}
-
-![Cancun, July 1988](../images/family/cancun%20july%2088_004.jpg){group="ch07"}
-
-![November 1990](../images/family/cicconettis_Nov%201990_013.jpg){group="ch07"}
-
-![November 1991](../images/family/cicconettis_Nov%201991_002.jpg){group="ch07"}
-
-![October 1993](../images/family/oct%2093_003.jpg){group="ch07"}
-
-![Triathlon, 1993](../images/family/triatholon_93_%20005.jpg){group="ch07"}
-
-![Graduation day, 1995](../images/family/graduations_95_003.jpg){group="ch07"}
-
-![Mom & Dad vacation, 1996](../images/family/1996%20M%26D%20vacation_004.jpg){group="ch07"}
-
-![Montclair, 1997](../images/family/montclair%2097_001.jpg){group="ch07"}
-
-![Move-in day, UConn, July 1997](../images/family/Move%20in%20UCONN%20July%201997.jpg){group="ch07"}
-
-!["Look at yourselves!!!!" — September 2017](../images/P1020477.JPG){group="ch07"}
-
-![Greg](../images/family/GREG01.jpg){group="ch07"}
-
-![Rich](../images/family/RICH01.jpg){group="ch07"}
-
-![Dad](../images/family/DAD01.jpg){group="ch07"}
-:::
-:::
-
 ::: {.content-visible when-format="pdf"}
 ::: {.photo-grid}
 ![August 1971 — the young family](../images/family/August%201971_001.jpg){width=45%}
@@ -285,7 +295,7 @@ And through it all, the sign-off never changes:
 
 ![November 1990](../images/family/cicconettis_Nov%201990_013.jpg){width=45%}
 
-![Mom & Dad vacation, 1996](../images/family/1996%20M%26D%20vacation_004.jpg){width=45%}
+![Mom & Dad vacation, 1996](../images/family/1996%20MandD%20vacation_004.jpg){width=45%}
 
 !["Look at yourselves!!!!" — September 2017](../images/P1020477.JPG){width=45%}
 

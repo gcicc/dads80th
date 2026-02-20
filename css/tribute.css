@@ -902,6 +902,143 @@ blockquote.pull-quote::before {
 .timeline-card:nth-child(17) { animation-delay: 0.85s; }
 
 /* ============================================================
+   18a. CHAPTER MEDIA PANEL — Sticky toolbar with playlist + photos
+   ============================================================ */
+
+/* --- Sidebar media panel (lives inside #quarto-margin-sidebar, below TOC) --- */
+
+/* Widen the right margin sidebar to fit media */
+#quarto-margin-sidebar {
+  width: 350px !important;
+  padding-left: 0.8em;
+  padding-right: 0.8em;
+}
+
+/* Let Quarto's grid handle content width — no extra margin needed */
+
+/* The media panel inside the sidebar */
+.chapter-media-panel {
+  margin-top: 1.5em;
+  padding-top: 1em;
+  border-top: 2px solid var(--era-secondary);
+}
+
+.chapter-media-panel .callout {
+  margin-bottom: 0.5em;
+  font-size: 0.85em;
+}
+
+.chapter-media-panel .callout-header {
+  padding: 0.3em 0.5em;
+}
+
+.chapter-media-panel .callout-body-container {
+  padding: 0.3em 0.5em;
+}
+
+/* Compact jukebox in sidebar */
+.chapter-media-panel .jukebox-wrapper {
+  padding-bottom: 56.25%;
+  margin: 0.5em 0 0.3em 0;
+}
+
+.chapter-media-panel .jukebox-controls {
+  font-size: 0.8em;
+  gap: 0.3em;
+  margin: 0.3em 0 0.5em 0;
+}
+
+.chapter-media-panel .jukebox-btn {
+  padding: 0.2em 0.5em;
+  font-size: 0.85em;
+}
+
+/* Song list: compact, scrollable */
+.chapter-media-panel .callout-note ul {
+  font-size: 0.8em;
+  max-height: 200px;
+  overflow-y: auto;
+  padding-left: 1em;
+  line-height: 1.5;
+}
+
+/* Compact slideshow in sidebar */
+.chapter-media-panel .photo-slideshow {
+  margin: 0;
+}
+
+.chapter-media-panel .photo-slideshow .slide-container {
+  min-height: 150px;
+}
+
+.chapter-media-panel .photo-slideshow .slide-container img {
+  max-height: 200px;
+}
+
+.chapter-media-panel .slideshow-thumbs {
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+}
+
+.chapter-media-panel .slideshow-thumbs img {
+  width: 35px;
+  height: 35px;
+}
+
+.chapter-media-panel .slideshow-counter {
+  font-size: 0.75em;
+}
+
+.chapter-media-panel .slideshow-caption {
+  font-size: 0.75em;
+  padding: 0.2em 0;
+}
+
+.chapter-media-panel .slideshow-nav {
+  font-size: 1.2em;
+  padding: 0.1em 0.3em;
+}
+
+/* On mobile: keep media panel in the main flow (sidebar collapses) */
+@media (max-width: 991px) {
+  #quarto-margin-sidebar {
+    width: auto !important;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .page-columns .content {
+    margin-right: 0;
+  }
+
+  .chapter-media-panel {
+    margin-top: 1em;
+    padding-top: 0;
+    border-top: none;
+  }
+
+  .chapter-media-panel .callout-note ul {
+    max-height: none;
+    font-size: 0.9em;
+  }
+
+  .chapter-media-panel .photo-slideshow .slide-container {
+    min-height: 250px;
+  }
+
+  .chapter-media-panel .photo-slideshow .slide-container img {
+    max-height: 300px;
+  }
+}
+
+/* Hide media panel in print */
+@media print {
+  .chapter-media-panel {
+    display: none;
+  }
+}
+
+/* ============================================================
    18. PHOTO SLIDESHOW / GALLERY
    ============================================================ */
 
@@ -937,11 +1074,13 @@ blockquote.pull-quote::before {
   opacity: 0;
   transition: opacity 0.6s ease;
   position: absolute;
+  pointer-events: none;
 }
 
 .photo-slideshow .slide-container img.active {
   opacity: 1;
   position: relative;
+  pointer-events: auto;
 }
 
 /* Navigation arrows */
@@ -1088,4 +1227,135 @@ blockquote.pull-quote::before {
     max-width: 80% !important;
     page-break-inside: avoid;
   }
+}
+
+/* ============================================================
+   20. BACK TO TOP LINK
+   ============================================================ */
+
+.back-to-top-link {
+  display: block;
+  padding: 0.4em 0.8em;
+  margin-bottom: 0.5em;
+  font-size: 0.8em;
+  font-weight: 600;
+  color: var(--era-primary, #8B0000) !important;
+  text-decoration: none !important;
+  border: 1px solid var(--era-primary, #8B0000);
+  border-radius: 4px;
+  text-align: center;
+  transition: background 0.2s, color 0.2s;
+  cursor: pointer;
+}
+
+.back-to-top-link:hover {
+  background: var(--era-primary, #8B0000);
+  color: #fff !important;
+}
+
+/* ============================================================
+   21. SLIDESHOW PLAY/PAUSE BUTTON
+   ============================================================ */
+
+.slideshow-play-btn {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 10;
+  background: rgba(0,0,0,0.5);
+  color: #ccc;
+  border: none;
+  font-size: 0.9em;
+  padding: 4px 10px;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+  line-height: 1;
+}
+
+.slideshow-play-btn:hover {
+  background: rgba(0,0,0,0.8);
+  color: #fff;
+}
+
+.slideshow-play-btn.playing {
+  background: var(--era-primary, #8B0000);
+  color: #fff;
+}
+
+/* Compact play btn in sidebar */
+.chapter-media-panel .slideshow-play-btn {
+  font-size: 0.7em;
+  padding: 3px 7px;
+}
+
+/* ============================================================
+   22. SLIDESHOW LIGHTBOX
+   ============================================================ */
+
+.slideshow-lightbox {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 99999;
+  align-items: center;
+  justify-content: center;
+}
+
+.slideshow-lightbox.active {
+  display: flex;
+}
+
+.slideshow-lightbox-backdrop {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.85);
+}
+
+.slideshow-lightbox-img {
+  position: relative;
+  max-width: 90vw;
+  max-height: 85vh;
+  object-fit: contain;
+  border-radius: 6px;
+  box-shadow: 0 8px 40px rgba(0,0,0,0.5);
+  border: none !important;
+  filter: none !important;
+  transform: none !important;
+}
+
+.slideshow-lightbox-close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  font-size: 2.5em;
+  color: #fff;
+  background: none;
+  border: none;
+  cursor: pointer;
+  line-height: 1;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.5);
+}
+
+.slideshow-lightbox-close:hover {
+  color: #ff6347;
+}
+
+.slideshow-lightbox-caption {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #ccc;
+  font-size: 0.95em;
+  font-style: italic;
+  text-align: center;
+  max-width: 80%;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.8);
 }

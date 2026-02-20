@@ -2,7 +2,7 @@
 
 Things only Greg can do. Check off as completed.
 
-**Last updated:** 2026-02-14
+**Last updated:** 2026-02-20
 **DEADLINE: March 29, 2026 (~6 weeks)**
 **STATUS: PAUSED — Greg setting up PA spare laptop as R Shiny server for data capture testing**
 
@@ -304,8 +304,38 @@ The forms are live and linked to Google Sheets. Responses are collecting. But we
 - [ ] **Ask Dad/Mom how they met** — courtship story. Ch3.
 - [ ] **JotForm alternative** — Rich knows JotForm (Cicco Devel). Could use instead of Google Forms if preferred. Discuss with Rich.
 
+## Data Management — Timeline & Trips (NEW — 2026-02-19)
+
+**How it works:** Instead of hardcoding events in Quarto, all timeline events and trips are now in JSON data files. Easy to update, track evidence, and fill in missing info.
+
+**Files:**
+- `data/timeline_events.json` — 26 major life events with sources (births, deaths, careers, relocations, etc.)
+- `data/trips.json` — Travel and vacations (currently has templates to fill in)
+- `DATA_MANAGEMENT.md` — Full guide on how to use the system
+- `scripts/generate_timeline.py` — Python script to analyze what evidence is missing
+
+**Current status:**
+- [x] `timeline_events.json` created with all events from the timeline.qmd
+- [x] `trips.json` created with structure for adding vacations and trips
+- [x] Evidence tracking: each event has a `sources` field listing what we have + what we need
+- [x] Python script reports missing evidence (currently 18 items)
+- [ ] Add evidence as you find it (e.g., "Found discharge papers → update timeline_events.json")
+- [ ] Fill in undated events (Bistro-by-the-Sea founding year, VVA Chapter 12 year, etc.)
+- [ ] Add photos to `images/` and link in the JSON
+- [ ] Update Quarto files to read from JSON (instead of hardcoded HTML) — optional, book renders fine as-is
+
+**To add a new event or trip:**
+1. Open `data/timeline_events.json` or `data/trips.json`
+2. Copy an existing event/trip and update the fields
+3. Run: `python scripts/generate_timeline.py`
+4. Commit: `git add -A && git commit -m "Add evidence for [event]"`
+5. Render: `quarto render --to html`
+
+---
+
 ## Research (can be delegated to Claude)
 
 - [ ] **Subscribe to Ancestry.com** to access: 1940 Census image (4 sisters' names), Mary Chiarolanza obituary (Feb 2008), Victor Sr.'s parents
 - [x] ~~Design and draft the birthday tribute document~~ — DONE (Quarto book structure, 10 chapters + 3 appendices)
 - [x] ~~Set up GitHub Pages publishing infrastructure~~ — DONE (publish.yml workflow, noindex, form placeholders)
+- [x] ~~Create data-driven timeline & trips system~~ — DONE (2026-02-19, see Data Management section above)

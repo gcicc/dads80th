@@ -17,6 +17,8 @@
 - [ ] Re-run v2 Apps Scripts for forms with file upload capability (from dads80th, 2026-02-09)
 - [ ] Verify San Diego 1971 detail — why did Vic & Yvonne move briefly to San Diego? Navy/military connection? (from gmail-organizer, 2026-02-19)
 - [ ] Cross-reference Yvonne's address dates with ch04 (education career) — match Shark River Hills move (1980) with Long Branch HS admin role (from gmail-organizer, 2026-02-19)
+- [ ] Daily Interview follow-up: Eleanor Cicconetti — "anything beyond 'liked coffee'? What was she like? Did you spend time at their home?" Get Dad's answer for ch01-roots (from gmail-organizer/triage, 2026-02-19)
+- [ ] Debug sticky media panel — YouTube callout expand/collapse not working correctly; panel may need JS-assisted height management instead of pure CSS (from dads80th, 2026-02-20)
 
 ## Done
 - [x] Mine Gmail for Vic-centric content → docs/gmail-intel.md (completed 2026-02-06)
