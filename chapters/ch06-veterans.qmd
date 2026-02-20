@@ -129,6 +129,36 @@ You founded VVA Chapter 12. We don't know when, and we don't know the full story
 **Fellow veterans — Leon, David Connelly, Larry Messina, and the rest of the forward list:** If you're reading this, Vic doesn't know about this book. What would you want to say about him? What kind of leader was he? Send your stories — they'll go right into this chapter.
 :::
 
+## Photo Gallery: Service & Brotherhood {.unnumbered}
+
+::: {.content-visible when-format="html"}
+::: {.photo-slideshow}
+![Veterans gathering](../images/recent/100_1420.JPG){group="ch06"}
+
+![With fellow veterans](../images/recent/100_1423.JPG){group="ch06"}
+
+![Chapter 12 event](../images/recent/100_1428.JPG){group="ch06"}
+
+![Brotherhood](../images/recent/100_1433.JPG){group="ch06"}
+
+![Veterans event](../images/recent/SANY0067.JPG){group="ch06"}
+
+![VVA gathering](../images/recent/SANY0068.JPG){group="ch06"}
+:::
+:::
+
+::: {.content-visible when-format="pdf"}
+::: {.photo-grid}
+![Veterans gathering](../images/recent/100_1420.JPG){width=45%}
+
+![With fellow veterans](../images/recent/100_1423.JPG){width=45%}
+
+![Veterans event](../images/recent/SANY0067.JPG){width=45%}
+
+![VVA gathering](../images/recent/SANY0068.JPG){width=45%}
+:::
+:::
+
 ---
 
 *Victor's commitment to his fellow veterans is the thread that runs through his entire adult life — from the medevac flights of his twenties to the advocacy work of his seventies. It is, perhaps, his longest-running mission.*

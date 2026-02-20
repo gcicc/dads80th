@@ -117,6 +117,38 @@ This is the chapter we can't write without you. We know the date (August 20, 196
 *This chapter will only be as good as what you give us. And we want it to be the best chapter in the book.*
 :::
 
+## Photo Gallery: The Wedding {.unnumbered}
+
+::: {.content-visible when-format="html"}
+::: {.photo-slideshow}
+![Mom & Dad's wedding day, August 20, 1967](../images/wedding/Mom%20%26%20Dad%20Wedding_001.jpg){group="ch03"}
+
+![The ceremony](../images/wedding/Mom%20%26%20Dad%20Wedding_003.jpg){group="ch03"}
+
+![The happy couple](../images/wedding/Mom%20%26%20Dad%20Wedding_004.jpg){group="ch03"}
+
+![Wedding party](../images/wedding/Mom%20%26%20Dad%20Wedding_005.jpg){group="ch03"}
+
+![Wedding celebration](../images/wedding/Mom%20%26%20Dad%20Wedding_006.jpg){group="ch03"}
+
+![At the reception](../images/wedding/Mom%20%26%20Dad%20Wedding_007.jpg){group="ch03"}
+
+![Wedding day memories](../images/wedding/Mom%20%26%20Dad%20Wedding_008.jpg){group="ch03"}
+:::
+:::
+
+::: {.content-visible when-format="pdf"}
+::: {.photo-grid}
+![Mom & Dad's wedding day, August 20, 1967](../images/wedding/Mom%20%26%20Dad%20Wedding_001.jpg){width=45%}
+
+![The happy couple](../images/wedding/Mom%20%26%20Dad%20Wedding_004.jpg){width=45%}
+
+![Wedding party](../images/wedding/Mom%20%26%20Dad%20Wedding_005.jpg){width=45%}
+
+![At the reception](../images/wedding/Mom%20%26%20Dad%20Wedding_007.jpg){width=45%}
+:::
+:::
+
 ---
 
 *From this day forward, the two columns become one. The Cicconetti-Elia story is a partnership — and it has lasted nearly sixty years and counting.*

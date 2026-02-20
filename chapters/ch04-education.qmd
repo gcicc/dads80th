@@ -258,6 +258,54 @@ We found the 1987 *Red Bank Register* article that called you "Man with Many Mis
 **Mom:** You were teaching health in Jersey City while Dad was in Long Branch. Two educators under one roof — what was that like? Did you compare notes? Compete? Commiserate?
 :::
 
+## Photo Gallery: The Education Years {.unnumbered}
+
+::: {.content-visible when-format="html"}
+::: {.photo-slideshow}
+![The Cicconetti family, circa 1974–75](../images/family/cicconettis_1974-1975_001.jpg){group="ch04"}
+
+![Family life, mid-1970s](../images/family/cicconettis_1974-1975_009.jpg){group="ch04"}
+
+![Football season, 1974](../images/family/football_74_005.jpg){group="ch04"}
+
+![Game day, 1974](../images/family/football_74_006.jpg){group="ch04"}
+
+![February 1975](../images/family/Large%20Prints%20Feb%2075_002.jpg){group="ch04"}
+
+![July 1976](../images/family/July_76_002.jpg){group="ch04"}
+
+![Family photo, 1976](../images/family/Large%20Prints%207-76_006.jpg){group="ch04"}
+
+![March 1978](../images/family/Large%20Prints%203-78_005.jpg){group="ch04"}
+
+![The Cicconetti family, late 1970s](../images/family/cicconettis_1976-1980_014.jpg){group="ch04"}
+
+![Family time, late 70s](../images/family/cicconettis_1976-1980_015.jpg){group="ch04"}
+
+![The 1983–84 years](../images/family/83-84_001.jpg){group="ch04"}
+
+![Family photo, circa 1983](../images/family/cicconettis_Feb_1983_001.jpg){group="ch04"}
+
+![Triathlon, 1986](../images/family/triatholon_86_001.jpg){group="ch04"}
+
+![Triathlon action, 1986](../images/family/triatholon_86_002.jpg){group="ch04"}
+
+![Jesse Jackson — Dad's famous doppelganger](../images/recent/Jesse_Jackson.jpg){group="ch04"}
+:::
+:::
+
+::: {.content-visible when-format="pdf"}
+::: {.photo-grid}
+![The Cicconetti family, circa 1974–75](../images/family/cicconettis_1974-1975_001.jpg){width=45%}
+
+![Football season, 1974](../images/family/football_74_005.jpg){width=45%}
+
+![The 1983–84 years](../images/family/83-84_001.jpg){width=45%}
+
+![Triathlon, 1986](../images/family/triatholon_86_001.jpg){width=45%}
+:::
+:::
+
 ---
 
 *"Man with Many Missions." The Red Bank Register got it right — and education was the mission that lasted the longest.*

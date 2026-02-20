@@ -240,6 +240,66 @@ We wrote this chapter mostly from your emails. But we want the rest of the pictu
 **Everyone else:** What's the funniest recent Vic story? The most recent time he made you laugh until you cried?
 :::
 
+## Photo Gallery: The Golden Years {.unnumbered}
+
+::: {.content-visible when-format="html"}
+::: {.photo-slideshow}
+![Dad](../images/recent/DAD02.jpg){group="ch08"}
+
+![Dad at home](../images/recent/DAD03.jpg){group="ch08"}
+
+![Family event](../images/recent/DSC00014.JPG){group="ch08"}
+
+![Together](../images/recent/DSC00032.JPG){group="ch08"}
+
+![Gathering](../images/recent/DSC00033.JPG){group="ch08"}
+
+![Celebration](../images/recent/DSC00036.JPG){group="ch08"}
+
+![Good times](../images/recent/DSC00040.JPG){group="ch08"}
+
+![Family](../images/recent/DSC00044.JPG){group="ch08"}
+
+![The Shore, always the Shore](../images/recent/DSC01904.JPG){group="ch08"}
+
+![Outdoor adventure](../images/recent/DSC01907.JPG){group="ch08"}
+
+![Family moments](../images/recent/DSC01917.JPG){group="ch08"}
+
+![Vic and the family](../images/recent/DSC01921.JPG){group="ch08"}
+
+![Still going strong](../images/recent/Picture%20352.jpg){group="ch08"}
+
+![The good life](../images/recent/Picture%20356.jpg){group="ch08"}
+
+![Family portrait](../images/recent/Picture%20463.jpg){group="ch08"}
+
+![Together again](../images/recent/Picture%20464.jpg){group="ch08"}
+
+![Rich & Greg](../images/recent/rich%20%26%20greg.JPG){group="ch08"}
+
+![Vic](../images/recent/cicc.jpg){group="ch08"}
+
+![Dad](../images/recent/dad_001.jpg){group="ch08"}
+:::
+:::
+
+::: {.content-visible when-format="pdf"}
+::: {.photo-grid}
+![Dad](../images/recent/DAD02.jpg){width=45%}
+
+![Family event](../images/recent/DSC00014.JPG){width=45%}
+
+![The Shore, always the Shore](../images/recent/DSC01904.JPG){width=45%}
+
+![Still going strong](../images/recent/Picture%20352.jpg){width=45%}
+
+![Rich & Greg](../images/recent/rich%20%26%20greg.JPG){width=45%}
+
+![Vic](../images/recent/cicc.jpg){width=45%}
+:::
+:::
+
 ---
 
 *At eighty, Victor Cicconetti is still shopping for air pistols, still going to Atlantic City, still forwarding wisdom to his sons, and still walking around the house laughing at memories of his family. He did it his way. And the best is yet to come.*

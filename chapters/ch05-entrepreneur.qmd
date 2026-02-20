@@ -88,6 +88,34 @@ We know you founded Bistro-by-the-Sea in Avon-by-the-Sea. Now we need the storie
 *An Italian-American family that runs a restaurant together — this chapter should practically write itself. But only if you talk.*
 :::
 
+## Photo Gallery: Bistro-by-the-Sea {.unnumbered}
+
+::: {.content-visible when-format="html"}
+::: {.photo-slideshow}
+![Bistro-by-the-Sea, exterior](../images/restaurant/outside3.jpg){group="ch05"}
+
+![Inside the restaurant](../images/restaurant/Bistro_013.jpg){group="ch05"}
+
+![The Bistro kitchen](../images/restaurant/Bistro_014.jpg){group="ch05"}
+
+![Family at work](../images/restaurant/Bistro_015.jpg){group="ch05"}
+
+![Bistro-by-the-Sea](../images/restaurant/Bistro_016.jpg){group="ch05"}
+:::
+:::
+
+::: {.content-visible when-format="pdf"}
+::: {.photo-grid}
+![Bistro-by-the-Sea, exterior](../images/restaurant/outside3.jpg){width=45%}
+
+![Inside the restaurant](../images/restaurant/Bistro_013.jpg){width=45%}
+
+![The Bistro kitchen](../images/restaurant/Bistro_014.jpg){width=45%}
+
+![Bistro-by-the-Sea](../images/restaurant/Bistro_016.jpg){width=45%}
+:::
+:::
+
 ---
 
 *Not every family turns their heritage into a business. The Cicconettis did — and the family table got a whole lot bigger.*

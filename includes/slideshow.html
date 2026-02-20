@@ -1,0 +1,84 @@
+<script>
+// Photo Slideshow — converts .photo-slideshow divs into interactive carousels
+(function() {
+  document.querySelectorAll('.photo-slideshow').forEach(function(container) {
+    var images = container.querySelectorAll('img');
+    if (images.length === 0) return;
+
+    // Extract data from Quarto-rendered images
+    var slides = [];
+    images.forEach(function(img) {
+      slides.push({
+        src: img.src,
+        alt: img.alt || '',
+        caption: img.alt || ''
+      });
+    });
+
+    // Build slideshow HTML
+    var html = '<div class="slide-container">';
+    html += '<button class="slideshow-nav prev" aria-label="Previous">&lsaquo;</button>';
+    html += '<button class="slideshow-nav next" aria-label="Next">&rsaquo;</button>';
+    html += '<span class="slideshow-counter">1 / ' + slides.length + '</span>';
+    slides.forEach(function(s, i) {
+      html += '<img src="' + s.src + '" alt="' + s.alt.replace(/"/g, '&quot;') + '"' +
+              (i === 0 ? ' class="active"' : '') + '>';
+    });
+    html += '</div>';
+    html += '<div class="slideshow-caption">' + (slides[0].caption || '') + '</div>';
+    html += '<div class="slideshow-thumbs">';
+    slides.forEach(function(s, i) {
+      html += '<img src="' + s.src + '" alt="thumb"' +
+              (i === 0 ? ' class="active"' : '') +
+              ' data-index="' + i + '">';
+    });
+    html += '</div>';
+
+    container.innerHTML = html;
+
+    // Slideshow logic
+    var current = 0;
+    var allSlides = container.querySelectorAll('.slide-container img');
+    var thumbs = container.querySelectorAll('.slideshow-thumbs img');
+    var caption = container.querySelector('.slideshow-caption');
+    var counter = container.querySelector('.slideshow-counter');
+
+    function goTo(idx) {
+      if (idx < 0) idx = slides.length - 1;
+      if (idx >= slides.length) idx = 0;
+      allSlides[current].classList.remove('active');
+      thumbs[current].classList.remove('active');
+      current = idx;
+      allSlides[current].classList.add('active');
+      thumbs[current].classList.add('active');
+      caption.textContent = slides[current].caption;
+      counter.textContent = (current + 1) + ' / ' + slides.length;
+      // Scroll thumb into view
+      thumbs[current].scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' });
+    }
+
+    container.querySelector('.prev').addEventListener('click', function() { goTo(current - 1); });
+    container.querySelector('.next').addEventListener('click', function() { goTo(current + 1); });
+
+    thumbs.forEach(function(thumb) {
+      thumb.addEventListener('click', function() {
+        goTo(parseInt(this.dataset.index));
+      });
+    });
+
+    // Keyboard navigation
+    container.addEventListener('keydown', function(e) {
+      if (e.key === 'ArrowLeft') goTo(current - 1);
+      if (e.key === 'ArrowRight') goTo(current + 1);
+    });
+    container.setAttribute('tabindex', '0');
+
+    // Auto-advance every 5 seconds (pause on hover)
+    var autoTimer = setInterval(function() { goTo(current + 1); }, 5000);
+    container.addEventListener('mouseenter', function() { clearInterval(autoTimer); });
+    container.addEventListener('mouseleave', function() {
+      autoTimer = setInterval(function() { goTo(current + 1); }, 5000);
+    });
+  });
+})();
+</script>

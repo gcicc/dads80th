@@ -85,6 +85,28 @@ At eighty, Vic is still shopping for air pistols. Still going to AC. Still forwa
 
 Still the same man from Bayonne who answered the call. He won't back down. He did it his way. And he's not done.
 
+## A Life in Pictures {.unnumbered}
+
+::: {.content-visible when-format="html"}
+::: {.photo-slideshow}
+![The family, September 2017](../images/P1020477.JPG){group="ch10"}
+
+![Vic](../images/recent/cicc.jpg){group="ch10"}
+
+![Family time](../images/recent/IMG_0435.JPG){group="ch10"}
+
+![Together](../images/recent/IMG_1020.JPG){group="ch10"}
+:::
+:::
+
+::: {.content-visible when-format="pdf"}
+::: {.photo-grid}
+![The family, September 2017](../images/P1020477.JPG){width=60%}
+
+![Vic](../images/recent/cicc.jpg){width=35%}
+:::
+:::
+
 ---
 
 Happy 80th birthday, Dad.

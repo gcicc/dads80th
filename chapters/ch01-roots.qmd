@@ -321,3 +321,45 @@ They didn't know it yet. But they were heading toward each other.
 
 **Aunt Leanora:** You've been researching the family tree. What do you know that we got wrong — or missed entirely?
 :::
+
+## Photo Gallery: The Early Years {.unnumbered}
+
+::: {.content-visible when-format="html"}
+::: {.photo-slideshow}
+![Vic at three years old, Fall 1949](../images/heritage/Fall%201949%20Vic%203%20yrs%20old017.jpg){group="ch01"}
+
+![Early family portrait](../images/heritage/Early%20Photos_011.jpg){group="ch01"}
+
+![The Cicconetti family, 1960s](../images/heritage/cicconettis_1960s002.jpg){group="ch01"}
+
+![School days](../images/heritage/schoolpics001.jpg){group="ch01"}
+
+![Family portrait](../images/heritage/Large%20Prints001.jpg){group="ch01"}
+
+![Early years](../images/heritage/Large%20Prints_003.jpg){group="ch01"}
+
+![Family memories](../images/heritage/Large%20Prints_009.jpg){group="ch01"}
+
+![Growing up in Bayonne](../images/heritage/Large%20Prints_010.jpg){group="ch01"}
+
+![The old neighborhood](../images/heritage/Sort%20me_002.jpg){group="ch01"}
+
+![Family photo](../images/heritage/Sort%20me_015.jpg){group="ch01"}
+
+![Bayonne memories](../images/heritage/Sort%20me_027.jpg){group="ch01"}
+
+![The Cicconetti kids](../images/heritage/Sort%20me_034.jpg){group="ch01"}
+:::
+:::
+
+::: {.content-visible when-format="pdf"}
+::: {.photo-grid}
+![Vic at three years old, Fall 1949](../images/heritage/Fall%201949%20Vic%203%20yrs%20old017.jpg){width=45%}
+
+![The Cicconetti family, 1960s](../images/heritage/cicconettis_1960s002.jpg){width=45%}
+
+![School days](../images/heritage/schoolpics001.jpg){width=45%}
+
+![Family portrait](../images/heritage/Large%20Prints001.jpg){width=45%}
+:::
+:::
