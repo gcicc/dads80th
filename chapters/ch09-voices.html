@@ -2212,7 +2212,7 @@ Loading form…
 
 </script>
 
-<!-- Family Song Easter Eggs — G/Y/R clickable icons with YouTube popup -->
+<!-- Family Song Easter Eggs — G/Y/R margin vinyl pips with YouTube popup -->
 
 <div id="family-egg-modal" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; z-index:100000; align-items:center; justify-content:center;">
 
@@ -2246,13 +2246,17 @@ Loading form…
 
       videoId: "t1Jm5epJr10",
 
+      initial: "G",
+
       caption: "\u201cIn case there is any misunderstanding: Victor R. Cicconetti is the Walrus. Goo goo g\u2019joob, Dad.\u201d \u2014 Greg"
 
     },
 
     "greg-summer": {
 
-      videoId: "m648v4s5sFc",
+      videoId: "5YgevxRGXIU",
+
+      initial: "G",
 
       caption: "\u201cWhen I think about what Dad\u2019s childhood must have been like \u2014 hot summers, city streets, fire hydrants \u2014 this is the song I hear.\u201d \u2014 Greg"
 
@@ -2260,7 +2264,9 @@ Loading form…
 
     "greg-tenth-ave": {
 
-      videoId: "yArmS1uaeGc",
+      videoId: "2chcE7VjInI",
+
+      initial: "G",
 
       caption: "\u201cTenth Avenue. The Big Man joins the band. If that\u2019s not a Bayonne story, I don\u2019t know what is.\u201d \u2014 Greg"
 
@@ -2270,6 +2276,8 @@ Loading form…
 
       videoId: "RubBzkZzpUA",
 
+      initial: "G",
+
       caption: "\u201cDrake says \u2018I wear every single chain even when I\u2019m in the house.\u2019 That\u2019s Dad \u2014 the newspaper clippings in the garage, the printout banners, the VVA flags, the American flags. He wears every role he\u2019s ever earned.\u201d \u2014 Greg"
 
     },
@@ -2277,6 +2285,8 @@ Loading form…
     "greg-startmeup": {
 
       videoId: "SGyOaCXr8Lw",
+
+      initial: "G",
 
       caption: "\u201cDad\u2019s got the swagger like Mick Jagger. You can\u2019t teach that energy \u2014 you either have it or you don\u2019t. He has it.\u201d \u2014 Greg"
 
@@ -2286,6 +2296,8 @@ Loading form…
 
       videoId: "MbXWrmQW-OE",
 
+      initial: "G",
+
       caption: "\u201cDad told me something when I was four years old: \u2018Isolate the instruments as you listen to music.\u2019 I didn\u2019t know it then, but he was teaching me principal component analysis. The man was a statistician before statistics were cool.\u201d \u2014 Greg"
 
     },
@@ -2294,13 +2306,17 @@ Loading form…
 
       videoId: "LPFgBCUBMYk",
 
+      initial: "G",
+
       caption: "\u201cOne of Dad\u2019s favorites and one of mine. \u2018Well my first, second, and third lover all let me down... I\u2019m walking barefoot!\u2019 The man doesn\u2019t quit.\u201d \u2014 Greg"
 
     },
 
     "greg-waymaker": {
 
-      videoId: "EBnJOEYi3rU",
+      videoId: "QM8jQHE5AAk",
+
+      initial: "G",
 
       caption: "\u201cThis isn\u2019t a hymn from Holy Innocents or Shark River Community Bible Church. But Dad would love it. Way maker, miracle worker, promise keeper \u2014 that\u2019s the prayer life he lives every day.\u201d \u2014 Greg"
 
@@ -2310,6 +2326,8 @@ Loading form…
 
       videoId: "Zp6aygmvzM4",
 
+      initial: "G",
+
       caption: "\u201cAnother one from the new worship playlist. \u2018May His favor be upon you for a thousand generations\u2019 \u2014 that\u2019s what Dad is trying to do every time he corners you after a glass of wine to talk about prayer.\u201d \u2014 Greg"
 
     }
@@ -2317,6 +2335,34 @@ Loading form…
   };
 
 
+
+  /* --- Position pips in the margin --- */
+
+  document.querySelectorAll('.family-egg').forEach(function(el) {
+
+    var songId = el.getAttribute('data-song');
+
+    var song = SONGS[songId];
+
+    if (song) {
+
+      el.setAttribute('data-initial', song.initial);
+
+      el.setAttribute('title', song.initial + ' \u2014 click to play');
+
+    }
+
+    /* Mark parent <p> so CSS can set position:relative */
+
+    var parent = el.closest('p');
+
+    if (parent) parent.classList.add('has-family-egg');
+
+  });
+
+
+
+  /* --- Modal controls --- */
 
   var modal = document.getElementById('family-egg-modal');
 

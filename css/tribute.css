@@ -1433,60 +1433,96 @@ h2 [data-egg], h3 [data-egg] {
   50% { opacity: 0.5; }
 
 /* ============================================================
-   FAMILY SONG EASTER EGGS — G/Y/R clickable icons
+   FAMILY SONG EASTER EGGS — Margin vinyl pips
    ============================================================ */
 
+/* Parent paragraphs get relative positioning so pips can escape to margin */
+#quarto-document-content p.has-family-egg {
+  position: relative;
+}
+
+/* The pip: tiny dot pulled into the left margin */
 .family-egg {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 24px;
-  height: 24px;
+  position: absolute;
+  left: -18px;
+  width: 9px;
+  height: 9px;
   border-radius: 50%;
-  color: #fff;
-  font-size: 0.7em;
-  font-weight: 700;
-  font-family: var(--body-font, 'Lora', Georgia, serif);
   cursor: pointer;
-  vertical-align: middle;
-  margin: 0 3px;
-  line-height: 1;
-  transition: box-shadow 0.2s, transform 0.15s;
-  text-decoration: none;
+  font-size: 0;           /* hide the G/Y/R text */
+  line-height: 0;
+  overflow: hidden;
+  color: transparent;
   border: none;
+  text-decoration: none;
+  transition: box-shadow 0.3s, transform 0.25s, width 0.25s, height 0.25s;
+  z-index: 5;
 }
 
 /* Greg = blue */
 .family-egg { background: #3b6cb4; }
 /* Yvonne = rose (future) */
-.family-egg-y { background: #c45b84; }
+.family-egg.family-egg-y { background: #c45b84; }
 /* Richard = green (future) */
-.family-egg-r { background: #4a8c5c; }
+.family-egg.family-egg-r { background: #4a8c5c; }
 
+/* Hover: glow + grow + show initial via tooltip */
 .family-egg:hover {
-  box-shadow: 0 0 8px rgba(59,108,180,0.6);
-  transform: scale(1.15);
+  width: 16px;
+  height: 16px;
+  box-shadow: 0 0 10px rgba(59,108,180,0.7), 0 0 20px rgba(59,108,180,0.3);
+  transform: translate(-3px, -3px);
 }
 
-.family-egg-y:hover {
-  box-shadow: 0 0 8px rgba(196,91,132,0.6);
+.family-egg.family-egg-y:hover {
+  box-shadow: 0 0 10px rgba(196,91,132,0.7), 0 0 20px rgba(196,91,132,0.3);
 }
 
-.family-egg-r:hover {
-  box-shadow: 0 0 8px rgba(74,140,92,0.6);
+.family-egg.family-egg-r:hover {
+  box-shadow: 0 0 10px rgba(74,140,92,0.7), 0 0 20px rgba(74,140,92,0.3);
+}
+
+/* Tooltip showing the initial on hover */
+.family-egg::after {
+  content: attr(data-initial);
+  position: absolute;
+  left: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #333;
+  color: #fff;
+  font-size: 11px;
+  font-weight: 700;
+  font-family: var(--body-font, 'Lora', Georgia, serif);
+  padding: 2px 7px;
+  border-radius: 4px;
+  white-space: nowrap;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s;
+}
+
+.family-egg:hover::after {
+  opacity: 1;
 }
 
 /* Hide family eggs in print */
 @media print {
-  .family-egg { display: none; }
+  .family-egg { display: none !important; }
   #family-egg-modal { display: none !important; }
 }
 
-/* Responsive: slightly smaller on mobile */
-@media (max-width: 480px) {
+/* Mobile: tuck pips closer since margins are narrower */
+@media (max-width: 768px) {
   .family-egg {
-    width: 22px;
-    height: 22px;
-    font-size: 0.65em;
+    left: -14px;
+    width: 7px;
+    height: 7px;
+  }
+
+  .family-egg:hover {
+    width: 13px;
+    height: 13px;
+    transform: translate(-2px, -2px);
   }
 }
