@@ -836,11 +836,17 @@ ul.task-list li input[type="checkbox"] {
 
   lightbox.innerHTML = '<div class="slideshow-lightbox-backdrop"></div>' +
 
+    '<button class="slideshow-lightbox-prev" aria-label="Previous">&lsaquo;</button>' +
+
     '<img class="slideshow-lightbox-img" alt="">' +
+
+    '<button class="slideshow-lightbox-next" aria-label="Next">&rsaquo;</button>' +
 
     '<button class="slideshow-lightbox-close" aria-label="Close">&times;</button>' +
 
-    '<div class="slideshow-lightbox-caption"></div>';
+    '<div class="slideshow-lightbox-caption"></div>' +
+
+    '<div class="slideshow-lightbox-counter"></div>';
 
   document.body.appendChild(lightbox);
 
@@ -850,13 +856,47 @@ ul.task-list li input[type="checkbox"] {
 
   var lbCaption = lightbox.querySelector('.slideshow-lightbox-caption');
 
+  var lbCounter = lightbox.querySelector('.slideshow-lightbox-counter');
+
+  var lbSlides = [];   // current slideshow's slides array
+
+  var lbIndex = 0;     // current index in lightbox
+
+  var lbGoTo = null;    // callback to sync the underlying slideshow
 
 
-  function openLightbox(src, caption) {
 
-    lbImg.src = src;
+  function showLightboxSlide(idx) {
 
-    lbCaption.textContent = caption || '';
+    if (idx < 0) idx = lbSlides.length - 1;
+
+    if (idx >= lbSlides.length) idx = 0;
+
+    lbIndex = idx;
+
+    lbImg.src = lbSlides[idx].src;
+
+    lbCaption.textContent = lbSlides[idx].caption || '';
+
+    lbCounter.textContent = (idx + 1) + ' / ' + lbSlides.length;
+
+    // Sync the underlying slideshow
+
+    if (lbGoTo) lbGoTo(idx);
+
+  }
+
+
+
+  function openLightbox(slides, index, goToFn) {
+
+    lbSlides = slides;
+
+    lbIndex = index;
+
+    lbGoTo = goToFn || null;
+
+    showLightboxSlide(index);
 
     lightbox.classList.add('active');
 
@@ -880,9 +920,31 @@ ul.task-list li input[type="checkbox"] {
 
   lightbox.querySelector('.slideshow-lightbox-close').addEventListener('click', closeLightbox);
 
+  lightbox.querySelector('.slideshow-lightbox-prev').addEventListener('click', function(e) {
+
+    e.stopPropagation();
+
+    showLightboxSlide(lbIndex - 1);
+
+  });
+
+  lightbox.querySelector('.slideshow-lightbox-next').addEventListener('click', function(e) {
+
+    e.stopPropagation();
+
+    showLightboxSlide(lbIndex + 1);
+
+  });
+
   document.addEventListener('keydown', function(e) {
 
-    if (e.key === 'Escape' && lightbox.classList.contains('active')) closeLightbox();
+    if (!lightbox.classList.contains('active')) return;
+
+    if (e.key === 'Escape') closeLightbox();
+
+    if (e.key === 'ArrowLeft') showLightboxSlide(lbIndex - 1);
+
+    if (e.key === 'ArrowRight') showLightboxSlide(lbIndex + 1);
 
   });
 
@@ -1126,7 +1188,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-    // Click on main slide image opens lightbox
+    // Click on main slide image opens lightbox with navigation
 
     allSlides.forEach(function(img, i) {
 
@@ -1134,9 +1196,7 @@ ul.task-list li input[type="checkbox"] {
 
       img.addEventListener('click', function() {
 
-        var src = img.src || img.dataset.src;
-
-        openLightbox(src, slides[i].caption);
+        openLightbox(slides, i, goTo);
 
       });
 
@@ -1779,6 +1839,402 @@ ul.task-list li input[type="checkbox"] {
     initJukeboxes();
 
   }
+
+})();
+
+</script>
+
+<script>
+
+// Easter Eggs — "Once in a Lifetime" by Talking Heads
+
+// Hidden throughout the book: click highlighted phrases to hear matching lyric snippets
+
+// Uses YouTube IFrame API (shared with jukebox) — no downloads, just streaming
+
+(function() {
+
+  'use strict';
+
+
+
+  var VIDEO_ID = '5IsSpAOD6K8'; // Official music video
+
+
+
+  // Clip map: each key matches a data-egg attribute in the chapter HTML
+
+  // start = seconds into the song, dur = how long to play
+
+  var CLIPS = {
+
+    'shotgun-shack':     { start: 28,  dur: 5 },
+
+    'another-world':     { start: 34,  dur: 5 },
+
+    'large-automobile':  { start: 40,  dur: 5 },
+
+    'beautiful-house':   { start: 46,  dur: 5 },
+
+    'how-did-i-get-here':{ start: 52,  dur: 4 },
+
+    'days-go-by':        { start: 65,  dur: 6 },
+
+    'same-as-it-ever-was':{ start: 80, dur: 5 },
+
+    'into-the-blue':     { start: 98,  dur: 5 },
+
+    'silent-water':      { start: 103, dur: 5 },
+
+    'what-have-i-done':  { start: 180, dur: 4 }
+
+  };
+
+
+
+  var player = null;
+
+  var ready = false;
+
+  var stopTimer = null;
+
+  var activeEl = null;
+
+
+
+  function createPlayer() {
+
+    // Hidden 1x1 player off-screen
+
+    var div = document.createElement('div');
+
+    div.id = 'easter-egg-player';
+
+    div.style.cssText = 'position:fixed;top:-9999px;left:-9999px;width:1px;height:1px;pointer-events:none;';
+
+    document.body.appendChild(div);
+
+
+
+    player = new YT.Player('easter-egg-player', {
+
+      width: 1,
+
+      height: 1,
+
+      videoId: VIDEO_ID,
+
+      playerVars: { autoplay: 0, controls: 0, disablekb: 1, fs: 0, modestbranding: 1, rel: 0 },
+
+      events: {
+
+        onReady: function() { ready = true; }
+
+      }
+
+    });
+
+  }
+
+
+
+  function playClip(clipId, el) {
+
+    var clip = CLIPS[clipId];
+
+    if (!clip || !ready || !player) return;
+
+
+
+    // Cancel any running clip
+
+    if (stopTimer) clearTimeout(stopTimer);
+
+    if (activeEl) activeEl.classList.remove('playing');
+
+
+
+    // Play the snippet
+
+    player.seekTo(clip.start, true);
+
+    player.playVideo();
+
+    el.classList.add('playing');
+
+    activeEl = el;
+
+
+
+    stopTimer = setTimeout(function() {
+
+      player.pauseVideo();
+
+      el.classList.remove('playing');
+
+      activeEl = null;
+
+      stopTimer = null;
+
+    }, clip.dur * 1000);
+
+  }
+
+
+
+  function init() {
+
+    var eggs = document.querySelectorAll('[data-egg]');
+
+    if (eggs.length === 0) return; // No easter eggs on this page
+
+
+
+    // Load YT API (shared loader from jukebox.html) and create hidden player
+
+    window.loadYouTubeAPI(function() {
+
+      createPlayer();
+
+    });
+
+
+
+    // Wire up click handlers
+
+    eggs.forEach(function(el) {
+
+      el.addEventListener('click', function(e) {
+
+        e.preventDefault();
+
+        var clipId = el.getAttribute('data-egg');
+
+        if (ready) {
+
+          playClip(clipId, el);
+
+        } else {
+
+          // API not ready yet — load it and retry
+
+          window.loadYouTubeAPI(function() {
+
+            if (!player) createPlayer();
+
+            // Retry after a short delay for player init
+
+            var retries = 0;
+
+            var check = setInterval(function() {
+
+              retries++;
+
+              if (ready) { clearInterval(check); playClip(clipId, el); }
+
+              if (retries > 20) clearInterval(check); // give up after 2s
+
+            }, 100);
+
+          });
+
+        }
+
+      });
+
+    });
+
+  }
+
+
+
+  if (document.readyState === 'loading') {
+
+    document.addEventListener('DOMContentLoaded', init);
+
+  } else {
+
+    init();
+
+  }
+
+})();
+
+</script>
+
+<!-- Family Song Easter Eggs — G/Y/R clickable icons with YouTube popup -->
+
+<div id="family-egg-modal" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; z-index:100000; align-items:center; justify-content:center;">
+
+  <div id="family-egg-backdrop" style="position:absolute; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.8);"></div>
+
+  <div id="family-egg-container" style="position:relative; background:#1a1a1a; border-radius:12px; padding:16px; max-width:540px; width:90%; box-shadow:0 8px 40px rgba(0,0,0,0.6);">
+
+    <button id="family-egg-close" style="position:absolute; top:-12px; right:-12px; width:32px; height:32px; border-radius:50%; border:none; background:#333; color:#fff; font-size:1.3em; cursor:pointer; line-height:1; display:flex; align-items:center; justify-content:center; z-index:1;">×</button>
+
+    <div style="position:relative; width:100%; padding-bottom:56.25%; height:0; overflow:hidden; border-radius:8px; background:#000;">
+
+      <iframe id="family-egg-player" style="position:absolute; top:0; left:0; width:100%; height:100%; border:none; border-radius:8px;" allow="autoplay; encrypted-media" allowfullscreen=""></iframe>
+
+    </div>
+
+    <p id="family-egg-caption" style="color:#ccc; font-style:italic; font-size:0.9em; line-height:1.5; margin:12px 4px 4px 4px; text-align:center;"></p>
+
+  </div>
+
+</div>
+
+
+
+<script>
+
+(function() {
+
+  var SONGS = {
+
+    "greg-walrus": {
+
+      videoId: "t1Jm5epJr10",
+
+      caption: "\u201cIn case there is any misunderstanding: Victor R. Cicconetti is the Walrus. Goo goo g\u2019joob, Dad.\u201d \u2014 Greg"
+
+    },
+
+    "greg-summer": {
+
+      videoId: "m648v4s5sFc",
+
+      caption: "\u201cWhen I think about what Dad\u2019s childhood must have been like \u2014 hot summers, city streets, fire hydrants \u2014 this is the song I hear.\u201d \u2014 Greg"
+
+    },
+
+    "greg-tenth-ave": {
+
+      videoId: "yArmS1uaeGc",
+
+      caption: "\u201cTenth Avenue. The Big Man joins the band. If that\u2019s not a Bayonne story, I don\u2019t know what is.\u201d \u2014 Greg"
+
+    },
+
+    "greg-started": {
+
+      videoId: "RubBzkZzpUA",
+
+      caption: "\u201cDrake says \u2018I wear every single chain even when I\u2019m in the house.\u2019 That\u2019s Dad \u2014 the newspaper clippings in the garage, the printout banners, the VVA flags, the American flags. He wears every role he\u2019s ever earned.\u201d \u2014 Greg"
+
+    },
+
+    "greg-startmeup": {
+
+      videoId: "SGyOaCXr8Lw",
+
+      caption: "\u201cDad\u2019s got the swagger like Mick Jagger. You can\u2019t teach that energy \u2014 you either have it or you don\u2019t. He has it.\u201d \u2014 Greg"
+
+    },
+
+    "greg-message": {
+
+      videoId: "MbXWrmQW-OE",
+
+      caption: "\u201cDad told me something when I was four years old: \u2018Isolate the instruments as you listen to music.\u2019 I didn\u2019t know it then, but he was teaching me principal component analysis. The man was a statistician before statistics were cool.\u201d \u2014 Greg"
+
+    },
+
+    "greg-walk": {
+
+      videoId: "LPFgBCUBMYk",
+
+      caption: "\u201cOne of Dad\u2019s favorites and one of mine. \u2018Well my first, second, and third lover all let me down... I\u2019m walking barefoot!\u2019 The man doesn\u2019t quit.\u201d \u2014 Greg"
+
+    },
+
+    "greg-waymaker": {
+
+      videoId: "EBnJOEYi3rU",
+
+      caption: "\u201cThis isn\u2019t a hymn from Holy Innocents or Shark River Community Bible Church. But Dad would love it. Way maker, miracle worker, promise keeper \u2014 that\u2019s the prayer life he lives every day.\u201d \u2014 Greg"
+
+    },
+
+    "greg-blessing": {
+
+      videoId: "Zp6aygmvzM4",
+
+      caption: "\u201cAnother one from the new worship playlist. \u2018May His favor be upon you for a thousand generations\u2019 \u2014 that\u2019s what Dad is trying to do every time he corners you after a glass of wine to talk about prayer.\u201d \u2014 Greg"
+
+    }
+
+  };
+
+
+
+  var modal = document.getElementById('family-egg-modal');
+
+  var backdrop = document.getElementById('family-egg-backdrop');
+
+  var closeBtn = document.getElementById('family-egg-close');
+
+  var player = document.getElementById('family-egg-player');
+
+  var caption = document.getElementById('family-egg-caption');
+
+
+
+  function openSong(songId) {
+
+    var song = SONGS[songId];
+
+    if (!song) return;
+
+    player.src = 'https://www.youtube.com/embed/' + song.videoId + '?autoplay=1&rel=0';
+
+    caption.textContent = song.caption;
+
+    modal.style.display = 'flex';
+
+  }
+
+
+
+  function closeModal() {
+
+    modal.style.display = 'none';
+
+    player.src = '';
+
+    caption.textContent = '';
+
+  }
+
+
+
+  backdrop.addEventListener('click', closeModal);
+
+  closeBtn.addEventListener('click', closeModal);
+
+
+
+  document.addEventListener('keydown', function(e) {
+
+    if (e.key === 'Escape' && modal.style.display === 'flex') closeModal();
+
+  });
+
+
+
+  document.addEventListener('click', function(e) {
+
+    var el = e.target.closest('[data-song]');
+
+    if (el) {
+
+      e.preventDefault();
+
+      openSong(el.getAttribute('data-song'));
+
+    }
+
+  });
 
 })();
 
@@ -2502,6 +2958,24 @@ ul.task-list li input[type="checkbox"] {
 
 
 
+  function initSingleMap(container, data) {
+
+    if (container.dataset.mapInit) return;
+
+    container.dataset.mapInit = '1';
+
+    var lm = new LifeMap(container);
+
+    lm.init(data);
+
+    // Fix tile rendering after a short delay (callout animation)
+
+    setTimeout(function() { if (lm.map) lm.map.invalidateSize(); }, 400);
+
+  }
+
+
+
   function initLifeMaps() {
 
     var containers = document.querySelectorAll('.life-map');
@@ -2530,8 +3004,6 @@ ul.task-list li input[type="checkbox"] {
 
       if (pathIndex >= paths.length) {
 
-        // Fallback: use embedded data if fetch fails
-
         console.warn('LifeMap: Could not load addresses.json from any path');
 
         return;
@@ -2554,9 +3026,73 @@ ul.task-list li input[type="checkbox"] {
 
           for (var i = 0; i < containers.length; i++) {
 
-            var lm = new LifeMap(containers[i]);
+            (function(container) {
 
-            lm.init(data);
+              var callout = container.closest('.callout');
+
+              if (!callout) {
+
+                // No callout parent — init immediately
+
+                initSingleMap(container, data);
+
+                return;
+
+              }
+
+
+
+              // Check if callout is already expanded
+
+              var body = callout.querySelector('.callout-body-container');
+
+              if (body && body.offsetHeight > 0 && getComputedStyle(body).display !== 'none') {
+
+                initSingleMap(container, data);
+
+                return;
+
+              }
+
+
+
+              // Wait for callout expand via click
+
+              var header = callout.querySelector('.callout-header');
+
+              if (header) {
+
+                header.addEventListener('click', function onExpand() {
+
+                  setTimeout(function() { initSingleMap(container, data); }, 350);
+
+                  header.removeEventListener('click', onExpand);
+
+                });
+
+              }
+
+
+
+              // MutationObserver fallback
+
+              var observer = new MutationObserver(function() {
+
+                var b = callout.querySelector('.callout-body-container');
+
+                if (b && b.offsetHeight > 0) {
+
+                  initSingleMap(container, data);
+
+                  observer.disconnect();
+
+                }
+
+              });
+
+              observer.observe(callout, { attributes: true, childList: true, subtree: true });
+
+            })(containers[i]);
 
           }
 
