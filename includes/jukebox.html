@@ -105,6 +105,20 @@
         });
       }
     }
+
+    // Pause YouTube player when callout is collapsed
+    var collapseTarget = callout.querySelector('.callout-collapse');
+    if (!collapseTarget) {
+      // Quarto uses class-based collapse targets; find the body container
+      collapseTarget = callout.querySelector('.callout-body-container');
+    }
+    if (collapseTarget) {
+      collapseTarget.addEventListener('hide.bs.collapse', function() {
+        if (self.ready && self.player && self.player.pauseVideo) {
+          self.player.pauseVideo();
+        }
+      });
+    }
   }
 
   Jukebox.prototype.initWhenReady = function() {

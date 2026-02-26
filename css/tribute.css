@@ -383,10 +383,8 @@ div.callout-note[title*="Soundtrack"] {
 
 /* Jukebox player — responsive YouTube embed container */
 .jukebox-wrapper {
-  position: relative;
   width: 100%;
-  padding-bottom: 56.25%; /* 16:9 aspect ratio */
-  height: 0;
+  aspect-ratio: 16 / 9;
   overflow: hidden;
   border-radius: 8px;
   margin: 1em 0 0.5em 0;
@@ -395,9 +393,7 @@ div.callout-note[title*="Soundtrack"] {
 }
 
 .jukebox-wrapper iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
+  display: block;
   width: 100%;
   height: 100%;
   border: none;
@@ -912,6 +908,8 @@ blockquote.pull-quote::before {
   width: 350px !important;
   padding-left: 0.8em;
   padding-right: 0.8em;
+  overflow-y: auto;
+  max-height: calc(100vh - 80px);
 }
 
 /* Let Quarto's grid handle content width — no extra margin needed */
@@ -1347,6 +1345,42 @@ blockquote.pull-quote::before {
   color: #ff6347;
 }
 
+.slideshow-lightbox-prev,
+.slideshow-lightbox-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 3em;
+  color: #fff;
+  background: rgba(0,0,0,0.3);
+  border: none;
+  cursor: pointer;
+  padding: 0.2em 0.4em;
+  line-height: 1;
+  border-radius: 4px;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.5);
+  transition: background 0.2s;
+  z-index: 1;
+}
+
+.slideshow-lightbox-prev { left: 15px; }
+.slideshow-lightbox-next { right: 15px; }
+
+.slideshow-lightbox-prev:hover,
+.slideshow-lightbox-next:hover {
+  background: rgba(255,255,255,0.2);
+}
+
+.slideshow-lightbox-counter {
+  position: absolute;
+  top: 25px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #aaa;
+  font-size: 0.9em;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.8);
+}
+
 .slideshow-lightbox-caption {
   position: absolute;
   bottom: 20px;
@@ -1358,4 +1392,135 @@ blockquote.pull-quote::before {
   text-align: center;
   max-width: 80%;
   text-shadow: 0 1px 3px rgba(0,0,0,0.8);
+}
+
+/* ============================================================
+   EASTER EGGS — "Once in a Lifetime" hidden lyric snippets
+   ============================================================ */
+
+[data-egg] {
+  border-bottom: 1.5px dashed var(--era-primary, #8B4513);
+  cursor: pointer;
+  transition: color 0.2s, border-color 0.2s;
+  position: relative;
+}
+
+h2 [data-egg], h3 [data-egg] {
+  border-bottom: none;
+}
+
+[data-egg]:hover {
+  color: var(--era-primary, #8B4513);
+  border-bottom-style: solid;
+}
+
+[data-egg]:hover::after {
+  content: ' \266A';
+  font-size: 0.75em;
+  opacity: 0.6;
+}
+
+[data-egg].playing {
+  color: var(--era-primary, #8B4513);
+  border-bottom-style: solid;
+  animation: egg-pulse 0.6s ease-in-out 3;
+}
+
+@keyframes egg-pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.5; }
+
+/* ============================================================
+   FAMILY SONG EASTER EGGS — Margin vinyl pips
+   ============================================================ */
+
+/* Parent paragraphs get relative positioning so pips can escape to margin */
+#quarto-document-content p.has-family-egg {
+  position: relative;
+}
+
+/* The pip: tiny dot pulled into the left margin */
+.family-egg {
+  position: absolute;
+  left: -18px;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 0;           /* hide the G/Y/R text */
+  line-height: 0;
+  overflow: hidden;
+  color: transparent;
+  border: none;
+  text-decoration: none;
+  transition: box-shadow 0.3s, transform 0.25s, width 0.25s, height 0.25s;
+  z-index: 5;
+}
+
+/* Greg = blue */
+.family-egg { background: #3b6cb4; }
+/* Yvonne = rose (future) */
+.family-egg.family-egg-y { background: #c45b84; }
+/* Richard = green (future) */
+.family-egg.family-egg-r { background: #4a8c5c; }
+
+/* Hover: glow + grow + show initial via tooltip */
+.family-egg:hover {
+  width: 16px;
+  height: 16px;
+  box-shadow: 0 0 10px rgba(59,108,180,0.7), 0 0 20px rgba(59,108,180,0.3);
+  transform: translate(-3px, -3px);
+}
+
+.family-egg.family-egg-y:hover {
+  box-shadow: 0 0 10px rgba(196,91,132,0.7), 0 0 20px rgba(196,91,132,0.3);
+}
+
+.family-egg.family-egg-r:hover {
+  box-shadow: 0 0 10px rgba(74,140,92,0.7), 0 0 20px rgba(74,140,92,0.3);
+}
+
+/* Tooltip showing the initial on hover */
+.family-egg::after {
+  content: attr(data-initial);
+  position: absolute;
+  left: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #333;
+  color: #fff;
+  font-size: 11px;
+  font-weight: 700;
+  font-family: var(--body-font, 'Lora', Georgia, serif);
+  padding: 2px 7px;
+  border-radius: 4px;
+  white-space: nowrap;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s;
+}
+
+.family-egg:hover::after {
+  opacity: 1;
+}
+
+/* Hide family eggs in print */
+@media print {
+  .family-egg { display: none !important; }
+  #family-egg-modal { display: none !important; }
+}
+
+/* Mobile: tuck pips closer since margins are narrower */
+@media (max-width: 768px) {
+  .family-egg {
+    left: -14px;
+    width: 7px;
+    height: 7px;
+  }
+
+  .family-egg:hover {
+    width: 13px;
+    height: 13px;
+    transform: translate(-2px, -2px);
+  }
 }
