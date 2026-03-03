@@ -312,7 +312,7 @@ ul.task-list li input[type="checkbox"] {
 
 </div>
 <ul>
-<li><a href="https://www.youtube.com/watch?v=2s4slliAtQU">Steely Dan — “Reelin’ in the Years”</a></li>
+<li><a href="https://www.youtube.com/watch?v=91XTZ92zs2w">Steely Dan — “Reelin’ in the Years”</a></li>
 </ul>
 </div>
 </div>
@@ -2468,6 +2468,20 @@ March 29, 2026
         });
 
       }
+
+      // Fallback: retry after a delay for callouts that start open
+
+      // (Bootstrap collapse animation may not have finished at script time)
+
+      setTimeout(function() {
+
+        if (!self.initAttempted && self.playerDiv.offsetHeight > 0) {
+
+          self.initWhenReady();
+
+        }
+
+      }, 500);
 
     }
 

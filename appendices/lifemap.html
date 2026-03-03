@@ -1516,6 +1516,20 @@ ul.task-list li input[type="checkbox"] {
 
       }
 
+      // Fallback: retry after a delay for callouts that start open
+
+      // (Bootstrap collapse animation may not have finished at script time)
+
+      setTimeout(function() {
+
+        if (!self.initAttempted && self.playerDiv.offsetHeight > 0) {
+
+          self.initWhenReady();
+
+        }
+
+      }, 500);
+
     }
 
 
