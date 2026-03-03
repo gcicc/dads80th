@@ -2104,6 +2104,34 @@ ul.task-list li input[type="checkbox"] {
 
     }
 
+
+
+    // Pause YouTube player when callout is collapsed
+
+    var collapseTarget = callout.querySelector('.callout-collapse');
+
+    if (!collapseTarget) {
+
+      // Quarto uses class-based collapse targets; find the body container
+
+      collapseTarget = callout.querySelector('.callout-body-container');
+
+    }
+
+    if (collapseTarget) {
+
+      collapseTarget.addEventListener('hide.bs.collapse', function() {
+
+        if (self.ready && self.player && self.player.pauseVideo) {
+
+          self.player.pauseVideo();
+
+        }
+
+      });
+
+    }
+
   }
 
 
@@ -3610,9 +3638,47 @@ ul.task-list li input[type="checkbox"] {
 
     lm.init(data);
 
-    // Fix tile rendering after a short delay (callout animation)
 
-    setTimeout(function() { if (lm.map) lm.map.invalidateSize(); }, 400);
+
+    // Fix tile rendering — multiple invalidateSize calls to handle
+
+    // callout animations, lazy-loaded content shifts, and layout settling
+
+    var invalidate = function() { if (lm.map) lm.map.invalidateSize(); };
+
+    setTimeout(invalidate, 400);
+
+    setTimeout(invalidate, 800);
+
+    setTimeout(invalidate, 1500);
+
+
+
+    // ResizeObserver — re-invalidate whenever container dimensions change
+
+    if (window.ResizeObserver) {
+
+      var ro = new ResizeObserver(function() { invalidate(); });
+
+      ro.observe(container);
+
+    }
+
+
+
+    // IntersectionObserver — re-invalidate when map scrolls into viewport
+
+    if (window.IntersectionObserver) {
+
+      var io = new IntersectionObserver(function(entries) {
+
+        if (entries[0].isIntersecting) { invalidate(); }
+
+      }, { threshold: 0.1 });
+
+      io.observe(container);
+
+    }
 
   }
 
@@ -3706,7 +3772,7 @@ ul.task-list li input[type="checkbox"] {
 
                 header.addEventListener('click', function onExpand() {
 
-                  setTimeout(function() { initSingleMap(container, data); }, 350);
+                  setTimeout(function() { initSingleMap(container, data); }, 600);
 
                   header.removeEventListener('click', onExpand);
 
@@ -3779,6 +3845,686 @@ ul.task-list li input[type="checkbox"] {
   } else {
 
     onReady();
+
+  }
+
+})();
+
+</script>
+
+<!-- Hurricane History Map — Leaflet.js interactive map showing NJ hurricane tracks -->
+
+<!-- Reuses Leaflet loaded by lifemap.html -->
+
+<script>
+
+(function() {
+
+  'use strict';
+
+
+
+  // Hurricane track data — simplified paths for major storms affecting NJ
+
+  // Sources: NOAA IBTrACS, National Hurricane Center
+
+  var HURRICANES = [
+
+    {
+
+      name: 'Great Atlantic Hurricane',
+
+      year: 1944,
+
+      category: 'Cat 1 at NJ',
+
+      color: '#e74c3c',
+
+      note: 'Made landfall near Atlantic City. 344 deaths along East Coast. Massive damage to boardwalks.',
+
+      path: [
+
+        [25.0, -74.0], [28.0, -75.5], [32.0, -77.0], [35.0, -76.0],
+
+        [38.5, -74.5], [39.4, -74.2], [40.5, -73.5], [42.0, -71.0], [44.0, -68.0]
+
+      ]
+
+    },
+
+    {
+
+      name: 'Hurricane Carol',
+
+      year: 1954,
+
+      category: 'Cat 3',
+
+      color: '#e67e22',
+
+      note: 'Tracked just east of NJ. 65 deaths. $461M damage (1954 dollars).',
+
+      path: [
+
+        [28.0, -78.0], [32.0, -77.0], [36.0, -75.0], [39.0, -73.0],
+
+        [40.5, -72.5], [41.5, -72.0], [43.0, -70.0], [45.0, -67.0]
+
+      ]
+
+    },
+
+    {
+
+      name: 'Hurricane Donna',
+
+      year: 1960,
+
+      category: 'Cat 2 at NJ',
+
+      color: '#c0392b',
+
+      note: 'Only hurricane to produce hurricane-force winds in FL, Mid-Atlantic, and New England. Heavy flooding across NJ.',
+
+      path: [
+
+        [22.0, -74.0], [25.0, -80.0], [26.5, -82.0], [29.0, -81.5],
+
+        [33.0, -78.0], [37.0, -75.5], [39.5, -74.0], [40.8, -73.5],
+
+        [42.0, -71.0], [44.0, -68.0]
+
+      ]
+
+    },
+
+    {
+
+      name: 'Hurricane Doria',
+
+      year: 1971,
+
+      category: 'Cat 1',
+
+      color: '#9b59b6',
+
+      note: 'Made landfall near Atlantic City. 7 deaths. Worst flooding in Shark River Hills area in decades.',
+
+      path: [
+
+        [30.0, -76.0], [33.0, -76.0], [36.0, -75.5], [38.0, -74.5],
+
+        [39.4, -74.1], [40.5, -73.5], [42.0, -72.0]
+
+      ],
+
+      highlight: true
+
+    },
+
+    {
+
+      name: 'Hurricane Gloria',
+
+      year: 1985,
+
+      category: 'Cat 1 at NJ',
+
+      color: '#2ecc71',
+
+      note: 'Vic was running Long Branch schools. Mandatory evacuations along Shore. $900M damage.',
+
+      path: [
+
+        [28.0, -76.0], [32.0, -76.5], [35.0, -76.0], [37.5, -75.0],
+
+        [39.5, -74.5], [40.5, -73.5], [41.5, -72.5], [43.0, -70.0]
+
+      ],
+
+      highlight: true
+
+    },
+
+    {
+
+      name: 'Perfect Storm',
+
+      year: 1991,
+
+      category: "Nor'easter",
+
+      color: '#3498db',
+
+      note: 'The "Halloween Nor\'easter." Waves 30+ feet. Massive coastal flooding across NJ Shore.',
+
+      path: [
+
+        [35.0, -68.0], [37.0, -70.0], [39.0, -72.0], [40.0, -73.0],
+
+        [40.5, -73.5], [41.0, -72.0], [40.0, -70.0], [38.0, -68.0]
+
+      ]
+
+    },
+
+    {
+
+      name: 'Hurricane Irene',
+
+      year: 2011,
+
+      category: 'Cat 1',
+
+      color: '#1abc9c',
+
+      note: 'Massive inland flooding. 10 deaths in NJ. Shark River and surrounding areas flooded severely.',
+
+      path: [
+
+        [28.0, -79.0], [32.0, -78.0], [35.0, -76.5], [37.5, -75.5],
+
+        [39.0, -74.5], [40.0, -74.0], [41.5, -73.5], [43.0, -72.0]
+
+      ],
+
+      highlight: true
+
+    },
+
+    {
+
+      name: 'Superstorm Sandy',
+
+      year: 2012,
+
+      category: 'Post-tropical (Cat 1 equivalent)',
+
+      color: '#e74c3c',
+
+      note: 'The big one. Made landfall near Brigantine, NJ. 37 deaths in NJ. $30B+ damage. Devastated the entire Shore.',
+
+      path: [
+
+        [25.0, -76.0], [29.0, -77.0], [33.0, -75.5], [36.0, -73.0],
+
+        [38.0, -73.5], [39.0, -74.0], [39.5, -74.3], [40.0, -74.5]
+
+      ],
+
+      highlight: true
+
+    },
+
+    {
+
+      name: 'Hurricane Ida (remnants)',
+
+      year: 2021,
+
+      category: 'Post-tropical',
+
+      color: '#8e44ad',
+
+      note: 'Remnants caused catastrophic flooding in NJ. 30 deaths. Tornado in Mullica Hill. Neptune/Shark River area hit hard.',
+
+      path: [
+
+        [33.0, -90.0], [35.0, -88.0], [37.0, -85.0], [39.0, -80.0],
+
+        [40.0, -76.0], [40.5, -74.5], [41.0, -74.0], [41.5, -73.5]
+
+      ],
+
+      highlight: true
+
+    }
+
+  ];
+
+
+
+  // Key locations for reference markers
+
+  var LOCATIONS = [
+
+    { name: 'Shark River Hills', lat: 40.193, lng: -74.055, note: '104 Highland Ave — flooded 2x (Doria 1971, Irene 2011)' },
+
+    { name: 'Neptune (Waterview Ct)', lat: 40.217, lng: -74.040, note: '18 Waterview Ct — also flooded' },
+
+    { name: 'Long Branch', lat: 40.305, lng: -73.992, note: 'Vic\'s school district' },
+
+    { name: 'Asbury Park', lat: 40.220, lng: -74.000, note: 'Vic\'s school district' },
+
+    { name: 'Point Pleasant', lat: 40.083, lng: -74.068, note: 'Boardwalk, Jenkinson\'s' },
+
+    { name: 'Seaside Heights', lat: 39.944, lng: -74.073, note: 'Iconic boardwalk — destroyed by Sandy' },
+
+    { name: 'Atlantic City', lat: 39.364, lng: -74.423, note: 'Vic & Yvonne\'s casino runs' }
+
+  ];
+
+
+
+  function initHurricaneMap() {
+
+    var containers = document.querySelectorAll('.hurricane-map');
+
+    if (containers.length === 0) return;
+
+
+
+    containers.forEach(function(container) {
+
+      if (container.dataset.mapInit) return;
+
+      container.dataset.mapInit = '1';
+
+
+
+      var map = L.map(container, {
+
+        scrollWheelZoom: false,
+
+        zoomControl: true
+
+      });
+
+
+
+      L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+
+        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> | Hurricane data: NOAA',
+
+        maxZoom: 18
+
+      }).addTo(map);
+
+
+
+      // Center on NJ Shore
+
+      map.setView([39.5, -74.0], 7);
+
+
+
+      // Draw hurricane tracks
+
+      HURRICANES.forEach(function(h) {
+
+        var weight = h.highlight ? 4 : 2.5;
+
+        var opacity = h.highlight ? 0.9 : 0.6;
+
+
+
+        var polyline = L.polyline(h.path, {
+
+          color: h.color,
+
+          weight: weight,
+
+          opacity: opacity,
+
+          dashArray: h.category.indexOf("Nor'easter") !== -1 ? '8, 6' : null
+
+        }).addTo(map);
+
+
+
+        // Popup on click
+
+        polyline.bindPopup(
+
+          '<div style="font-family: Lora, Georgia, serif; max-width: 250px;">' +
+
+          '<strong style="font-size: 1.1em;">' + h.name + ' (' + h.year + ')</strong><br>' +
+
+          '<span style="color: ' + h.color + '; font-weight: 600;">' + h.category + '</span><br>' +
+
+          '<em style="font-size: 0.9em;">' + h.note + '</em></div>'
+
+        );
+
+
+
+        // Label at the NJ-closest point
+
+        var njPoint = null;
+
+        var minDist = Infinity;
+
+        h.path.forEach(function(p) {
+
+          var dist = Math.abs(p[0] - 39.5) + Math.abs(p[1] + 74.0);
+
+          if (dist < minDist) { minDist = dist; njPoint = p; }
+
+        });
+
+
+
+        if (njPoint) {
+
+          L.marker(njPoint, {
+
+            icon: L.divIcon({
+
+              className: 'hurricane-label',
+
+              html: '<span style="background:' + h.color + ';color:#fff;padding:2px 6px;border-radius:3px;font-size:11px;font-weight:700;white-space:nowrap;box-shadow:0 1px 3px rgba(0,0,0,0.3);">' +
+
+                    h.year + '</span>',
+
+              iconSize: [40, 20],
+
+              iconAnchor: [20, 10]
+
+            })
+
+          }).addTo(map).bindPopup(
+
+            '<div style="font-family: Lora, Georgia, serif; max-width: 250px;">' +
+
+            '<strong>' + h.name + ' (' + h.year + ')</strong><br>' +
+
+            '<span style="color: ' + h.color + ';">' + h.category + '</span><br>' +
+
+            '<em style="font-size: 0.9em;">' + h.note + '</em></div>'
+
+          );
+
+        }
+
+      });
+
+
+
+      // Add location markers
+
+      LOCATIONS.forEach(function(loc) {
+
+        L.circleMarker([loc.lat, loc.lng], {
+
+          radius: 6,
+
+          fillColor: '#333',
+
+          color: '#fff',
+
+          weight: 2,
+
+          fillOpacity: 0.8
+
+        }).addTo(map).bindPopup(
+
+          '<div style="font-family: Lora, Georgia, serif;">' +
+
+          '<strong>' + loc.name + '</strong>' +
+
+          (loc.note ? '<br><em style="font-size: 0.9em;">' + loc.note + '</em>' : '') +
+
+          '</div>'
+
+        );
+
+      });
+
+
+
+      // Legend
+
+      var legend = L.control({ position: 'bottomright' });
+
+      legend.onAdd = function() {
+
+        var div = L.DomUtil.create('div', 'hurricane-legend');
+
+        div.style.cssText = 'background:#fff;padding:8px 12px;border-radius:6px;box-shadow:0 2px 8px rgba(0,0,0,0.2);font-family:Lora,Georgia,serif;font-size:0.75rem;line-height:1.6;max-height:200px;overflow-y:auto;';
+
+        var html = '<strong style="font-size:0.85rem;">Storm Tracks</strong><br>';
+
+        HURRICANES.forEach(function(h) {
+
+          var style = h.highlight ? 'font-weight:700;' : '';
+
+          html += '<span style="display:inline-block;width:16px;height:3px;background:' + h.color + ';vertical-align:middle;margin-right:4px;' + (h.highlight ? 'height:4px;' : '') + '"></span>' +
+
+                  '<span style="' + style + '">' + h.year + ' ' + h.name + '</span><br>';
+
+        });
+
+        html += '<br><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#333;border:2px solid #fff;vertical-align:middle;margin-right:4px;box-shadow:0 0 0 1px #333;"></span> Key locations';
+
+        div.innerHTML = html;
+
+        return div;
+
+      };
+
+      legend.addTo(map);
+
+
+
+      // Fix tile rendering
+
+      setTimeout(function() { map.invalidateSize(); }, 400);
+
+      setTimeout(function() { map.invalidateSize(); }, 1000);
+
+
+
+      if (window.ResizeObserver) {
+
+        new ResizeObserver(function() { map.invalidateSize(); }).observe(container);
+
+      }
+
+    });
+
+  }
+
+
+
+  // Initialize when Leaflet is available
+
+  function onReady() {
+
+    var containers = document.querySelectorAll('.hurricane-map');
+
+    if (containers.length === 0) return;
+
+
+
+    // Use the global loadLeaflet from lifemap.html
+
+    if (window.loadLeaflet) {
+
+      window.loadLeaflet(function() {
+
+        // Handle callout expand (maps inside collapsed callouts)
+
+        containers.forEach(function(container) {
+
+          var callout = container.closest('.callout');
+
+          if (!callout) {
+
+            initHurricaneMap();
+
+            return;
+
+          }
+
+          var body = callout.querySelector('.callout-body-container');
+
+          if (body && body.offsetHeight > 0 && getComputedStyle(body).display !== 'none') {
+
+            initHurricaneMap();
+
+            return;
+
+          }
+
+          var header = callout.querySelector('.callout-header');
+
+          if (header) {
+
+            header.addEventListener('click', function onExpand() {
+
+              setTimeout(initHurricaneMap, 600);
+
+              header.removeEventListener('click', onExpand);
+
+            });
+
+          }
+
+          var observer = new MutationObserver(function() {
+
+            var b = callout.querySelector('.callout-body-container');
+
+            if (b && b.offsetHeight > 0) {
+
+              initHurricaneMap();
+
+              observer.disconnect();
+
+            }
+
+          });
+
+          observer.observe(callout, { attributes: true, childList: true, subtree: true });
+
+        });
+
+      });
+
+    }
+
+  }
+
+
+
+  if (document.readyState === 'loading') {
+
+    document.addEventListener('DOMContentLoaded', onReady);
+
+  } else {
+
+    onReady();
+
+  }
+
+})();
+
+</script>
+
+<!-- Goodfellas Narration Toggle — switches between formal and Goodfellas-mode text -->
+
+<script>
+
+(function() {
+
+  'use strict';
+
+
+
+  var STORAGE_KEY = 'vic-tribute-narration-mode';
+
+
+
+  function createToggleButton() {
+
+    // Don't add toggle if no Goodfellas content exists on this page
+
+    if (!document.querySelector('.narration-goodfellas')) return;
+
+
+
+    var btn = document.createElement('button');
+
+    btn.id = 'narration-toggle';
+
+    btn.setAttribute('aria-label', 'Toggle between formal and Goodfellas narration mode');
+
+    btn.innerHTML = '<span class="toggle-icon">&#127916;</span><span class="toggle-label">Goodfellas Edition</span>';
+
+
+
+    // Check saved preference
+
+    var saved = localStorage.getItem(STORAGE_KEY);
+
+    var isGoodfellas = saved === 'goodfellas';
+
+
+
+    if (isGoodfellas) {
+
+      btn.classList.add('active');
+
+      btn.querySelector('.toggle-label').textContent = 'Formal Edition';
+
+      document.body.classList.add('goodfellas-mode');
+
+    }
+
+
+
+    btn.addEventListener('click', function() {
+
+      var active = document.body.classList.toggle('goodfellas-mode');
+
+      btn.classList.toggle('active', active);
+
+      btn.querySelector('.toggle-label').textContent = active ? 'Formal Edition' : 'Goodfellas Edition';
+
+      localStorage.setItem(STORAGE_KEY, active ? 'goodfellas' : 'formal');
+
+
+
+      // Animate the switch
+
+      var formals = document.querySelectorAll('.narration-formal');
+
+      var goodfellas = document.querySelectorAll('.narration-goodfellas');
+
+
+
+      formals.forEach(function(el) {
+
+        el.style.opacity = '0';
+
+        setTimeout(function() { el.style.opacity = ''; }, 50);
+
+      });
+
+      goodfellas.forEach(function(el) {
+
+        el.style.opacity = '0';
+
+        setTimeout(function() { el.style.opacity = ''; }, 50);
+
+      });
+
+    });
+
+
+
+    document.body.appendChild(btn);
+
+  }
+
+
+
+  if (document.readyState === 'loading') {
+
+    document.addEventListener('DOMContentLoaded', createToggleButton);
+
+  } else {
+
+    createToggleButton();
 
   }
 

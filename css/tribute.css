@@ -383,10 +383,8 @@ div.callout-note[title*="Soundtrack"] {
 
 /* Jukebox player — responsive YouTube embed container */
 .jukebox-wrapper {
-  position: relative;
   width: 100%;
-  padding-bottom: 56.25%; /* 16:9 aspect ratio */
-  height: 0;
+  aspect-ratio: 16 / 9;
   overflow: hidden;
   border-radius: 8px;
   margin: 1em 0 0.5em 0;
@@ -395,9 +393,7 @@ div.callout-note[title*="Soundtrack"] {
 }
 
 .jukebox-wrapper iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
+  display: block;
   width: 100%;
   height: 100%;
   border: none;
@@ -912,6 +908,8 @@ blockquote.pull-quote::before {
   width: 350px !important;
   padding-left: 0.8em;
   padding-right: 0.8em;
+  overflow-y: auto;
+  max-height: calc(100vh - 80px);
 }
 
 /* Let Quarto's grid handle content width — no extra margin needed */
@@ -1524,5 +1522,122 @@ h2 [data-egg], h3 [data-egg] {
     width: 13px;
     height: 13px;
     transform: translate(-2px, -2px);
+  }
+}
+
+/* ============================================================
+   HURRICANE MAP
+   ============================================================ */
+
+.hurricane-map {
+  width: 100%;
+  min-height: 450px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  z-index: 1;
+}
+
+.hurricane-label {
+  background: transparent !important;
+  border: none !important;
+}
+
+/* ============================================================
+   GOODFELLAS NARRATION TOGGLE
+   ============================================================ */
+
+/* Toggle button — floating film clapboard style */
+#narration-toggle {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  z-index: 9998;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 18px;
+  border: 2px solid #333;
+  border-radius: 30px;
+  background: #1a1a1a;
+  color: #e0e0e0;
+  font-family: var(--body-font, 'Lora', Georgia, serif);
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.3);
+  transition: all 0.3s ease;
+}
+
+#narration-toggle:hover {
+  background: #333;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 24px rgba(0,0,0,0.4);
+}
+
+#narration-toggle.active {
+  background: #8B0000;
+  border-color: #B22222;
+  color: #fff;
+}
+
+#narration-toggle .toggle-icon {
+  font-size: 1.3em;
+  line-height: 1;
+}
+
+/* Narration mode switching */
+.narration-formal,
+.narration-goodfellas {
+  transition: opacity 0.4s ease;
+}
+
+/* Default: show formal, hide goodfellas */
+.narration-goodfellas {
+  display: none;
+}
+
+/* Goodfellas mode: show goodfellas, hide formal */
+body.goodfellas-mode .narration-formal {
+  display: none;
+}
+
+body.goodfellas-mode .narration-goodfellas {
+  display: block;
+}
+
+/* Goodfellas text styling — slightly different feel */
+body.goodfellas-mode .narration-goodfellas {
+  font-style: normal;
+  line-height: 1.8;
+}
+
+body.goodfellas-mode .narration-goodfellas p:first-of-type::first-line {
+  font-weight: 600;
+}
+
+/* Mobile: make toggle button more compact */
+@media (max-width: 768px) {
+  #narration-toggle {
+    bottom: 16px;
+    right: 16px;
+    padding: 8px 14px;
+    font-size: 0.8rem;
+  }
+
+  #narration-toggle .toggle-label {
+    display: none;
+  }
+}
+
+/* Hide toggle in print */
+@media print {
+  #narration-toggle {
+    display: none !important;
+  }
+  .narration-goodfellas {
+    display: none !important;
+  }
+  .narration-formal {
+    display: block !important;
   }
 }
