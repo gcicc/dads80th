@@ -1543,46 +1543,134 @@ h2 [data-egg], h3 [data-egg] {
 }
 
 /* ============================================================
-   GOODFELLAS NARRATION TOGGLE
+   GOODFELLAS NARRATION TOGGLE — Sidebar widget + floating fallback
    ============================================================ */
 
-/* Toggle button — floating film clapboard style */
-#narration-toggle {
+/* --- Sidebar widget --- */
+.sidebar-goodfellas-widget {
+  margin-top: auto;
+  padding: 1em 0.8em 0.8em;
+  border-top: 1px solid #ddd;
+}
+
+.goodfellas-widget-label {
+  font-family: var(--body-font, 'Lora', Georgia, serif);
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #555;
+  margin-bottom: 0.5em;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.goodfellas-widget-icon {
+  font-size: 1.2em;
+  line-height: 1;
+}
+
+/* Toggle switch — pill-shaped slider */
+.goodfellas-toggle-switch {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.goodfellas-toggle-switch input {
+  display: none;
+}
+
+.goodfellas-toggle-slider {
+  position: relative;
+  width: 44px;
+  height: 24px;
+  background: #ccc;
+  border-radius: 12px;
+  transition: background 0.3s;
+  flex-shrink: 0;
+}
+
+.goodfellas-toggle-slider::after {
+  content: '';
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 18px;
+  height: 18px;
+  background: #fff;
+  border-radius: 50%;
+  transition: transform 0.3s;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+}
+
+.goodfellas-toggle-switch input:checked + .goodfellas-toggle-slider {
+  background: #8B0000;
+}
+
+.goodfellas-toggle-switch input:checked + .goodfellas-toggle-slider::after {
+  transform: translateX(20px);
+}
+
+/* Text labels next to slider */
+.goodfellas-toggle-text {
+  font-family: var(--body-font, 'Lora', Georgia, serif);
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #666;
+  line-height: 1.2;
+}
+
+.goodfellas-label-formal {
+  display: block;
+}
+
+.goodfellas-label-gf {
+  display: block;
+  font-style: italic;
+  color: #8B0000;
+  opacity: 0.6;
+}
+
+body.goodfellas-mode .goodfellas-label-formal {
+  opacity: 0.6;
+}
+
+body.goodfellas-mode .goodfellas-label-gf {
+  opacity: 1;
+}
+
+/* --- Floating button fallback (visible on mobile when sidebar collapses) --- */
+.narration-toggle-float {
   position: fixed;
   bottom: 24px;
   right: 24px;
   z-index: 9998;
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  padding: 10px 18px;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
   border: 2px solid #333;
-  border-radius: 30px;
   background: #1a1a1a;
   color: #e0e0e0;
-  font-family: var(--body-font, 'Lora', Georgia, serif);
-  font-size: 0.85rem;
-  font-weight: 600;
+  font-size: 1.4em;
+  line-height: 1;
   cursor: pointer;
   box-shadow: 0 4px 16px rgba(0,0,0,0.3);
   transition: all 0.3s ease;
+  display: none;  /* hidden on desktop — sidebar has the widget */
 }
 
-#narration-toggle:hover {
+.narration-toggle-float:hover {
   background: #333;
   transform: translateY(-2px);
   box-shadow: 0 6px 24px rgba(0,0,0,0.4);
 }
 
-#narration-toggle.active {
+.narration-toggle-float.active {
   background: #8B0000;
   border-color: #B22222;
   color: #fff;
-}
-
-#narration-toggle .toggle-icon {
-  font-size: 1.3em;
-  line-height: 1;
 }
 
 /* Narration mode switching */
@@ -1615,23 +1703,23 @@ body.goodfellas-mode .narration-goodfellas p:first-of-type::first-line {
   font-weight: 600;
 }
 
-/* Mobile: make toggle button more compact */
-@media (max-width: 768px) {
-  #narration-toggle {
-    bottom: 16px;
-    right: 16px;
-    padding: 8px 14px;
-    font-size: 0.8rem;
+/* Mobile: show floating button, hide sidebar widget */
+@media (max-width: 991px) {
+  .narration-toggle-float {
+    display: block;
   }
 
-  #narration-toggle .toggle-label {
+  .sidebar-goodfellas-widget {
     display: none;
   }
 }
 
 /* Hide toggle in print */
 @media print {
-  #narration-toggle {
+  .narration-toggle-float {
+    display: none !important;
+  }
+  .sidebar-goodfellas-widget {
     display: none !important;
   }
   .narration-goodfellas {
